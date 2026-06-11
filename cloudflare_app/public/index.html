@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FIFA WC 2026 Benchmark</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <aside class="schedule-rail">
+        <div class="rail-head">
+          <p class="eyebrow">Schedule</p>
+          <h2>104 Matches</h2>
+        </div>
+        <div id="scheduleList" class="schedule-list" aria-label="Full World Cup schedule"></div>
+      </aside>
+
+      <section class="benchmark-view">
+        <header class="masthead">
+          <div>
+            <p class="eyebrow">Model tournament</p>
+            <h1>FIFA WC 2026 Benchmark</h1>
+            <div class="social-links" aria-label="Project and creator links">
+              <a class="social-link" href="https://github.com/avbiswas/fifa_wc_predictor" target="_blank" rel="noreferrer">
+                <img src="/icons/github.svg" alt="" aria-hidden="true" />
+                <span>GitHub</span>
+              </a>
+              <a class="social-link" href="https://ko-fi.com/neuralavb" target="_blank" rel="noreferrer">
+                <img src="/icons/kofi.svg" alt="" aria-hidden="true" />
+                <span>Ko-fi</span>
+              </a>
+              <a class="social-link" href="https://www.patreon.com/NeuralBreakdownwithAVB" target="_blank" rel="noreferrer">
+                <img src="/icons/patreon.svg" alt="" aria-hidden="true" />
+                <span>Patreon</span>
+              </a>
+            </div>
+          </div>
+          <div class="match-card">
+            <span id="matchName">Loading match...</span>
+            <strong id="consensus">Consensus pending</strong>
+          </div>
+        </header>
+
+        <nav class="tabs" aria-label="Benchmark views">
+          <button id="predictionsTab" class="tab active" type="button">Predictions</button>
+          <button id="leaderboardTab" class="tab" type="button">Model Leaderboard</button>
+        </nav>
+
+        <section id="predictionsView">
+          <section id="tbaView" class="panel tba-view" hidden>
+            <p class="eyebrow">Predictions</p>
+            <h2>TBA</h2>
+          </section>
+
+          <section id="predictionContent">
+            <section class="metric-strip" aria-label="Benchmark summary">
+              <div>
+                <span>Models</span>
+                <strong id="modelCount">-</strong>
+              </div>
+              <div>
+                <span>Total Tokens</span>
+                <strong id="tokenTotal">-</strong>
+              </div>
+              <div>
+                <span>Total Cost</span>
+                <strong id="costTotal">-</strong>
+              </div>
+              <div>
+                <span>Most Common Score</span>
+                <strong id="scoreConsensus">-</strong>
+              </div>
+            </section>
+
+            <section class="panel">
+              <div class="panel-head">
+                <div>
+                  <p class="eyebrow">Predictions</p>
+                  <h2>Model Calls</h2>
+                </div>
+              </div>
+              <div class="table-wrap">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Model</th>
+                      <th>Pick</th>
+                      <th>Scoreline</th>
+                      <th>Confidence</th>
+                      <th>Cost</th>
+                    </tr>
+                  </thead>
+                  <tbody id="predictionRows"></tbody>
+                </table>
+              </div>
+            </section>
+          </section>
+        </section>
+
+        <section id="modelLeaderboardView" class="panel unavailable-view" hidden>
+          <p class="eyebrow">Model Leaderboard</p>
+          <h2>Available after 7 matchdays</h2>
+        </section>
+      </section>
+    </main>
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>

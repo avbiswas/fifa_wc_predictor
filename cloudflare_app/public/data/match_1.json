@@ -1,0 +1,146 @@
+{
+  "match_id": 1,
+  "match": "Mexico vs South Africa",
+  "choices": [
+    "Mexico",
+    "South Africa",
+    "Draw"
+  ],
+  "match_row": {
+    "match_id": "1",
+    "round": "Matchday 1",
+    "date": "2026-06-11",
+    "time": "13:00 UTC-6",
+    "kickoff_utc": "2026-06-11T19:00:00Z",
+    "group": "Group A",
+    "team1": "Mexico",
+    "team2": "South Africa",
+    "team1_code": "MEX",
+    "team2_code": "RSA",
+    "ground": "Mexico City",
+    "source": "openfootball_2026_json"
+  },
+  "artifacts": {
+    "news_items": [
+      {
+        "id": "https://www.sportsmole.co.uk/football/mexico/injury-news/team-news/mexico-vs-south-africa-injury-suspension-list-predicted-xis_598872.html",
+        "title": "Team News: Mexico vs. South Africa injury, suspension list, predicted XIs | World Cup 2026 - Sports Mole",
+        "url": "https://www.sportsmole.co.uk/football/mexico/injury-news/team-news/mexico-vs-south-africa-injury-suspension-list-predicted-xis_598872.html",
+        "publishedDate": "2026-06-10T19:00:00.000Z",
+        "text": "Team News: Mexico vs. South Africa injury, suspension list, predicted XIs | World Cup 2026 - Sports Mole\n\nMenu\n\nWorld Cup Gameweek 1\n\nMexico City Stadium\n\n# Team News: Mexico vs. South Africa injury, suspension list, predicted XIs | World Cup 2026\n\nBy Oliver Thomas| 10 Jun 2026 20:00, Last updated: 10 Jun 2026 20:16\n\n© Iconsport / Zuma\n\nCo-hosts Mexico kick-start the 2026 World Cup with an opening Group A fixture against South Africa at Mexico City Stadium on Thursday night.\n\nThe two nations meet for the first time since playing out a 1-1 draw in the opening game at the 2010 World Cup in Johannesburg, and here, Sports Mole rounds up all the latest team news for the two clubs.\n\n---\n\n## MEXICO vs. SOUTH AFRICA\n\nMexico vs. South Africa World Cup Preview And Predictions ⚽?| \"History Will Be Made\"\n\n## MEXICO\n\nOut: None\n\nDoubtful: Santiago Gimenez(unspecified)\n\nSports Mole's predicted XI: Ochoa; Sanchez, Montes, Alvarez, Gallardo; Gutierrez, Fidalgo, Pineda; Alvarado, Jimenez, Quinones\n\n## SOUTH AFRICA\n\nOut: None\n\nDoubtful: Aubrey Modiba (hamstring)\n\nSports Mole's predicted XI: Williams; Mudau, Mbokazi, Okon, Modiba; Mbatha, Sithole, Mokoena; Appollis, Foster, Moremi\n\n---\n\nWritten by\n\nSh",
+        "highlights": [
+          "Team News: Mexico vs. South Africa injury, suspension list, predicted XIs | World Cup 2026 - Sports Mole\n\nMenu\n\nWorld Cup Gameweek 1\n\nMexico City Stadium\n\n# Team News: Mexico vs. South Africa injury, suspension list, predicted XIs | World Cup 2026\n\nBy Oliver Thomas| 10 Jun 2026 20:00, Last updated: 10 Jun 2026 20:16\n\n© Iconsport / Zuma\n\nCo-hosts Mexico kick-start the 2026 World Cup with an opening Group A fixture against South Africa at Mexico City Stadium on Thursday night.\n\nThe two nations meet for the first time since playing out a 1-1 draw in the opening game at the 2010 World Cup in Johannesburg, and here, Sports Mole rounds up all the latest team news for the two clubs.\n\n---\n\n## MEXICO vs. SOUTH AFRICA\n\nMexico vs. South Africa World Cup Preview And Predictions ⚽?| \"History Will Be Made\"\n\n## MEXICO\n\nOut: None\n\nDoubtful: Santiago Gimenez(unspecified)\n\nSports Mole's predicted XI: Ochoa; Sanchez, Montes, Alvarez, Gallardo; Gutierrez, Fidalgo, Pineda; Alvarado, Jimenez, Quinones\n\n## SOUTH AFRICA\n\nOut: None\n\nDoubtful: Aubrey Modiba (hamstring)\n\nSports Mole's predicted XI: Williams; Mudau, Mbokazi, Okon, Modiba; Mbatha, Sithole, Mokoena; Appollis, Foster, Moremi\n\n---\n\nWritten by\n\nSh"
+        ],
+        "image": "https://www.sportsmole.co.uk/thumbor/usfNx3HAdab4r0_hAhmeYPr6BL4=/720x410/smart/filters:format(webp)/https%3A%2F%2Fsportsmole-media-prod.s3.gra.io.cloud.ovh.net%2Fuploads%2F2026%2F06%2Faaa-mex-6a27c0bbdea06564353105.jpg",
+        "favicon": "https://www.sportsmole.co.uk/front/assets/img/favicon.ico"
+      }
+    ],
+    "news_text": "{\"title\": \"Team News: Mexico vs. South Africa injury, suspension list, predicted XIs | World Cup 2026 - Sports Mole\", \"url\": \"https://www.sportsmole.co.uk/football/mexico/injury-news/team-news/mexico-vs-south-africa-injury-suspension-list-predicted-xis_598872.html\", \"publishedDate\": \"2026-06-10T19:00:00.000Z\", \"author\": null, \"text\": \"Team News: Mexico vs. South Africa injury, suspension list, predicted XIs | World Cup 2026 - Sports Mole\\n\\nMenu\\n\\nWorld Cup Gameweek 1\\n\\nMexico City Stadium\\n\\n# Team News: Mexico vs. South Africa injury, suspension list, predicted XIs | World Cup 2026\\n\\nBy Oliver Thomas| 10 Jun 2026 20:00, Last updated: 10 Jun 2026 20:16\\n\\n© Iconsport / Zuma\\n\\nCo-hosts Mexico kick-start the 2026 World Cup with an opening Group A fixture against South Africa at Mexico City Stadium on Thursday night.\\n\\nThe two nations meet for the first time since playing out a 1-1 draw in the opening game at the 2010 World Cup in Johannesburg, and here, Sports Mole rounds up all the latest team news for the two clubs.\\n\\n---\\n\\n## MEXICO vs. SOUTH AFRICA\\n\\nMexico vs. South Africa World Cup Preview And Predictions ⚽?| \\\"History Will Be Made\\\"\\n\\n## MEXICO\\n\\nOut: None\\n\\nDoubtful: Santiago Gimenez(unspecified)\\n\\nSports Mole's predicted XI: Ochoa; Sanchez, Montes, Alvarez, Gallardo; Gutierrez, Fidalgo, Pineda; Alvarado, Jimenez, Quinones\\n\\n## SOUTH AFRICA\\n\\nOut: None\\n\\nDoubtful: Aubrey Modiba (hamstring)\\n\\nSports Mole's predicted XI: Williams; Mudau, Mbokazi, Okon, Modiba; Mbatha, Sithole, Mokoena; Appollis, Foster, Moremi\\n\\n---\\n\\nWritten by\\n\\nSh\"}",
+    "polymarket_odds": [
+      {
+        "title": "Mexico vs. South Africa",
+        "slug": "fwc-mex-rsa-2026-06-11",
+        "markets": [
+          {
+            "question": "Will Mexico win against South Africa in the World Cup match scheduled for Jun 11, 2026?",
+            "outcomes": [
+              "Yes",
+              "No"
+            ],
+            "outcome_prices": [
+              "0.6900",
+              "0.7000"
+            ],
+            "volume": null,
+            "liquidity": null,
+            "url": null,
+            "source_slug": "atc-fwc-mex-rsa-2026-06-11-mex"
+          },
+          {
+            "question": "Will the World Cup match Mexico vs South Africa scheduled for Jun 11, 2026 end in a draw?",
+            "outcomes": [
+              "No",
+              "Yes"
+            ],
+            "outcome_prices": [
+              "0.2000",
+              "0.2100"
+            ],
+            "volume": null,
+            "liquidity": null,
+            "url": null,
+            "source_slug": "atc-fwc-mex-rsa-2026-06-11-draw"
+          },
+          {
+            "question": "Will South Africa win against Mexico in the World Cup match scheduled for Jun 11, 2026?",
+            "outcomes": [
+              "Yes",
+              "No"
+            ],
+            "outcome_prices": [
+              "0.1000",
+              "0.1100"
+            ],
+            "volume": null,
+            "liquidity": null,
+            "url": null,
+            "source_slug": "atc-fwc-mex-rsa-2026-06-11-rsa"
+          },
+          {
+            "question": "Will MEX vs RSA finish 0-0?",
+            "outcomes": [
+              "Yes",
+              "No"
+            ],
+            "outcome_prices": [
+              "0.0600",
+              "0.9800"
+            ],
+            "volume": null,
+            "liquidity": null,
+            "url": null,
+            "source_slug": "atc-fwc-mex-rsa-2026-06-11-exact-score-0-0"
+          },
+          {
+            "question": "Will MEX vs RSA finish 0-2?",
+            "outcomes": [
+              "Yes",
+              "No"
+            ],
+            "outcome_prices": [
+              "0.0200",
+              "0.0500"
+            ],
+            "volume": null,
+            "liquidity": null,
+            "url": null,
+            "source_slug": "atc-fwc-mex-rsa-2026-06-11-exact-score-0-2"
+          }
+        ]
+      }
+    ],
+    "polymarket_odds_text": "[\n  {\n    \"title\": \"Mexico vs. South Africa\",\n    \"slug\": \"fwc-mex-rsa-2026-06-11\",\n    \"markets\": [\n      {\n        \"question\": \"Will Mexico win against South Africa in the World Cup match scheduled for Jun 11, 2026?\",\n        \"outcomes\": [\n          \"Yes\",\n          \"No\"\n        ],\n        \"outcome_prices\": [\n          \"0.6900\",\n          \"0.7000\"\n        ],\n        \"volume\": null,\n        \"liquidity\": null,\n        \"url\": null,\n        \"source_slug\": \"atc-fwc-mex-rsa-2026-06-11-mex\"\n      },\n      {\n        \"question\": \"Will the World Cup match Mexico vs South Africa scheduled for Jun 11, 2026 end in a draw?\",\n        \"outcomes\": [\n          \"No\",\n          \"Yes\"\n        ],\n        \"outcome_prices\": [\n          \"0.2000\",\n          \"0.2100\"\n        ],\n        \"volume\": null,\n        \"liquidity\": null,\n        \"url\": null,\n        \"source_slug\": \"atc-fwc-mex-rsa-2026-06-11-draw\"\n      },\n      {\n        \"question\": \"Will South Africa win against Mexico in the World Cup match scheduled for Jun 11, 2026?\",\n        \"outcomes\": [\n          \"Yes\",\n          \"No\"\n        ],\n        \"outcome_prices\": [\n          \"0.1000\",\n          \"0.1100\"\n        ],\n        \"volume\": null,\n        \"liquidity\": null,\n        \"url\": null,\n        \"source_slug\": \"atc-fwc-mex-rsa-2026-06-11-rsa\"\n      },\n      {\n        \"question\": \"Will MEX vs RSA finish 0-0?\",\n        \"outcomes\": [\n          \"Yes\",\n          \"No\"\n        ],\n        \"outcome_prices\": [\n          \"0.0600\",\n          \"0.9800\"\n        ],\n        \"volume\": null,\n        \"liquidity\": null,\n        \"url\": null,\n        \"source_slug\": \"atc-fwc-mex-rsa-2026-06-11-exact-score-0-0\"\n      },\n      {\n        \"question\": \"Will MEX vs RSA finish 0-2?\",\n        \"outcomes\": [\n          \"Yes\",\n          \"No\"\n        ],\n        \"outcome_prices\": [\n          \"0.0200\",\n          \"0.0500\"\n        ],\n        \"volume\": null,\n        \"liquidity\": null,\n        \"url\": null,\n        \"source_slug\": \"atc-fwc-mex-rsa-2026-06-11-exact-score-0-2\"\n      }\n    ]\n  }\n]",
+    "team1_squad": "GK: RANGEL Raul José Raúl RANGEL A GUILAR R. RANGEL | club=CD Guadalajar a (MEX) | caps=14 | goals=0 | height_cm=190; ACEVEDO Carlos Carlos ACEVEDO L ÓPEZ C. ACEVEDO | club=Club Sant os Laguna (MEX) | caps=7 | goals=0 | height_cm=185; OCHOA Guillermo Francisco Guillermo OCHOA MAGAÑA G. OCHO A | club=AEL Limassol (CYP) | caps=153 | goals=0 | height_cm=185\nDF: SANCHEZ Jor ge Jorge Eduardo SÁNCHEZ RAMOS J. SÁNCHEZ | club=PAOK Saloniki (GRE) | caps=59 | goals=3 | height_cm=176; MONTES Cesar César Jasib MONTES CASTRO C. MONTES | club=FC Lokomotiv Moscow (RUS) | caps=68 | goals=4 | height_cm=191; ALVAREZ Edson Edson Omar ÁLVAREZ VEL ÁZQUEZ E. ÁLVAREZ | club=Fenerbahçe SK (TUR) | caps=99 | goals=7 | height_cm=180; VASQUEZ Johan Johan Felipe VÁSQUEZ IBARRA J. VÁSQUEZ | club=Genoa CFC (ITA) | caps=46 | goals=3 | height_cm=182; REYES Isr ael Israel REYES ROMERO I. REYES | club=Club América (MEX) | caps=34 | goals=2 | height_cm=181; CHAVEZ Mateo Mateo CHÁVEZ GARCÍ A M. CHÁVEZ | club=AZ Alkmaar (NED) | caps=10 | goals=0 | height_cm=178; GALLARDO Jesus Jesús Daniel GALLARDO VASCONCEL OS J. GALLARDO | club=Deportivo Toluca FC (MEX) | caps=122 | goals=3 | height_cm=174\nMF: LIRA Erik Erik Antonio LIRA MÉNDEZ E. LIRA | club=CF Cruz A zul (MEX) | caps=25 | goals=0 | height_cm=172; ROMO Luis Luis Francisco ROMO BARRÓN L. ROMO | club=CD Guadalajar a (MEX) | caps=62 | goals=4 | height_cm=183; FIDALGO Alvaro Álvaro FIDALGO FERN ÁNDEZ FIDALGO | club=Real Betis (ESP) | caps=4 | goals=0 | height_cm=175; PINEDA Orbelin Orbelín PINEDA ALVARADO ORBELÍN | club=AEK Athens (GRE) | caps=92 | goals=12 | height_cm=169; VARGAS Obed Obed Goméz VARGAS O. VARGAS | club=Atlético De Madrid (ESP) | caps=6 | goals=0 | height_cm=175; MORA Gilber to Gilberto Rafael MORA ZAMBRANO G. MORA | club=Club Tijuana (MEX) | caps=8 | goals=0 | height_cm=175; CHAVEZ Luis Luis Gerardo CHÁVEZ MAGALLÓN L. CHÁVEZ | club=FC Dynamo Moscow (RUS) | caps=45 | goals=5 | height_cm=178; GUTIERREZ Brian Brian GUTIÉRREZ B. GUTIÉRREZ | club=CD Guadalajar a (MEX) | caps=7 | goals=2 | height_cm=178\nFW: JIMENEZ Raul Raúl Alonso JIMÉNEZ RODRÍGUEZ RAÚL | club=Fulham FC (ENG) | caps=126 | goals=45 | height_cm=188; VEGA Alexis Ernesto Alexis VEGA ROJ AS A. VEGA | club=Deportivo Toluca FC (MEX) | caps=52 | goals=7 | height_cm=175; GIMENEZ Santiago Santiago T omás GIMENEZ S. GIMENEZ | club=AC Milan (ITA) | caps=47 | goals=6 | height_cm=180; GONZALEZ Armando Armando GONZÁLEZ ALBA A. GONZ ÁLEZ | club=CD Guadalajar a (MEX) | caps=7 | goals=1 | height_cm=182; QUINONES Julian Julián Andr és QUIÑONES QUIÑONES J. QUIÑONES | club=Al Qadsiah FC (KSA) | caps=22 | goals=2 | height_cm=177; HUERTA Cesar César Saúl HUERTA VALERA C. HUERTA | club=RSC Anderlecht (BEL) | caps=26 | goals=3 | height_cm=171; MARTINEZ Guillermo Guillermo MARTÍNEZ AYALA G. MARTÍNEZ | club=Pumas UN AM (MEX) | caps=12 | goals=3 | height_cm=191; ALVARADO Rober to Roberto Carlos ALVARADO HERN ÁNDEZ R. ALVARADO | club=CD Guadalajar a (MEX) | caps=68 | goals=6 | height_cm=176",
+    "team2_squad": "GK: WILLIAMS Ronwen Ronwen Ha yden WILLIAMS WILLIAMS | club=Mamelodi Sundowns FC (RSA) | caps=64 | goals=0 | height_cm=184; CHAINE Sipho Sipho Justin CHAINE CHAINE | club=Orlando Pir ates FC (RSA) | caps=4 | goals=0 | height_cm=186; GOSS Ricar do Stuart Ricardo GOSS GOSS | club=Siwelele FC (RSA) | caps=7 | goals=0 | height_cm=181\nDF: MATULUDI Thabang Tholo Thabang MATULUDI MATULUDI | club=Polokwane City FC (RSA) | caps=3 | goals=0 | height_cm=189; NDAMANE Khulumani Khulumani NDAMANE NDAMANE | club=Mamelodi Sundowns FC (RSA) | caps=5 | goals=0 | height_cm=183; MODIBA A ubrey Aubrey Maphosa MODIBA MODIBA | club=Mamelodi Sundowns FC (RSA) | caps=48 | goals=3 | height_cm=171; MBOKAZI Mbek ezeli Mbekezeli Mfanukile MBOKAZI MBOKAZI | club=Chicago Fir e FC (USA) | caps=10 | goals=1 | height_cm=177; KABINI Samuk ele Samukele Alucious KABINI KABINI | club=Molde FK (NOR) | caps=6 | goals=0 | height_cm=179; SIBISI Nkosinathi Nkosinathi Emmanuel SIBISI SIBISI | club=Orlando Pir ates FC (RSA) | caps=21 | goals=0 | height_cm=172; MUDAU Khuliso Khuliso Johnson MUDAU MUDAU | club=Mamelodi Sundowns FC (RSA) | caps=34 | goals=1 | height_cm=179; OKON Ime Ime Daniel OKON OKON | club=Hannover 96 (GER) | caps=8 | goals=1 | height_cm=187 (+2 more)\nMF: MOKOENA Teboho Teboho MOKOENA MOKOENA | club=Mamelodi Sundowns FC (RSA) | caps=57 | goals=9 | height_cm=177; MBATHA Thalente Thalente W andile MBATHA MBATHA | club=Orlando Pir ates FC (RSA) | caps=16 | goals=3 | height_cm=179; ZWANE Themba Themba ZWANE ZWANE | club=Mamelodi Sundowns FC (RSA) | caps=55 | goals=12 | height_cm=178; SITHOLE Sphephelo Sphephelo S' miso SITHOLE SITHOLE | club=CD Tondela (POR) | caps=29 | goals=1 | height_cm=197; ADAMS Jayden Jayden Oswin ADAMS ADAMS | club=Mamelodi Sundowns FC (RSA) | caps=8 | goals=2 | height_cm=177\nFW: APPOLLIS Oswin Oswin Reagan APPOLLIS APPOLLIS | club=Orlando Pir ates FC (RSA) | caps=27 | goals=8 | height_cm=171; MOREMI T shepang Tshepang MOREMI MOREMI | club=Orlando Pir ates FC (RSA) | caps=10 | goals=1 | height_cm=169; FOSTER L yle Lyle Brent FOSTER FOSTER | club=Burnley FC (ENG) | caps=31 | goals=10 | height_cm=185; MOFOKENG Relebohile Relebohile MOFOKENG MOFOKENG | club=Orlando Pir ates FC (RSA) | caps=14 | goals=1 | height_cm=168; MASEKO Thapelo Thapelo MASEKO MASEKO | club=AEL Limassol (CYP) | caps=8 | goals=1 | height_cm=178; RAYNERS Iqr aam Iqraam RAYNERS RAYNERS | club=Mamelodi Sundowns FC (RSA) | caps=20 | goals=5 | height_cm=174; MAKGOPA Evidence Sekotori Evidence MAKGOPA MAKGPA | club=Orlando Pir ates FC (RSA) | caps=27 | goals=6 | height_cm=183; SEBELEBELE Kamogelo Kamogelo Michael SEBELEBELE SEBELEBELE | club=Orlando Pir ates FC (RSA) | caps=9 | goals=1 | height_cm=166",
+    "recent_record": "Mexico: Unavailable in local dataset for this prototype.\nSouth Africa: Unavailable in local dataset for this prototype."
+  },
+  "model_inputs": {
+    "match": "Mexico vs South Africa",
+    "match_context": "{\"match_id\": \"1\", \"round\": \"Matchday 1\", \"date\": \"2026-06-11\", \"time\": \"13:00 UTC-6\", \"kickoff_utc\": \"2026-06-11T19:00:00Z\", \"group\": \"Group A\", \"team1\": \"Mexico\", \"team2\": \"South Africa\", \"team1_code\": \"MEX\", \"team2_code\": \"RSA\", \"ground\": \"Mexico City\", \"source\": \"openfootball_2026_json\"}",
+    "news_items": "{\"title\": \"Team News: Mexico vs. South Africa injury, suspension list, predicted XIs | World Cup 2026 - Sports Mole\", \"url\": \"https://www.sportsmole.co.uk/football/mexico/injury-news/team-news/mexico-vs-south-africa-injury-suspension-list-predicted-xis_598872.html\", \"publishedDate\": \"2026-06-10T19:00:00.000Z\", \"author\": null, \"text\": \"Team News: Mexico vs. South Africa injury, suspension list, predicted XIs | World Cup 2026 - Sports Mole\\n\\nMenu\\n\\nWorld Cup Gameweek 1\\n\\nMexico City Stadium\\n\\n# Team News: Mexico vs. South Africa injury, suspension list, predicted XIs | World Cup 2026\\n\\nBy Oliver Thomas| 10 Jun 2026 20:00, Last updated: 10 Jun 2026 20:16\\n\\n© Iconsport / Zuma\\n\\nCo-hosts Mexico kick-start the 2026 World Cup with an opening Group A fixture against South Africa at Mexico City Stadium on Thursday night.\\n\\nThe two nations meet for the first time since playing out a 1-1 draw in the opening game at the 2010 World Cup in Johannesburg, and here, Sports Mole rounds up all the latest team news for the two clubs.\\n\\n---\\n\\n## MEXICO vs. SOUTH AFRICA\\n\\nMexico vs. South Africa World Cup Preview And Predictions ⚽?| \\\"History Will Be Made\\\"\\n\\n## MEXICO\\n\\nOut: None\\n\\nDoubtful: Santiago Gimenez(unspecified)\\n\\nSports Mole's predicted XI: Ochoa; Sanchez, Montes, Alvarez, Gallardo; Gutierrez, Fidalgo, Pineda; Alvarado, Jimenez, Quinones\\n\\n## SOUTH AFRICA\\n\\nOut: None\\n\\nDoubtful: Aubrey Modiba (hamstring)\\n\\nSports Mole's predicted XI: Williams; Mudau, Mbokazi, Okon, Modiba; Mbatha, Sithole, Mokoena; Appollis, Foster, Moremi\\n\\n---\\n\\nWritten by\\n\\nSh\"}",
+    "team1_squad": "GK: RANGEL Raul José Raúl RANGEL A GUILAR R. RANGEL | club=CD Guadalajar a (MEX) | caps=14 | goals=0 | height_cm=190; ACEVEDO Carlos Carlos ACEVEDO L ÓPEZ C. ACEVEDO | club=Club Sant os Laguna (MEX) | caps=7 | goals=0 | height_cm=185; OCHOA Guillermo Francisco Guillermo OCHOA MAGAÑA G. OCHO A | club=AEL Limassol (CYP) | caps=153 | goals=0 | height_cm=185\nDF: SANCHEZ Jor ge Jorge Eduardo SÁNCHEZ RAMOS J. SÁNCHEZ | club=PAOK Saloniki (GRE) | caps=59 | goals=3 | height_cm=176; MONTES Cesar César Jasib MONTES CASTRO C. MONTES | club=FC Lokomotiv Moscow (RUS) | caps=68 | goals=4 | height_cm=191; ALVAREZ Edson Edson Omar ÁLVAREZ VEL ÁZQUEZ E. ÁLVAREZ | club=Fenerbahçe SK (TUR) | caps=99 | goals=7 | height_cm=180; VASQUEZ Johan Johan Felipe VÁSQUEZ IBARRA J. VÁSQUEZ | club=Genoa CFC (ITA) | caps=46 | goals=3 | height_cm=182; REYES Isr ael Israel REYES ROMERO I. REYES | club=Club América (MEX) | caps=34 | goals=2 | height_cm=181; CHAVEZ Mateo Mateo CHÁVEZ GARCÍ A M. CHÁVEZ | club=AZ Alkmaar (NED) | caps=10 | goals=0 | height_cm=178; GALLARDO Jesus Jesús Daniel GALLARDO VASCONCEL OS J. GALLARDO | club=Deportivo Toluca FC (MEX) | caps=122 | goals=3 | height_cm=174\nMF: LIRA Erik Erik Antonio LIRA MÉNDEZ E. LIRA | club=CF Cruz A zul (MEX) | caps=25 | goals=0 | height_cm=172; ROMO Luis Luis Francisco ROMO BARRÓN L. ROMO | club=CD Guadalajar a (MEX) | caps=62 | goals=4 | height_cm=183; FIDALGO Alvaro Álvaro FIDALGO FERN ÁNDEZ FIDALGO | club=Real Betis (ESP) | caps=4 | goals=0 | height_cm=175; PINEDA Orbelin Orbelín PINEDA ALVARADO ORBELÍN | club=AEK Athens (GRE) | caps=92 | goals=12 | height_cm=169; VARGAS Obed Obed Goméz VARGAS O. VARGAS | club=Atlético De Madrid (ESP) | caps=6 | goals=0 | height_cm=175; MORA Gilber to Gilberto Rafael MORA ZAMBRANO G. MORA | club=Club Tijuana (MEX) | caps=8 | goals=0 | height_cm=175; CHAVEZ Luis Luis Gerardo CHÁVEZ MAGALLÓN L. CHÁVEZ | club=FC Dynamo Moscow (RUS) | caps=45 | goals=5 | height_cm=178; GUTIERREZ Brian Brian GUTIÉRREZ B. GUTIÉRREZ | club=CD Guadalajar a (MEX) | caps=7 | goals=2 | height_cm=178\nFW: JIMENEZ Raul Raúl Alonso JIMÉNEZ RODRÍGUEZ RAÚL | club=Fulham FC (ENG) | caps=126 | goals=45 | height_cm=188; VEGA Alexis Ernesto Alexis VEGA ROJ AS A. VEGA | club=Deportivo Toluca FC (MEX) | caps=52 | goals=7 | height_cm=175; GIMENEZ Santiago Santiago T omás GIMENEZ S. GIMENEZ | club=AC Milan (ITA) | caps=47 | goals=6 | height_cm=180; GONZALEZ Armando Armando GONZÁLEZ ALBA A. GONZ ÁLEZ | club=CD Guadalajar a (MEX) | caps=7 | goals=1 | height_cm=182; QUINONES Julian Julián Andr és QUIÑONES QUIÑONES J. QUIÑONES | club=Al Qadsiah FC (KSA) | caps=22 | goals=2 | height_cm=177; HUERTA Cesar César Saúl HUERTA VALERA C. HUERTA | club=RSC Anderlecht (BEL) | caps=26 | goals=3 | height_cm=171; MARTINEZ Guillermo Guillermo MARTÍNEZ AYALA G. MARTÍNEZ | club=Pumas UN AM (MEX) | caps=12 | goals=3 | height_cm=191; ALVARADO Rober to Roberto Carlos ALVARADO HERN ÁNDEZ R. ALVARADO | club=CD Guadalajar a (MEX) | caps=68 | goals=6 | height_cm=176",
+    "team2_squad": "GK: WILLIAMS Ronwen Ronwen Ha yden WILLIAMS WILLIAMS | club=Mamelodi Sundowns FC (RSA) | caps=64 | goals=0 | height_cm=184; CHAINE Sipho Sipho Justin CHAINE CHAINE | club=Orlando Pir ates FC (RSA) | caps=4 | goals=0 | height_cm=186; GOSS Ricar do Stuart Ricardo GOSS GOSS | club=Siwelele FC (RSA) | caps=7 | goals=0 | height_cm=181\nDF: MATULUDI Thabang Tholo Thabang MATULUDI MATULUDI | club=Polokwane City FC (RSA) | caps=3 | goals=0 | height_cm=189; NDAMANE Khulumani Khulumani NDAMANE NDAMANE | club=Mamelodi Sundowns FC (RSA) | caps=5 | goals=0 | height_cm=183; MODIBA A ubrey Aubrey Maphosa MODIBA MODIBA | club=Mamelodi Sundowns FC (RSA) | caps=48 | goals=3 | height_cm=171; MBOKAZI Mbek ezeli Mbekezeli Mfanukile MBOKAZI MBOKAZI | club=Chicago Fir e FC (USA) | caps=10 | goals=1 | height_cm=177; KABINI Samuk ele Samukele Alucious KABINI KABINI | club=Molde FK (NOR) | caps=6 | goals=0 | height_cm=179; SIBISI Nkosinathi Nkosinathi Emmanuel SIBISI SIBISI | club=Orlando Pir ates FC (RSA) | caps=21 | goals=0 | height_cm=172; MUDAU Khuliso Khuliso Johnson MUDAU MUDAU | club=Mamelodi Sundowns FC (RSA) | caps=34 | goals=1 | height_cm=179; OKON Ime Ime Daniel OKON OKON | club=Hannover 96 (GER) | caps=8 | goals=1 | height_cm=187 (+2 more)\nMF: MOKOENA Teboho Teboho MOKOENA MOKOENA | club=Mamelodi Sundowns FC (RSA) | caps=57 | goals=9 | height_cm=177; MBATHA Thalente Thalente W andile MBATHA MBATHA | club=Orlando Pir ates FC (RSA) | caps=16 | goals=3 | height_cm=179; ZWANE Themba Themba ZWANE ZWANE | club=Mamelodi Sundowns FC (RSA) | caps=55 | goals=12 | height_cm=178; SITHOLE Sphephelo Sphephelo S' miso SITHOLE SITHOLE | club=CD Tondela (POR) | caps=29 | goals=1 | height_cm=197; ADAMS Jayden Jayden Oswin ADAMS ADAMS | club=Mamelodi Sundowns FC (RSA) | caps=8 | goals=2 | height_cm=177\nFW: APPOLLIS Oswin Oswin Reagan APPOLLIS APPOLLIS | club=Orlando Pir ates FC (RSA) | caps=27 | goals=8 | height_cm=171; MOREMI T shepang Tshepang MOREMI MOREMI | club=Orlando Pir ates FC (RSA) | caps=10 | goals=1 | height_cm=169; FOSTER L yle Lyle Brent FOSTER FOSTER | club=Burnley FC (ENG) | caps=31 | goals=10 | height_cm=185; MOFOKENG Relebohile Relebohile MOFOKENG MOFOKENG | club=Orlando Pir ates FC (RSA) | caps=14 | goals=1 | height_cm=168; MASEKO Thapelo Thapelo MASEKO MASEKO | club=AEL Limassol (CYP) | caps=8 | goals=1 | height_cm=178; RAYNERS Iqr aam Iqraam RAYNERS RAYNERS | club=Mamelodi Sundowns FC (RSA) | caps=20 | goals=5 | height_cm=174; MAKGOPA Evidence Sekotori Evidence MAKGOPA MAKGPA | club=Orlando Pir ates FC (RSA) | caps=27 | goals=6 | height_cm=183; SEBELEBELE Kamogelo Kamogelo Michael SEBELEBELE SEBELEBELE | club=Orlando Pir ates FC (RSA) | caps=9 | goals=1 | height_cm=166",
+    "recent_record": "Mexico: Unavailable in local dataset for this prototype.\nSouth Africa: Unavailable in local dataset for this prototype.",
+    "polymarket_odds": "[\n  {\n    \"title\": \"Mexico vs. South Africa\",\n    \"slug\": \"fwc-mex-rsa-2026-06-11\",\n    \"markets\": [\n      {\n        \"question\": \"Will Mexico win against South Africa in the World Cup match scheduled for Jun 11, 2026?\",\n        \"outcomes\": [\n          \"Yes\",\n          \"No\"\n        ],\n        \"outcome_prices\": [\n          \"0.6900\",\n          \"0.7000\"\n        ],\n        \"volume\": null,\n        \"liquidity\": null,\n        \"url\": null,\n        \"source_slug\": \"atc-fwc-mex-rsa-2026-06-11-mex\"\n      },\n      {\n        \"question\": \"Will the World Cup match Mexico vs South Africa scheduled for Jun 11, 2026 end in a draw?\",\n        \"outcomes\": [\n          \"No\",\n          \"Yes\"\n        ],\n        \"outcome_prices\": [\n          \"0.2000\",\n          \"0.2100\"\n        ],\n        \"volume\": null,\n        \"liquidity\": null,\n        \"url\": null,\n        \"source_slug\": \"atc-fwc-mex-rsa-2026-06-11-draw\"\n      },\n      {\n        \"question\": \"Will South Africa win against Mexico in the World Cup match scheduled for Jun 11, 2026?\",\n        \"outcomes\": [\n          \"Yes\",\n          \"No\"\n        ],\n        \"outcome_prices\": [\n          \"0.1000\",\n          \"0.1100\"\n        ],\n        \"volume\": null,\n        \"liquidity\": null,\n        \"url\": null,\n        \"source_slug\": \"atc-fwc-mex-rsa-2026-06-11-rsa\"\n      },\n      {\n        \"question\": \"Will MEX vs RSA finish 0-0?\",\n        \"outcomes\": [\n          \"Yes\",\n          \"No\"\n        ],\n        \"outcome_prices\": [\n          \"0.0600\",\n          \"0.9800\"\n        ],\n        \"volume\": null,\n        \"liquidity\": null,\n        \"url\": null,\n        \"source_slug\": \"atc-fwc-mex-rsa-2026-06-11-exact-score-0-0\"\n      },\n      {\n        \"question\": \"Will MEX vs RSA finish 0-2?\",\n        \"outcomes\": [\n          \"Yes\",\n          \"No\"\n        ],\n        \"outcome_prices\": [\n          \"0.0200\",\n          \"0.0500\"\n        ],\n        \"volume\": null,\n        \"liquidity\": null,\n        \"url\": null,\n        \"source_slug\": \"atc-fwc-mex-rsa-2026-06-11-exact-score-0-2\"\n      }\n    ]\n  }\n]"
+  },
+  "cache": {
+    "path": "data/cache/match_retrieval_cache.json",
+    "key": "mexico vs south africa",
+    "news_from_cache": true,
+    "polymarket_from_cache": true
+  },
+  "sources": {
+    "schedule": "data/processed/schedule_2026.csv",
+    "players": "data/processed/players_2026.csv"
+  }
+}

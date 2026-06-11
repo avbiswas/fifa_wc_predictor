@@ -1,0 +1,35 @@
+# Secrets and local environment
+.env
+.env.*
+.envrc
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Node / Cloudflare local state
+node_modules/
+.wrangler/
+.dev.vars
+dist/
+build/
+
+# OS / editor noise
+.DS_Store
+*.swp
+*.swo
+
+# Generated or re-downloadable source artifacts
+data/raw/
+data/cache/
+
+# Keep static app data checked in; the Cloudflare app fetches these JSON files.
+!cloudflare_app/public/data/
+!cloudflare_app/public/data/*.json
+

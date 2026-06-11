@@ -1,0 +1,202 @@
+[
+  {
+    "name": "fifa_schedule_pdf",
+    "url": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule_English.pdf",
+    "local_path": "data/raw/fifa/FWC26-Match-Schedule_English.pdf",
+    "description": "Official FIFA World Cup 2026 match schedule PDF.",
+    "sha256": "4becd057fdbfc63452d59bf29b3df8da5512368f88d3abf7054d64a7ff8768a1",
+    "bytes": 150287
+  },
+  {
+    "name": "fifa_squad_pdf",
+    "url": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf",
+    "local_path": "data/raw/fifa/SquadLists-English.pdf",
+    "description": "Official FIFA World Cup 2026 squad lists PDF.",
+    "sha256": "05471869ffe5d9f996eff8a8c3de4de47622b88b5aa8858a62ffff44998c4113",
+    "bytes": 784257
+  },
+  {
+    "name": "openfootball_2026_json",
+    "url": "https://raw.githubusercontent.com/openfootball/worldcup.json/master/2026/worldcup.json",
+    "local_path": "data/raw/openfootball/worldcup_2026.json",
+    "description": "Public-domain structured 2026 World Cup schedule.",
+    "sha256": "ab6ffb77204a807f11ef093369241a9bc7d343af11875b738cbe8274fb20fd32",
+    "bytes": 19957
+  },
+  {
+    "name": "openfootball_worldcup_1930_json",
+    "url": "https://raw.githubusercontent.com/openfootball/worldcup.json/master/1930/worldcup.json",
+    "local_path": "data/raw/openfootball/history/worldcup_1930.json",
+    "description": "Public-domain structured FIFA World Cup 1930 match data.",
+    "sha256": "24e0fa5793715c8b8d218f57230f6579e0516d9507224f3f74ae874df0f402c9",
+    "bytes": 7578
+  },
+  {
+    "name": "openfootball_worldcup_1934_json",
+    "url": "https://raw.githubusercontent.com/openfootball/worldcup.json/master/1934/worldcup.json",
+    "local_path": "data/raw/openfootball/history/worldcup_1934.json",
+    "description": "Public-domain structured FIFA World Cup 1934 match data.",
+    "sha256": "0939c8d517b4f302b8be4568af62f85f8a2a0fccce4e6690d7a7417f7a85a549",
+    "bytes": 6935
+  },
+  {
+    "name": "openfootball_worldcup_1938_json",
+    "url": "https://raw.githubusercontent.com/openfootball/worldcup.json/master/1938/worldcup.json",
+    "local_path": "data/raw/openfootball/history/worldcup_1938.json",
+    "description": "Public-domain structured FIFA World Cup 1938 match data.",
+    "sha256": "e4a9f079cbd3c724e279287ac7d14407e50a151c7d25a75d7a526c4f6de51cc5",
+    "bytes": 8087
+  },
+  {
+    "name": "openfootball_worldcup_1950_json",
+    "url": "https://raw.githubusercontent.com/openfootball/worldcup.json/master/1950/worldcup.json",
+    "local_path": "data/raw/openfootball/history/worldcup_1950.json",
+    "description": "Public-domain structured FIFA World Cup 1950 match data.",
+    "sha256": "50bf66cbe8c437e3e84cdfad914e3a0fd52fcc8dec651e2cf9cbaf056402b3a9",
+    "bytes": 9132
+  },
+  {
+    "name": "openfootball_worldcup_1954_json",
+    "url": "https://raw.githubusercontent.com/openfootball/worldcup.json/master/1954/worldcup.json",
+    "local_path": "data/raw/openfootball/history/worldcup_1954.json",
+    "description": "Public-domain structured FIFA World Cup 1954 match data.",
+    "sha256": "310b5ef1aeece5f050bb3caa2069eed0ef66e31b7db93e61e64ca9d17455a256",
+    "bytes": 5318
+  },
+  {
+    "name": "openfootball_worldcup_1958_json",
+    "url": "https://raw.githubusercontent.com/openfootball/worldcup.json/master/1958/worldcup.json",
+    "local_path": "data/raw/openfootball/history/worldcup_1958.json",
+    "description": "Public-domain structured FIFA World Cup 1958 match data.",
+    "sha256": "c33302ab0d3658ae8c00575bf2e72d0f7e6e7d829bb6b6eb24eccca503d6419c",
+    "bytes": 7004
+  },
+  {
+    "name": "openfootball_worldcup_1962_json",
+    "url": "https://raw.githubusercontent.com/openfootball/worldcup.json/master/1962/worldcup.json",
+    "local_path": "data/raw/openfootball/history/worldcup_1962.json",
+    "description": "Public-domain structured FIFA World Cup 1962 match data.",
+    "sha256": "fbf9cf0fe64fe31db78e742edb1d24a1acee227cf4710a3713500bfca331a30f",
+    "bytes": 6643
+  },
+  {
+    "name": "openfootball_worldcup_1966_json",
+    "url": "https://raw.githubusercontent.com/openfootball/worldcup.json/master/1966/worldcup.json",
+    "local_path": "data/raw/openfootball/history/worldcup_1966.json",
+    "description": "Public-domain structured FIFA World Cup 1966 match data.",
+    "sha256": "54f7943a6a11396a405479814b4bd114e6094243fd54ebaea7b2e3fd3807b7a4",
+    "bytes": 6502
+  },
+  {
+    "name": "openfootball_worldcup_1970_json",
+    "url": "https://raw.githubusercontent.com/openfootball/worldcup.json/master/1970/worldcup.json",
+    "local_path": "data/raw/openfootball/history/worldcup_1970.json",
+    "description": "Public-domain structured FIFA World Cup 1970 match data.",
+    "sha256": "60124878cda29bd5848b44fbf5f4668f5344fd64ab4b26b91c364c74761f52fa",
+    "bytes": 6555
+  },
+  {
+    "name": "openfootball_worldcup_1974_json",
+    "url": "https://raw.githubusercontent.com/openfootball/worldcup.json/master/1974/worldcup.json",
+    "local_path": "data/raw/openfootball/history/worldcup_1974.json",
+    "description": "Public-domain structured FIFA World Cup 1974 match data.",
+    "sha256": "3eb873244c9902ba6fdab6087a0c746f6f5289ead66f6151b9e5c1878e8508d1",
+    "bytes": 7887
+  },
+  {
+    "name": "openfootball_worldcup_1978_json",
+    "url": "https://raw.githubusercontent.com/openfootball/worldcup.json/master/1978/worldcup.json",
+    "local_path": "data/raw/openfootball/history/worldcup_1978.json",
+    "description": "Public-domain structured FIFA World Cup 1978 match data.",
+    "sha256": "b05ba19b2406564a4e7584e6fa57d263212a081a2bf6a6d831bca3d3d57fec82",
+    "bytes": 8214
+  },
+  {
+    "name": "openfootball_worldcup_1982_json",
+    "url": "https://raw.githubusercontent.com/openfootball/worldcup.json/master/1982/worldcup.json",
+    "local_path": "data/raw/openfootball/history/worldcup_1982.json",
+    "description": "Public-domain structured FIFA World Cup 1982 match data.",
+    "sha256": "680cee2bca9def804b71055e236062fafacbb031feb9ab10bde32f7f071d53db",
+    "bytes": 10868
+  },
+  {
+    "name": "openfootball_worldcup_1986_json",
+    "url": "https://raw.githubusercontent.com/openfootball/worldcup.json/master/1986/worldcup.json",
+    "local_path": "data/raw/openfootball/history/worldcup_1986.json",
+    "description": "Public-domain structured FIFA World Cup 1986 match data.",
+    "sha256": "8312ff289b6683c2b43821f05472b89da38eea6732090c00db3bdee70264880e",
+    "bytes": 10809
+  },
+  {
+    "name": "openfootball_worldcup_1990_json",
+    "url": "https://raw.githubusercontent.com/openfootball/worldcup.json/master/1990/worldcup.json",
+    "local_path": "data/raw/openfootball/history/worldcup_1990.json",
+    "description": "Public-domain structured FIFA World Cup 1990 match data.",
+    "sha256": "77be0a9ca518c6f1346f90d1669bfbe45c69c084fabffc611dd65c615ab2d146",
+    "bytes": 11130
+  },
+  {
+    "name": "openfootball_worldcup_1994_json",
+    "url": "https://raw.githubusercontent.com/openfootball/worldcup.json/master/1994/worldcup.json",
+    "local_path": "data/raw/openfootball/history/worldcup_1994.json",
+    "description": "Public-domain structured FIFA World Cup 1994 match data.",
+    "sha256": "ff290bc3f040d1d7e134e6ff96aa34543e53947f4bc9fc1699942ebf59b1361e",
+    "bytes": 10382
+  },
+  {
+    "name": "openfootball_worldcup_1998_json",
+    "url": "https://raw.githubusercontent.com/openfootball/worldcup.json/master/1998/worldcup.json",
+    "local_path": "data/raw/openfootball/history/worldcup_1998.json",
+    "description": "Public-domain structured FIFA World Cup 1998 match data.",
+    "sha256": "6addf8d8ee4befad154c36943233b9f4db89032531cc37992c7d212433b779a6",
+    "bytes": 13064
+  },
+  {
+    "name": "openfootball_worldcup_2002_json",
+    "url": "https://raw.githubusercontent.com/openfootball/worldcup.json/master/2002/worldcup.json",
+    "local_path": "data/raw/openfootball/history/worldcup_2002.json",
+    "description": "Public-domain structured FIFA World Cup 2002 match data.",
+    "sha256": "10a452ba237a07876efde0d29bb00dd824b0a87cd452f9f5d2763b6ff1ed0c71",
+    "bytes": 13064
+  },
+  {
+    "name": "openfootball_worldcup_2006_json",
+    "url": "https://raw.githubusercontent.com/openfootball/worldcup.json/master/2006/worldcup.json",
+    "local_path": "data/raw/openfootball/history/worldcup_2006.json",
+    "description": "Public-domain structured FIFA World Cup 2006 match data.",
+    "sha256": "de004d88a0a374b054ed3bc8bfcbb5b4b12abc3b837b6b949a4dc8750eef3eba",
+    "bytes": 14482
+  },
+  {
+    "name": "openfootball_worldcup_2010_json",
+    "url": "https://raw.githubusercontent.com/openfootball/worldcup.json/master/2010/worldcup.json",
+    "local_path": "data/raw/openfootball/history/worldcup_2010.json",
+    "description": "Public-domain structured FIFA World Cup 2010 match data.",
+    "sha256": "dd36ad80ca6caf0bb2e1aff350d97d5b322e1e130a241e44fcd5f5c424b6f356",
+    "bytes": 14787
+  },
+  {
+    "name": "openfootball_worldcup_2014_json",
+    "url": "https://raw.githubusercontent.com/openfootball/worldcup.json/master/2014/worldcup.json",
+    "local_path": "data/raw/openfootball/history/worldcup_2014.json",
+    "description": "Public-domain structured FIFA World Cup 2014 match data.",
+    "sha256": "a5614bec9bccb26d4eb639607eb7fabceef98fee6743b910985132f13e26977f",
+    "bytes": 25864
+  },
+  {
+    "name": "openfootball_worldcup_2018_json",
+    "url": "https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json",
+    "local_path": "data/raw/openfootball/history/worldcup_2018.json",
+    "description": "Public-domain structured FIFA World Cup 2018 match data.",
+    "sha256": "1fb1038ca41e81887c994560fdf5e2bb014eedda7ea7f2e0cd2c5bced5711017",
+    "bytes": 25988
+  },
+  {
+    "name": "openfootball_worldcup_2022_json",
+    "url": "https://raw.githubusercontent.com/openfootball/worldcup.json/master/2022/worldcup.json",
+    "local_path": "data/raw/openfootball/history/worldcup_2022.json",
+    "description": "Public-domain structured FIFA World Cup 2022 match data.",
+    "sha256": "5b81ae4dd5f2da1f0083f9da987e95e10b898e399c53dcd6bc28c0d016e4dcdd",
+    "bytes": 26072
+  }
+]

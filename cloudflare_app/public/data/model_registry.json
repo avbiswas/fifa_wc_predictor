@@ -1,0 +1,110 @@
+{
+  "default": "gemini-3-flash",
+  "models": {
+    "gpt-5.5": {
+      "model": "openrouter/openai/gpt-5.5",
+      "provider": "openai",
+      "provider_label": "OpenAI",
+      "group": "OpenAI",
+      "icon": "/icons/openai.svg"
+    },
+    "gpt-5.4-mini": {
+      "model": "openrouter/openai/gpt-5.4-mini",
+      "provider": "openai",
+      "provider_label": "OpenAI",
+      "group": "OpenAI",
+      "icon": "/icons/openai.svg"
+    },
+    "gpt-5.4-nano": {
+      "model": "openrouter/openai/gpt-5.4-nano",
+      "provider": "openai",
+      "provider_label": "OpenAI",
+      "group": "OpenAI",
+      "icon": "/icons/openai.svg"
+    },
+    "gemini-3.1-flash-lite": {
+      "model": "openrouter/google/gemini-3.1-flash-lite",
+      "provider": "google",
+      "provider_label": "Google",
+      "group": "Gemini",
+      "icon": "/icons/googlegemini.svg"
+    },
+    "gemini-3-flash": {
+      "model": "openrouter/google/gemini-3-flash-preview",
+      "provider": "google",
+      "provider_label": "Google",
+      "group": "Gemini",
+      "icon": "/icons/googlegemini.svg"
+    },
+    "gemini-3.5-pro": {
+      "model": "openrouter/~google/gemini-pro-latest",
+      "provider": "google",
+      "provider_label": "Google",
+      "group": "Gemini",
+      "icon": "/icons/googlegemini.svg"
+    },
+    "claude-sonnet-4.7": {
+      "model": "openrouter/~anthropic/claude-sonnet-latest",
+      "provider": "anthropic",
+      "provider_label": "Anthropic",
+      "group": "Anthropic",
+      "icon": "/icons/anthropic.svg"
+    },
+    "claude-haiku-4.5": {
+      "model": "openrouter/anthropic/claude-haiku-4.5",
+      "provider": "anthropic",
+      "provider_label": "Anthropic",
+      "group": "Anthropic",
+      "icon": "/icons/anthropic.svg"
+    },
+    "deepseek-v4-pro": {
+      "model": "openrouter/deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "provider_label": "DeepSeek",
+      "group": "Open source",
+      "icon": "/icons/deepseek.svg"
+    },
+    "minimax-m3": {
+      "model": "openrouter/minimax/minimax-m3",
+      "provider": "minimax",
+      "provider_label": "MiniMax",
+      "group": "Open source",
+      "icon": "/icons/minimax.svg"
+    },
+    "mimo-v2.5-pro": {
+      "model": "openrouter/xiaomi/mimo-v2.5-pro",
+      "provider": "xiaomi",
+      "provider_label": "Xiaomi",
+      "group": "Open source",
+      "icon": "/icons/xiaomi.svg"
+    },
+    "kimi-k2.6": {
+      "model": "openrouter/moonshotai/kimi-k2.6",
+      "provider": "moonshotai",
+      "provider_label": "Moonshot AI",
+      "group": "Open source",
+      "icon": "/icons/moonshotai.svg"
+    },
+    "grok-4.3": {
+      "model": "openrouter/x-ai/grok-4.3",
+      "provider": "x-ai",
+      "provider_label": "xAI",
+      "group": "Open source",
+      "icon": "/icons/xai.svg"
+    },
+    "glm-5.1": {
+      "model": "openrouter/z-ai/glm-5.1",
+      "provider": "z-ai",
+      "provider_label": "Z.ai",
+      "group": "Open source",
+      "icon": "/icons/zhipuai.svg"
+    },
+    "qwen-3.7-max": {
+      "model": "openrouter/qwen/qwen3.7-max",
+      "provider": "qwen",
+      "provider_label": "Qwen",
+      "group": "Open source",
+      "icon": "/icons/qwen.svg"
+    }
+  }
+}

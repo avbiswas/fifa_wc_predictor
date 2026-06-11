@@ -1,0 +1,5 @@
+PyPDF2==3.0.1
+dspy==3.0.3
+python-dotenv==1.1.1
+requests==2.32.5
+rich==13.9.4

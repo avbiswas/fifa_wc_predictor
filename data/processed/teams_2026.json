@@ -1,0 +1,386 @@
+[
+  {
+    "team": "Algeria",
+    "team_code": "ALG",
+    "group": "J",
+    "roster_size": 26,
+    "coach_block": "PETKOVIC Vladimir Vladimir PETKOVIĆ",
+    "coach_nationality": "Switzerland"
+  },
+  {
+    "team": "Argentina",
+    "team_code": "ARG",
+    "group": "J",
+    "roster_size": 26,
+    "coach_block": "SCALONI Lionel Lionel Sebastián SCALONI",
+    "coach_nationality": "Argentina"
+  },
+  {
+    "team": "Australia",
+    "team_code": "AUS",
+    "group": "D",
+    "roster_size": 26,
+    "coach_block": "POPOVIC Tony Tony POPOVIC",
+    "coach_nationality": "Australia"
+  },
+  {
+    "team": "Austria",
+    "team_code": "AUT",
+    "group": "J",
+    "roster_size": 26,
+    "coach_block": "RANGNICK Ralf Ralf Dietrich RANGNICK",
+    "coach_nationality": "Germany"
+  },
+  {
+    "team": "Belgium",
+    "team_code": "BEL",
+    "group": "G",
+    "roster_size": 26,
+    "coach_block": "GARCIA Rudi Rudi José GARCIA",
+    "coach_nationality": "France"
+  },
+  {
+    "team": "Bosnia & Herzegovina",
+    "team_code": "BIH",
+    "group": "B",
+    "roster_size": 0,
+    "coach_block": "",
+    "coach_nationality": ""
+  },
+  {
+    "team": "Brazil",
+    "team_code": "BRA",
+    "group": "C",
+    "roster_size": 26,
+    "coach_block": "ANCELOTTI Carlo Carlo ANCELOTTI",
+    "coach_nationality": "Italy"
+  },
+  {
+    "team": "Canada",
+    "team_code": "CAN",
+    "group": "B",
+    "roster_size": 26,
+    "coach_block": "MARSCH Jesse Jesse Alan MARSCH",
+    "coach_nationality": "USA"
+  },
+  {
+    "team": "Cape Verde",
+    "team_code": "CPV",
+    "group": "H",
+    "roster_size": 0,
+    "coach_block": "",
+    "coach_nationality": ""
+  },
+  {
+    "team": "Colombia",
+    "team_code": "COL",
+    "group": "K",
+    "roster_size": 26,
+    "coach_block": "LORENZO Nestor Nestor Gabriel LORENZO",
+    "coach_nationality": "Argentina"
+  },
+  {
+    "team": "Croatia",
+    "team_code": "CRO",
+    "group": "L",
+    "roster_size": 26,
+    "coach_block": "DALIC Zlatko Zlatko DALIĆ",
+    "coach_nationality": "Croatia"
+  },
+  {
+    "team": "Curaçao",
+    "team_code": "CUW",
+    "group": "E",
+    "roster_size": 26,
+    "coach_block": "ADVOCAAT Dick Dirk Nicolaas ADVOCAAT",
+    "coach_nationality": "Netherlands"
+  },
+  {
+    "team": "Czech Republic",
+    "team_code": "CZE",
+    "group": "A",
+    "roster_size": 0,
+    "coach_block": "",
+    "coach_nationality": ""
+  },
+  {
+    "team": "DR Congo",
+    "team_code": "COD",
+    "group": "K",
+    "roster_size": 26,
+    "coach_block": "DESABRE Sebastien Sebastien Ser ge Louis DESABRE",
+    "coach_nationality": "France"
+  },
+  {
+    "team": "Ecuador",
+    "team_code": "ECU",
+    "group": "E",
+    "roster_size": 26,
+    "coach_block": "BECCACECE Sebastian Sebastián Andr és BECCACECE",
+    "coach_nationality": "Argentina"
+  },
+  {
+    "team": "Egypt",
+    "team_code": "EGY",
+    "group": "G",
+    "roster_size": 26,
+    "coach_block": "HOSSAM H ASSAN Hossam Hassan Hassanein HASSAN",
+    "coach_nationality": "Egypt"
+  },
+  {
+    "team": "England",
+    "team_code": "ENG",
+    "group": "L",
+    "roster_size": 26,
+    "coach_block": "TUCHEL Thomas Thomas TUCHEL",
+    "coach_nationality": "Germany"
+  },
+  {
+    "team": "France",
+    "team_code": "FRA",
+    "group": "I",
+    "roster_size": 26,
+    "coach_block": "DESCHAMPS Didier Didier Claude DESCHAMPS",
+    "coach_nationality": "France"
+  },
+  {
+    "team": "Germany",
+    "team_code": "GER",
+    "group": "E",
+    "roster_size": 26,
+    "coach_block": "NAGELSMANN Julian Julian NAGELSMANN",
+    "coach_nationality": "Germany"
+  },
+  {
+    "team": "Ghana",
+    "team_code": "GHA",
+    "group": "L",
+    "roster_size": 26,
+    "coach_block": "CARLOS QUEIRO Z Carlos Manuel BRITO LEAL DE QUEIRO Z",
+    "coach_nationality": "Portugal"
+  },
+  {
+    "team": "Haiti",
+    "team_code": "HAI",
+    "group": "C",
+    "roster_size": 26,
+    "coach_block": "MIGNE Sebastien Sébastien Bernar d Henri C MIGNÉ",
+    "coach_nationality": "France"
+  },
+  {
+    "team": "Iran",
+    "team_code": "IRN",
+    "group": "G",
+    "roster_size": 0,
+    "coach_block": "",
+    "coach_nationality": ""
+  },
+  {
+    "team": "Iraq",
+    "team_code": "IRQ",
+    "group": "I",
+    "roster_size": 26,
+    "coach_block": "ARNOLD Gr aham Graham James ARNOLD",
+    "coach_nationality": "Australia"
+  },
+  {
+    "team": "Ivory Coast",
+    "team_code": "CIV",
+    "group": "E",
+    "roster_size": 0,
+    "coach_block": "",
+    "coach_nationality": ""
+  },
+  {
+    "team": "Japan",
+    "team_code": "JPN",
+    "group": "F",
+    "roster_size": 26,
+    "coach_block": "MORIYASU Hajime Hajime MORIYASU",
+    "coach_nationality": "Japan"
+  },
+  {
+    "team": "Jordan",
+    "team_code": "JOR",
+    "group": "J",
+    "roster_size": 26,
+    "coach_block": "SELLAMI Jamal Jamal SELLAMI",
+    "coach_nationality": "Morocco"
+  },
+  {
+    "team": "Mexico",
+    "team_code": "MEX",
+    "group": "A",
+    "roster_size": 26,
+    "coach_block": "AGUIRRE Ja vier Javier AGUIRRE ON AINDIA",
+    "coach_nationality": "Mexico"
+  },
+  {
+    "team": "Morocco",
+    "team_code": "MAR",
+    "group": "C",
+    "roster_size": 26,
+    "coach_block": "OUAHBI Mohamed Mohamed OUAHBI",
+    "coach_nationality": "Morocco"
+  },
+  {
+    "team": "Netherlands",
+    "team_code": "NED",
+    "group": "F",
+    "roster_size": 26,
+    "coach_block": "KOEMAN Ronald Ronald KOEMAN",
+    "coach_nationality": "Netherlands"
+  },
+  {
+    "team": "New Zealand",
+    "team_code": "NZL",
+    "group": "G",
+    "roster_size": 26,
+    "coach_block": "BAZELEY Darr en Darren Shaun BAZELEY",
+    "coach_nationality": "New Zealand"
+  },
+  {
+    "team": "Norway",
+    "team_code": "NOR",
+    "group": "I",
+    "roster_size": 26,
+    "coach_block": "SOLBAKKEN Stale Ståle SOLBAKKEN",
+    "coach_nationality": "Norway"
+  },
+  {
+    "team": "Panama",
+    "team_code": "PAN",
+    "group": "L",
+    "roster_size": 26,
+    "coach_block": "CHRISTIANSEN Thomas Thomas CHRISTIANSEN T ARIN",
+    "coach_nationality": "Spain"
+  },
+  {
+    "team": "Paraguay",
+    "team_code": "PAR",
+    "group": "D",
+    "roster_size": 26,
+    "coach_block": "ALFARO Gusta vo Gustavo Julio ALFARO",
+    "coach_nationality": "Argentina"
+  },
+  {
+    "team": "Portugal",
+    "team_code": "POR",
+    "group": "K",
+    "roster_size": 26,
+    "coach_block": "MARTINEZ Rober to Roberto MARTÍNEZ MON TOLIU",
+    "coach_nationality": "Spain"
+  },
+  {
+    "team": "Qatar",
+    "team_code": "QAT",
+    "group": "B",
+    "roster_size": 26,
+    "coach_block": "LOPETEGUI Julen Julian LOPETEGUI ARGO TE",
+    "coach_nationality": "Spain"
+  },
+  {
+    "team": "Saudi Arabia",
+    "team_code": "KSA",
+    "group": "H",
+    "roster_size": 26,
+    "coach_block": "DONIS Geor gios Georgios DONIS",
+    "coach_nationality": "Greece"
+  },
+  {
+    "team": "Scotland",
+    "team_code": "SCO",
+    "group": "C",
+    "roster_size": 26,
+    "coach_block": "CLARKE Ste ve Stephen CLARKE",
+    "coach_nationality": "Scotland"
+  },
+  {
+    "team": "Senegal",
+    "team_code": "SEN",
+    "group": "I",
+    "roster_size": 26,
+    "coach_block": "THIAW Pape Pape Bouna THIAW",
+    "coach_nationality": "Senegal"
+  },
+  {
+    "team": "South Africa",
+    "team_code": "RSA",
+    "group": "A",
+    "roster_size": 26,
+    "coach_block": "BROOS Hugo Hugo Henri BROOS",
+    "coach_nationality": "Belgium"
+  },
+  {
+    "team": "South Korea",
+    "team_code": "KOR",
+    "group": "A",
+    "roster_size": 26,
+    "coach_block": "HONG Myungbo Myung Bo HONG",
+    "coach_nationality": "South Korea"
+  },
+  {
+    "team": "Spain",
+    "team_code": "ESP",
+    "group": "H",
+    "roster_size": 26,
+    "coach_block": "DE LA FUENTE Luis Luis DE LA FUENTE CASTILL O",
+    "coach_nationality": "Spain"
+  },
+  {
+    "team": "Sweden",
+    "team_code": "SWE",
+    "group": "F",
+    "roster_size": 26,
+    "coach_block": "POTTER Graham Graham Stephen POTTER",
+    "coach_nationality": "England"
+  },
+  {
+    "team": "Switzerland",
+    "team_code": "SUI",
+    "group": "B",
+    "roster_size": 26,
+    "coach_block": "YAKIN Mur at Murat YAKIN",
+    "coach_nationality": "Switzerland"
+  },
+  {
+    "team": "Tunisia",
+    "team_code": "TUN",
+    "group": "F",
+    "roster_size": 26,
+    "coach_block": "LAMOUCHI Sabri Sabri LAMOUCHI",
+    "coach_nationality": "France"
+  },
+  {
+    "team": "Turkey",
+    "team_code": "TUR",
+    "group": "D",
+    "roster_size": 26,
+    "coach_block": "MONTELLA Vincenz o Vincenzo MONTELLA",
+    "coach_nationality": "Italy"
+  },
+  {
+    "team": "United States",
+    "team_code": "USA",
+    "group": "D",
+    "roster_size": 26,
+    "coach_block": "POCHETTINO Mauricio Mauricio Rober to POCHETTINO TROSSERO",
+    "coach_nationality": "Argentina"
+  },
+  {
+    "team": "Uruguay",
+    "team_code": "URU",
+    "group": "H",
+    "roster_size": 26,
+    "coach_block": "BIELSA Mar celo Marcelo Alber to BIELSA",
+    "coach_nationality": "Argentina"
+  },
+  {
+    "team": "Uzbekistan",
+    "team_code": "UZB",
+    "group": "K",
+    "roster_size": 26,
+    "coach_block": "CANNAVARO Fabio Fabio CANNAVARO",
+    "coach_nationality": "Italy"
+  }
+]

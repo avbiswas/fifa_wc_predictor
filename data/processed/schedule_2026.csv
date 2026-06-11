@@ -1,0 +1,105 @@
+match_id,round,date,time,kickoff_utc,group,team1,team2,team1_code,team2_code,ground,source
+1,Matchday 1,2026-06-11,13:00 UTC-6,2026-06-11T19:00:00Z,Group A,Mexico,South Africa,MEX,RSA,Mexico City,openfootball_2026_json
+2,Matchday 1,2026-06-11,20:00 UTC-6,2026-06-12T02:00:00Z,Group A,South Korea,Czech Republic,KOR,CZE,Guadalajara (Zapopan),openfootball_2026_json
+3,Matchday 8,2026-06-18,12:00 UTC-4,2026-06-18T16:00:00Z,Group A,Czech Republic,South Africa,CZE,RSA,Atlanta,openfootball_2026_json
+4,Matchday 8,2026-06-18,19:00 UTC-6,2026-06-19T01:00:00Z,Group A,Mexico,South Korea,MEX,KOR,Guadalajara (Zapopan),openfootball_2026_json
+5,Matchday 14,2026-06-24,19:00 UTC-6,2026-06-25T01:00:00Z,Group A,Czech Republic,Mexico,CZE,MEX,Mexico City,openfootball_2026_json
+6,Matchday 14,2026-06-24,19:00 UTC-6,2026-06-25T01:00:00Z,Group A,South Africa,South Korea,RSA,KOR,Monterrey (Guadalupe),openfootball_2026_json
+7,Matchday 2,2026-06-12,15:00 UTC-4,2026-06-12T19:00:00Z,Group B,Canada,Bosnia & Herzegovina,CAN,BIH,Toronto,openfootball_2026_json
+8,Matchday 3,2026-06-13,12:00 UTC-7,2026-06-13T19:00:00Z,Group B,Qatar,Switzerland,QAT,SUI,San Francisco Bay Area (Santa Clara),openfootball_2026_json
+9,Matchday 8,2026-06-18,12:00 UTC-7,2026-06-18T19:00:00Z,Group B,Switzerland,Bosnia & Herzegovina,SUI,BIH,Los Angeles (Inglewood),openfootball_2026_json
+10,Matchday 8,2026-06-18,15:00 UTC-7,2026-06-18T22:00:00Z,Group B,Canada,Qatar,CAN,QAT,Vancouver,openfootball_2026_json
+11,Matchday 14,2026-06-24,12:00 UTC-7,2026-06-24T19:00:00Z,Group B,Switzerland,Canada,SUI,CAN,Vancouver,openfootball_2026_json
+12,Matchday 14,2026-06-24,12:00 UTC-7,2026-06-24T19:00:00Z,Group B,Bosnia & Herzegovina,Qatar,BIH,QAT,Seattle,openfootball_2026_json
+13,Matchday 3,2026-06-13,18:00 UTC-4,2026-06-13T22:00:00Z,Group C,Brazil,Morocco,BRA,MAR,New York/New Jersey (East Rutherford),openfootball_2026_json
+14,Matchday 3,2026-06-13,21:00 UTC-4,2026-06-14T01:00:00Z,Group C,Haiti,Scotland,HAI,SCO,Boston (Foxborough),openfootball_2026_json
+15,Matchday 9,2026-06-19,18:00 UTC-4,2026-06-19T22:00:00Z,Group C,Scotland,Morocco,SCO,MAR,Boston (Foxborough),openfootball_2026_json
+16,Matchday 9,2026-06-19,20:30 UTC-4,2026-06-20T00:30:00Z,Group C,Brazil,Haiti,BRA,HAI,Philadelphia,openfootball_2026_json
+17,Matchday 14,2026-06-24,18:00 UTC-4,2026-06-24T22:00:00Z,Group C,Scotland,Brazil,SCO,BRA,Miami (Miami Gardens),openfootball_2026_json
+18,Matchday 14,2026-06-24,18:00 UTC-4,2026-06-24T22:00:00Z,Group C,Morocco,Haiti,MAR,HAI,Atlanta,openfootball_2026_json
+19,Matchday 2,2026-06-12,18:00 UTC-7,2026-06-13T01:00:00Z,Group D,United States,Paraguay,USA,PAR,Los Angeles (Inglewood),openfootball_2026_json
+20,Matchday 3,2026-06-13,21:00 UTC-7,2026-06-14T04:00:00Z,Group D,Australia,Turkey,AUS,TUR,Vancouver,openfootball_2026_json
+21,Matchday 9,2026-06-19,12:00 UTC-7,2026-06-19T19:00:00Z,Group D,United States,Australia,USA,AUS,Seattle,openfootball_2026_json
+22,Matchday 9,2026-06-19,20:00 UTC-7,2026-06-20T03:00:00Z,Group D,Turkey,Paraguay,TUR,PAR,San Francisco Bay Area (Santa Clara),openfootball_2026_json
+23,Matchday 15,2026-06-25,19:00 UTC-7,2026-06-26T02:00:00Z,Group D,Turkey,United States,TUR,USA,Los Angeles (Inglewood),openfootball_2026_json
+24,Matchday 15,2026-06-25,19:00 UTC-7,2026-06-26T02:00:00Z,Group D,Paraguay,Australia,PAR,AUS,San Francisco Bay Area (Santa Clara),openfootball_2026_json
+25,Matchday 4,2026-06-14,12:00 UTC-5,2026-06-14T17:00:00Z,Group E,Germany,Curaçao,GER,CUW,Houston,openfootball_2026_json
+26,Matchday 4,2026-06-14,19:00 UTC-4,2026-06-14T23:00:00Z,Group E,Ivory Coast,Ecuador,CIV,ECU,Philadelphia,openfootball_2026_json
+27,Matchday 10,2026-06-20,16:00 UTC-4,2026-06-20T20:00:00Z,Group E,Germany,Ivory Coast,GER,CIV,Toronto,openfootball_2026_json
+28,Matchday 10,2026-06-20,19:00 UTC-5,2026-06-21T00:00:00Z,Group E,Ecuador,Curaçao,ECU,CUW,Kansas City,openfootball_2026_json
+29,Matchday 15,2026-06-25,16:00 UTC-4,2026-06-25T20:00:00Z,Group E,Curaçao,Ivory Coast,CUW,CIV,Philadelphia,openfootball_2026_json
+30,Matchday 15,2026-06-25,16:00 UTC-4,2026-06-25T20:00:00Z,Group E,Ecuador,Germany,ECU,GER,New York/New Jersey (East Rutherford),openfootball_2026_json
+31,Matchday 4,2026-06-14,15:00 UTC-5,2026-06-14T20:00:00Z,Group F,Netherlands,Japan,NED,JPN,Dallas (Arlington),openfootball_2026_json
+32,Matchday 4,2026-06-14,20:00 UTC-6,2026-06-15T02:00:00Z,Group F,Sweden,Tunisia,SWE,TUN,Monterrey (Guadalupe),openfootball_2026_json
+33,Matchday 10,2026-06-20,12:00 UTC-5,2026-06-20T17:00:00Z,Group F,Netherlands,Sweden,NED,SWE,Houston,openfootball_2026_json
+34,Matchday 10,2026-06-20,22:00 UTC-6,2026-06-21T04:00:00Z,Group F,Tunisia,Japan,TUN,JPN,Monterrey (Guadalupe),openfootball_2026_json
+35,Matchday 15,2026-06-25,18:00 UTC-5,2026-06-25T23:00:00Z,Group F,Japan,Sweden,JPN,SWE,Dallas (Arlington),openfootball_2026_json
+36,Matchday 15,2026-06-25,18:00 UTC-5,2026-06-25T23:00:00Z,Group F,Tunisia,Netherlands,TUN,NED,Kansas City,openfootball_2026_json
+37,Matchday 5,2026-06-15,12:00 UTC-7,2026-06-15T19:00:00Z,Group G,Belgium,Egypt,BEL,EGY,Seattle,openfootball_2026_json
+38,Matchday 5,2026-06-15,18:00 UTC-7,2026-06-16T01:00:00Z,Group G,Iran,New Zealand,IRN,NZL,Los Angeles (Inglewood),openfootball_2026_json
+39,Matchday 11,2026-06-21,12:00 UTC-7,2026-06-21T19:00:00Z,Group G,Belgium,Iran,BEL,IRN,Los Angeles (Inglewood),openfootball_2026_json
+40,Matchday 11,2026-06-21,18:00 UTC-7,2026-06-22T01:00:00Z,Group G,New Zealand,Egypt,NZL,EGY,Vancouver,openfootball_2026_json
+41,Matchday 16,2026-06-26,20:00 UTC-7,2026-06-27T03:00:00Z,Group G,Egypt,Iran,EGY,IRN,Seattle,openfootball_2026_json
+42,Matchday 16,2026-06-26,20:00 UTC-7,2026-06-27T03:00:00Z,Group G,New Zealand,Belgium,NZL,BEL,Vancouver,openfootball_2026_json
+43,Matchday 5,2026-06-15,12:00 UTC-4,2026-06-15T16:00:00Z,Group H,Spain,Cape Verde,ESP,CPV,Atlanta,openfootball_2026_json
+44,Matchday 5,2026-06-15,18:00 UTC-4,2026-06-15T22:00:00Z,Group H,Saudi Arabia,Uruguay,KSA,URU,Miami (Miami Gardens),openfootball_2026_json
+45,Matchday 11,2026-06-21,12:00 UTC-4,2026-06-21T16:00:00Z,Group H,Spain,Saudi Arabia,ESP,KSA,Atlanta,openfootball_2026_json
+46,Matchday 11,2026-06-21,18:00 UTC-4,2026-06-21T22:00:00Z,Group H,Uruguay,Cape Verde,URU,CPV,Miami (Miami Gardens),openfootball_2026_json
+47,Matchday 16,2026-06-26,19:00 UTC-5,2026-06-27T00:00:00Z,Group H,Cape Verde,Saudi Arabia,CPV,KSA,Houston,openfootball_2026_json
+48,Matchday 16,2026-06-26,18:00 UTC-6,2026-06-27T00:00:00Z,Group H,Uruguay,Spain,URU,ESP,Guadalajara (Zapopan),openfootball_2026_json
+49,Matchday 6,2026-06-16,15:00 UTC-4,2026-06-16T19:00:00Z,Group I,France,Senegal,FRA,SEN,New York/New Jersey (East Rutherford),openfootball_2026_json
+50,Matchday 6,2026-06-16,18:00 UTC-4,2026-06-16T22:00:00Z,Group I,Iraq,Norway,IRQ,NOR,Boston (Foxborough),openfootball_2026_json
+51,Matchday 12,2026-06-22,17:00 UTC-4,2026-06-22T21:00:00Z,Group I,France,Iraq,FRA,IRQ,Philadelphia,openfootball_2026_json
+52,Matchday 12,2026-06-22,20:00 UTC-4,2026-06-23T00:00:00Z,Group I,Norway,Senegal,NOR,SEN,New York/New Jersey (East Rutherford),openfootball_2026_json
+53,Matchday 16,2026-06-26,15:00 UTC-4,2026-06-26T19:00:00Z,Group I,Norway,France,NOR,FRA,Boston (Foxborough),openfootball_2026_json
+54,Matchday 16,2026-06-26,15:00 UTC-4,2026-06-26T19:00:00Z,Group I,Senegal,Iraq,SEN,IRQ,Toronto,openfootball_2026_json
+55,Matchday 6,2026-06-16,20:00 UTC-5,2026-06-17T01:00:00Z,Group J,Argentina,Algeria,ARG,ALG,Kansas City,openfootball_2026_json
+56,Matchday 6,2026-06-16,21:00 UTC-7,2026-06-17T04:00:00Z,Group J,Austria,Jordan,AUT,JOR,San Francisco Bay Area (Santa Clara),openfootball_2026_json
+57,Matchday 12,2026-06-22,12:00 UTC-5,2026-06-22T17:00:00Z,Group J,Argentina,Austria,ARG,AUT,Dallas (Arlington),openfootball_2026_json
+58,Matchday 12,2026-06-22,20:00 UTC-7,2026-06-23T03:00:00Z,Group J,Jordan,Algeria,JOR,ALG,San Francisco Bay Area (Santa Clara),openfootball_2026_json
+59,Matchday 17,2026-06-27,21:00 UTC-5,2026-06-28T02:00:00Z,Group J,Algeria,Austria,ALG,AUT,Kansas City,openfootball_2026_json
+60,Matchday 17,2026-06-27,21:00 UTC-5,2026-06-28T02:00:00Z,Group J,Jordan,Argentina,JOR,ARG,Dallas (Arlington),openfootball_2026_json
+61,Matchday 7,2026-06-17,12:00 UTC-5,2026-06-17T17:00:00Z,Group K,Portugal,DR Congo,POR,COD,Houston,openfootball_2026_json
+62,Matchday 7,2026-06-17,20:00 UTC-6,2026-06-18T02:00:00Z,Group K,Uzbekistan,Colombia,UZB,COL,Mexico City,openfootball_2026_json
+63,Matchday 13,2026-06-23,12:00 UTC-5,2026-06-23T17:00:00Z,Group K,Portugal,Uzbekistan,POR,UZB,Houston,openfootball_2026_json
+64,Matchday 13,2026-06-23,20:00 UTC-6,2026-06-24T02:00:00Z,Group K,Colombia,DR Congo,COL,COD,Guadalajara (Zapopan),openfootball_2026_json
+65,Matchday 17,2026-06-27,19:30 UTC-4,2026-06-27T23:30:00Z,Group K,Colombia,Portugal,COL,POR,Miami (Miami Gardens),openfootball_2026_json
+66,Matchday 17,2026-06-27,19:30 UTC-4,2026-06-27T23:30:00Z,Group K,DR Congo,Uzbekistan,COD,UZB,Atlanta,openfootball_2026_json
+67,Matchday 7,2026-06-17,15:00 UTC-5,2026-06-17T20:00:00Z,Group L,England,Croatia,ENG,CRO,Dallas (Arlington),openfootball_2026_json
+68,Matchday 7,2026-06-17,19:00 UTC-4,2026-06-17T23:00:00Z,Group L,Ghana,Panama,GHA,PAN,Toronto,openfootball_2026_json
+69,Matchday 13,2026-06-23,16:00 UTC-4,2026-06-23T20:00:00Z,Group L,England,Ghana,ENG,GHA,Boston (Foxborough),openfootball_2026_json
+70,Matchday 13,2026-06-23,19:00 UTC-4,2026-06-23T23:00:00Z,Group L,Panama,Croatia,PAN,CRO,Toronto,openfootball_2026_json
+71,Matchday 17,2026-06-27,17:00 UTC-4,2026-06-27T21:00:00Z,Group L,Panama,England,PAN,ENG,New York/New Jersey (East Rutherford),openfootball_2026_json
+72,Matchday 17,2026-06-27,17:00 UTC-4,2026-06-27T21:00:00Z,Group L,Croatia,Ghana,CRO,GHA,Philadelphia,openfootball_2026_json
+73,Round of 32,2026-06-28,12:00 UTC-7,2026-06-28T19:00:00Z,,2A,2B,,,Los Angeles (Inglewood),openfootball_2026_json
+74,Round of 32,2026-06-29,16:30 UTC-4,2026-06-29T20:30:00Z,,1E,3A/B/C/D/F,,,Boston (Foxborough),openfootball_2026_json
+75,Round of 32,2026-06-29,19:00 UTC-6,2026-06-30T01:00:00Z,,1F,2C,,,Monterrey (Guadalupe),openfootball_2026_json
+76,Round of 32,2026-06-29,12:00 UTC-5,2026-06-29T17:00:00Z,,1C,2F,,,Houston,openfootball_2026_json
+77,Round of 32,2026-06-30,17:00 UTC-4,2026-06-30T21:00:00Z,,1I,3C/D/F/G/H,,,New York/New Jersey (East Rutherford),openfootball_2026_json
+78,Round of 32,2026-06-30,12:00 UTC-5,2026-06-30T17:00:00Z,,2E,2I,,,Dallas (Arlington),openfootball_2026_json
+79,Round of 32,2026-06-30,19:00 UTC-6,2026-07-01T01:00:00Z,,1A,3C/E/F/H/I,,,Mexico City,openfootball_2026_json
+80,Round of 32,2026-07-01,12:00 UTC-4,2026-07-01T16:00:00Z,,1L,3E/H/I/J/K,,,Atlanta,openfootball_2026_json
+81,Round of 32,2026-07-01,17:00 UTC-7,2026-07-02T00:00:00Z,,1D,3B/E/F/I/J,,,San Francisco Bay Area (Santa Clara),openfootball_2026_json
+82,Round of 32,2026-07-01,13:00 UTC-7,2026-07-01T20:00:00Z,,1G,3A/E/H/I/J,,,Seattle,openfootball_2026_json
+83,Round of 32,2026-07-02,19:00 UTC-4,2026-07-02T23:00:00Z,,2K,2L,,,Toronto,openfootball_2026_json
+84,Round of 32,2026-07-02,12:00 UTC-7,2026-07-02T19:00:00Z,,1H,2J,,,Los Angeles (Inglewood),openfootball_2026_json
+85,Round of 32,2026-07-02,20:00 UTC-7,2026-07-03T03:00:00Z,,1B,3E/F/G/I/J,,,Vancouver,openfootball_2026_json
+86,Round of 32,2026-07-03,18:00 UTC-4,2026-07-03T22:00:00Z,,1J,2H,,,Miami (Miami Gardens),openfootball_2026_json
+87,Round of 32,2026-07-03,20:30 UTC-5,2026-07-04T01:30:00Z,,1K,3D/E/I/J/L,,,Kansas City,openfootball_2026_json
+88,Round of 32,2026-07-03,13:00 UTC-5,2026-07-03T18:00:00Z,,2D,2G,,,Dallas (Arlington),openfootball_2026_json
+89,Round of 16,2026-07-04,17:00 UTC-4,2026-07-04T21:00:00Z,,W74,W77,,,Philadelphia,openfootball_2026_json
+90,Round of 16,2026-07-04,12:00 UTC-5,2026-07-04T17:00:00Z,,W73,W75,,,Houston,openfootball_2026_json
+91,Round of 16,2026-07-05,16:00 UTC-4,2026-07-05T20:00:00Z,,W76,W78,,,New York/New Jersey (East Rutherford),openfootball_2026_json
+92,Round of 16,2026-07-05,18:00 UTC-6,2026-07-06T00:00:00Z,,W79,W80,,,Mexico City,openfootball_2026_json
+93,Round of 16,2026-07-06,14:00 UTC-5,2026-07-06T19:00:00Z,,W83,W84,,,Dallas (Arlington),openfootball_2026_json
+94,Round of 16,2026-07-06,17:00 UTC-7,2026-07-07T00:00:00Z,,W81,W82,,,Seattle,openfootball_2026_json
+95,Round of 16,2026-07-07,12:00 UTC-4,2026-07-07T16:00:00Z,,W86,W88,,,Atlanta,openfootball_2026_json
+96,Round of 16,2026-07-07,13:00 UTC-7,2026-07-07T20:00:00Z,,W85,W87,,,Vancouver,openfootball_2026_json
+97,Quarter-final,2026-07-09,16:00 UTC-4,2026-07-09T20:00:00Z,,W89,W90,,,Boston (Foxborough),openfootball_2026_json
+98,Quarter-final,2026-07-10,12:00 UTC-7,2026-07-10T19:00:00Z,,W93,W94,,,Los Angeles (Inglewood),openfootball_2026_json
+99,Quarter-final,2026-07-11,17:00 UTC-4,2026-07-11T21:00:00Z,,W91,W92,,,Miami (Miami Gardens),openfootball_2026_json
+100,Quarter-final,2026-07-11,20:00 UTC-5,2026-07-12T01:00:00Z,,W95,W96,,,Kansas City,openfootball_2026_json
+101,Semi-final,2026-07-14,14:00 UTC-5,2026-07-14T19:00:00Z,,W97,W98,,,Dallas (Arlington),openfootball_2026_json
+102,Semi-final,2026-07-15,15:00 UTC-4,2026-07-15T19:00:00Z,,W99,W100,,,Atlanta,openfootball_2026_json
+103,Match for third place,2026-07-18,17:00 UTC-4,2026-07-18T21:00:00Z,,L101,L102,,,Miami (Miami Gardens),openfootball_2026_json
+104,Final,2026-07-19,15:00 UTC-4,2026-07-19T19:00:00Z,,W101,W102,,,New York/New Jersey (East Rutherford),openfootball_2026_json

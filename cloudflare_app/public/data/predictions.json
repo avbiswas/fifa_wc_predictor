@@ -1,0 +1,3375 @@
+{
+  "predictions": [
+    {
+      "created_at": "2026-06-11T18:49:17.534230Z",
+      "key": "mexico vs south africa::openrouter/google/gemini-3-flash-preview",
+      "match": "Mexico vs South Africa",
+      "choices": [
+        "Mexico",
+        "South Africa",
+        "Draw"
+      ],
+      "model": "openrouter/google/gemini-3-flash-preview",
+      "prediction": "Mexico",
+      "scoreline": "Mexico 2-0 South Africa",
+      "players_to_watch": "Santiago Giménez (Mexico), Edson Álvarez (Mexico), Lyle Foster (South Africa), Ronwen Williams (South Africa)",
+      "confidence": 0.75,
+      "rationale": "Mexico has the home-field advantage of playing in Mexico City (altitude) and a superior squad depth with players active in top European leagues. South Africa is a cohesive unit but lacks the clinical finishing required to upset a host nation in a World Cup opener.",
+      "news_summary": "* **Injuries:** No current injury data available due to lack of news items.\n* **Tactical News:** No specific tactical shifts or lineup leaks reported.\n* **Form:** Recent form cannot be assessed without updated match data.\n* **Suspensions:** No active suspensions reported for this fixture.\n* **Uncertainty:** High; absence of news items prevents a detailed pre-match analysis.",
+      "polymarket_odds": [
+        {
+          "warning": "Polymarket lookup skipped by CLI flag."
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "mexico vs south africa",
+        "news_from_cache": false,
+        "polymarket_from_cache": false
+      }
+    },
+    {
+      "created_at": "2026-06-11T18:58:27.354338Z",
+      "key": "mexico vs south africa::openrouter/google/gemini-3-flash-preview",
+      "match": "Mexico vs South Africa",
+      "choices": [
+        "Mexico",
+        "South Africa",
+        "Draw"
+      ],
+      "model": "openrouter/google/gemini-3-flash-preview",
+      "prediction": "Mexico",
+      "scoreline": "Mexico 2-0 South Africa",
+      "players_to_watch": "Santiago Giménez (Mexico), Edson Álvarez (Mexico), Ronwen Williams (South Africa), Lyle Foster (South Africa)",
+      "confidence": 0.65,
+      "rationale": "Mexico has a significant home-field advantage playing at the Estadio Azteca and possesses a squad with more players competing in top European leagues compared to South Africa. While South Africa is defensively resilient, the altitude and the intensity of the home crowd in a World Cup opener are expected to tilt the result in Mexico's favor.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 3462,
+          "completion_tokens": 530,
+          "total_tokens": 3992,
+          "cost": 0.003321
+        },
+        "calls": [
+          {
+            "model": "openrouter/google/gemini-3-flash-preview",
+            "usage": {
+              "completion_tokens": 182,
+              "prompt_tokens": 245,
+              "total_tokens": 427,
+              "cost": 0.0006685
+            },
+            "cost": 0.0006685
+          },
+          {
+            "model": "openrouter/google/gemini-3-flash-preview",
+            "usage": {
+              "completion_tokens": 348,
+              "prompt_tokens": 3217,
+              "total_tokens": 3565,
+              "cost": 0.0026525
+            },
+            "cost": 0.0026525
+          }
+        ]
+      },
+      "news_summary": "* **Injuries:** No current injury data available due to lack of recent news items.\n* **Tactical News:** No specific tactical updates; both teams have different managerial styles since their last historical meeting.\n* **Form:** Mexico generally maintains a higher FIFA ranking; South Africa's form is dependent on recent AFCON/COSAFA performances.\n* **Suspensions:** No active suspensions reported for this fixture.\n* **Uncertainty:** High, as there is no confirmed date or squad list for this match.",
+      "polymarket_odds": [
+        {
+          "warning": "Polymarket lookup skipped by CLI flag."
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "mexico vs south africa",
+        "news_from_cache": false,
+        "polymarket_from_cache": false
+      }
+    },
+    {
+      "created_at": "2026-06-11T18:59:06.504626Z",
+      "key": "mexico vs south africa::openrouter/google/gemini-3-flash-preview",
+      "match": "Mexico vs South Africa",
+      "choices": [
+        "Mexico",
+        "South Africa",
+        "Draw"
+      ],
+      "model": "openrouter/google/gemini-3-flash-preview",
+      "prediction": "Mexico",
+      "scoreline": "Mexico 2-0 South Africa",
+      "players_to_watch": "Raul Jimenez (Mexico), Edson Alvarez (Mexico), Lyle Foster (South Africa), Ronwen Williams (South Africa)",
+      "confidence": 0.75,
+      "rationale": "Mexico has the home-field advantage of the Estadio Azteca and a significantly higher-rated squad in terms of individual quality and European experience. Polymarket odds reflect a high probability of a Mexico victory, and the historical trend of host nations in World Cup openers is very strong.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 4768,
+          "completion_tokens": 695,
+          "total_tokens": 5463,
+          "cost": 0.004469
+        },
+        "calls": [
+          {
+            "model": "openrouter/google/gemini-3-flash-preview",
+            "usage": {
+              "completion_tokens": 319,
+              "prompt_tokens": 770,
+              "total_tokens": 1089,
+              "cost": 0.001342
+            },
+            "cost": 0.001342
+          },
+          {
+            "model": "openrouter/google/gemini-3-flash-preview",
+            "usage": {
+              "completion_tokens": 376,
+              "prompt_tokens": 3998,
+              "total_tokens": 4374,
+              "cost": 0.003127
+            },
+            "cost": 0.003127
+          }
+        ]
+      },
+      "news_summary": "*   **Injuries:** Mexico's Santiago Gimenez is doubtful with an unspecified injury. South Africa's Aubrey Modiba is a doubt with a hamstring strain.\n*   **Tactical News:** Mexico is expected to start in a 4-3-3 formation featuring Raul Jimenez and Julian Quinones. South Africa is predicted to lead with Lyle Foster up front.\n*   **Form:** This is the opening match of the 2026 World Cup; historical context notes a 1-1 draw between these sides in the 2010 World Cup opener.\n*   **Suspensions:** No players are currently suspended for either side.\n*   **Uncertainty:** The severity of Gimenez's injury is unknown, which could impact Mexico's attacking depth if he is unable to feature from the bench.",
+      "polymarket_odds": [
+        {
+          "title": "Mexico vs. South Africa",
+          "slug": "fwc-mex-rsa-2026-06-11",
+          "markets": [
+            {
+              "question": "Will Mexico win against South Africa in the World Cup match scheduled for Jun 11, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.6900",
+                "0.7000"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-mex"
+            },
+            {
+              "question": "Will the World Cup match Mexico vs South Africa scheduled for Jun 11, 2026 end in a draw?",
+              "outcomes": [
+                "No",
+                "Yes"
+              ],
+              "outcome_prices": [
+                "0.2000",
+                "0.2100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-draw"
+            },
+            {
+              "question": "Will South Africa win against Mexico in the World Cup match scheduled for Jun 11, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.1000",
+                "0.1100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-rsa"
+            },
+            {
+              "question": "Will MEX vs RSA finish 0-0?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0600",
+                "0.9800"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-exact-score-0-0"
+            },
+            {
+              "question": "Will MEX vs RSA finish 0-2?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0200",
+                "0.0500"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-exact-score-0-2"
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "mexico vs south africa",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
+    },
+    {
+      "created_at": "2026-06-11T19:15:08.272900Z",
+      "key": "mexico vs south africa::openrouter/google/gemini-3.1-flash-lite",
+      "match": "Mexico vs South Africa",
+      "choices": [
+        "Mexico",
+        "South Africa",
+        "Draw"
+      ],
+      "model_alias": "gemini-3.1-flash-lite",
+      "model": "openrouter/google/gemini-3.1-flash-lite",
+      "prediction": "Mexico",
+      "scoreline": "Mexico 2-0 South Africa",
+      "players_to_watch": "Raul Jimenez (Mexico), Edson Alvarez (Mexico), Teboho Mokoena (South Africa), Lyle Foster (South Africa)",
+      "confidence": 0.75,
+      "rationale": "Mexico's home-field advantage in a World Cup opener is a decisive factor. Their squad features more players competing in top-tier European leagues compared to South Africa, and they are expected to control the game's tempo despite South Africa's organized midfield.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 4713,
+          "completion_tokens": 479,
+          "total_tokens": 5192,
+          "cost": 0.00189675
+        },
+        "calls": [
+          {
+            "model": "openrouter/google/gemini-3.1-flash-lite",
+            "usage": {
+              "completion_tokens": 225,
+              "prompt_tokens": 770,
+              "total_tokens": 995,
+              "cost": 0.00053
+            },
+            "cost": 0.00053
+          },
+          {
+            "model": "openrouter/google/gemini-3.1-flash-lite",
+            "usage": {
+              "completion_tokens": 254,
+              "prompt_tokens": 3943,
+              "total_tokens": 4197,
+              "cost": 0.00136675
+            },
+            "cost": 0.00136675
+          }
+        ]
+      },
+      "news_summary": "* **Injuries:** No confirmed long-term injuries for either side.\n* **Suspensions:** None.\n* **Uncertainty:** Mexico striker Santiago Gimenez is doubtful (unspecified); South Africa defender Aubrey Modiba is doubtful (hamstring).\n* **Tactical News:** Both teams are expected to field their strongest available XIs for the tournament opener. Mexico is expected to utilize a balanced 4-3-3 formation, while South Africa is likely to rely on a midfield trio of Mbatha, Sithole, and Mokoena to control the tempo.",
+      "polymarket_odds": [
+        {
+          "title": "Mexico vs. South Africa",
+          "slug": "fwc-mex-rsa-2026-06-11",
+          "markets": [
+            {
+              "question": "Will Mexico win against South Africa in the World Cup match scheduled for Jun 11, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.6900",
+                "0.7000"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-mex"
+            },
+            {
+              "question": "Will the World Cup match Mexico vs South Africa scheduled for Jun 11, 2026 end in a draw?",
+              "outcomes": [
+                "No",
+                "Yes"
+              ],
+              "outcome_prices": [
+                "0.2000",
+                "0.2100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-draw"
+            },
+            {
+              "question": "Will South Africa win against Mexico in the World Cup match scheduled for Jun 11, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.1000",
+                "0.1100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-rsa"
+            },
+            {
+              "question": "Will MEX vs RSA finish 0-0?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0600",
+                "0.9800"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-exact-score-0-0"
+            },
+            {
+              "question": "Will MEX vs RSA finish 0-2?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0200",
+                "0.0500"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-exact-score-0-2"
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "mexico vs south africa",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
+    },
+    {
+      "created_at": "2026-06-11T19:15:17.195067Z",
+      "key": "mexico vs south africa::openrouter/google/gemini-3-flash-preview",
+      "match": "Mexico vs South Africa",
+      "choices": [
+        "Mexico",
+        "South Africa",
+        "Draw"
+      ],
+      "model_alias": "gemini-3-flash",
+      "model": "openrouter/google/gemini-3-flash-preview",
+      "prediction": "Mexico",
+      "scoreline": "Mexico 2-0 South Africa",
+      "players_to_watch": "Raul Jimenez (Mexico), Edson Alvarez (Mexico), Lyle Foster (South Africa), Ronwen Williams (South Africa)",
+      "confidence": 0.75,
+      "rationale": "Mexico has a massive home-field advantage as co-hosts and a superior squad depth compared to South Africa. The Polymarket odds reflect a strong market consensus for a Mexico victory, and the historical difficulty for visiting teams playing in Mexico City (altitude and atmosphere) further supports this outcome.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 4776,
+          "completion_tokens": 632,
+          "total_tokens": 5408,
+          "cost": 0.004284
+        },
+        "calls": [
+          {
+            "model": "openrouter/google/gemini-3-flash-preview",
+            "usage": {
+              "completion_tokens": 329,
+              "prompt_tokens": 770,
+              "total_tokens": 1099,
+              "cost": 0.001372
+            },
+            "cost": 0.001372
+          },
+          {
+            "model": "openrouter/google/gemini-3-flash-preview",
+            "usage": {
+              "completion_tokens": 303,
+              "prompt_tokens": 4006,
+              "total_tokens": 4309,
+              "cost": 0.002912
+            },
+            "cost": 0.002912
+          }
+        ]
+      },
+      "news_summary": "*   **Injuries/Doubtful:** Mexico's Santiago Gimenez is a major doubt with an unspecified injury. South Africa's Aubrey Modiba is doubtful with a hamstring strain.\n*   **Suspensions:** No suspensions reported for either side.\n*   **Tactical News:** Mexico is predicted to start with a 4-3-3 formation featuring veteran Guillermo Ochoa in goal and Raul Jimenez leading the line. South Africa is expected to utilize a 4-3-3 with Lyle Foster as the primary attacking threat.\n*   **Form/Context:** This is the opening match of Group A for the 2026 World Cup. Mexico has home-field advantage as co-hosts.\n*   **Uncertainty:** The severity of Gimenez's injury is unknown, which could significantly impact Mexico's finishing capabilities if he is unavailable.",
+      "polymarket_odds": [
+        {
+          "title": "Mexico vs. South Africa",
+          "slug": "fwc-mex-rsa-2026-06-11",
+          "markets": [
+            {
+              "question": "Will Mexico win against South Africa in the World Cup match scheduled for Jun 11, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.6900",
+                "0.7000"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-mex"
+            },
+            {
+              "question": "Will the World Cup match Mexico vs South Africa scheduled for Jun 11, 2026 end in a draw?",
+              "outcomes": [
+                "No",
+                "Yes"
+              ],
+              "outcome_prices": [
+                "0.2000",
+                "0.2100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-draw"
+            },
+            {
+              "question": "Will South Africa win against Mexico in the World Cup match scheduled for Jun 11, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.1000",
+                "0.1100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-rsa"
+            },
+            {
+              "question": "Will MEX vs RSA finish 0-0?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0600",
+                "0.9800"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-exact-score-0-0"
+            },
+            {
+              "question": "Will MEX vs RSA finish 0-2?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0200",
+                "0.0500"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-exact-score-0-2"
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "mexico vs south africa",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
+    },
+    {
+      "created_at": "2026-06-11T19:15:41.087713Z",
+      "key": "mexico vs south africa::openrouter/~google/gemini-pro-latest",
+      "match": "Mexico vs South Africa",
+      "choices": [
+        "Mexico",
+        "South Africa",
+        "Draw"
+      ],
+      "model_alias": "gemini-3.5-pro",
+      "model": "openrouter/~google/gemini-pro-latest",
+      "prediction": "Mexico",
+      "scoreline": "Mexico 2-0 South Africa",
+      "players_to_watch": "Raul Jimenez (Mexico), Edson Alvarez (Mexico), Lyle Foster (South Africa), Teboho Mokoena (South Africa)",
+      "confidence": 0.69,
+      "rationale": "Mexico benefits from a significant home-field and altitude advantage in Mexico City. Betting markets strongly favor them (69% implied probability), and their squad possesses greater top-flight European experience compared to South Africa's largely domestic-based roster.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 4788,
+          "completion_tokens": 1571,
+          "total_tokens": 6359,
+          "cost": 0.028428
+        },
+        "calls": [
+          {
+            "model": "openrouter/~google/gemini-pro-latest",
+            "usage": {
+              "completion_tokens": 612,
+              "prompt_tokens": 770,
+              "total_tokens": 1382,
+              "cost": 0.008884
+            },
+            "cost": null
+          },
+          {
+            "model": "openrouter/~google/gemini-pro-latest",
+            "usage": {
+              "completion_tokens": 959,
+              "prompt_tokens": 4018,
+              "total_tokens": 4977,
+              "cost": 0.019544
+            },
+            "cost": null
+          }
+        ]
+      },
+      "news_summary": "**Mexico:**\n*   **Injuries/Doubts:** Striker Santiago Gimenez is listed as doubtful with an unspecified issue. No players are officially ruled out.\n*   **Suspensions:** None reported.\n*   **Predicted XI:** Ochoa; Sanchez, Montes, Alvarez, Gallardo; Gutierrez, Fidalgo, Pineda; Alvarado, Jimenez, Quinones.\n\n**South Africa:**\n*   **Injuries/Doubts:** Aubrey Modiba is doubtful due to a hamstring injury. No players are officially ruled out.\n*   **Suspensions:** None reported.\n*   **Predicted XI:** Williams; Mudau, Mbokazi, Okon, Modiba; Mbatha, Sithole, Mokoena; Appollis, Foster, Moremi.\n\n**Match Context:**\n*   This is the opening fixture of the 2026 World Cup (Group A), hosted at the Mexico City Stadium.",
+      "polymarket_odds": [
+        {
+          "title": "Mexico vs. South Africa",
+          "slug": "fwc-mex-rsa-2026-06-11",
+          "markets": [
+            {
+              "question": "Will Mexico win against South Africa in the World Cup match scheduled for Jun 11, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.6900",
+                "0.7000"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-mex"
+            },
+            {
+              "question": "Will the World Cup match Mexico vs South Africa scheduled for Jun 11, 2026 end in a draw?",
+              "outcomes": [
+                "No",
+                "Yes"
+              ],
+              "outcome_prices": [
+                "0.2000",
+                "0.2100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-draw"
+            },
+            {
+              "question": "Will South Africa win against Mexico in the World Cup match scheduled for Jun 11, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.1000",
+                "0.1100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-rsa"
+            },
+            {
+              "question": "Will MEX vs RSA finish 0-0?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0600",
+                "0.9800"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-exact-score-0-0"
+            },
+            {
+              "question": "Will MEX vs RSA finish 0-2?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0200",
+                "0.0500"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-exact-score-0-2"
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "mexico vs south africa",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
+    },
+    {
+      "created_at": "2026-06-11T19:16:17.895352Z",
+      "key": "mexico vs south africa::openrouter/~anthropic/claude-sonnet-latest",
+      "match": "Mexico vs South Africa",
+      "choices": [
+        "Mexico",
+        "South Africa",
+        "Draw"
+      ],
+      "model_alias": "claude-sonnet-4.7",
+      "model": "openrouter/~anthropic/claude-sonnet-latest",
+      "prediction": "Mexico",
+      "scoreline": "Mexico 2-0 South Africa",
+      "players_to_watch": "Raul Jimenez (Mexico), Edson Alvarez (Mexico), Orbelin Pineda (Mexico), Lyle Foster (South Africa), Teboho Mokoena (South Africa), Themba Zwane (South Africa)",
+      "confidence": 0.65,
+      "rationale": "Mexico holds a commanding home advantage playing in Mexico City as a co-host, with a significantly more experienced squad featuring multiple European-based players (Jimenez 126 caps/45 goals, Alvarez 99 caps, Ochoa 153 caps). Polymarket implies ~69% win probability for Mexico. Even with Gimenez doubtful, Raul Jimenez provides proven World Cup-level attacking quality. South Africa's squad is predominantly domestic-league based, though Foster (Burnley) and Mokoena provide quality. The 2010 draw was on South African soil; Mexico's home crowd and superior depth should be decisive in a 2-0 victory.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 5345,
+          "completion_tokens": 1396,
+          "total_tokens": 6741,
+          "cost": 0.036975
+        },
+        "calls": [
+          {
+            "model": "openrouter/~anthropic/claude-sonnet-latest",
+            "usage": {
+              "completion_tokens": 537,
+              "prompt_tokens": 852,
+              "total_tokens": 1389,
+              "cost": 0.010611
+            },
+            "cost": null
+          },
+          {
+            "model": "openrouter/~anthropic/claude-sonnet-latest",
+            "usage": {
+              "completion_tokens": 859,
+              "prompt_tokens": 4493,
+              "total_tokens": 5352,
+              "cost": 0.026364
+            },
+            "cost": null
+          }
+        ]
+      },
+      "news_summary": "**Mexico vs. South Africa – World Cup 2026 Group A, Matchday 1**\n\n**Mexico:**\n- No players confirmed out\n- ⚠️ Santiago Gimenez (striker) – **doubtful** with an unspecified issue; key attacking threat potentially missing\n- Predicted XI: Ochoa; Sanchez, Montes, Alvarez, Gallardo; Gutierrez, Fidalgo, Pineda; Alvarado, Jimenez, Quinones\n- Playing as co-hosts at Mexico City Stadium – strong home advantage expected\n\n**South Africa:**\n- No players confirmed out\n- ⚠️ Aubrey Modiba (left back) – **doubtful** with a hamstring injury\n- Predicted XI still includes Modiba, suggesting he may be close to fit\n- Predicted XI: Williams; Mudau, Mbokazi, Okon, Modiba; Mbatha, Sithole, Mokoena; Appollis, Foster, Moremi\n\n**Context:**\n- Teams last met in a 1-1 draw at the 2010 World Cup group stage\n- Mexico's biggest uncertainty is Gimenez's fitness; if absent, attacking output may be reduced\n- South Africa's defensive shape could be disrupted if Modiba misses out",
+      "polymarket_odds": [
+        {
+          "title": "Mexico vs. South Africa",
+          "slug": "fwc-mex-rsa-2026-06-11",
+          "markets": [
+            {
+              "question": "Will Mexico win against South Africa in the World Cup match scheduled for Jun 11, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.6900",
+                "0.7000"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-mex"
+            },
+            {
+              "question": "Will the World Cup match Mexico vs South Africa scheduled for Jun 11, 2026 end in a draw?",
+              "outcomes": [
+                "No",
+                "Yes"
+              ],
+              "outcome_prices": [
+                "0.2000",
+                "0.2100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-draw"
+            },
+            {
+              "question": "Will South Africa win against Mexico in the World Cup match scheduled for Jun 11, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.1000",
+                "0.1100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-rsa"
+            },
+            {
+              "question": "Will MEX vs RSA finish 0-0?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0600",
+                "0.9800"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-exact-score-0-0"
+            },
+            {
+              "question": "Will MEX vs RSA finish 0-2?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0200",
+                "0.0500"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-exact-score-0-2"
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "mexico vs south africa",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
+    },
+    {
+      "created_at": "2026-06-11T19:16:53.265044Z",
+      "key": "mexico vs south africa::openrouter/deepseek/deepseek-v4-pro",
+      "match": "Mexico vs South Africa",
+      "choices": [
+        "Mexico",
+        "South Africa",
+        "Draw"
+      ],
+      "model_alias": "deepseek-v4-pro",
+      "model": "openrouter/deepseek/deepseek-v4-pro",
+      "prediction": "Mexico",
+      "scoreline": "Mexico 2-0 South Africa",
+      "players_to_watch": "Raúl Jiménez, Edson Álvarez, Lyle Foster, Ronwen Williams",
+      "confidence": 0.75,
+      "rationale": "Mexico is heavily favored in the match odds (69% implied win probability) and enjoys home advantage in the World Cup opener. The squad has superior experience across top European leagues and domestically, while South Africa’s mostly domestic-based lineup lacks the same depth. Doubtful injuries to Santiago Giménez (Mexico) and Aubrey Modiba (South Africa) slightly affect both sides, but Mexico’s alternatives are stronger. With no recent form data, the prediction relies on squad quality and market sentiment.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 4453,
+          "completion_tokens": 2012,
+          "total_tokens": 6465,
+          "cost": 0.0135632
+        },
+        "calls": [
+          {
+            "model": "openrouter/deepseek/deepseek-v4-pro",
+            "usage": {
+              "completion_tokens": 535,
+              "prompt_tokens": 708,
+              "total_tokens": 1243,
+              "cost": 0.0028448
+            },
+            "cost": null
+          },
+          {
+            "model": "openrouter/deepseek/deepseek-v4-pro",
+            "usage": {
+              "completion_tokens": 1477,
+              "prompt_tokens": 3745,
+              "total_tokens": 5222,
+              "cost": 0.0107184
+            },
+            "cost": null
+          }
+        ]
+      },
+      "news_summary": "- No suspensions for either team.\n- Mexico: Doubtful - Santiago Gimenez (unspecified injury); otherwise full squad available.\n- South Africa: Doubtful - Aubrey Modiba (hamstring); otherwise full squad available.\n- No tactical or form news reported; match is opening game of World Cup 2026, so prior form data limited.",
+      "polymarket_odds": [
+        {
+          "title": "Mexico vs. South Africa",
+          "slug": "fwc-mex-rsa-2026-06-11",
+          "markets": [
+            {
+              "question": "Will Mexico win against South Africa in the World Cup match scheduled for Jun 11, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.6900",
+                "0.7000"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-mex"
+            },
+            {
+              "question": "Will the World Cup match Mexico vs South Africa scheduled for Jun 11, 2026 end in a draw?",
+              "outcomes": [
+                "No",
+                "Yes"
+              ],
+              "outcome_prices": [
+                "0.2000",
+                "0.2100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-draw"
+            },
+            {
+              "question": "Will South Africa win against Mexico in the World Cup match scheduled for Jun 11, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.1000",
+                "0.1100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-rsa"
+            },
+            {
+              "question": "Will MEX vs RSA finish 0-0?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0600",
+                "0.9800"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-exact-score-0-0"
+            },
+            {
+              "question": "Will MEX vs RSA finish 0-2?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0200",
+                "0.0500"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-exact-score-0-2"
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "mexico vs south africa",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
+    },
+    {
+      "created_at": "2026-06-11T19:17:38.637566Z",
+      "key": "mexico vs south africa::openrouter/minimax/minimax-m3",
+      "match": "Mexico vs South Africa",
+      "choices": [
+        "Mexico",
+        "South Africa",
+        "Draw"
+      ],
+      "model_alias": "minimax-m3",
+      "model": "openrouter/minimax/minimax-m3",
+      "prediction": "Mexico",
+      "scoreline": "Mexico 2-1 South Africa",
+      "players_to_watch": "Raúl Jiménez (Mexico, FW/Fulham), Guillermo Ochoa (Mexico, GK), Santiago Giménez (Mexico, FW/AC Milan, if fit), Edson Álvarez (Mexico, DF/Fenerbahçe), Lyle Foster (South Africa, FW/Burnley), Teboho Mokoena (South Africa, MF/Mamelodi Sundowns), Relebohile Mofokeng (South Africa, FW/Orlando Pirates)",
+      "confidence": 0.68,
+      "rationale": "Mexico's home advantage at altitude in Mexico City, combined with a noticeably deeper and more experienced squad featuring many European-based starters, makes them clear favorites in this Group A opener. The Polymarket market agrees (~69% Mexico win). However, opening-match tension, South Africa's physicality and tournament pedigree, and Giménez's doubtful status prevent a higher confidence. A narrow 2-1 Mexico win reflects expected Mexican superiority with realistic South African resistance — the 2010 precedent also ended 1-1, suggesting Bafana Bafana can trouble Mexico if not entirely shut down.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 4708,
+          "completion_tokens": 2016,
+          "total_tokens": 6724,
+          "cost": 0.0037768800000000003
+        },
+        "calls": [
+          {
+            "model": "openrouter/minimax/minimax-m3",
+            "usage": {
+              "completion_tokens": 602,
+              "prompt_tokens": 850,
+              "total_tokens": 1452,
+              "cost": 0.00095004
+            },
+            "cost": null
+          },
+          {
+            "model": "openrouter/minimax/minimax-m3",
+            "usage": {
+              "completion_tokens": 1414,
+              "prompt_tokens": 3858,
+              "total_tokens": 5272,
+              "cost": 0.00282684
+            },
+            "cost": null
+          }
+        ]
+      },
+      "news_summary": "- **Match Context**: Mexico vs South Africa, 2026 World Cup Group A opener at Mexico City Stadium (co-hosts Mexico).\n- **Historical Note**: Last meeting ended 1-1 (2010 World Cup opener in Johannesburg).\n- **Mexico Injuries/Suspensions**: No players ruled out. Santiago Gimenez is doubtful (unspecified issue).\n- **Mexico Predicted XI**: Ochoa; Sanchez, Montes, Alvarez, Gallardo; Gutierrez, Fidalgo, Pineda; Alvarado, Jimenez, Quinones.\n- **South Africa Injuries/Suspensions**: No players ruled out. Aubrey Modiba is doubtful (hamstring).\n- **South Africa Predicted XI**: Williams; Mudau, Mbokazi, Okon, Modiba; Mbatha, Sithole, Mokoena; Appollis, Foster, Moremi.\n- **Form/Tactical Info**: No detailed form or tactical analysis available from the source.\n- **Uncertainty**: Only one source available; limited information on recent form, head-to-head beyond 2010, and tactical setups. Doubtful players' availability is uncertain.",
+      "polymarket_odds": [
+        {
+          "title": "Mexico vs. South Africa",
+          "slug": "fwc-mex-rsa-2026-06-11",
+          "markets": [
+            {
+              "question": "Will Mexico win against South Africa in the World Cup match scheduled for Jun 11, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.6900",
+                "0.7000"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-mex"
+            },
+            {
+              "question": "Will the World Cup match Mexico vs South Africa scheduled for Jun 11, 2026 end in a draw?",
+              "outcomes": [
+                "No",
+                "Yes"
+              ],
+              "outcome_prices": [
+                "0.2000",
+                "0.2100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-draw"
+            },
+            {
+              "question": "Will South Africa win against Mexico in the World Cup match scheduled for Jun 11, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.1000",
+                "0.1100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-rsa"
+            },
+            {
+              "question": "Will MEX vs RSA finish 0-0?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0600",
+                "0.9800"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-exact-score-0-0"
+            },
+            {
+              "question": "Will MEX vs RSA finish 0-2?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0200",
+                "0.0500"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-exact-score-0-2"
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "mexico vs south africa",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
+    },
+    {
+      "created_at": "2026-06-11T19:18:16.822991Z",
+      "key": "mexico vs south africa::openrouter/z-ai/glm-5.1",
+      "match": "Mexico vs South Africa",
+      "choices": [
+        "Mexico",
+        "South Africa",
+        "Draw"
+      ],
+      "model_alias": "glm-5.1",
+      "model": "openrouter/z-ai/glm-5.1",
+      "prediction": "Mexico",
+      "scoreline": "Mexico 2-0 South Africa",
+      "players_to_watch": "Raúl Jiménez (Mexico), Edson Álvarez (Mexico), Luis Chávez (Mexico), Lyle Foster (South Africa), Teboho Mokoena (South Africa), Ronwen Williams (South Africa)",
+      "confidence": 0.67,
+      "rationale": "Mexico holds significant advantages: home co-host status in Mexico City's altitude, more European-based players, and vastly more international experience (Ochoa 153 caps, Jiménez 126 caps vs South Africa's Mokoena 57 caps). South Africa's squad is largely domestic-based, which may struggle with the altitude and quality gap. Market odds (~69% Mexico) align with this assessment. The main risk is World Cup opener tension potentially leading to a cagey draw, but Mexico's home advantage should prove decisive.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 4430,
+          "completion_tokens": 1897,
+          "total_tokens": 6327,
+          "cost": 0.014534579999999998
+        },
+        "calls": [
+          {
+            "model": "openrouter/z-ai/glm-5.1",
+            "usage": {
+              "completion_tokens": 798,
+              "prompt_tokens": 711,
+              "total_tokens": 1509,
+              "cost": 0.00449238
+            },
+            "cost": null
+          },
+          {
+            "model": "openrouter/z-ai/glm-5.1",
+            "usage": {
+              "completion_tokens": 1099,
+              "prompt_tokens": 3719,
+              "total_tokens": 4818,
+              "cost": 0.0100422
+            },
+            "cost": null
+          }
+        ]
+      },
+      "news_summary": "- **Injuries/Suspensions:** \n  - Mexico: No confirmed outs; Santiago Gimenez is doubtful (unspecified).\n  - South Africa: No confirmed outs; Aubrey Modiba is doubtful (hamstring).\n- **Tactical/Predicted XIs:**\n  - Mexico: Ochoa; Sanchez, Montes, Alvarez, Gallardo; Gutierrez, Fidalgo, Pineda; Alvarado, Jimenez, Quinones.\n  - South Africa: Williams; Mudau, Mbokazi, Okon, Modiba; Mbatha, Sithole, Mokoena; Appollis, Foster, Moremi.\n- **Context:** 2026 World Cup opener (Group A); Mexico is co-host. First meeting since 1-1 draw in 2010 World Cup opener.",
+      "polymarket_odds": [
+        {
+          "title": "Mexico vs. South Africa",
+          "slug": "fwc-mex-rsa-2026-06-11",
+          "markets": [
+            {
+              "question": "Will Mexico win against South Africa in the World Cup match scheduled for Jun 11, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.6900",
+                "0.7000"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-mex"
+            },
+            {
+              "question": "Will the World Cup match Mexico vs South Africa scheduled for Jun 11, 2026 end in a draw?",
+              "outcomes": [
+                "No",
+                "Yes"
+              ],
+              "outcome_prices": [
+                "0.2000",
+                "0.2100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-draw"
+            },
+            {
+              "question": "Will South Africa win against Mexico in the World Cup match scheduled for Jun 11, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.1000",
+                "0.1100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-rsa"
+            },
+            {
+              "question": "Will MEX vs RSA finish 0-0?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0600",
+                "0.9800"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-exact-score-0-0"
+            },
+            {
+              "question": "Will MEX vs RSA finish 0-2?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0200",
+                "0.0500"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-exact-score-0-2"
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "mexico vs south africa",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
+    },
+    {
+      "created_at": "2026-06-11T19:18:56.234756Z",
+      "key": "mexico vs south africa::openrouter/qwen/qwen3.7-max",
+      "match": "Mexico vs South Africa",
+      "choices": [
+        "Mexico",
+        "South Africa",
+        "Draw"
+      ],
+      "model_alias": "qwen-3.7-max",
+      "model": "openrouter/qwen/qwen3.7-max",
+      "prediction": "Mexico",
+      "scoreline": "Mexico 2-0 South Africa",
+      "players_to_watch": "Raúl Jiménez (Mexico), Edson Álvarez (Mexico), Lyle Foster (South Africa), Teboho Mokoena (South Africa)",
+      "confidence": 0.75,
+      "rationale": "Mexico benefits from a massive home advantage in Mexico City and possesses a squad with far more top-tier European experience compared to South Africa's predominantly domestic-based lineup. The betting markets heavily favor Mexico (approx. 70% win probability), and their midfield control and attacking depth should be enough to neutralize South Africa's counter-attacks and secure a comfortable opening match victory.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 4739,
+          "completion_tokens": 1995,
+          "total_tokens": 6734,
+          "cost": 0.013405
+        },
+        "calls": [
+          {
+            "model": "openrouter/qwen/qwen3.7-max",
+            "usage": {
+              "completion_tokens": 1235,
+              "prompt_tokens": 767,
+              "total_tokens": 2002,
+              "cost": 0.00559
+            },
+            "cost": null
+          },
+          {
+            "model": "openrouter/qwen/qwen3.7-max",
+            "usage": {
+              "completion_tokens": 760,
+              "prompt_tokens": 3972,
+              "total_tokens": 4732,
+              "cost": 0.007815
+            },
+            "cost": null
+          }
+        ]
+      },
+      "news_summary": "- **Injuries & Suspensions**: No confirmed absences for either side. Mexico's Santiago Gimenez (unspecified) and South Africa's Aubrey Modiba (hamstring) are listed as doubtful.\n- **Tactical News**: Mexico's predicted XI features Ochoa in goal, with Montes and Gallardo in defense. South Africa's expected lineup includes Williams, Mokoena, and Foster.\n- **Context**: Co-hosts Mexico have the home advantage at Mexico City Stadium. The teams last met in the opening game of the 2010 World Cup, which ended in a 1-1 draw.\n- **Uncertainty**: The availability of key doubtful players Gimenez and Modiba remains unresolved pending late fitness assessments.",
+      "polymarket_odds": [
+        {
+          "title": "Mexico vs. South Africa",
+          "slug": "fwc-mex-rsa-2026-06-11",
+          "markets": [
+            {
+              "question": "Will Mexico win against South Africa in the World Cup match scheduled for Jun 11, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.6900",
+                "0.7000"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-mex"
+            },
+            {
+              "question": "Will the World Cup match Mexico vs South Africa scheduled for Jun 11, 2026 end in a draw?",
+              "outcomes": [
+                "No",
+                "Yes"
+              ],
+              "outcome_prices": [
+                "0.2000",
+                "0.2100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-draw"
+            },
+            {
+              "question": "Will South Africa win against Mexico in the World Cup match scheduled for Jun 11, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.1000",
+                "0.1100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-rsa"
+            },
+            {
+              "question": "Will MEX vs RSA finish 0-0?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0600",
+                "0.9800"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-exact-score-0-0"
+            },
+            {
+              "question": "Will MEX vs RSA finish 0-2?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0200",
+                "0.0500"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-exact-score-0-2"
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "mexico vs south africa",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
+    },
+    {
+      "created_at": "2026-06-11T19:19:35.601034Z",
+      "key": "mexico vs south africa::openrouter/openai/gpt-5.5",
+      "match": "Mexico vs South Africa",
+      "choices": [
+        "Mexico",
+        "South Africa",
+        "Draw"
+      ],
+      "model_alias": "gpt-5.5",
+      "model": "openrouter/openai/gpt-5.5",
+      "prediction": "Mexico",
+      "scoreline": "Mexico 2-0 South Africa",
+      "players_to_watch": "Raul Jimenez (Mexico), Edson Alvarez (Mexico), Orbelin Pineda (Mexico), Julian Quinones (Mexico), Lyle Foster (South Africa), Teboho Mokoena (South Africa), Ronwen Williams (South Africa)",
+      "confidence": 0.67,
+      "rationale": "Mexico have home advantage in Mexico City, the stronger and more experienced squad, and market odds heavily favor them. South Africa have enough attacking quality to make it competitive, but Mexico’s depth and conditions should be decisive.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 4390,
+          "completion_tokens": 822,
+          "total_tokens": 5212,
+          "cost": 0.04661
+        },
+        "calls": [
+          {
+            "model": "openrouter/openai/gpt-5.5",
+            "usage": {
+              "completion_tokens": 392,
+              "prompt_tokens": 698,
+              "total_tokens": 1090,
+              "cost": 0.01525
+            },
+            "cost": null
+          },
+          {
+            "model": "openrouter/openai/gpt-5.5",
+            "usage": {
+              "completion_tokens": 430,
+              "prompt_tokens": 3692,
+              "total_tokens": 4122,
+              "cost": 0.03136
+            },
+            "cost": null
+          }
+        ]
+      },
+      "news_summary": "- **Mexico team news:** No confirmed injuries or suspensions.\n- **Mexico doubt:** Santiago Gimenez is listed as doubtful with an unspecified issue; Raul Jimenez is predicted to start at striker.\n- **South Africa team news:** No confirmed absences or suspensions.\n- **South Africa doubt:** Aubrey Modiba is doubtful with a hamstring issue, though he appears in the predicted XI.\n- **Predicted Mexico XI:** Ochoa; Sanchez, Montes, Alvarez, Gallardo; Gutierrez, Fidalgo, Pineda; Alvarado, Jimenez, Quinones.\n- **Predicted South Africa XI:** Williams; Mudau, Mbokazi, Okon, Modiba; Mbatha, Sithole, Mokoena; Appollis, Foster, Moremi.\n- **Context/form:** Match is the opening Group A fixture at Mexico City Stadium; no recent form information provided in the supplied news.\n- **Uncertainty:** Fitness of Gimenez and Modiba is the key pre-match uncertainty.",
+      "polymarket_odds": [
+        {
+          "title": "Mexico vs. South Africa",
+          "slug": "fwc-mex-rsa-2026-06-11",
+          "markets": [
+            {
+              "question": "Will Mexico win against South Africa in the World Cup match scheduled for Jun 11, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.6900",
+                "0.7000"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-mex"
+            },
+            {
+              "question": "Will the World Cup match Mexico vs South Africa scheduled for Jun 11, 2026 end in a draw?",
+              "outcomes": [
+                "No",
+                "Yes"
+              ],
+              "outcome_prices": [
+                "0.2000",
+                "0.2100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-draw"
+            },
+            {
+              "question": "Will South Africa win against Mexico in the World Cup match scheduled for Jun 11, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.1000",
+                "0.1100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-rsa"
+            },
+            {
+              "question": "Will MEX vs RSA finish 0-0?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0600",
+                "0.9800"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-exact-score-0-0"
+            },
+            {
+              "question": "Will MEX vs RSA finish 0-2?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0200",
+                "0.0500"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-exact-score-0-2"
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "mexico vs south africa",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
+    },
+    {
+      "created_at": "2026-06-11T19:19:48.321886Z",
+      "key": "mexico vs south africa::openrouter/openai/gpt-5.4-mini",
+      "match": "Mexico vs South Africa",
+      "choices": [
+        "Mexico",
+        "South Africa",
+        "Draw"
+      ],
+      "model_alias": "gpt-5.4-mini",
+      "model": "openrouter/openai/gpt-5.4-mini",
+      "prediction": "Mexico",
+      "scoreline": "Mexico 2-1 South Africa",
+      "players_to_watch": "Raúl Jiménez (Mexico), Orbelín Pineda (Mexico), Edson Álvarez (Mexico), Ronwen Williams (South Africa), Teboho Mokoena (South Africa), Lyle Foster (South Africa)",
+      "confidence": 0.69,
+      "rationale": "Mexico are favored by the available odds and squad strength, plus they play at home. South Africa have some quality, but Mexico’s depth and attacking options should edge it. A 2-1 result fits a competitive opener with Mexico controlling more of the decisive moments.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 4261,
+          "completion_tokens": 467,
+          "total_tokens": 4728,
+          "cost": 0.00529725
+        },
+        "calls": [
+          {
+            "model": "openrouter/openai/gpt-5.4-mini",
+            "usage": {
+              "completion_tokens": 208,
+              "prompt_tokens": 698,
+              "total_tokens": 906,
+              "cost": 0.0014595
+            },
+            "cost": null
+          },
+          {
+            "model": "openrouter/openai/gpt-5.4-mini",
+            "usage": {
+              "completion_tokens": 259,
+              "prompt_tokens": 3563,
+              "total_tokens": 3822,
+              "cost": 0.00383775
+            },
+            "cost": null
+          }
+        ]
+      },
+      "news_summary": "- Mexico: no confirmed absences; Santiago Gimenez is doubtful with an unspecified issue.\n- South Africa: no confirmed absences; Aubrey Modiba is doubtful with a hamstring problem.\n- No suspensions reported for either side.\n- Predicted Mexico XI suggests a full-strength, attack-minded lineup.\n- South Africa’s projected XI includes Modiba despite his doubt, so left-side uncertainty remains.",
+      "polymarket_odds": [
+        {
+          "title": "Mexico vs. South Africa",
+          "slug": "fwc-mex-rsa-2026-06-11",
+          "markets": [
+            {
+              "question": "Will Mexico win against South Africa in the World Cup match scheduled for Jun 11, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.6900",
+                "0.7000"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-mex"
+            },
+            {
+              "question": "Will the World Cup match Mexico vs South Africa scheduled for Jun 11, 2026 end in a draw?",
+              "outcomes": [
+                "No",
+                "Yes"
+              ],
+              "outcome_prices": [
+                "0.2000",
+                "0.2100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-draw"
+            },
+            {
+              "question": "Will South Africa win against Mexico in the World Cup match scheduled for Jun 11, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.1000",
+                "0.1100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-rsa"
+            },
+            {
+              "question": "Will MEX vs RSA finish 0-0?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0600",
+                "0.9800"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-exact-score-0-0"
+            },
+            {
+              "question": "Will MEX vs RSA finish 0-2?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0200",
+                "0.0500"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-exact-score-0-2"
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "mexico vs south africa",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
+    },
+    {
+      "created_at": "2026-06-11T19:50:10.382631Z",
+      "key": "mexico vs south africa::openrouter/anthropic/claude-haiku-4.5",
+      "match": "Mexico vs South Africa",
+      "choices": [
+        "Mexico",
+        "South Africa",
+        "Draw"
+      ],
+      "model_alias": "claude-haiku-4.5",
+      "model": "openrouter/anthropic/claude-haiku-4.5",
+      "prediction": "Mexico",
+      "scoreline": "Mexico 2-0 South Africa",
+      "players_to_watch": "Raúl Jiménez (Mexico), Santiago Giménez (Mexico), Orbelín Pineda (Mexico), Lyle Foster (South Africa), Themba Zwane (South Africa), Teboho Mokoena (South Africa)",
+      "confidence": 0.72,
+      "rationale": "Mexico's superior squad depth, home advantage in Mexico City, and significantly more experienced players across all positions create a clear advantage. Raúl Jiménez's proven goal-scoring ability at the highest level, combined with Mexico's multiple attacking options, should overcome South Africa's defensive organization. While South Africa can be competitive, Mexico's quality gap and home support make a Mexico victory the most likely outcome. The 2-0 scoreline reflects Mexico's dominance without excessive optimism, accounting for South Africa's defensive resilience and the possibility of a tighter contest.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 6159,
+          "completion_tokens": 1334,
+          "total_tokens": 7493,
+          "cost": 0.012829
+        },
+        "calls": [
+          {
+            "model": "openrouter/anthropic/claude-haiku-4.5",
+            "usage": {
+              "completion_tokens": 393,
+              "prompt_tokens": 851,
+              "total_tokens": 1244,
+              "cost": 0.002816
+            },
+            "cost": 0.002816
+          },
+          {
+            "model": "openrouter/anthropic/claude-haiku-4.5",
+            "usage": {
+              "completion_tokens": 239,
+              "prompt_tokens": 1030,
+              "total_tokens": 1269,
+              "cost": 0.002225
+            },
+            "cost": 0.002225
+          },
+          {
+            "model": "openrouter/anthropic/claude-haiku-4.5",
+            "usage": {
+              "completion_tokens": 702,
+              "prompt_tokens": 4278,
+              "total_tokens": 4980,
+              "cost": 0.007788
+            },
+            "cost": 0.007788
+          }
+        ]
+      },
+      "news_summary": "• Mexico: No confirmed absences; Santiago Gimenez doubtful (unspecified injury)\n• South Africa: No confirmed absences; Aubrey Modiba doubtful (hamstring)\n• No suspensions reported for either team\n• First meeting since 2010 World Cup (1-1 draw)\n• Mexico playing at home in Mexico City Stadium\n• Both teams appear to have relatively full squads available",
+      "polymarket_odds": [
+        {
+          "title": "Mexico vs. South Africa",
+          "slug": "fwc-mex-rsa-2026-06-11",
+          "markets": [
+            {
+              "question": "Will Mexico win against South Africa in the World Cup match scheduled for Jun 11, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.6900",
+                "0.7000"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-mex"
+            },
+            {
+              "question": "Will the World Cup match Mexico vs South Africa scheduled for Jun 11, 2026 end in a draw?",
+              "outcomes": [
+                "No",
+                "Yes"
+              ],
+              "outcome_prices": [
+                "0.2000",
+                "0.2100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-draw"
+            },
+            {
+              "question": "Will South Africa win against Mexico in the World Cup match scheduled for Jun 11, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.1000",
+                "0.1100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-rsa"
+            },
+            {
+              "question": "Will MEX vs RSA finish 0-0?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0600",
+                "0.9800"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-exact-score-0-0"
+            },
+            {
+              "question": "Will MEX vs RSA finish 0-2?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0200",
+                "0.0500"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-exact-score-0-2"
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "mexico vs south africa",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
+    },
+    {
+      "created_at": "2026-06-11T19:51:58.030439Z",
+      "key": "mexico vs south africa::openrouter/openai/gpt-5.4-nano",
+      "match_id": 1,
+      "match": "Mexico vs South Africa",
+      "choices": [
+        "Mexico",
+        "South Africa",
+        "Draw"
+      ],
+      "model_alias": "gpt-5.4-nano",
+      "model": "openrouter/openai/gpt-5.4-nano",
+      "prediction": "Mexico",
+      "scoreline": "Mexico 2-1 South Africa",
+      "players_to_watch": "Raúl Jiménez (Mexico), Alexis Vega (Mexico), Julián Quiñones (Mexico), Guillermo Ochoa (Mexico), Aubrey Modiba (South Africa), Lyle Foster (South Africa), Oswin Appollis (South Africa)",
+      "confidence": 0.64,
+      "rationale": "Polymarket pricing implies Mexico are favored to win (South Africa win is ~0.10, draw ~0.21). Mexico’s projected XI includes multiple proven attackers and experienced midfield/ball progression, while South Africa’s best threat (Foster/Appollis) likely needs clean service—potentially reduced if Modiba is not fully fit. A narrow home win (2-1) fits the implied odds and uncertainty around late fitness.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 4368,
+          "completion_tokens": 656,
+          "total_tokens": 5024,
+          "cost": 0.0016936
+        },
+        "calls": [
+          {
+            "model": "openrouter/openai/gpt-5.4-nano",
+            "usage": {
+              "completion_tokens": 374,
+              "prompt_tokens": 698,
+              "total_tokens": 1072,
+              "cost": 0.0006071
+            },
+            "cost": null
+          },
+          {
+            "model": "openrouter/openai/gpt-5.4-nano",
+            "usage": {
+              "completion_tokens": 282,
+              "prompt_tokens": 3670,
+              "total_tokens": 3952,
+              "cost": 0.0010865
+            },
+            "cost": null
+          }
+        ]
+      },
+      "news_summary": "- **Injuries/Absences:** No confirmed outs for either team.  \n- **Doubtful:** Mexico – **Santiago Giménez** (unspecified); South Africa – **Aubrey Modiba** (hamstring).  \n- **Suspensions:** None mentioned in the provided team-news snippet.  \n- **Probable XIs (if fit):**  \n  - **Mexico:** Ochoa; Sanchez, Montes, Alvarez, Gallardo; Gutierrez, Fidalgo, Pineda; Alvarado, Jimenez, Quinones.  \n  - **South Africa:** Williams; Mudau, Mbokazi, Okon, Modiba; Mbatha, Sithole, Mokoena; Appollis, Foster, Moremi.  \n- **Uncertainty for modeling:** Late fitness impact likely from **Giménez** and **Modiba**; keep rotation/alternate lineup flexibility.",
+      "polymarket_odds": [
+        {
+          "title": "Mexico vs. South Africa",
+          "slug": "fwc-mex-rsa-2026-06-11",
+          "markets": [
+            {
+              "question": "Will Mexico win against South Africa in the World Cup match scheduled for Jun 11, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.6900",
+                "0.7000"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-mex"
+            },
+            {
+              "question": "Will the World Cup match Mexico vs South Africa scheduled for Jun 11, 2026 end in a draw?",
+              "outcomes": [
+                "No",
+                "Yes"
+              ],
+              "outcome_prices": [
+                "0.2000",
+                "0.2100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-draw"
+            },
+            {
+              "question": "Will South Africa win against Mexico in the World Cup match scheduled for Jun 11, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.1000",
+                "0.1100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-rsa"
+            },
+            {
+              "question": "Will MEX vs RSA finish 0-0?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0600",
+                "0.9800"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-exact-score-0-0"
+            },
+            {
+              "question": "Will MEX vs RSA finish 0-2?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0200",
+                "0.0500"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-exact-score-0-2"
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "mexico vs south africa",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
+    },
+    {
+      "created_at": "2026-06-11T19:53:57.921119Z",
+      "key": "mexico vs south africa::openrouter/moonshotai/kimi-k2.6",
+      "match_id": 1,
+      "match": "Mexico vs South Africa",
+      "choices": [
+        "Mexico",
+        "South Africa",
+        "Draw"
+      ],
+      "model_alias": "kimi-k2.6",
+      "model": "openrouter/moonshotai/kimi-k2.6",
+      "prediction": "Mexico",
+      "scoreline": "Mexico 2-1 South Africa",
+      "players_to_watch": "Mexico: Raúl Jiménez, Edson Álvarez, Orbelín Pineda, South Africa: Lyle Foster, Teboho Mokoena, Ronwen Williams",
+      "confidence": 0.72,
+      "rationale": "Home advantage at altitude, superior squad depth and European pedigree, plus market odds heavily favoring the hosts support a Mexico win despite Giménez's absence.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 4551,
+          "completion_tokens": 4204,
+          "total_tokens": 8755,
+          "cost": 0.0179344
+        },
+        "calls": [
+          {
+            "model": "openrouter/moonshotai/kimi-k2.6",
+            "usage": {
+              "completion_tokens": 2117,
+              "prompt_tokens": 729,
+              "total_tokens": 2846,
+              "cost": 0.007781
+            },
+            "cost": null
+          },
+          {
+            "model": "openrouter/moonshotai/kimi-k2.6",
+            "usage": {
+              "completion_tokens": 2087,
+              "prompt_tokens": 3822,
+              "total_tokens": 5909,
+              "cost": 0.0101534
+            },
+            "cost": null
+          }
+        ]
+      },
+      "news_summary": "• Injuries/Doubts: Mexico – Santiago Giménez doubtful (unspecified), omitted from predicted XI. South Africa – Aubrey Modiba doubtful (hamstring), included in predicted XI but faces late fitness test.\n• Suspensions: None for either side.\n• Predicted XIs: Mexico – Ochoa; Sánchez, Montes, Álvarez, Gallardo; Gutiérrez, Fidalgo, Pineda; Alvarado, Jiménez, Quiñones. South Africa – Williams; Mudau, Mbokazi, Okon, Modiba; Mbatha, Sithole, Mokoena; Appollis, Foster, Moremi.\n• Tactical/Context: World Cup 2026 Group A opener at Mexico City Stadium; Mexico hold home advantage. If Modiba is ruled out, South Africa would need a replacement at left-back.\n• Uncertainty: Low overall. Main variable is Modiba’s hamstring; Giménez’s absence already reflected in predicted lineup. No reported suspensions or major injury crises.",
+      "polymarket_odds": [
+        {
+          "title": "Mexico vs. South Africa",
+          "slug": "fwc-mex-rsa-2026-06-11",
+          "markets": [
+            {
+              "question": "Will Mexico win against South Africa in the World Cup match scheduled for Jun 11, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.6900",
+                "0.7000"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-mex"
+            },
+            {
+              "question": "Will the World Cup match Mexico vs South Africa scheduled for Jun 11, 2026 end in a draw?",
+              "outcomes": [
+                "No",
+                "Yes"
+              ],
+              "outcome_prices": [
+                "0.2000",
+                "0.2100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-draw"
+            },
+            {
+              "question": "Will South Africa win against Mexico in the World Cup match scheduled for Jun 11, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.1000",
+                "0.1100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-rsa"
+            },
+            {
+              "question": "Will MEX vs RSA finish 0-0?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0600",
+                "0.9800"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-exact-score-0-0"
+            },
+            {
+              "question": "Will MEX vs RSA finish 0-2?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0200",
+                "0.0500"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-exact-score-0-2"
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "mexico vs south africa",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
+    },
+    {
+      "created_at": "2026-06-11T19:54:06.056420Z",
+      "key": "mexico vs south africa::openrouter/x-ai/grok-4.3",
+      "match_id": 1,
+      "match": "Mexico vs South Africa",
+      "choices": [
+        "Mexico",
+        "South Africa",
+        "Draw"
+      ],
+      "model_alias": "grok-4.3",
+      "model": "openrouter/x-ai/grok-4.3",
+      "prediction": "Mexico",
+      "scoreline": "Mexico 2-0 South Africa",
+      "players_to_watch": "Raúl Jiménez (Mexico), Edson Álvarez (Mexico), Lyle Foster (South Africa)",
+      "confidence": 0.78,
+      "rationale": "Home advantage + superior squad depth and betting market heavily favor Mexico; South Africa unlikely to take points away in Mexico City.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 4490,
+          "completion_tokens": 986,
+          "total_tokens": 5476,
+          "cost": 0.0078087
+        },
+        "calls": [
+          {
+            "model": "openrouter/x-ai/grok-4.3",
+            "usage": {
+              "completion_tokens": 548,
+              "prompt_tokens": 805,
+              "total_tokens": 1353,
+              "cost": 0.00224185
+            },
+            "cost": null
+          },
+          {
+            "model": "openrouter/x-ai/grok-4.3",
+            "usage": {
+              "completion_tokens": 438,
+              "prompt_tokens": 3685,
+              "total_tokens": 4123,
+              "cost": 0.00556685
+            },
+            "cost": null
+          }
+        ]
+      },
+      "news_summary": "- Mexico: no players out; Santiago Gimenez doubtful (unspecified); predicted XI: Ochoa; Sanchez, Montes, Alvarez, Gallardo; Gutierrez, Fidalgo, Pineda; Alvarado, Jimenez, Quinones\n- South Africa: no players out; Aubrey Modiba doubtful (hamstring); predicted XI: Williams; Mudau, Mbokazi, Okon, Modiba; Mbatha, Sithole, Mokoena; Appollis, Foster, Moremi\n- Match context: 2026 World Cup Group A opener at Mexico City Stadium (no other news reported)",
+      "polymarket_odds": [
+        {
+          "title": "Mexico vs. South Africa",
+          "slug": "fwc-mex-rsa-2026-06-11",
+          "markets": [
+            {
+              "question": "Will Mexico win against South Africa in the World Cup match scheduled for Jun 11, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.6900",
+                "0.7000"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-mex"
+            },
+            {
+              "question": "Will the World Cup match Mexico vs South Africa scheduled for Jun 11, 2026 end in a draw?",
+              "outcomes": [
+                "No",
+                "Yes"
+              ],
+              "outcome_prices": [
+                "0.2000",
+                "0.2100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-draw"
+            },
+            {
+              "question": "Will South Africa win against Mexico in the World Cup match scheduled for Jun 11, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.1000",
+                "0.1100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-rsa"
+            },
+            {
+              "question": "Will MEX vs RSA finish 0-0?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0600",
+                "0.9800"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-exact-score-0-0"
+            },
+            {
+              "question": "Will MEX vs RSA finish 0-2?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0200",
+                "0.0500"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-exact-score-0-2"
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "mexico vs south africa",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
+    },
+    {
+      "created_at": "2026-06-11T19:55:06.093166Z",
+      "key": "mexico vs south africa::openrouter/xiaomi/mimo-v2.5-pro",
+      "match_id": 1,
+      "match": "Mexico vs South Africa",
+      "choices": [
+        "Mexico",
+        "South Africa",
+        "Draw"
+      ],
+      "model_alias": "mimo-v2.5-pro",
+      "model": "openrouter/xiaomi/mimo-v2.5-pro",
+      "prediction": "Mexico",
+      "scoreline": "Mexico 2-0 South Africa",
+      "players_to_watch": "Raúl Jiménez (Mexico), Themba Zwane (South Africa), Edson Álvarez (Mexico), Lyle Foster (South Africa)",
+      "confidence": 0.7,
+      "rationale": "Mexico benefits from a strong home advantage in Mexico City, a squad with more experience in top European leagues, and favorable betting odds (Polymarket ~69% implied win probability). Their historical World Cup performance and defensive solidity suggest they can secure a win. South Africa, while organized, lacks the same depth of individual match-winners at the highest level.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 4630,
+          "completion_tokens": 1866,
+          "total_tokens": 6496,
+          "cost": 0.010228000000000001
+        },
+        "calls": [
+          {
+            "model": "openrouter/xiaomi/mimo-v2.5-pro",
+            "usage": {
+              "completion_tokens": 1131,
+              "prompt_tokens": 747,
+              "total_tokens": 1878,
+              "cost": 0.0010052094
+            },
+            "cost": 0.0041400000000000005
+          },
+          {
+            "model": "openrouter/xiaomi/mimo-v2.5-pro",
+            "usage": {
+              "completion_tokens": 735,
+              "prompt_tokens": 3883,
+              "total_tokens": 4618,
+              "cost": 0.0021076782
+            },
+            "cost": 0.006088
+          }
+        ]
+      },
+      "news_summary": "- **Injuries:** Mexico: Santiago Gimenez (unspecified) is doubtful. South Africa: Aubrey Modiba (hamstring) is doubtful.\n- **Suspensions:** None reported for either team.\n- **Tactical news:** Predicted XIs suggest Mexico may start with Ochoa in goal and Jimenez as striker; South Africa likely to field Williams in goal and Mudau in defense.\n- **Form:** Not covered in the provided news.\n- **Uncertainty:** Each team has one doubtful player, which could impact final lineups and should be monitored closer to kickoff.",
+      "polymarket_odds": [
+        {
+          "title": "Mexico vs. South Africa",
+          "slug": "fwc-mex-rsa-2026-06-11",
+          "markets": [
+            {
+              "question": "Will Mexico win against South Africa in the World Cup match scheduled for Jun 11, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.6900",
+                "0.7000"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-mex"
+            },
+            {
+              "question": "Will the World Cup match Mexico vs South Africa scheduled for Jun 11, 2026 end in a draw?",
+              "outcomes": [
+                "No",
+                "Yes"
+              ],
+              "outcome_prices": [
+                "0.2000",
+                "0.2100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-draw"
+            },
+            {
+              "question": "Will South Africa win against Mexico in the World Cup match scheduled for Jun 11, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.1000",
+                "0.1100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-rsa"
+            },
+            {
+              "question": "Will MEX vs RSA finish 0-0?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0600",
+                "0.9800"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-exact-score-0-0"
+            },
+            {
+              "question": "Will MEX vs RSA finish 0-2?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0200",
+                "0.0500"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-mex-rsa-2026-06-11-exact-score-0-2"
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "mexico vs south africa",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
+    },
+    {
+      "created_at": "2026-06-11T20:11:17.998915Z",
+      "key": "south korea vs czech republic::openrouter/openai/gpt-5.5",
+      "match_id": 2,
+      "match": "South Korea vs Czech Republic",
+      "choices": [
+        "South Korea",
+        "Czech Republic",
+        "Draw"
+      ],
+      "model_alias": "gpt-5.5",
+      "model": "openrouter/openai/gpt-5.5",
+      "prediction": "South Korea",
+      "scoreline": "South Korea 2-1 Czech Republic",
+      "players_to_watch": "Son Heung-min (South Korea), Lee Kang-in (South Korea), Kim Min-jae (South Korea), Hwang Hee-chan (South Korea)",
+      "confidence": 0.57,
+      "rationale": "South Korea have the stronger available squad evidence, superior named attacking talent, and unbeaten qualifying context, while Czech Republic’s team data is limited and their route through playoffs suggests a tough but beatable opponent. Defensive injury concerns keep confidence moderate.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 4544,
+          "completion_tokens": 1024,
+          "total_tokens": 5568,
+          "cost": 0.05344
+        },
+        "calls": [
+          {
+            "model": "openrouter/openai/gpt-5.5",
+            "usage": {
+              "completion_tokens": 637,
+              "prompt_tokens": 2422,
+              "total_tokens": 3059,
+              "cost": 0.03122
+            },
+            "cost": null
+          },
+          {
+            "model": "openrouter/openai/gpt-5.5",
+            "usage": {
+              "completion_tokens": 387,
+              "prompt_tokens": 2122,
+              "total_tokens": 2509,
+              "cost": 0.02222
+            },
+            "cost": null
+          }
+        ]
+      },
+      "news_summary": "- **South Korea injuries:** CB **Kim Tae-hyun** reportedly suffered an ankle injury and may be **out for the group stage**; this conflicts with an earlier “no absences” report.\n- **South Korea doubts:** **Bae Joon-ho** has reportedly been training separately since arriving in Mexico, so his availability is uncertain.\n- **South Korea lineup/tactics:** Coach **Hong Myung-bo** says the starting XI for Czechia is decided after deliberation. Possible defensive reshuffle, with **Lee Gi-hyuk** mentioned as a candidate to start.\n- **Key South Korea players available:** **Son Heung-min**, **Kim Min-jae**, **Lee Kang-in**, **Hwang Hee-chan** and **Lee Jae-sung** are all referenced as part of the expected core.\n- **Czech Republic team news:** No confirmed Czech injuries or suspensions are clearly stated in the provided snippets.\n- **Form/context:** South Korea went **unbeaten in Asian qualifying** and are generally viewed as slight favourites. Czechia qualified via **UEFA playoffs**, reportedly needing penalties, and are making their first World Cup appearance since 2006.\n- **Uncertainty:** Injury information for South Korea is inconsistent across sources; Czech squad availability is underreported in the supplied material.",
+      "polymarket_odds": [
+        {
+          "warning": "Polymarket lookup failed or found no market.",
+          "failures": [
+            {
+              "endpoint": "global_gamma",
+              "url": "https://gamma-api.polymarket.com/public-search",
+              "error": "HTTPSConnectionPool(host='gamma-api.polymarket.com', port=443): Max retries exceeded with url: /public-search?q=South+Korea+Czech+Republic+World+Cup&limit_per_type=10&search_tags=false&search_profiles=false (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x112a07c10>: Failed to resolve 'gamma-api.polymarket.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+            },
+            {
+              "endpoint": "us_gateway",
+              "url": "https://gateway.polymarket.us/v1/search",
+              "error": "Request succeeded but no matching market was found."
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "south korea vs czech republic",
+        "news_from_cache": false,
+        "polymarket_from_cache": false
+      }
+    },
+    {
+      "created_at": "2026-06-11T20:11:25.954565Z",
+      "key": "south korea vs czech republic::openrouter/openai/gpt-5.4-mini",
+      "match_id": 2,
+      "match": "South Korea vs Czech Republic",
+      "choices": [
+        "South Korea",
+        "Czech Republic",
+        "Draw"
+      ],
+      "model_alias": "gpt-5.4-mini",
+      "model": "openrouter/openai/gpt-5.4-mini",
+      "prediction": "South Korea",
+      "scoreline": "South Korea 2-1 Czech Republic",
+      "players_to_watch": "Son Heung-min (South Korea), Hwang Hee-chan (South Korea), Kim Min-jae (South Korea), Lee Jae-sung (South Korea)",
+      "confidence": 0.57,
+      "rationale": "South Korea have the stronger and more settled squad, superior star power, and unbeaten qualifying context; Czech Republic’s path through playoff penalties points to a less convincing profile. Neutral venue reduces certainty, but Korea still edge it.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 4412,
+          "completion_tokens": 658,
+          "total_tokens": 5070,
+          "cost": 0.0062699999999999995
+        },
+        "calls": [
+          {
+            "model": "openrouter/openai/gpt-5.4-mini",
+            "usage": {
+              "completion_tokens": 356,
+              "prompt_tokens": 2422,
+              "total_tokens": 2778,
+              "cost": 0.0034185
+            },
+            "cost": null
+          },
+          {
+            "model": "openrouter/openai/gpt-5.4-mini",
+            "usage": {
+              "completion_tokens": 302,
+              "prompt_tokens": 1990,
+              "total_tokens": 2292,
+              "cost": 0.0028515
+            },
+            "cost": null
+          }
+        ]
+      },
+      "news_summary": "- South Korea: Sports Mole lists no confirmed injuries or suspensions; predicted XI includes Son Heung-min, Hwang Hee-chan, Lee Jae-sung and Kim Min-jae.\n- South Korea uncertainty: Kim Tae-hyun missed final training with an ankle injury; Bae Joon-ho has been training separately.\n- Czech Republic: no specific injuries or suspensions confirmed in the provided snippets.\n- Form/context: South Korea qualified unbeaten and are seen as stronger on paper; Czech Republic returned to the World Cup via two playoff rounds decided on penalties.\n- Tactical note: South Korea’s lineup appears settled/confirmed by coach Hong Myung-bo ahead of kickoff.",
+      "polymarket_odds": [
+        {
+          "warning": "Polymarket lookup failed or found no market.",
+          "failures": [
+            {
+              "endpoint": "global_gamma",
+              "url": "https://gamma-api.polymarket.com/public-search",
+              "error": "HTTPSConnectionPool(host='gamma-api.polymarket.com', port=443): Max retries exceeded with url: /public-search?q=South+Korea+Czech+Republic+World+Cup&limit_per_type=10&search_tags=false&search_profiles=false (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x112a07c10>: Failed to resolve 'gamma-api.polymarket.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+            },
+            {
+              "endpoint": "us_gateway",
+              "url": "https://gateway.polymarket.us/v1/search",
+              "error": "Request succeeded but no matching market was found."
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "south korea vs czech republic",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
+    },
+    {
+      "created_at": "2026-06-11T20:11:34.841249Z",
+      "key": "south korea vs czech republic::openrouter/openai/gpt-5.4-nano",
+      "match_id": 2,
+      "match": "South Korea vs Czech Republic",
+      "choices": [
+        "South Korea",
+        "Czech Republic",
+        "Draw"
+      ],
+      "model_alias": "gpt-5.4-nano",
+      "model": "openrouter/openai/gpt-5.4-nano",
+      "prediction": "South Korea",
+      "scoreline": "South Korea 2-1 Czech Republic",
+      "players_to_watch": "South Korea: Son Heung-min, Hwang Hee-chan, Lee Jae-sung; Czech Republic: (unknown XI—key impact players likely to be their main striker and central midfielder)",
+      "confidence": 0.56,
+      "rationale": "Home advantage plus a strong, clear South Korea attacking focal point (Son) outweighs the defensive uncertainty around Kim Tae-hyeon. Czech Republic’s lack of provided lineup/injury context reduces certainty, and a close, high-attendance opener profile favors a narrow South Korea win.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 4516,
+          "completion_tokens": 774,
+          "total_tokens": 5290,
+          "cost": 0.0018707
+        },
+        "calls": [
+          {
+            "model": "openrouter/openai/gpt-5.4-nano",
+            "usage": {
+              "completion_tokens": 490,
+              "prompt_tokens": 2422,
+              "total_tokens": 2912,
+              "cost": 0.0010969
+            },
+            "cost": null
+          },
+          {
+            "model": "openrouter/openai/gpt-5.4-nano",
+            "usage": {
+              "completion_tokens": 284,
+              "prompt_tokens": 2094,
+              "total_tokens": 2378,
+              "cost": 0.0007738
+            },
+            "cost": null
+          }
+        ]
+      },
+      "news_summary": "- **South Korea injuries:** Reports conflict—Sports Mole says **no out/doubtful**, but Sportal Korea says **CB Kim Tae-hyun (ankle) likely ruled out for group stage**. Possible replacement: **Lee Kihyuk**.\n- **South Korea XI/form/tactics (predicted):** Expect attacking emphasis on **Son Heung-min**; Sports Mole predicted XI includes **Kim Seung-gyu; Lee Gi-hyuk, Kim Min-jae, Lee Han-beom; Seol Young-woo, Hwang In-beom, Paik Seung-ho, Lee Tae-seok; Hwang Hee-chan, Lee Jae-sung; Son Heung-min**.\n- **Suspensions:** **No suspension information** provided in the snippets.\n- **Czech Republic:** **No usable injury/suspension/confirmed XI details** in the provided text (Sports Mole snippet truncated); lineup **uncertain**.\n- **Key uncertainty for prediction:** Whether **Kim Tae-hyun** is truly unavailable—this could force a **CB change** for South Korea; Czech lineup details are also not firmly established from the supplied items.",
+      "polymarket_odds": [
+        {
+          "warning": "Polymarket lookup failed or found no market.",
+          "failures": [
+            {
+              "endpoint": "global_gamma",
+              "url": "https://gamma-api.polymarket.com/public-search",
+              "error": "HTTPSConnectionPool(host='gamma-api.polymarket.com', port=443): Max retries exceeded with url: /public-search?q=South+Korea+Czech+Republic+World+Cup&limit_per_type=10&search_tags=false&search_profiles=false (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x112a07c10>: Failed to resolve 'gamma-api.polymarket.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+            },
+            {
+              "endpoint": "us_gateway",
+              "url": "https://gateway.polymarket.us/v1/search",
+              "error": "Request succeeded but no matching market was found."
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "south korea vs czech republic",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
+    },
+    {
+      "created_at": "2026-06-11T20:12:29.059093Z",
+      "key": "south korea vs czech republic::openrouter/google/gemini-3.1-flash-lite",
+      "match_id": 2,
+      "match": "South Korea vs Czech Republic",
+      "choices": [
+        "South Korea",
+        "Czech Republic",
+        "Draw"
+      ],
+      "model_alias": "gemini-3.1-flash-lite",
+      "model": "openrouter/google/gemini-3.1-flash-lite",
+      "prediction": "South Korea",
+      "scoreline": "South Korea 2-0 Czech Republic",
+      "players_to_watch": "Son Heung-min (South Korea), Kim Min-jae (South Korea), Lee Kang-in (South Korea)",
+      "confidence": 0.75,
+      "rationale": "South Korea's superior tournament experience, consistent qualifying form, and presence of elite individual players give them a clear edge over a Czech Republic team that has been absent from the World Cup for two decades and struggled to qualify.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 4927,
+          "completion_tokens": 527,
+          "total_tokens": 5454,
+          "cost": 0.0020222499999999997
+        },
+        "calls": [
+          {
+            "model": "openrouter/google/gemini-3.1-flash-lite",
+            "usage": {
+              "completion_tokens": 255,
+              "prompt_tokens": 2757,
+              "total_tokens": 3012,
+              "cost": 0.00107175
+            },
+            "cost": 0.00107175
+          },
+          {
+            "model": "openrouter/google/gemini-3.1-flash-lite",
+            "usage": {
+              "completion_tokens": 272,
+              "prompt_tokens": 2170,
+              "total_tokens": 2442,
+              "cost": 0.0009505
+            },
+            "cost": 0.0009505
+          }
+        ]
+      },
+      "news_summary": "*   **Injuries/Absences:** South Korea center-back Kim Tae-hyun is ruled out for the entire group stage due to an ankle injury. Striker Bae Joon-ho is also training separately and is a doubt.\n*   **Tactical News:** South Korea coach Hong Myung-bo has confirmed his starting XI for the opening match.\n*   **Form/Context:** South Korea went unbeaten in qualifying; Czech Republic qualified via playoff penalties and is making their first World Cup appearance since 2006.\n*   **Uncertainty:** Bae Joon-ho's availability remains a concern for the South Korean attack.",
+      "polymarket_odds": [
+        {
+          "warning": "Polymarket lookup failed or found no market.",
+          "failures": [
+            {
+              "endpoint": "global_gamma",
+              "url": "https://gamma-api.polymarket.com/public-search",
+              "error": "HTTPSConnectionPool(host='gamma-api.polymarket.com', port=443): Max retries exceeded with url: /public-search?q=South+Korea+Czech+Republic+World+Cup&limit_per_type=10&search_tags=false&search_profiles=false (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x112a07c10>: Failed to resolve 'gamma-api.polymarket.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+            },
+            {
+              "endpoint": "us_gateway",
+              "url": "https://gateway.polymarket.us/v1/search",
+              "error": "Request succeeded but no matching market was found."
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "south korea vs czech republic",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
+    },
+    {
+      "created_at": "2026-06-11T20:12:39.626422Z",
+      "key": "south korea vs czech republic::openrouter/google/gemini-3-flash-preview",
+      "match_id": 2,
+      "match": "South Korea vs Czech Republic",
+      "choices": [
+        "South Korea",
+        "Czech Republic",
+        "Draw"
+      ],
+      "model_alias": "gemini-3-flash",
+      "model": "openrouter/google/gemini-3-flash-preview",
+      "prediction": "South Korea",
+      "scoreline": "South Korea 2-0 Czech Republic",
+      "players_to_watch": "Son Heung-min (South Korea), Kim Min-jae (South Korea), Lee Kang-in (South Korea), Hwang Hee-chan (South Korea)",
+      "confidence": 0.65,
+      "rationale": "South Korea possesses world-class talent in key areas (Son, Kim Min-jae) and enters the tournament with strong momentum from an unbeaten qualifying run. The Czech Republic's reliance on penalty shootouts to qualify suggests they may struggle to control games against high-tempo opposition. Despite some defensive injury concerns for Korea, their offensive depth is superior.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 5032,
+          "completion_tokens": 803,
+          "total_tokens": 5835,
+          "cost": 0.0049250000000000006
+        },
+        "calls": [
+          {
+            "model": "openrouter/google/gemini-3-flash-preview",
+            "usage": {
+              "completion_tokens": 439,
+              "prompt_tokens": 2757,
+              "total_tokens": 3196,
+              "cost": 0.0026955
+            },
+            "cost": 0.0026955
+          },
+          {
+            "model": "openrouter/google/gemini-3-flash-preview",
+            "usage": {
+              "completion_tokens": 364,
+              "prompt_tokens": 2275,
+              "total_tokens": 2639,
+              "cost": 0.0022295
+            },
+            "cost": 0.0022295
+          }
+        ]
+      },
+      "news_summary": "*   **Injuries (South Korea):** Center-back Kim Tae-hyun is ruled out for the entire group stage (ankle). Striker Bae Joon-ho is a significant doubt, having trained separately from the main group.\n*   **Injuries (Czech Republic):** No specific new injuries reported in the provided text; the squad is returning to the World Cup after a 20-year absence.\n*   **Tactical News:** South Korea coach Hong Myung-bo has confirmed his \"Best 11.\" Lee Gi-hyuk is expected to start in defense to cover for Kim Tae-hyun. Predicted XI includes stars Son Heung-min, Kim Min-jae, and Hwang Hee-chan.\n*   **Form:** South Korea went unbeaten during their qualifying campaign. The Czech Republic qualified via two UEFA playoff rounds decided by penalty shootouts.\n*   **Suspensions:** No suspensions reported for either side.\n*   **Uncertainty:** There was reported \"worry\" from the South Korean coach regarding the final lineup selection until the morning of the match, likely due to the late fitness tests for depth players.",
+      "polymarket_odds": [
+        {
+          "warning": "Polymarket lookup failed or found no market.",
+          "failures": [
+            {
+              "endpoint": "global_gamma",
+              "url": "https://gamma-api.polymarket.com/public-search",
+              "error": "HTTPSConnectionPool(host='gamma-api.polymarket.com', port=443): Max retries exceeded with url: /public-search?q=South+Korea+Czech+Republic+World+Cup&limit_per_type=10&search_tags=false&search_profiles=false (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x112a07c10>: Failed to resolve 'gamma-api.polymarket.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+            },
+            {
+              "endpoint": "us_gateway",
+              "url": "https://gateway.polymarket.us/v1/search",
+              "error": "Request succeeded but no matching market was found."
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "south korea vs czech republic",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
+    },
+    {
+      "created_at": "2026-06-11T20:13:07.871518Z",
+      "key": "south korea vs czech republic::openrouter/~google/gemini-pro-latest",
+      "match_id": 2,
+      "match": "South Korea vs Czech Republic",
+      "choices": [
+        "South Korea",
+        "Czech Republic",
+        "Draw"
+      ],
+      "model_alias": "gemini-3.5-pro",
+      "model": "openrouter/~google/gemini-pro-latest",
+      "prediction": "Draw",
+      "scoreline": "South Korea 1-1 Czech Republic",
+      "players_to_watch": "Son Heung-min (South Korea), Kim Min-jae (South Korea), Lee Kang-in (South Korea), Tomas Soucek (Czech Republic), Patrik Schick (Czech Republic)",
+      "confidence": 0.6,
+      "rationale": "Opening group matches are often cagey. South Korea possesses superior attacking talent and World Cup experience, but a makeshift defense due to injury could allow a disciplined,",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 4989,
+          "completion_tokens": 2466,
+          "total_tokens": 7455,
+          "cost": 0.03957
+        },
+        "calls": [
+          {
+            "model": "openrouter/~google/gemini-pro-latest",
+            "usage": {
+              "completion_tokens": 870,
+              "prompt_tokens": 2757,
+              "total_tokens": 3627,
+              "cost": 0.015954
+            },
+            "cost": null
+          },
+          {
+            "model": "openrouter/~google/gemini-pro-latest",
+            "usage": {
+              "completion_tokens": 1596,
+              "prompt_tokens": 2232,
+              "total_tokens": 3828,
+              "cost": 0.023616
+            },
+            "cost": null
+          }
+        ]
+      },
+      "news_summary": "*   **Injuries & Suspensions:** \n    *   **South Korea:** Center-back Kim Tae-hyun is ruled out for the group stage after suffering an ankle injury in training. Striker Bae Joon-ho is a major doubt as he has been training separately since arriving in Mexico.\n    *   **Czech Republic:** No significant injuries or suspensions were reported in the provided sources.\n*   **Tactical News:** South Korea's head coach Hong Myung-bo confirmed he has finalized his starting XI for the match. Lee Gi-hyuk is expected to feature in defense to cover for the injured Kim Tae-hyun.\n*   **Form & Context:** This is the opening Group A match of the 2026 World Cup. South Korea went unbeaten during their Asian qualifying campaign. The Czech Republic is making its first World Cup appearance since 2006, having qualified via penalty shootouts in the UEFA playoffs.",
+      "polymarket_odds": [
+        {
+          "warning": "Polymarket lookup failed or found no market.",
+          "failures": [
+            {
+              "endpoint": "global_gamma",
+              "url": "https://gamma-api.polymarket.com/public-search",
+              "error": "HTTPSConnectionPool(host='gamma-api.polymarket.com', port=443): Max retries exceeded with url: /public-search?q=South+Korea+Czech+Republic+World+Cup&limit_per_type=10&search_tags=false&search_profiles=false (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x112a07c10>: Failed to resolve 'gamma-api.polymarket.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+            },
+            {
+              "endpoint": "us_gateway",
+              "url": "https://gateway.polymarket.us/v1/search",
+              "error": "Request succeeded but no matching market was found."
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "south korea vs czech republic",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
+    },
+    {
+      "created_at": "2026-06-11T20:13:55.133288Z",
+      "key": "south korea vs czech republic::openrouter/~anthropic/claude-sonnet-latest",
+      "match_id": 2,
+      "match": "South Korea vs Czech Republic",
+      "choices": [
+        "South Korea",
+        "Czech Republic",
+        "Draw"
+      ],
+      "model_alias": "claude-sonnet-4.7",
+      "model": "openrouter/~anthropic/claude-sonnet-latest",
+      "prediction": "South Korea",
+      "scoreline": "South Korea 2-1 Czech Republic",
+      "players_to_watch": "Son Heung-min (South Korea), Lee Kang-in (South Korea), Kim Min-jae (South Korea), Hwang Hee-chan (South Korea), Hwang In-beom (South Korea)",
+      "confidence": 0.44,
+      "rationale": "South Korea holds clear advantages: FIFA ranking 25th vs Czech Republic (typically ~40th), a squad packed with elite European club players (Son at LAFC/ex-Spurs, Kim Min-jae at Bayern, Lee Kang-in at PSG, Hwang Hee-chan at Wolves), and unbeaten Asian qualifying. Czech Republic returns to the World Cup for the first time since 2006 after scraping through two UEFA playoff penalty shootouts, suggesting they were not dominant in qualifying. South Korea's defensive injury (Kim Tae-hyun out) is a concern, but Kim Min-jae remains the anchor. Czech Republic's tactical discipline and European pedigree keep this competitive, but South Korea's individual quality and tournament experience at this level should prove decisive in a tight opener.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 5689,
+          "completion_tokens": 1847,
+          "total_tokens": 7536,
+          "cost": 0.044772
+        },
+        "calls": [
+          {
+            "model": "openrouter/~anthropic/claude-sonnet-latest",
+            "usage": {
+              "completion_tokens": 926,
+              "prompt_tokens": 2971,
+              "total_tokens": 3897,
+              "cost": 0.022803
+            },
+            "cost": null
+          },
+          {
+            "model": "openrouter/~anthropic/claude-sonnet-latest",
+            "usage": {
+              "completion_tokens": 921,
+              "prompt_tokens": 2718,
+              "total_tokens": 3639,
+              "cost": 0.021969
+            },
+            "cost": null
+          }
+        ]
+      },
+      "news_summary": "**South Korea vs Czech Republic – World Cup 2026 Group A, Guadalajara (June 12 KST / June 11 local)**\n\n**South Korea Injuries/Absences:**\n- **Kim Tae-hyun** (CB, Kashima Antlers) – ankle injury sustained in final training session; expected to miss the match\n- **Bae Joon-ho** (ST, Stoke City) – training separately since squad arrived in Mexico; likely unavailable for group opener\n- Coach Hong Myung-bo confirmed the starting XI but admitted he \"was worried until morning,\" hinting at late fitness concerns\n\n**South Korea Predicted XI (4-2-3-1/4-3-3):** Kim Seung-gyu; Lee Gi-hyuk, Kim Min-jae, Lee Han-beom; Seol Young-woo, Hwang In-beom, Paik Seung-ho, Lee Tae-seok; Hwang Hee-chan, Lee Jae-sung; Son Heung-min\n- Key threats: Son Heung-min, Kim Min-jae, Lee Kang-in\n\n**Czech Republic:**\n- No specific injury or suspension news reported\n- Returning to World Cup for first time since 2006; qualified via two UEFA playoff rounds, both decided on penalties\n- No confirmed lineup available in sources\n\n**Form/Context:**\n- South Korea unbeaten through Asian qualifying; ranked 25th globally\n- Czech Republic's route to qualification was narrow (penalty shootouts)\n- Head-to-head: 3 previous friendlies – one win each (one draw implied)\n- Group A also contains co-hosts Mexico and South Africa; both sides have realistic knockout hopes\n\n**Uncertainty:** South Korea's defensive depth is a concern with Kim Tae-hyun ruled out and Bae Joon-ho unavailable up front; Czech lineup and injury status largely unknown from available sources.",
+      "polymarket_odds": [
+        {
+          "warning": "Polymarket lookup failed or found no market.",
+          "failures": [
+            {
+              "endpoint": "global_gamma",
+              "url": "https://gamma-api.polymarket.com/public-search",
+              "error": "HTTPSConnectionPool(host='gamma-api.polymarket.com', port=443): Max retries exceeded with url: /public-search?q=South+Korea+Czech+Republic+World+Cup&limit_per_type=10&search_tags=false&search_profiles=false (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x112a07c10>: Failed to resolve 'gamma-api.polymarket.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+            },
+            {
+              "endpoint": "us_gateway",
+              "url": "https://gateway.polymarket.us/v1/search",
+              "error": "Request succeeded but no matching market was found."
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "south korea vs czech republic",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
+    },
+    {
+      "created_at": "2026-06-11T20:14:13.063124Z",
+      "key": "south korea vs czech republic::openrouter/anthropic/claude-haiku-4.5",
+      "match_id": 2,
+      "match": "South Korea vs Czech Republic",
+      "choices": [
+        "South Korea",
+        "Czech Republic",
+        "Draw"
+      ],
+      "model_alias": "claude-haiku-4.5",
+      "model": "openrouter/anthropic/claude-haiku-4.5",
+      "prediction": "South Korea",
+      "scoreline": "South Korea 2-1 Czech Republic",
+      "players_to_watch": "Son Heung-min (South Korea), Kim Minjae (South Korea), Hwang Hee-chan (South Korea), Lee Jaesung (South Korea)",
+      "confidence": 0.72,
+      "rationale": "South Korea are favorites due to superior global ranking (25th), unbeaten Asian qualifying campaign, stronger squad depth with European club players, and tactical clarity under Hong Myung-bo. Czech Republic's first World Cup appearance since 2006 and playoff qualification route suggest less tournament experience. Despite losing Kim Tae-hyun defensively, South Korea's Bayern Munich center-back Kim Minjae and attacking talent (Son Heung-min with 144 caps/56 goals) provide sufficient quality to secure victory. The 2-1 scoreline reflects South Korea's attacking advantage while acknowledging Czech Republic's potential to create chances.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 5450,
+          "completion_tokens": 1335,
+          "total_tokens": 6785,
+          "cost": 0.012125
+        },
+        "calls": [
+          {
+            "model": "openrouter/anthropic/claude-haiku-4.5",
+            "usage": {
+              "completion_tokens": 556,
+              "prompt_tokens": 2970,
+              "total_tokens": 3526,
+              "cost": 0.00575
+            },
+            "cost": 0.00575
+          },
+          {
+            "model": "openrouter/anthropic/claude-haiku-4.5",
+            "usage": {
+              "completion_tokens": 779,
+              "prompt_tokens": 2480,
+              "total_tokens": 3259,
+              "cost": 0.006375
+            },
+            "cost": 0.0063750000000000005
+          }
+        ]
+      },
+      "news_summary": "**Injuries:**\n- South Korea: Center back Kim Tae-hyun ruled out of group stage (ankle injury in training); striker Bae Joon-ho also sidelined\n- Czech Republic: No injuries reported\n\n**Form & Qualification:**\n- South Korea: Unbeaten through Asian qualifying; ranked 25th globally; favorites for this match\n- Czech Republic: Qualified via two UEFA playoff rounds on penalties; first World Cup appearance since 2006; not among tournament favorites\n\n**Tactical News:**\n- South Korea coach Hong Myung-bo has confirmed his best XI with confidence despite last-minute injury concerns\n- South Korea expected to field 4-3-3 with Son Heung-min leading attack\n\n**Head-to-Head:**\n- Previous three friendlies: one win each\n\n**Uncertainty:**\n- Exact status of South Korea's defensive options following Kim Tae-hyun's injury; potential impact on backline stability",
+      "polymarket_odds": [
+        {
+          "warning": "Polymarket lookup failed or found no market.",
+          "failures": [
+            {
+              "endpoint": "global_gamma",
+              "url": "https://gamma-api.polymarket.com/public-search",
+              "error": "HTTPSConnectionPool(host='gamma-api.polymarket.com', port=443): Max retries exceeded with url: /public-search?q=South+Korea+Czech+Republic+World+Cup&limit_per_type=10&search_tags=false&search_profiles=false (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x112a07c10>: Failed to resolve 'gamma-api.polymarket.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+            },
+            {
+              "endpoint": "us_gateway",
+              "url": "https://gateway.polymarket.us/v1/search",
+              "error": "Request succeeded but no matching market was found."
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "south korea vs czech republic",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
+    },
+    {
+      "created_at": "2026-06-11T20:14:34.192568Z",
+      "key": "south korea vs czech republic::openrouter/deepseek/deepseek-v4-pro",
+      "match_id": 2,
+      "match": "South Korea vs Czech Republic",
+      "choices": [
+        "South Korea",
+        "Czech Republic",
+        "Draw"
+      ],
+      "model_alias": "deepseek-v4-pro",
+      "model": "openrouter/deepseek/deepseek-v4-pro",
+      "prediction": "South Korea",
+      "scoreline": "South Korea 2-1 Czech Republic",
+      "players_to_watch": "Son Heung-min (South Korea), Lee Kang-in (South Korea), Hwang Hee-chan (South Korea), Patrik Schick (Czech Republic), Tomáš Souček (Czech Republic)",
+      "confidence": 0.68,
+      "rationale": "South Korea’s established attacking talent (Son, Lee Kang‑in, Hwang) against a Czech defence that has not been detailed suggests they will create chances. The Asian side’s unbeaten qualifying run and the Czech reliance on playoff penalties point to a form advantage. The missing Czech squad data introduces uncertainty, but the available team news strongly favours South Korea’s coherence.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 4598,
+          "completion_tokens": 1321,
+          "total_tokens": 5919,
+          "cost": 0.011612991999999999
+        },
+        "calls": [
+          {
+            "model": "openrouter/deepseek/deepseek-v4-pro",
+            "usage": {
+              "completion_tokens": 561,
+              "prompt_tokens": 2502,
+              "total_tokens": 3063,
+              "cost": 0.005827392
+            },
+            "cost": null
+          },
+          {
+            "model": "openrouter/deepseek/deepseek-v4-pro",
+            "usage": {
+              "completion_tokens": 760,
+              "prompt_tokens": 2096,
+              "total_tokens": 2856,
+              "cost": 0.0057856
+            },
+            "cost": null
+          }
+        ]
+      },
+      "news_summary": "- South Korea: No suspensions. Defender Kim Tae-hyun (ankle injury) ruled out of group stage. Lee Ki-hyuk expected to start in his place. Forward Bae Joon-ho training separately but status unclear (doubtful). Otherwise full squad available.\n- Czech Republic: Injury/suspension information is incomplete in available sources; no key absences mentioned.\n- Form: South Korea unbeaten in Asian qualifiers. Czech Republic struggled through playoffs on penalties.\n- Tactical: Coach Hong Myung-bo confirmed starting XI, adjusting for Kim Tae-hyun absence. Predicted formation and starting roles settled.\n- Uncertainty: Bae Joon-ho's match fitness; limited info on Czech squad fitness and lineup.",
+      "polymarket_odds": [
+        {
+          "warning": "Polymarket lookup failed or found no market.",
+          "failures": [
+            {
+              "endpoint": "global_gamma",
+              "url": "https://gamma-api.polymarket.com/public-search",
+              "error": "HTTPSConnectionPool(host='gamma-api.polymarket.com', port=443): Max retries exceeded with url: /public-search?q=South+Korea+Czech+Republic+World+Cup&limit_per_type=10&search_tags=false&search_profiles=false (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x112a07c10>: Failed to resolve 'gamma-api.polymarket.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+            },
+            {
+              "endpoint": "us_gateway",
+              "url": "https://gateway.polymarket.us/v1/search",
+              "error": "Request succeeded but no matching market was found."
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "south korea vs czech republic",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
+    },
+    {
+      "created_at": "2026-06-11T20:15:25.846155Z",
+      "key": "south korea vs czech republic::openrouter/minimax/minimax-m3",
+      "match_id": 2,
+      "match": "South Korea vs Czech Republic",
+      "choices": [
+        "South Korea",
+        "Czech Republic",
+        "Draw"
+      ],
+      "model_alias": "minimax-m3",
+      "model": "openrouter/minimax/minimax-m3",
+      "prediction": "South Korea",
+      "scoreline": "South Korea 2-1 Czech Republic",
+      "players_to_watch": "Son Heung-min (South Korea), Kim Min-jae (South Korea), Lee Kang-in (South Korea), Hwang Hee-chan (South Korea)",
+      "confidence": 0.65,
+      "rationale": "South Korea hold a clear quality advantage across the pitch with multiple elite European-based stars (Son, Kim Min-jae, Lee Kang-in, Hwang In-beom) and superior recent competitive form (unbeaten in qualifying). Czech Republic, while defensively organized, are returning to the World Cup after two decades and have limited squad depth at this level. Defensive concerns for South Korea (Kim Tae-hyun out) and first-match nerves prevent higher confidence, but the talent gap and home support (de facto, large Korean diaspora expected) should see South Korea through in a tight contest.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 4876,
+          "completion_tokens": 2061,
+          "total_tokens": 6937,
+          "cost": 0.00388128
+        },
+        "calls": [
+          {
+            "model": "openrouter/minimax/minimax-m3",
+            "usage": {
+              "completion_tokens": 930,
+              "prompt_tokens": 2546,
+              "total_tokens": 3476,
+              "cost": 0.00185244
+            },
+            "cost": null
+          },
+          {
+            "model": "openrouter/minimax/minimax-m3",
+            "usage": {
+              "completion_tokens": 1131,
+              "prompt_tokens": 2330,
+              "total_tokens": 3461,
+              "cost": 0.00202884
+            },
+            "cost": null
+          }
+        ]
+      },
+      "news_summary": "- **Injuries/Suspensions (South Korea)**: Center back Kim Tae-hyun (Kashima Antlers) ruled out for the group stage after an ankle injury in training; striker Bae Joon-ho (Stoke City) training separately and uncertain to feature. Lee Ki-hyuk likely to step in at center back alongside Kim Min-jae.\n- **Injuries/Suspensions (Czech Republic)**: No confirmed injury/suspension details available (source cut off); some uncertainty around their lineup.\n- **Team News**: South Korea coach Hong Myung-bo confirmed his starting XI (Kim Seung-gyu; Lee Gi-hyuk, Kim Min-jae, Lee Han-beom; Seol Young-woo, Hwang In-beom, Paik Seung-ho, Lee Tae-seok; Hwang Hee-chan, Lee Jae-sung; Son Heung-min).\n- **Form**: South Korea went unbeaten through Asian qualifying and are ranked 25th globally; Czech Republic advanced via two UEFA playoff rounds decided on penalties and are returning to the World Cup after a 20-year absence (last appeared 2006).\n- **Tactical Notes**: South Korea's attack revolves around Son Heung-min, supported by Lee Kang-in, Hwang Hee-chan, and Lee Jae-sung; Kim Min-jae anchors a defense weakened by Kim Tae-hyun's absence. Czech Republic are underdogs in a group also featuring Mexico and South Africa.\n- **Uncertainty**: Czech Republic lineup and fitness status not fully reported; Bae Joon-ho's availability for South Korea remains unclear.",
+      "polymarket_odds": [
+        {
+          "warning": "Polymarket lookup failed or found no market.",
+          "failures": [
+            {
+              "endpoint": "global_gamma",
+              "url": "https://gamma-api.polymarket.com/public-search",
+              "error": "HTTPSConnectionPool(host='gamma-api.polymarket.com', port=443): Max retries exceeded with url: /public-search?q=South+Korea+Czech+Republic+World+Cup&limit_per_type=10&search_tags=false&search_profiles=false (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x112a07c10>: Failed to resolve 'gamma-api.polymarket.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+            },
+            {
+              "endpoint": "us_gateway",
+              "url": "https://gateway.polymarket.us/v1/search",
+              "error": "Request succeeded but no matching market was found."
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "south korea vs czech republic",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
+    },
+    {
+      "created_at": "2026-06-11T20:16:43.025717Z",
+      "key": "south korea vs czech republic::openrouter/xiaomi/mimo-v2.5-pro",
+      "match_id": 2,
+      "match": "South Korea vs Czech Republic",
+      "choices": [
+        "South Korea",
+        "Czech Republic",
+        "Draw"
+      ],
+      "model_alias": "mimo-v2.5-pro",
+      "model": "openrouter/xiaomi/mimo-v2.5-pro",
+      "prediction": "South Korea",
+      "scoreline": "South Korea 2-1 Czech Republic",
+      "players_to_watch": "Son Heung-min (South Korea), Hwang Hee-chan (South Korea), Kim Min-jae (South Korea)",
+      "confidence": 0.65,
+      "rationale": "South Korea's unbeaten qualifying form, strong squad led by Son Heung-min and Kim Min-jae, and confirmed tactical lineup give them an edge over a Czech Republic team that advanced through playoffs on penalties and has incomplete squad information, suggesting a likely but not certain victory.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 4888,
+          "completion_tokens": 3884,
+          "total_tokens": 8772,
+          "cost": 0.01654
+        },
+        "calls": [
+          {
+            "model": "openrouter/xiaomi/mimo-v2.5-pro",
+            "usage": {
+              "completion_tokens": 1719,
+              "prompt_tokens": 2642,
+              "total_tokens": 4361,
+              "cost": 0.0026448
+            },
+            "cost": 0.007799
+          },
+          {
+            "model": "openrouter/xiaomi/mimo-v2.5-pro",
+            "usage": {
+              "completion_tokens": 2165,
+              "prompt_tokens": 2246,
+              "total_tokens": 4411,
+              "cost": 0.00286056
+            },
+            "cost": 0.008740999999999999
+          }
+        ]
+      },
+      "news_summary": "- **Injuries**: \n  - South Korea: Kim Tae-hyun (center back) out for the group stage with an ankle injury.\n  - Bae Joon-ho (striker) training separately and likely doubtful for fitness.\n  - Czech Republic: No specific injuries reported in available news; details limited.\n- **Tactical News**: \n  - South Korea's predicted XI: Kim Seung-gyu; Lee Gi-hyuk, Kim Min-jae, Lee Han-beom; Seol Young-woo, Hwang In-beom, Paik Seung-ho, Lee Tae-seok; Hwang Hee-chan, Lee Jae-sung; Son Heung-min (suggesting a 3-4-3 or similar formation).\n  - Coach Hong Myung-bo has confirmed his best lineup, indicating tactical preparedness.\n- **Form**: \n  - South Korea: Went unbeaten through Asian qualifying, showing strong consistency.\n  - Czech Republic: Advanced through UEFA playoffs on penalties, suggesting resilience but less dominant form.\n- **Suspensions**: No suspensions reported for either team.\n- **Uncertainty**: \n  - Czech Republic team news is incomplete from available sources.\n  - Fitness concerns for Bae Joon-ho (South Korea) due to separate training.\n  - Coach Hong Myung-bo expressed worry until morning, hinting at possible last-minute adjustments.",
+      "polymarket_odds": [
+        {
+          "warning": "Polymarket lookup failed or found no market.",
+          "failures": [
+            {
+              "endpoint": "global_gamma",
+              "url": "https://gamma-api.polymarket.com/public-search",
+              "error": "HTTPSConnectionPool(host='gamma-api.polymarket.com', port=443): Max retries exceeded with url: /public-search?q=South+Korea+Czech+Republic+World+Cup&limit_per_type=10&search_tags=false&search_profiles=false (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x112a07c10>: Failed to resolve 'gamma-api.polymarket.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+            },
+            {
+              "endpoint": "us_gateway",
+              "url": "https://gateway.polymarket.us/v1/search",
+              "error": "Request succeeded but no matching market was found."
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "south korea vs czech republic",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
+    },
+    {
+      "created_at": "2026-06-11T20:18:32.396145Z",
+      "key": "south korea vs czech republic::openrouter/x-ai/grok-4.3",
+      "match_id": 2,
+      "match": "South Korea vs Czech Republic",
+      "choices": [
+        "South Korea",
+        "Czech Republic",
+        "Draw"
+      ],
+      "model_alias": "grok-4.3",
+      "model": "openrouter/x-ai/grok-4.3",
+      "prediction": "South Korea",
+      "scoreline": "South Korea 2-1 Czech Republic",
+      "players_to_watch": "Son Heung-min (South Korea), Kim Min-jae (South Korea), Hwang Hee-chan (South Korea)",
+      "confidence": 0.72,
+      "rationale": "South Korea's depth and attacking quality outweigh Czech Republic's limited recent pedigree; expect a narrow but clear win.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 4599,
+          "completion_tokens": 1248,
+          "total_tokens": 5847,
+          "cost": 0.00859995
+        },
+        "calls": [
+          {
+            "model": "openrouter/x-ai/grok-4.3",
+            "usage": {
+              "completion_tokens": 722,
+              "prompt_tokens": 2511,
+              "total_tokens": 3233,
+              "cost": 0.00480935
+            },
+            "cost": null
+          },
+          {
+            "model": "openrouter/x-ai/grok-4.3",
+            "usage": {
+              "completion_tokens": 526,
+              "prompt_tokens": 2088,
+              "total_tokens": 2614,
+              "cost": 0.0037906
+            },
+            "cost": null
+          }
+        ]
+      },
+      "news_summary": "- Injuries (South Korea): Kim Tae-hyun (CB) ruled out for group stage with ankle injury; Bae Joon-ho training separately (doubtful)\n- Injuries/suspensions (Czech Republic): none reported\n- Predicted South Korea XI: Kim Seung-gyu; Lee Gi-hyuk, Kim Min-jae, Lee Han-beom; Seol Young-woo, Hwang In-beom, Paik Seung-ho, Lee Tae-seok; Hwang Hee-chan, Lee Jae-sung; Son Heung-min\n- Context: Both teams begin Group A campaign; South Korea unbeaten in qualifying, Czech Republic via playoffs on penalties\n- Uncertainty: Late injury to Kim Tae-hyun may alter defensive lineup; no Czech team news available",
+      "polymarket_odds": [
+        {
+          "warning": "Polymarket lookup failed or found no market.",
+          "failures": [
+            {
+              "endpoint": "global_gamma",
+              "url": "https://gamma-api.polymarket.com/public-search",
+              "error": "HTTPSConnectionPool(host='gamma-api.polymarket.com', port=443): Max retries exceeded with url: /public-search?q=South+Korea+Czech+Republic+World+Cup&limit_per_type=10&search_tags=false&search_profiles=false (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x112a07c10>: Failed to resolve 'gamma-api.polymarket.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+            },
+            {
+              "endpoint": "us_gateway",
+              "url": "https://gateway.polymarket.us/v1/search",
+              "error": "Request succeeded but no matching market was found."
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "south korea vs czech republic",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
+    },
+    {
+      "created_at": "2026-06-11T20:19:20.515462Z",
+      "key": "south korea vs czech republic::openrouter/z-ai/glm-5.1",
+      "match_id": 2,
+      "match": "South Korea vs Czech Republic",
+      "choices": [
+        "South Korea",
+        "Czech Republic",
+        "Draw"
+      ],
+      "model_alias": "glm-5.1",
+      "model": "openrouter/z-ai/glm-5.1",
+      "prediction": "South Korea",
+      "scoreline": "South Korea 2-0 Czech Republic",
+      "players_to_watch": "Son Heung-min (South Korea), Kim Minjae (South Korea), Lee Kangin (South Korea), Hwang Heechan (South Korea)",
+      "confidence": 0.68,
+      "rationale": "South Korea's superior squad quality (Son, Kim Minjae, Lee Kangin all at elite clubs), unbeaten qualifying campaign, and consistent World Cup experience give them a clear edge. Czech Republic's struggles in qualifying (two penalty shootout wins) and 20-year World Cup absence raise serious doubts about their ability to compete at this level. South Korea's defensive injury concerns are mitigated by Kim Minjae's presence, making a South Korea victory the most probable outcome.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 4540,
+          "completion_tokens": 2406,
+          "total_tokens": 6946,
+          "cost": 0.0168516
+        },
+        "calls": [
+          {
+            "model": "openrouter/z-ai/glm-5.1",
+            "usage": {
+              "completion_tokens": 1306,
+              "prompt_tokens": 2500,
+              "total_tokens": 3806,
+              "cost": 0.0091964
+            },
+            "cost": null
+          },
+          {
+            "model": "openrouter/z-ai/glm-5.1",
+            "usage": {
+              "completion_tokens": 1100,
+              "prompt_tokens": 2040,
+              "total_tokens": 3140,
+              "cost": 0.0076552
+            },
+            "cost": null
+          }
+        ]
+      },
+      "news_summary": "- **Injuries/Suspensions:** South Korea CB Kim Tae-hyun is out for the group stage with an ankle injury; FW Bae Joon-ho is doubtful after training separately since arriving in Mexico. No significant suspensions reported.\n- **Tactical News:** South Korea coach Hong Myung-bo has confirmed his starting XI for the match. Lee Ki-hyuk is a candidate to step in defensively following Kim's injury.\n- **Form:** South Korea strolled through Asian qualifying unbeaten, while Czechia needed penalty shootouts in two UEFA playoff rounds to qualify. South Korea are considered favorites for this match.\n- **Uncertainty:** Bae Joon-ho's availability remains uncertain due to his lack of team training. Czechia's overall tournament form is a question mark as they return to the World Cup after a 20-year absence.",
+      "polymarket_odds": [
+        {
+          "warning": "Polymarket lookup failed or found no market.",
+          "failures": [
+            {
+              "endpoint": "global_gamma",
+              "url": "https://gamma-api.polymarket.com/public-search",
+              "error": "HTTPSConnectionPool(host='gamma-api.polymarket.com', port=443): Max retries exceeded with url: /public-search?q=South+Korea+Czech+Republic+World+Cup&limit_per_type=10&search_tags=false&search_profiles=false (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x112a07c10>: Failed to resolve 'gamma-api.polymarket.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+            },
+            {
+              "endpoint": "us_gateway",
+              "url": "https://gateway.polymarket.us/v1/search",
+              "error": "Request succeeded but no matching market was found."
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "south korea vs czech republic",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
+    },
+    {
+      "created_at": "2026-06-11T20:20:16.729441Z",
+      "key": "south korea vs czech republic::openrouter/qwen/qwen3.7-max",
+      "match_id": 2,
+      "match": "South Korea vs Czech Republic",
+      "choices": [
+        "South Korea",
+        "Czech Republic",
+        "Draw"
+      ],
+      "model_alias": "qwen-3.7-max",
+      "model": "openrouter/qwen/qwen3.7-max",
+      "prediction": "South Korea",
+      "scoreline": "South Korea 2-1 Czech Republic",
+      "players_to_watch": "Son Heung-min (South Korea), Lee Kang-in (South Korea), Kim Min-jae (South Korea)",
+      "confidence": 0.65,
+      "rationale": "South Korea possesses greater individual quality and top-level club experience across their starting XI, while the Czech Republic's reliance on penalty shootouts in qualifying hints at potential struggles in open play against a dynamic and technically gifted South Korean attack.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 4816,
+          "completion_tokens": 2891,
+          "total_tokens": 7707,
+          "cost": 0.01686125
+        },
+        "calls": [
+          {
+            "model": "openrouter/qwen/qwen3.7-max",
+            "usage": {
+              "completion_tokens": 1491,
+              "prompt_tokens": 2611,
+              "total_tokens": 4102,
+              "cost": 0.008855
+            },
+            "cost": null
+          },
+          {
+            "model": "openrouter/qwen/qwen3.7-max",
+            "usage": {
+              "completion_tokens": 1400,
+              "prompt_tokens": 2205,
+              "total_tokens": 3605,
+              "cost": 0.00800625
+            },
+            "cost": null
+          }
+        ]
+      },
+      "news_summary": "- **Injuries**: South Korea center-back Kim Tae-hyun is out for the group stage with an ankle injury; striker Bae Joon-ho is also sidelined and training separately. No injuries reported for the Czech Republic.\n- **Tactical News**: South Korea manager Hong Myung-bo has confirmed his starting XI, expected to build around key players Son Heung-min, Kim Min-jae, and Lee Kang-in. Defensive adjustments will be needed due to Kim Tae-hyun's absence.\n- **Form & Context**: South Korea went unbeaten through Asian qualifying. The Czech Republic qualified via two UEFA penalty shootouts and are playing in their first World Cup since 2006. Head-to-head in friendlies shows one win each.\n- **Suspensions**: None reported for either team.\n- **Uncertainty**: South Korea's exact adjusted defensive partnership; the Czech Republic's full injury list and tactical setup are unknown due to truncated source text.",
+      "polymarket_odds": [
+        {
+          "warning": "Polymarket lookup failed or found no market.",
+          "failures": [
+            {
+              "endpoint": "global_gamma",
+              "url": "https://gamma-api.polymarket.com/public-search",
+              "error": "HTTPSConnectionPool(host='gamma-api.polymarket.com', port=443): Max retries exceeded with url: /public-search?q=South+Korea+Czech+Republic+World+Cup&limit_per_type=10&search_tags=false&search_profiles=false (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x112a07c10>: Failed to resolve 'gamma-api.polymarket.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+            },
+            {
+              "endpoint": "us_gateway",
+              "url": "https://gateway.polymarket.us/v1/search",
+              "error": "Request succeeded but no matching market was found."
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "south korea vs czech republic",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
+    },
+    {
+      "created_at": "2026-06-11T20:22:23.707660Z",
+      "key": "south korea vs czech republic::openrouter/moonshotai/kimi-k2.6",
+      "match_id": 2,
+      "match": "South Korea vs Czech Republic",
+      "choices": [
+        "South Korea",
+        "Czech Republic",
+        "Draw"
+      ],
+      "model_alias": "kimi-k2.6",
+      "model": "openrouter/moonshotai/kimi-k2.6",
+      "prediction": "South Korea",
+      "scoreline": "South Korea 2-1 Czech Republic",
+      "players_to_watch": "Son Heung-min (South Korea), Kim Min-jae (South Korea), Hwang Hee-chan (South Korea), Lee Gi-hyuk (South Korea)",
+      "confidence": 0.68,
+      "rationale": "South Korea’s unbeaten qualifying run and superior attacking options outweigh their late defensive change, whereas Czech Republic’s arduous playoff path and 20-year World Cup absence indicate they are underdogs vulnerable to South Korea’s pace and quality in the final third.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 2630,
+          "completion_tokens": 4471,
+          "total_tokens": 7101,
+          "cost": 0.0173054
+        },
+        "calls": [
+          {
+            "model": "openrouter/moonshotai/kimi-k2.6",
+            "usage": {
+              "completion_tokens": 2616,
+              "prompt_tokens": 485,
+              "total_tokens": 3101,
+              "cost": 0.0092824
+            },
+            "cost": null
+          },
+          {
+            "model": "openrouter/moonshotai/kimi-k2.6",
+            "usage": {
+              "completion_tokens": 1855,
+              "prompt_tokens": 2145,
+              "total_tokens": 4000,
+              "cost": 0.008023
+            },
+            "cost": null
+          }
+        ]
+      },
+      "news_summary": "- **Injuries/Absences:** South Korea CB **Kim Tae-hyun** is ruled out of the group stage with an ankle injury sustained in training; FW **Bae Joon-ho** has trained separately since arriving in Mexico and is likely unavailable. No injury or suspension news was detailed for Czech Republic in the provided snippets.\n- **Tactical:** South Korea coach **Hong Myung-bo** confirmed his starting XI after deliberating until the morning of the press conference. **Lee Gi-hyuk** is expected to deputize in central defense alongside **Kim Min-jae**, with **Son Heung-min**, **Hwang Hee-chan**, and **Lee Jae-sung** leading the attack.\n- **Form:** South Korea went **unbeaten** during World Cup qualifying. Czech Republic needed **two UEFA playoff rounds on penalties** to qualify and are making their first World Cup appearance since 2006.\n- **Suspensions:** None reported for either side.\n- **Uncertainty:** South Korea’s late defensive reshuffle is the key pre-match variable; Czech Republic lineup and fitness information were not available in the provided snippets.",
+      "polymarket_odds": [
+        {
+          "warning": "Polymarket lookup failed or found no market.",
+          "failures": [
+            {
+              "endpoint": "global_gamma",
+              "url": "https://gamma-api.polymarket.com/public-search",
+              "error": "HTTPSConnectionPool(host='gamma-api.polymarket.com', port=443): Max retries exceeded with url: /public-search?q=South+Korea+Czech+Republic+World+Cup&limit_per_type=10&search_tags=false&search_profiles=false (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x112a07c10>: Failed to resolve 'gamma-api.polymarket.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+            },
+            {
+              "endpoint": "us_gateway",
+              "url": "https://gateway.polymarket.us/v1/search",
+              "error": "Request succeeded but no matching market was found."
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "south korea vs czech republic",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
+    }
+  ]
+}

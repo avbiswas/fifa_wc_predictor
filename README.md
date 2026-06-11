@@ -1,0 +1,114 @@
+# FIFA World Cup 2026 Prediction Data
+
+Starter data for a FIFA World Cup 2026 match-winner prediction system.
+
+## Data
+
+Run:
+
+```bash
+python3 -m pip install -r requirements.txt
+python3 scripts/download_worldcup_data.py
+```
+
+The script writes raw source files to `data/raw/` and normalized tables to `data/processed/`.
+
+Processed outputs:
+
+- `schedule_2026.csv` / `.json`: all 104 fixtures with UTC kickoff timestamps.
+- `teams_2026.csv` / `.json`: qualified teams, groups, roster sizes, and coaches.
+- `players_2026.csv` / `.json`: official squad players with position, DOB, club, height, caps, and goals.
+- `coaches_2026.csv`: coach rows extracted from the official FIFA squad list.
+- `grounds_2026.csv`: match counts by host ground/city label.
+- `sources.csv` / `.json`: source URLs, local paths, checksums, and file sizes.
+
+Raw outputs include the official FIFA schedule PDF, official FIFA squad list PDF, openfootball's structured 2026 schedule, and historical World Cup match JSON files from 1930 through 2022.
+
+## Notes
+
+The official FIFA squad PDF does not preserve every name column boundary during text extraction. `players_2026.csv` therefore keeps `name_block`, the raw extracted player-name columns before DOB, alongside the parsed fields that are reliable for modeling.
+
+## Quick DSPy Prediction
+
+Set keys in `.env` or `.envrc`:
+
+```bash
+export EXA_API_KEY=...
+export OPENROUTER_API_KEY=...
+```
+
+Run a one-match ChainOfThought prediction:
+
+```bash
+python3 scripts/predict_match_dspy.py "Mexico vs South Africa" --news-results 5
+```
+
+The prototype uses `openrouter/google/gemini-3-flash-preview`, searches Exa for match news, summarizes the news with DSPy, tries Polymarket's public Gamma API for odds, and predicts exactly one of the two team names or `Draw`.
+
+News and Polymarket responses are cached by normalized match string in `data/cache/match_retrieval_cache.json`, so repeated runs for the same match do not call those APIs again. Use `--refresh-cache` to force a new retrieval.
+
+Prediction code is split into modules under `worldcup_predictor/`:
+
+- `cli.py`: command orchestration.
+- `data.py`: schedule lookup and squad summaries.
+- `cache.py`: local news/Polymarket cache.
+- `news.py`: Exa retrieval and formatting.
+- `polymarket.py`: Polymarket market search.
+- `prepare.py`: artifact assembly for a single match.
+- `dspy_program.py`: DSPy signatures and model configuration.
+
+Polymarket lookup tries the global Gamma search endpoint first and then the Polymarket US public gateway (`/v1/search`) as a fallback.
+
+Prepare all non-DSPy artifacts for one match ID:
+
+```bash
+./prepare_data 1
+```
+
+This writes `data/prepared/match_1.json` with schedule context, squad summaries, formatted news, Polymarket odds, cache metadata, and the exact model input fields needed by the predictor.
+
+Pretty-print downloaded data with Rich:
+
+```bash
+./show_data --match-id 1 --prepared --cache
+```
+
+Use `--all-players` for full squads or `--squad-limit 12` to change the compact display.
+
+Run a prediction with an explicit model:
+
+```bash
+python3 scripts/predict_match_dspy.py --match-id 1 --model gemini-3-flash
+```
+
+List configured competition aliases:
+
+```bash
+python3 scripts/predict_match_dspy.py --list-models
+```
+
+Validate configured aliases against OpenRouter's model list:
+
+```bash
+python3 scripts/predict_match_dspy.py --validate-models
+```
+
+Run every competition model for a match:
+
+```bash
+./run_competition --match-id 1
+```
+
+Run only models missing a saved prediction:
+
+```bash
+./run_missing_predictions --match-id 1
+```
+
+Each prediction is appended to `data/predictions/predictions.json` with the model name, winner prediction, scoreline, players to watch, confidence, reasoning, and LM usage. Add `--no-save` to print without writing prediction history.
+
+For an offline wiring check:
+
+```bash
+python3 scripts/predict_match_dspy.py --match-id 1 --skip-news --skip-polymarket
+```

@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler pages dev public",
+    "deploy": "wrangler pages deploy public",
+    "serve": "python3 -m http.server 8788 --directory public"
+  },
+  "devDependencies": {
+    "wrangler": "^4.38.0"
+  }
+}
