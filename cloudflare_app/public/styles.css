@@ -432,6 +432,15 @@ th {
   max-width: 800px;
 }
 
+.tba-note {
+  max-width: 620px;
+  margin: 16px auto 0;
+  color: var(--muted);
+  font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
 @media (max-width: 1020px) {
   .app-shell {
     grid-template-columns: 1fr;

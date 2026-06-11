@@ -112,3 +112,9 @@ For an offline wiring check:
 ```bash
 python3 scripts/predict_match_dspy.py --match-id 1 --skip-news --skip-polymarket
 ```
+
+## Support
+
+If you find this helpful, consider supporting on Patreon — it hosts all code, projects, slides, and write-ups from the YouTube channel.
+
+[<img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Become a Patron!" width="200">](https://www.patreon.com/NeuralBreakdownwithAVB)
