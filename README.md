@@ -53,7 +53,7 @@ Run a one-match ChainOfThought prediction:
 python3 scripts/predict_match_dspy.py "Mexico vs South Africa" --news-results 5
 ```
 
-The prototype uses `openrouter/google/gemini-3-flash-preview`, searches Exa for match news, summarizes the news with DSPy, tries Polymarket's public Gamma API for odds, and predicts exactly one of the two team names or `Draw`.
+The prototype uses `openrouter/google/gemini-3.5-flash`, searches Exa for match news, summarizes the news with DSPy, tries Polymarket's public Gamma API for odds, and predicts exactly one of the two team names or `Draw`.
 
 News and Polymarket responses are cached by normalized match string in `data/cache/match_retrieval_cache.json`, so repeated runs for the same match do not call those APIs again. Use `--refresh-cache` to force a new retrieval.
 
@@ -88,7 +88,7 @@ Use `--all-players` for full squads or `--squad-limit 12` to change the compact 
 Run a prediction with an explicit model:
 
 ```bash
-python3 scripts/predict_match_dspy.py --match-id 1 --model gemini-3-flash
+python3 scripts/predict_match_dspy.py --match-id 1 --model gemini-3.5-flash
 ```
 
 List configured competition aliases:

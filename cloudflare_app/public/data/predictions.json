@@ -2,14 +2,14 @@
   "predictions": [
     {
       "created_at": "2026-06-11T18:49:17.534230Z",
-      "key": "mexico vs south africa::openrouter/google/gemini-3-flash-preview",
+      "key": "mexico vs south africa::openrouter/google/gemini-3.5-flash",
       "match": "Mexico vs South Africa",
       "choices": [
         "Mexico",
         "South Africa",
         "Draw"
       ],
-      "model": "openrouter/google/gemini-3-flash-preview",
+      "model": "openrouter/google/gemini-3.5-flash",
       "prediction": "Mexico",
       "scoreline": "Mexico 2-0 South Africa",
       "confidence": 0.75,
@@ -59,14 +59,14 @@
     },
     {
       "created_at": "2026-06-11T18:58:27.354338Z",
-      "key": "mexico vs south africa::openrouter/google/gemini-3-flash-preview",
+      "key": "mexico vs south africa::openrouter/google/gemini-3.5-flash",
       "match": "Mexico vs South Africa",
       "choices": [
         "Mexico",
         "South Africa",
         "Draw"
       ],
-      "model": "openrouter/google/gemini-3-flash-preview",
+      "model": "openrouter/google/gemini-3.5-flash",
       "prediction": "Mexico",
       "scoreline": "Mexico 2-0 South Africa",
       "confidence": 0.65,
@@ -80,7 +80,7 @@
         },
         "calls": [
           {
-            "model": "openrouter/google/gemini-3-flash-preview",
+            "model": "openrouter/google/gemini-3.5-flash",
             "usage": {
               "completion_tokens": 182,
               "prompt_tokens": 245,
@@ -90,7 +90,7 @@
             "cost": 0.0006685
           },
           {
-            "model": "openrouter/google/gemini-3-flash-preview",
+            "model": "openrouter/google/gemini-3.5-flash",
             "usage": {
               "completion_tokens": 348,
               "prompt_tokens": 3217,
@@ -146,14 +146,14 @@
     },
     {
       "created_at": "2026-06-11T18:59:06.504626Z",
-      "key": "mexico vs south africa::openrouter/google/gemini-3-flash-preview",
+      "key": "mexico vs south africa::openrouter/google/gemini-3.5-flash",
       "match": "Mexico vs South Africa",
       "choices": [
         "Mexico",
         "South Africa",
         "Draw"
       ],
-      "model": "openrouter/google/gemini-3-flash-preview",
+      "model": "openrouter/google/gemini-3.5-flash",
       "prediction": "Mexico",
       "scoreline": "Mexico 2-0 South Africa",
       "confidence": 0.75,
@@ -167,7 +167,7 @@
         },
         "calls": [
           {
-            "model": "openrouter/google/gemini-3-flash-preview",
+            "model": "openrouter/google/gemini-3.5-flash",
             "usage": {
               "completion_tokens": 319,
               "prompt_tokens": 770,
@@ -177,7 +177,7 @@
             "cost": 0.001342
           },
           {
-            "model": "openrouter/google/gemini-3-flash-preview",
+            "model": "openrouter/google/gemini-3.5-flash",
             "usage": {
               "completion_tokens": 376,
               "prompt_tokens": 3998,
@@ -477,15 +477,15 @@
     },
     {
       "created_at": "2026-06-11T19:15:17.195067Z",
-      "key": "mexico vs south africa::openrouter/google/gemini-3-flash-preview",
+      "key": "mexico vs south africa::openrouter/google/gemini-3.5-flash",
       "match": "Mexico vs South Africa",
       "choices": [
         "Mexico",
         "South Africa",
         "Draw"
       ],
-      "model_alias": "gemini-3-flash",
-      "model": "openrouter/google/gemini-3-flash-preview",
+      "model_alias": "gemini-3.5-flash",
+      "model": "openrouter/google/gemini-3.5-flash",
       "prediction": "Mexico",
       "scoreline": "Mexico 2-0 South Africa",
       "confidence": 0.75,
@@ -499,7 +499,7 @@
         },
         "calls": [
           {
-            "model": "openrouter/google/gemini-3-flash-preview",
+            "model": "openrouter/google/gemini-3.5-flash",
             "usage": {
               "completion_tokens": 329,
               "prompt_tokens": 770,
@@ -509,7 +509,7 @@
             "cost": 0.001372
           },
           {
-            "model": "openrouter/google/gemini-3-flash-preview",
+            "model": "openrouter/google/gemini-3.5-flash",
             "usage": {
               "completion_tokens": 303,
               "prompt_tokens": 4006,
@@ -643,15 +643,15 @@
     },
     {
       "created_at": "2026-06-11T19:15:41.087713Z",
-      "key": "mexico vs south africa::openrouter/~google/gemini-pro-latest",
+      "key": "mexico vs south africa::openrouter/google/gemini-3.1-pro-preview",
       "match": "Mexico vs South Africa",
       "choices": [
         "Mexico",
         "South Africa",
         "Draw"
       ],
-      "model_alias": "gemini-3.5-pro",
-      "model": "openrouter/~google/gemini-pro-latest",
+      "model_alias": "gemini-3.1-pro",
+      "model": "openrouter/google/gemini-3.1-pro-preview",
       "prediction": "Mexico",
       "scoreline": "Mexico 2-0 South Africa",
       "confidence": 0.69,
@@ -665,7 +665,7 @@
         },
         "calls": [
           {
-            "model": "openrouter/~google/gemini-pro-latest",
+            "model": "openrouter/google/gemini-3.1-pro-preview",
             "usage": {
               "completion_tokens": 612,
               "prompt_tokens": 770,
@@ -675,7 +675,7 @@
             "cost": null
           },
           {
-            "model": "openrouter/~google/gemini-pro-latest",
+            "model": "openrouter/google/gemini-3.1-pro-preview",
             "usage": {
               "completion_tokens": 959,
               "prompt_tokens": 4018,
@@ -3211,7 +3211,7 @@
     },
     {
       "created_at": "2026-06-11T20:12:39.626422Z",
-      "key": "south korea vs czech republic::openrouter/google/gemini-3-flash-preview",
+      "key": "south korea vs czech republic::openrouter/google/gemini-3.5-flash",
       "match_id": 2,
       "match": "South Korea vs Czech Republic",
       "choices": [
@@ -3219,8 +3219,8 @@
         "Czech Republic",
         "Draw"
       ],
-      "model_alias": "gemini-3-flash",
-      "model": "openrouter/google/gemini-3-flash-preview",
+      "model_alias": "gemini-3.5-flash",
+      "model": "openrouter/google/gemini-3.5-flash",
       "prediction": "South Korea",
       "scoreline": "South Korea 2-0 Czech Republic",
       "confidence": 0.65,
@@ -3234,7 +3234,7 @@
         },
         "calls": [
           {
-            "model": "openrouter/google/gemini-3-flash-preview",
+            "model": "openrouter/google/gemini-3.5-flash",
             "usage": {
               "completion_tokens": 439,
               "prompt_tokens": 2757,
@@ -3244,7 +3244,7 @@
             "cost": 0.0026955
           },
           {
-            "model": "openrouter/google/gemini-3-flash-preview",
+            "model": "openrouter/google/gemini-3.5-flash",
             "usage": {
               "completion_tokens": 364,
               "prompt_tokens": 2275,
@@ -3311,7 +3311,7 @@
     },
     {
       "created_at": "2026-06-11T20:13:07.871518Z",
-      "key": "south korea vs czech republic::openrouter/~google/gemini-pro-latest",
+      "key": "south korea vs czech republic::openrouter/google/gemini-3.1-pro-preview",
       "match_id": 2,
       "match": "South Korea vs Czech Republic",
       "choices": [
@@ -3319,8 +3319,8 @@
         "Czech Republic",
         "Draw"
       ],
-      "model_alias": "gemini-3.5-pro",
-      "model": "openrouter/~google/gemini-pro-latest",
+      "model_alias": "gemini-3.1-pro",
+      "model": "openrouter/google/gemini-3.1-pro-preview",
       "prediction": "Draw",
       "scoreline": "South Korea 1-1 Czech Republic",
       "confidence": 0.6,
@@ -3334,7 +3334,7 @@
         },
         "calls": [
           {
-            "model": "openrouter/~google/gemini-pro-latest",
+            "model": "openrouter/google/gemini-3.1-pro-preview",
             "usage": {
               "completion_tokens": 870,
               "prompt_tokens": 2757,
@@ -3344,7 +3344,7 @@
             "cost": null
           },
           {
-            "model": "openrouter/~google/gemini-pro-latest",
+            "model": "openrouter/google/gemini-3.1-pro-preview",
             "usage": {
               "completion_tokens": 1596,
               "prompt_tokens": 2232,
@@ -4625,7 +4625,7 @@
     },
     {
       "created_at": "2026-06-12T06:57:36.432490Z",
-      "key": "canada vs bosnia & herzegovina::openrouter/google/gemini-3-flash-preview",
+      "key": "canada vs bosnia & herzegovina::openrouter/google/gemini-3.5-flash",
       "match_id": 7,
       "match": "Canada vs Bosnia & Herzegovina",
       "choices": [
@@ -4633,8 +4633,8 @@
         "Bosnia & Herzegovina",
         "Draw"
       ],
-      "model_alias": "gemini-3-flash",
-      "model": "openrouter/google/gemini-3-flash-preview",
+      "model_alias": "gemini-3.5-flash",
+      "model": "openrouter/google/gemini-3.5-flash",
       "prediction": "Draw",
       "scoreline": "Canada 1-1 Bosnia & Herzegovina",
       "confidence": 0.55,
@@ -4648,7 +4648,7 @@
         },
         "calls": [
           {
-            "model": "openrouter/google/gemini-3-flash-preview",
+            "model": "openrouter/google/gemini-3.5-flash",
             "usage": {
               "completion_tokens": 369,
               "prompt_tokens": 2546,
@@ -4658,7 +4658,7 @@
             "cost": 0.00238
           },
           {
-            "model": "openrouter/google/gemini-3-flash-preview",
+            "model": "openrouter/google/gemini-3.5-flash",
             "usage": {
               "completion_tokens": 302,
               "prompt_tokens": 2369,
@@ -4701,7 +4701,7 @@
     },
     {
       "created_at": "2026-06-12T06:58:00.124891Z",
-      "key": "canada vs bosnia & herzegovina::openrouter/~google/gemini-pro-latest",
+      "key": "canada vs bosnia & herzegovina::openrouter/google/gemini-3.1-pro-preview",
       "match_id": 7,
       "match": "Canada vs Bosnia & Herzegovina",
       "choices": [
@@ -4709,8 +4709,8 @@
         "Bosnia & Herzegovina",
         "Draw"
       ],
-      "model_alias": "gemini-3.5-pro",
-      "model": "openrouter/~google/gemini-pro-latest",
+      "model_alias": "gemini-3.1-pro",
+      "model": "openrouter/google/gemini-3.1-pro-preview",
       "prediction": "Draw",
       "scoreline": "Canada 1-1 Bosnia & Herzegovina",
       "confidence": 0.55,
@@ -4724,7 +4724,7 @@
         },
         "calls": [
           {
-            "model": "openrouter/~google/gemini-pro-latest",
+            "model": "openrouter/google/gemini-3.1-pro-preview",
             "usage": {
               "completion_tokens": 740,
               "prompt_tokens": 2546,
@@ -4734,7 +4734,7 @@
             "cost": null
           },
           {
-            "model": "openrouter/~google/gemini-pro-latest",
+            "model": "openrouter/google/gemini-3.1-pro-preview",
             "usage": {
               "completion_tokens": 1189,
               "prompt_tokens": 2346,
@@ -6039,7 +6039,7 @@
     },
     {
       "created_at": "2026-06-12T14:23:11.434620Z",
-      "key": "united states vs paraguay::openrouter/google/gemini-3-flash-preview",
+      "key": "united states vs paraguay::openrouter/google/gemini-3.5-flash",
       "match_id": 19,
       "match": "United States vs Paraguay",
       "choices": [
@@ -6047,8 +6047,8 @@
         "Paraguay",
         "Draw"
       ],
-      "model_alias": "gemini-3-flash",
-      "model": "openrouter/google/gemini-3-flash-preview",
+      "model_alias": "gemini-3.5-flash",
+      "model": "openrouter/google/gemini-3.5-flash",
       "prediction": "United States",
       "scoreline": "United States 2-1 Paraguay",
       "goal_scorers": [
@@ -6067,7 +6067,7 @@
         },
         "calls": [
           {
-            "model": "openrouter/google/gemini-3-flash-preview",
+            "model": "openrouter/google/gemini-3.5-flash",
             "usage": {
               "completion_tokens": 356,
               "prompt_tokens": 2517,
@@ -6077,7 +6077,7 @@
             "cost": 0.0023265
           },
           {
-            "model": "openrouter/google/gemini-3-flash-preview",
+            "model": "openrouter/google/gemini-3.5-flash",
             "usage": {
               "completion_tokens": 337,
               "prompt_tokens": 3838,
@@ -6181,7 +6181,7 @@
     },
     {
       "created_at": "2026-06-12T14:23:33.338467Z",
-      "key": "united states vs paraguay::openrouter/~google/gemini-pro-latest",
+      "key": "united states vs paraguay::openrouter/google/gemini-3.1-pro-preview",
       "match_id": 19,
       "match": "United States vs Paraguay",
       "choices": [
@@ -6189,8 +6189,8 @@
         "Paraguay",
         "Draw"
       ],
-      "model_alias": "gemini-3.5-pro",
-      "model": "openrouter/~google/gemini-pro-latest",
+      "model_alias": "gemini-3.1-pro",
+      "model": "openrouter/google/gemini-3.1-pro-preview",
       "prediction": "United States",
       "scoreline": "United States 2-1 Paraguay",
       "goal_scorers": [
@@ -6209,7 +6209,7 @@
         },
         "calls": [
           {
-            "model": "openrouter/~google/gemini-pro-latest",
+            "model": "openrouter/google/gemini-3.1-pro-preview",
             "usage": {
               "completion_tokens": 668,
               "prompt_tokens": 2517,
@@ -6219,7 +6219,7 @@
             "cost": 0.01305
           },
           {
-            "model": "openrouter/~google/gemini-pro-latest",
+            "model": "openrouter/google/gemini-3.1-pro-preview",
             "usage": {
               "completion_tokens": 1249,
               "prompt_tokens": 3813,
@@ -7727,7 +7727,7 @@
         "average_points": 72.5
       },
       {
-        "model_alias": "gemini-3-flash",
+        "model_alias": "gemini-3.5-flash",
         "matches_scored": 2,
         "total_points": 140,
         "total_cost": 0.018936,
@@ -7811,7 +7811,7 @@
         "average_points": 70.0
       },
       {
-        "model_alias": "gemini-3.5-pro",
+        "model_alias": "gemini-3.1-pro",
         "matches_scored": 2,
         "total_points": 90,
         "total_cost": 0.136594,
