@@ -1,6 +1,6 @@
 # LLMs predict FIFA World Cup 2026!
 
-LLMs predict matchday scores, and gets points for correct predictions.
+LLMs predict matchday scores, and get points for correct predictions.
 This webapp is hosted [here](https://fifa-wc-predictor.sudavivi.workers.dev/)
 
 https://github.com/user-attachments/assets/f19e6deb-2467-43e4-96d7-b831e6116b89
