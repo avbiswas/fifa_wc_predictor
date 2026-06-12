@@ -4383,7 +4383,31 @@
         "Jonathan David",
         "Tajon Buchanan",
         "Stephen Eustaquio"
-      ]
+      ],
+      "score": {
+        "total": 0,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Jonathan David",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Tajon Buchanan",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Stephen Eustaquio",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-12T06:57:13.554444Z",
@@ -4469,7 +4493,31 @@
         "Jonathan David",
         "Cyle Larin",
         "Alistair Johnston"
-      ]
+      ],
+      "score": {
+        "total": 5,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Jonathan David",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Cyle Larin",
+            "matched_scorer": "C. Larin",
+            "points": 5
+          },
+          {
+            "predicted": "Alistair Johnston",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-12T06:57:21.165303Z",
@@ -4545,7 +4593,31 @@
         "Alphonso Davies",
         "Cyle Larin",
         "Edin Džeko"
-      ]
+      ],
+      "score": {
+        "total": 5,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Alphonso Davies",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Cyle Larin",
+            "matched_scorer": "C. Larin",
+            "points": 5
+          },
+          {
+            "predicted": "Edin Džeko",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-12T06:57:27.091204Z",
@@ -4621,7 +4693,31 @@
         "Jonathan David",
         "Cyle Larin",
         "Stephen Eustaquio"
-      ]
+      ],
+      "score": {
+        "total": 5,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Jonathan David",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Cyle Larin",
+            "matched_scorer": "C. Larin",
+            "points": 5
+          },
+          {
+            "predicted": "Stephen Eustaquio",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-12T06:57:36.432490Z",
@@ -4697,7 +4793,31 @@
         "Jonathan David",
         "Stephen Eustaquio",
         "Tajon Buchanan"
-      ]
+      ],
+      "score": {
+        "total": 85,
+        "result": 50,
+        "scoreline": 25,
+        "goal_difference": 10,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Jonathan David",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Stephen Eustaquio",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Tajon Buchanan",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-12T06:58:00.124891Z",
@@ -4773,7 +4893,31 @@
         "Jonathan David",
         "Stephen Eustaquio",
         "Ermedin Demirovic"
-      ]
+      ],
+      "score": {
+        "total": 85,
+        "result": 50,
+        "scoreline": 25,
+        "goal_difference": 10,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Jonathan David",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Stephen Eustaquio",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Ermedin Demirovic",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-12T06:58:37.363535Z",
@@ -4849,7 +4993,31 @@
         "Jonathan David",
         "Alphonso Davies",
         "Stephen Eustaquio"
-      ]
+      ],
+      "score": {
+        "total": 0,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Jonathan David",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Alphonso Davies",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Stephen Eustaquio",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-12T06:58:53.684829Z",
@@ -4925,7 +5093,31 @@
         "Jonathan David",
         "Cyle Larin",
         "Stephen Eustaquio"
-      ]
+      ],
+      "score": {
+        "total": 5,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Jonathan David",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Cyle Larin",
+            "matched_scorer": "C. Larin",
+            "points": 5
+          },
+          {
+            "predicted": "Stephen Eustaquio",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-12T06:59:24.797252Z",
@@ -5001,7 +5193,31 @@
         "Jonathan David",
         "Cyle Larin",
         "Stephen Eustaquio"
-      ]
+      ],
+      "score": {
+        "total": 5,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Jonathan David",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Cyle Larin",
+            "matched_scorer": "C. Larin",
+            "points": 5
+          },
+          {
+            "predicted": "Stephen Eustaquio",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-12T07:00:27.694142Z",
@@ -5077,7 +5293,31 @@
         "Jonathan David",
         "Alphonso Davies",
         "Tajon Buchanan"
-      ]
+      ],
+      "score": {
+        "total": 0,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Jonathan David",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Alphonso Davies",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Tajon Buchanan",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-12T07:02:22.191679Z",
@@ -5153,7 +5393,31 @@
         "Jonathan David",
         "Cyle Larin",
         "Stephen Eustaquio"
-      ]
+      ],
+      "score": {
+        "total": 5,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Jonathan David",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Cyle Larin",
+            "matched_scorer": "C. Larin",
+            "points": 5
+          },
+          {
+            "predicted": "Stephen Eustaquio",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-12T07:05:14.380150Z",
@@ -5229,7 +5493,31 @@
         "Jonathan David",
         "Cyle Larin",
         "Stephen Eustaquio"
-      ]
+      ],
+      "score": {
+        "total": 90,
+        "result": 50,
+        "scoreline": 25,
+        "goal_difference": 10,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Jonathan David",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Cyle Larin",
+            "matched_scorer": "C. Larin",
+            "points": 5
+          },
+          {
+            "predicted": "Stephen Eustaquio",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-12T07:05:27.453614Z",
@@ -5305,7 +5593,31 @@
         "Jonathan David",
         "Cyle Larin",
         "Stephen Eustáquio"
-      ]
+      ],
+      "score": {
+        "total": 5,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Jonathan David",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Cyle Larin",
+            "matched_scorer": "C. Larin",
+            "points": 5
+          },
+          {
+            "predicted": "Stephen Eustáquio",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-12T07:07:16.452837Z",
@@ -5391,7 +5703,31 @@
         "Jonathan David",
         "Cyle Larin",
         "Stephen Eustáquio"
-      ]
+      ],
+      "score": {
+        "total": 5,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Jonathan David",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Cyle Larin",
+            "matched_scorer": "C. Larin",
+            "points": 5
+          },
+          {
+            "predicted": "Stephen Eustáquio",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-12T07:08:07.806041Z",
@@ -5467,7 +5803,31 @@
         "Jonathan David",
         "Stephen Eustaquio",
         "Edin Dzeko"
-      ]
+      ],
+      "score": {
+        "total": 85,
+        "result": 50,
+        "scoreline": 25,
+        "goal_difference": 10,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Jonathan David",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Stephen Eustaquio",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Edin Dzeko",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-12T14:22:39.607507Z",
@@ -7611,26 +7971,110 @@
     }
   ],
   "leaderboard": {
-    "completed_matchdays": 1,
+    "completed_matchdays": 2,
     "available": true,
     "rows": [
       {
+        "model_alias": "qwen-3.7-max",
+        "matches_scored": 3,
+        "total_points": 260,
+        "total_cost": 0.06192625,
+        "result_points": 150,
+        "scoreline_points": 75,
+        "goal_difference_points": 30,
+        "goal_scorer_points": 5,
+        "correct_results": 3,
+        "exact_scores": 3,
+        "correct_goal_scorers": 1,
+        "average_points": 86.67
+      },
+      {
+        "model_alias": "kimi-k2.6",
+        "matches_scored": 3,
+        "total_points": 230,
+        "total_cost": 0.0764488,
+        "result_points": 150,
+        "scoreline_points": 50,
+        "goal_difference_points": 20,
+        "goal_scorer_points": 10,
+        "correct_results": 3,
+        "exact_scores": 2,
+        "correct_goal_scorers": 2,
+        "average_points": 76.67
+      },
+      {
+        "model_alias": "gemini-3.5-flash",
+        "matches_scored": 3,
+        "total_points": 225,
+        "total_cost": 0.018936,
+        "result_points": 150,
+        "scoreline_points": 50,
+        "goal_difference_points": 20,
+        "goal_scorer_points": 5,
+        "correct_results": 3,
+        "exact_scores": 2,
+        "correct_goal_scorers": 1,
+        "average_points": 75.0
+      },
+      {
         "model_alias": "claude-haiku-4.5",
-        "matches_scored": 2,
-        "total_points": 175,
+        "matches_scored": 3,
+        "total_points": 180,
         "total_cost": 0.048059,
         "result_points": 100,
         "scoreline_points": 50,
         "goal_difference_points": 20,
-        "goal_scorer_points": 5,
+        "goal_scorer_points": 10,
         "correct_results": 2,
         "exact_scores": 2,
-        "correct_goal_scorers": 1,
-        "average_points": 87.5
+        "correct_goal_scorers": 2,
+        "average_points": 60.0
+      },
+      {
+        "model_alias": "deepseek-v4-pro",
+        "matches_scored": 3,
+        "total_points": 180,
+        "total_cost": 0.05501357,
+        "result_points": 100,
+        "scoreline_points": 50,
+        "goal_difference_points": 20,
+        "goal_scorer_points": 10,
+        "correct_results": 2,
+        "exact_scores": 2,
+        "correct_goal_scorers": 2,
+        "average_points": 60.0
+      },
+      {
+        "model_alias": "grok-4.3",
+        "matches_scored": 3,
+        "total_points": 180,
+        "total_cost": 0.0316572,
+        "result_points": 100,
+        "scoreline_points": 50,
+        "goal_difference_points": 20,
+        "goal_scorer_points": 10,
+        "correct_results": 2,
+        "exact_scores": 2,
+        "correct_goal_scorers": 2,
+        "average_points": 60.0
+      },
+      {
+        "model_alias": "mimo-v2.5-pro",
+        "matches_scored": 3,
+        "total_points": 180,
+        "total_cost": 0.04711564,
+        "result_points": 100,
+        "scoreline_points": 50,
+        "goal_difference_points": 20,
+        "goal_scorer_points": 10,
+        "correct_results": 2,
+        "exact_scores": 2,
+        "correct_goal_scorers": 2,
+        "average_points": 60.0
       },
       {
         "model_alias": "claude-sonnet-4.7",
-        "matches_scored": 2,
+        "matches_scored": 3,
         "total_points": 175,
         "total_cost": 0.161106,
         "result_points": 100,
@@ -7640,13 +8084,13 @@
         "correct_results": 2,
         "exact_scores": 2,
         "correct_goal_scorers": 1,
-        "average_points": 87.5
+        "average_points": 58.33
       },
       {
-        "model_alias": "deepseek-v4-pro",
-        "matches_scored": 2,
+        "model_alias": "gemini-3.1-pro",
+        "matches_scored": 3,
         "total_points": 175,
-        "total_cost": 0.05501357,
+        "total_cost": 0.136594,
         "result_points": 100,
         "scoreline_points": 50,
         "goal_difference_points": 20,
@@ -7654,11 +8098,11 @@
         "correct_results": 2,
         "exact_scores": 2,
         "correct_goal_scorers": 1,
-        "average_points": 87.5
+        "average_points": 58.33
       },
       {
         "model_alias": "gpt-5.5",
-        "matches_scored": 2,
+        "matches_scored": 3,
         "total_points": 175,
         "total_cost": 0.204065,
         "result_points": 100,
@@ -7668,55 +8112,27 @@
         "correct_results": 2,
         "exact_scores": 2,
         "correct_goal_scorers": 1,
-        "average_points": 87.5
-      },
-      {
-        "model_alias": "grok-4.3",
-        "matches_scored": 2,
-        "total_points": 175,
-        "total_cost": 0.0316572,
-        "result_points": 100,
-        "scoreline_points": 50,
-        "goal_difference_points": 20,
-        "goal_scorer_points": 5,
-        "correct_results": 2,
-        "exact_scores": 2,
-        "correct_goal_scorers": 1,
-        "average_points": 87.5
-      },
-      {
-        "model_alias": "mimo-v2.5-pro",
-        "matches_scored": 2,
-        "total_points": 175,
-        "total_cost": 0.04711564,
-        "result_points": 100,
-        "scoreline_points": 50,
-        "goal_difference_points": 20,
-        "goal_scorer_points": 5,
-        "correct_results": 2,
-        "exact_scores": 2,
-        "correct_goal_scorers": 1,
-        "average_points": 87.5
-      },
-      {
-        "model_alias": "qwen-3.7-max",
-        "matches_scored": 2,
-        "total_points": 175,
-        "total_cost": 0.06192625,
-        "result_points": 100,
-        "scoreline_points": 50,
-        "goal_difference_points": 20,
-        "goal_scorer_points": 5,
-        "correct_results": 2,
-        "exact_scores": 2,
-        "correct_goal_scorers": 1,
-        "average_points": 87.5
+        "average_points": 58.33
       },
       {
         "model_alias": "gpt-5.4-nano",
-        "matches_scored": 2,
-        "total_points": 145,
+        "matches_scored": 3,
+        "total_points": 150,
         "total_cost": 0.0072929,
+        "result_points": 100,
+        "scoreline_points": 25,
+        "goal_difference_points": 10,
+        "goal_scorer_points": 15,
+        "correct_results": 2,
+        "exact_scores": 1,
+        "correct_goal_scorers": 3,
+        "average_points": 50.0
+      },
+      {
+        "model_alias": "gemini-3.1-flash-lite",
+        "matches_scored": 3,
+        "total_points": 145,
+        "total_cost": 0.00829725,
         "result_points": 100,
         "scoreline_points": 25,
         "goal_difference_points": 10,
@@ -7724,81 +8140,39 @@
         "correct_results": 2,
         "exact_scores": 1,
         "correct_goal_scorers": 2,
-        "average_points": 72.5
-      },
-      {
-        "model_alias": "gemini-3.5-flash",
-        "matches_scored": 2,
-        "total_points": 140,
-        "total_cost": 0.018936,
-        "result_points": 100,
-        "scoreline_points": 25,
-        "goal_difference_points": 10,
-        "goal_scorer_points": 5,
-        "correct_results": 2,
-        "exact_scores": 1,
-        "correct_goal_scorers": 1,
-        "average_points": 70.0
-      },
-      {
-        "model_alias": "gemini-3.1-flash-lite",
-        "matches_scored": 2,
-        "total_points": 140,
-        "total_cost": 0.00829725,
-        "result_points": 100,
-        "scoreline_points": 25,
-        "goal_difference_points": 10,
-        "goal_scorer_points": 5,
-        "correct_results": 2,
-        "exact_scores": 1,
-        "correct_goal_scorers": 1,
-        "average_points": 70.0
+        "average_points": 48.33
       },
       {
         "model_alias": "glm-5.1",
-        "matches_scored": 2,
-        "total_points": 140,
+        "matches_scored": 3,
+        "total_points": 145,
         "total_cost": 0.07169596,
         "result_points": 100,
         "scoreline_points": 25,
         "goal_difference_points": 10,
-        "goal_scorer_points": 5,
+        "goal_scorer_points": 10,
         "correct_results": 2,
         "exact_scores": 1,
-        "correct_goal_scorers": 1,
-        "average_points": 70.0
+        "correct_goal_scorers": 2,
+        "average_points": 48.33
       },
       {
         "model_alias": "gpt-5.4-mini",
-        "matches_scored": 2,
-        "total_points": 140,
+        "matches_scored": 3,
+        "total_points": 145,
         "total_cost": 0.026712,
         "result_points": 100,
         "scoreline_points": 25,
         "goal_difference_points": 10,
-        "goal_scorer_points": 5,
+        "goal_scorer_points": 10,
         "correct_results": 2,
         "exact_scores": 1,
-        "correct_goal_scorers": 1,
-        "average_points": 70.0
-      },
-      {
-        "model_alias": "kimi-k2.6",
-        "matches_scored": 2,
-        "total_points": 140,
-        "total_cost": 0.0764488,
-        "result_points": 100,
-        "scoreline_points": 25,
-        "goal_difference_points": 10,
-        "goal_scorer_points": 5,
-        "correct_results": 2,
-        "exact_scores": 1,
-        "correct_goal_scorers": 1,
-        "average_points": 70.0
+        "correct_goal_scorers": 2,
+        "average_points": 48.33
       },
       {
         "model_alias": "minimax-m3",
-        "matches_scored": 2,
+        "matches_scored": 3,
         "total_points": 140,
         "total_cost": 0.01835646,
         "result_points": 100,
@@ -7808,24 +8182,10 @@
         "correct_results": 2,
         "exact_scores": 1,
         "correct_goal_scorers": 1,
-        "average_points": 70.0
-      },
-      {
-        "model_alias": "gemini-3.1-pro",
-        "matches_scored": 2,
-        "total_points": 90,
-        "total_cost": 0.136594,
-        "result_points": 50,
-        "scoreline_points": 25,
-        "goal_difference_points": 10,
-        "goal_scorer_points": 5,
-        "correct_results": 1,
-        "exact_scores": 1,
-        "correct_goal_scorers": 1,
-        "average_points": 45.0
+        "average_points": 46.67
       }
     ],
-    "generated_at": "2026-06-12T14:42:11.978099Z"
+    "generated_at": "2026-06-12T21:06:59.778362Z"
   },
   "resolution_state": {
     "result_attempts": {}
@@ -7883,6 +8243,31 @@
           "team": "Czech Republic",
           "scorer": "L. Krejčí",
           "minute": 59
+        }
+      ]
+    },
+    "7": {
+      "match_id": 7,
+      "match": "Canada vs Bosnia & Herzegovina",
+      "fixture_id": 2461104,
+      "provider": "TheSportsDB",
+      "status": "FT",
+      "fetched_at": "2026-06-12T21:06:59.760666Z",
+      "team1": "Canada",
+      "team2": "Bosnia & Herzegovina",
+      "team1_score": 1,
+      "team2_score": 1,
+      "winner": "Draw",
+      "goals": [
+        {
+          "team": "Canada",
+          "scorer": "C. Larin",
+          "minute": 79
+        },
+        {
+          "team": "Bosnia and Herzegovina",
+          "scorer": "Jovo Lukić",
+          "minute": 21
         }
       ]
     }
