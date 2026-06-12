@@ -18,8 +18,7 @@ If you find this helpful, consider supporting on Patreon — it hosts all code, 
 Run:
 
 ```bash
-python3 -m pip install -r requirements.txt
-python3 scripts/download_worldcup_data.py
+uv run python scripts/download_worldcup_data.py
 ```
 
 The script writes raw source files to `data/raw/` and normalized tables to `data/processed/`.
@@ -143,7 +142,7 @@ Each match is worth 100 points: 50 for the correct 90-minute result, 25 for the 
 Resolve the current day manually:
 
 ```bash
-./resolve_day
+uv run ./resolve_day
 ```
 
 The command first prints every match it intends to predict and every result it intends to fetch. It then asks once whether to fetch all pending past results, followed by a separate approval prompt for each future match prediction batch. Enter `y` or `Y` to approve an action.
@@ -155,7 +154,7 @@ This command:
 - recalculates scores and the model leaderboard;
 - records a one-hour retry window when a result is not final yet.
 
-It is idempotent: predictions and completed results already present in the JSON are not requested again. Use `./resolve_day --dry-run` to print the plan and exit without prompting.
+It is idempotent: predictions and completed results already present in the JSON are not requested again. Use `uv run ./resolve_day --dry-run` to print the plan and exit without prompting.
 
 For an offline wiring check:
 

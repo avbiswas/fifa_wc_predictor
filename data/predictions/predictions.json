@@ -5468,6 +5468,2146 @@
         "Stephen Eustaquio",
         "Edin Dzeko"
       ]
+    },
+    {
+      "created_at": "2026-06-12T14:22:39.607507Z",
+      "key": "united states vs paraguay::openrouter/openai/gpt-5.5",
+      "match_id": 19,
+      "match": "United States vs Paraguay",
+      "choices": [
+        "United States",
+        "Paraguay",
+        "Draw"
+      ],
+      "model_alias": "gpt-5.5",
+      "model": "openrouter/openai/gpt-5.5",
+      "prediction": "United States",
+      "scoreline": "United States 2-1 Paraguay",
+      "goal_scorers": [
+        "Christian Pulisic",
+        "Ricardo Pepi",
+        "Miguel Almiron"
+      ],
+      "confidence": 0.46,
+      "rationale": "USA are slight market favorites, have full-squad availability, and benefit from playing in Los Angeles. Paraguay’s experienced back line and counterattacking talent make the match competitive, but USA’s attacking depth gives them the edge.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 5677,
+          "completion_tokens": 834,
+          "total_tokens": 6511,
+          "cost": 0.053405
+        },
+        "calls": [
+          {
+            "model": "openrouter/openai/gpt-5.5",
+            "usage": {
+              "completion_tokens": 468,
+              "prompt_tokens": 2175,
+              "total_tokens": 2643,
+              "cost": 0.024915
+            },
+            "cost": 0.024915
+          },
+          {
+            "model": "openrouter/openai/gpt-5.5",
+            "usage": {
+              "completion_tokens": 366,
+              "prompt_tokens": 3502,
+              "total_tokens": 3868,
+              "cost": 0.02849
+            },
+            "cost": 0.02849
+          }
+        ]
+      },
+      "news_summary": "- **USA injuries/team news:** Full 26-man USMNT squad reportedly available for the Group D opener.\n- **Chris Richards:** Major boost for the USA; recovered enough from an ankle injury to be available. However, Pochettino refused to confirm whether he starts.\n- **USA lineup uncertainty:** Pochettino said he knows his XI but gave no public clues; projected lineups remain speculative.\n- **USA form:** Final warm-ups were mixed — beat Senegal 3-2, then lost 2-1 to Germany.\n- **Paraguay news:** No concrete Paraguay injury, suspension, or tactical updates in the supplied snippets.\n- **Suspensions:** No suspensions reported for either side in the provided material.\n- **Prediction-model note:** USA availability is positive, but Richards’ starting status and the lack of Paraguay-specific news create lineup uncertainty.",
+      "polymarket_odds": [
+        {
+          "title": "United States vs. Paraguay",
+          "slug": "fwc-usa-par-2026-06-12",
+          "markets": [
+            {
+              "question": "Will United States win against Paraguay in the World Cup match scheduled for Jun 12, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.4600",
+                "0.4700"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-usa"
+            },
+            {
+              "question": "Will the World Cup match United States vs Paraguay scheduled for Jun 12, 2026 end in a draw?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.2800",
+                "0.2900"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-draw"
+            },
+            {
+              "question": "Will Paraguay win against United States in the World Cup match scheduled for Jun 12, 2026?",
+              "outcomes": [
+                "No",
+                "Yes"
+              ],
+              "outcome_prices": [
+                "0.2300",
+                "0.2400"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-par"
+            },
+            {
+              "question": "Will Ricardo Pepi record at least 3 goals in USA vs PAR?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0100",
+                "0.1100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "astatc-fwc-usa-par-2026-06-12-goals-ricpep-gte3"
+            },
+            {
+              "question": "Will Weston McKennie record at least 2 shots in USA vs PAR?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.5700",
+                "0.6600"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "astatc-fwc-usa-par-2026-06-12-shots-fwcwesmck-gte2"
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "united states vs paraguay",
+        "news_from_cache": false,
+        "polymarket_from_cache": false
+      }
+    },
+    {
+      "created_at": "2026-06-12T14:22:46.912566Z",
+      "key": "united states vs paraguay::openrouter/openai/gpt-5.4-mini",
+      "match_id": 19,
+      "match": "United States vs Paraguay",
+      "choices": [
+        "United States",
+        "Paraguay",
+        "Draw"
+      ],
+      "model_alias": "gpt-5.4-mini",
+      "model": "openrouter/openai/gpt-5.4-mini",
+      "prediction": "United States",
+      "scoreline": "United States 2-1 Paraguay",
+      "goal_scorers": [
+        "Christian Pulisic",
+        "Ricardo Pepi",
+        "Miguel Almiron"
+      ],
+      "confidence": 0.46,
+      "rationale": "USA have home advantage, a full-fit squad, and more elite attacking depth. Paraguay are solid and have enough firepower to score, but the betting prices and roster balance tilt toward a tight US win.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 5606,
+          "completion_tokens": 515,
+          "total_tokens": 6121,
+          "cost": 0.006522
+        },
+        "calls": [
+          {
+            "model": "openrouter/openai/gpt-5.4-mini",
+            "usage": {
+              "completion_tokens": 292,
+              "prompt_tokens": 2175,
+              "total_tokens": 2467,
+              "cost": 0.00294525
+            },
+            "cost": 0.00294525
+          },
+          {
+            "model": "openrouter/openai/gpt-5.4-mini",
+            "usage": {
+              "completion_tokens": 223,
+              "prompt_tokens": 3431,
+              "total_tokens": 3654,
+              "cost": 0.00357675
+            },
+            "cost": 0.00357675
+          }
+        ]
+      },
+      "news_summary": "- USA have a major injury boost: Chris Richards is available despite a recent ankle issue.\n- Pochettino says all 26 USMNT players are fit and available for selection.\n- No suspensions reported in the available news.\n- Starting XI not confirmed publicly yet, but Pochettino already knows his lineup.\n- USA form is mixed: beat Senegal 3-2 in a warm-up, then lost 2-1 to Germany.\n- No specific Paraguay injury or suspension updates found in the provided items.",
+      "polymarket_odds": [
+        {
+          "title": "United States vs. Paraguay",
+          "slug": "fwc-usa-par-2026-06-12",
+          "markets": [
+            {
+              "question": "Will United States win against Paraguay in the World Cup match scheduled for Jun 12, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.4600",
+                "0.4700"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-usa"
+            },
+            {
+              "question": "Will the World Cup match United States vs Paraguay scheduled for Jun 12, 2026 end in a draw?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.2800",
+                "0.2900"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-draw"
+            },
+            {
+              "question": "Will Paraguay win against United States in the World Cup match scheduled for Jun 12, 2026?",
+              "outcomes": [
+                "No",
+                "Yes"
+              ],
+              "outcome_prices": [
+                "0.2300",
+                "0.2400"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-par"
+            },
+            {
+              "question": "Will Ricardo Pepi record at least 3 goals in USA vs PAR?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0100",
+                "0.1100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "astatc-fwc-usa-par-2026-06-12-goals-ricpep-gte3"
+            },
+            {
+              "question": "Will Weston McKennie record at least 2 shots in USA vs PAR?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.5700",
+                "0.6600"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "astatc-fwc-usa-par-2026-06-12-shots-fwcwesmck-gte2"
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "united states vs paraguay",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
+    },
+    {
+      "created_at": "2026-06-12T14:22:55.414136Z",
+      "key": "united states vs paraguay::openrouter/openai/gpt-5.4-nano",
+      "match_id": 19,
+      "match": "United States vs Paraguay",
+      "choices": [
+        "United States",
+        "Paraguay",
+        "Draw"
+      ],
+      "model_alias": "gpt-5.4-nano",
+      "model": "openrouter/openai/gpt-5.4-nano",
+      "prediction": "United States",
+      "scoreline": "United States 2-1 Paraguay",
+      "goal_scorers": [
+        "Christian Pulisic",
+        "Ricardo Pepi",
+        "Miguel Almirón"
+      ],
+      "confidence": 0.57,
+      "rationale": "Polymarket prices show USA “win” only modestly more likely than not (~0.46 vs 0.47), but draw is also relatively likely (~0.28). I lean away from a draw due to USA’s stronger forward options and goal-threat depth (Pepi/Pulisic/Weah), while expecting Paraguay to score via their top creator/forward Almirón and to keep it close—hence a 2-1.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 5670,
+          "completion_tokens": 703,
+          "total_tokens": 6373,
+          "cost": 0.00201275
+        },
+        "calls": [
+          {
+            "model": "openrouter/openai/gpt-5.4-nano",
+            "usage": {
+              "completion_tokens": 429,
+              "prompt_tokens": 2175,
+              "total_tokens": 2604,
+              "cost": 0.00097125
+            },
+            "cost": 0.00097125
+          },
+          {
+            "model": "openrouter/openai/gpt-5.4-nano",
+            "usage": {
+              "completion_tokens": 274,
+              "prompt_tokens": 3495,
+              "total_tokens": 3769,
+              "cost": 0.0010415
+            },
+            "cost": 0.0010415
+          }
+        ]
+      },
+      "news_summary": "- **Injuries/availability (USA):** Chris Richards (ankle injury) **confirmed available** for the opener; likely fit to start or at least available as a central defensive option.  \n- **Tactical/news (USA):** Pochettino set a likely starting XI close to kickoff, but **not all selection certainty was publicly given** until matchday; projected lineups circulate ahead of the match.  \n- **Form (USA):** Warm-up results referenced as **3–2 win vs Senegal** and **2–1 loss vs Germany** before the tournament.  \n- **Suspensions:** No suspension information provided in the supplied news items.  \n- **Uncertainty:** Paraguay injury/suspension details are not included in the provided snippets; some last-minute USA lineup/role uncertainty remains despite Richards’ availability.",
+      "polymarket_odds": [
+        {
+          "title": "United States vs. Paraguay",
+          "slug": "fwc-usa-par-2026-06-12",
+          "markets": [
+            {
+              "question": "Will United States win against Paraguay in the World Cup match scheduled for Jun 12, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.4600",
+                "0.4700"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-usa"
+            },
+            {
+              "question": "Will the World Cup match United States vs Paraguay scheduled for Jun 12, 2026 end in a draw?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.2800",
+                "0.2900"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-draw"
+            },
+            {
+              "question": "Will Paraguay win against United States in the World Cup match scheduled for Jun 12, 2026?",
+              "outcomes": [
+                "No",
+                "Yes"
+              ],
+              "outcome_prices": [
+                "0.2300",
+                "0.2400"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-par"
+            },
+            {
+              "question": "Will Ricardo Pepi record at least 3 goals in USA vs PAR?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0100",
+                "0.1100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "astatc-fwc-usa-par-2026-06-12-goals-ricpep-gte3"
+            },
+            {
+              "question": "Will Weston McKennie record at least 2 shots in USA vs PAR?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.5700",
+                "0.6600"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "astatc-fwc-usa-par-2026-06-12-shots-fwcwesmck-gte2"
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "united states vs paraguay",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
+    },
+    {
+      "created_at": "2026-06-12T14:23:02.063456Z",
+      "key": "united states vs paraguay::openrouter/google/gemini-3.1-flash-lite",
+      "match_id": 19,
+      "match": "United States vs Paraguay",
+      "choices": [
+        "United States",
+        "Paraguay",
+        "Draw"
+      ],
+      "model_alias": "gemini-3.1-flash-lite",
+      "model": "openrouter/google/gemini-3.1-flash-lite",
+      "prediction": "United States",
+      "scoreline": "United States 2-1 Paraguay",
+      "goal_scorers": [
+        "Christian Pulisic",
+        "Folarin Balogun",
+        "Miguel Almirón"
+      ],
+      "confidence": 0.55,
+      "rationale": "The USMNT's home-field advantage, combined with a fully healthy roster and superior attacking depth, makes them the slight favorites over a resilient but defensively-focused Paraguay side.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 6314,
+          "completion_tokens": 505,
+          "total_tokens": 6819,
+          "cost": 0.002336
+        },
+        "calls": [
+          {
+            "model": "openrouter/google/gemini-3.1-flash-lite",
+            "usage": {
+              "completion_tokens": 247,
+              "prompt_tokens": 2519,
+              "total_tokens": 2766,
+              "cost": 0.00100025
+            },
+            "cost": 0.00100025
+          },
+          {
+            "model": "openrouter/google/gemini-3.1-flash-lite",
+            "usage": {
+              "completion_tokens": 258,
+              "prompt_tokens": 3795,
+              "total_tokens": 4053,
+              "cost": 0.00133575
+            },
+            "cost": 0.00133575
+          }
+        ]
+      },
+      "news_summary": "*   **Injuries:** No injuries reported; the entire 26-man USMNT roster is fit and available.\n*   **Key Update:** Star defender Chris Richards has recovered from his ankle injury and is available for selection.\n*   **Form:** The USMNT's final two warm-up matches resulted in a 3-2 win against Senegal and a 2-1 loss to Germany.\n*   **Tactical/Squad News:** Mauricio Pochettino has confirmed a full squad is available but has kept his starting XI selection private until match time.\n*   **Suspensions:** None.",
+      "polymarket_odds": [
+        {
+          "title": "United States vs. Paraguay",
+          "slug": "fwc-usa-par-2026-06-12",
+          "markets": [
+            {
+              "question": "Will United States win against Paraguay in the World Cup match scheduled for Jun 12, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.4600",
+                "0.4700"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-usa"
+            },
+            {
+              "question": "Will the World Cup match United States vs Paraguay scheduled for Jun 12, 2026 end in a draw?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.2800",
+                "0.2900"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-draw"
+            },
+            {
+              "question": "Will Paraguay win against United States in the World Cup match scheduled for Jun 12, 2026?",
+              "outcomes": [
+                "No",
+                "Yes"
+              ],
+              "outcome_prices": [
+                "0.2300",
+                "0.2400"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-par"
+            },
+            {
+              "question": "Will Ricardo Pepi record at least 3 goals in USA vs PAR?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0100",
+                "0.1100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "astatc-fwc-usa-par-2026-06-12-goals-ricpep-gte3"
+            },
+            {
+              "question": "Will Weston McKennie record at least 2 shots in USA vs PAR?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.5700",
+                "0.6600"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "astatc-fwc-usa-par-2026-06-12-shots-fwcwesmck-gte2"
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "united states vs paraguay",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
+    },
+    {
+      "created_at": "2026-06-12T14:23:11.434620Z",
+      "key": "united states vs paraguay::openrouter/google/gemini-3-flash-preview",
+      "match_id": 19,
+      "match": "United States vs Paraguay",
+      "choices": [
+        "United States",
+        "Paraguay",
+        "Draw"
+      ],
+      "model_alias": "gemini-3-flash",
+      "model": "openrouter/google/gemini-3-flash-preview",
+      "prediction": "United States",
+      "scoreline": "United States 2-1 Paraguay",
+      "goal_scorers": [
+        "Christian Pulisic",
+        "Folarin Balogun",
+        "Miguel Almiron"
+      ],
+      "confidence": 0.55,
+      "rationale": "The USMNT has home-field advantage in Los Angeles and a deeper roster of players competing in top European leagues. While Paraguay is resilient and Almiron knows the American system well, the attacking trio of Pulisic, Balogun, and Weah should provide enough pressure to overcome a disciplined Paraguayan defense. The return of Chris Richards also stabilizes the US backline.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 6355,
+          "completion_tokens": 693,
+          "total_tokens": 7048,
+          "cost": 0.0052565
+        },
+        "calls": [
+          {
+            "model": "openrouter/google/gemini-3-flash-preview",
+            "usage": {
+              "completion_tokens": 356,
+              "prompt_tokens": 2517,
+              "total_tokens": 2873,
+              "cost": 0.0023265
+            },
+            "cost": 0.0023265
+          },
+          {
+            "model": "openrouter/google/gemini-3-flash-preview",
+            "usage": {
+              "completion_tokens": 337,
+              "prompt_tokens": 3838,
+              "total_tokens": 4175,
+              "cost": 0.00293
+            },
+            "cost": 0.00293
+          }
+        ]
+      },
+      "news_summary": "*   **Injuries:** The USMNT has a fully fit 26-man squad. Key defender Chris Richards (ankle) has been cleared to play after missing several weeks.\n*   **Tactical News:** Mauricio Pochettino has confirmed his starting XI is decided but has not revealed it publicly. Antonee Robinson remains a key attacking threat from fullback, having scored in the recent friendly against Germany.\n*   **Form:** USA's recent warm-up form is inconsistent, featuring a 3-2 victory over Senegal followed by a 2-1 defeat to Germany.\n*   **Suspensions:** No reported suspensions for either side.\n*   **Uncertainty:** While Chris Richards is \"available,\" it is unclear if Pochettino will start him immediately or ease him back into the lineup given his long layoff.",
+      "polymarket_odds": [
+        {
+          "title": "United States vs. Paraguay",
+          "slug": "fwc-usa-par-2026-06-12",
+          "markets": [
+            {
+              "question": "Will United States win against Paraguay in the World Cup match scheduled for Jun 12, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.4600",
+                "0.4700"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-usa"
+            },
+            {
+              "question": "Will the World Cup match United States vs Paraguay scheduled for Jun 12, 2026 end in a draw?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.2800",
+                "0.2900"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-draw"
+            },
+            {
+              "question": "Will Paraguay win against United States in the World Cup match scheduled for Jun 12, 2026?",
+              "outcomes": [
+                "No",
+                "Yes"
+              ],
+              "outcome_prices": [
+                "0.2300",
+                "0.2400"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-par"
+            },
+            {
+              "question": "Will Ricardo Pepi record at least 3 goals in USA vs PAR?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0100",
+                "0.1100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "astatc-fwc-usa-par-2026-06-12-goals-ricpep-gte3"
+            },
+            {
+              "question": "Will Weston McKennie record at least 2 shots in USA vs PAR?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.5700",
+                "0.6600"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "astatc-fwc-usa-par-2026-06-12-shots-fwcwesmck-gte2"
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "united states vs paraguay",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
+    },
+    {
+      "created_at": "2026-06-12T14:23:33.338467Z",
+      "key": "united states vs paraguay::openrouter/~google/gemini-pro-latest",
+      "match_id": 19,
+      "match": "United States vs Paraguay",
+      "choices": [
+        "United States",
+        "Paraguay",
+        "Draw"
+      ],
+      "model_alias": "gemini-3.5-pro",
+      "model": "openrouter/~google/gemini-pro-latest",
+      "prediction": "United States",
+      "scoreline": "United States 2-1 Paraguay",
+      "goal_scorers": [
+        "Christian Pulisic",
+        "Ricardo Pepi",
+        "Miguel Almiron"
+      ],
+      "confidence": 0.55,
+      "rationale": "The USMNT benefits from a significant home advantage in Los Angeles, a fully fit squad, and superior depth in top European leagues. Betting markets favor the US with a 46% implied win probability, making them the most logical pick over Paraguay.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 6330,
+          "completion_tokens": 1917,
+          "total_tokens": 8247,
+          "cost": 0.035664
+        },
+        "calls": [
+          {
+            "model": "openrouter/~google/gemini-pro-latest",
+            "usage": {
+              "completion_tokens": 668,
+              "prompt_tokens": 2517,
+              "total_tokens": 3185,
+              "cost": 0.01305
+            },
+            "cost": 0.01305
+          },
+          {
+            "model": "openrouter/~google/gemini-pro-latest",
+            "usage": {
+              "completion_tokens": 1249,
+              "prompt_tokens": 3813,
+              "total_tokens": 5062,
+              "cost": 0.022614
+            },
+            "cost": 0.022614
+          }
+        ]
+      },
+      "news_summary": "*   **Injury News:** The United States has a fully fit 26-man roster available for the match.\n*   **Player Focus:** Key central defender Chris Richards has recovered from a significant ankle injury sustained in May and is available for selection, though head coach Mauricio Pochettino has not confirmed if he will start.\n*   **Form:** The USMNT's recent warm-up matches saw them secure a 3-2 victory over Senegal before suffering a 2-1 defeat to Germany.\n*   **Match Context:** This is the World Cup 2026 Group D opener, played at SoFi Stadium in Los Angeles, giving the co-host USA a distinct home advantage.",
+      "polymarket_odds": [
+        {
+          "title": "United States vs. Paraguay",
+          "slug": "fwc-usa-par-2026-06-12",
+          "markets": [
+            {
+              "question": "Will United States win against Paraguay in the World Cup match scheduled for Jun 12, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.4600",
+                "0.4700"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-usa"
+            },
+            {
+              "question": "Will the World Cup match United States vs Paraguay scheduled for Jun 12, 2026 end in a draw?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.2800",
+                "0.2900"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-draw"
+            },
+            {
+              "question": "Will Paraguay win against United States in the World Cup match scheduled for Jun 12, 2026?",
+              "outcomes": [
+                "No",
+                "Yes"
+              ],
+              "outcome_prices": [
+                "0.2300",
+                "0.2400"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-par"
+            },
+            {
+              "question": "Will Ricardo Pepi record at least 3 goals in USA vs PAR?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0100",
+                "0.1100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "astatc-fwc-usa-par-2026-06-12-goals-ricpep-gte3"
+            },
+            {
+              "question": "Will Weston McKennie record at least 2 shots in USA vs PAR?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.5700",
+                "0.6600"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "astatc-fwc-usa-par-2026-06-12-shots-fwcwesmck-gte2"
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "united states vs paraguay",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
+    },
+    {
+      "created_at": "2026-06-12T14:24:13.278657Z",
+      "key": "united states vs paraguay::openrouter/~anthropic/claude-sonnet-latest",
+      "match_id": 19,
+      "match": "United States vs Paraguay",
+      "choices": [
+        "United States",
+        "Paraguay",
+        "Draw"
+      ],
+      "model_alias": "claude-sonnet-4.7",
+      "model": "openrouter/~anthropic/claude-sonnet-latest",
+      "prediction": "United States",
+      "scoreline": "United States 2-1 Paraguay",
+      "goal_scorers": [
+        "Christian Pulisic",
+        "Ricardo Pepi",
+        "Miguel Almiron"
+      ],
+      "confidence": 0.46,
+      "rationale": "USA hold a slight edge via home advantage at SoFi Stadium (Los Angeles), a strong European-based squad led by Pulisic (33 intl goals) and Pepi, and Pochettino's two years of preparation. Polymarket prices USA win at ~46%, draw ~28%, Paraguay ~24%. Paraguay are a capable South American side with Almiron and Enciso, but playing away in a hostile environment limits their upside. Chris Richards' fitness is a defensive boost for USA. Expecting a competitive but USA-favored result, 2-1, with Pulisic and Pepi scoring for the hosts and Almiron threatening for Paraguay.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 6902,
+          "completion_tokens": 1526,
+          "total_tokens": 8428,
+          "cost": 0.043595999999999996
+        },
+        "calls": [
+          {
+            "model": "openrouter/~anthropic/claude-sonnet-latest",
+            "usage": {
+              "completion_tokens": 626,
+              "prompt_tokens": 2601,
+              "total_tokens": 3227,
+              "cost": 0.017193
+            },
+            "cost": 0.017193
+          },
+          {
+            "model": "openrouter/~anthropic/claude-sonnet-latest",
+            "usage": {
+              "completion_tokens": 900,
+              "prompt_tokens": 4301,
+              "total_tokens": 5201,
+              "cost": 0.026403
+            },
+            "cost": 0.026403
+          }
+        ]
+      },
+      "news_summary": "**USA vs Paraguay – World Cup 2026 Group D Opener (June 12, SoFi Stadium, Los Angeles)**\n\n**USA – Injuries & Availability:**\n- ✅ **Chris Richards (CB)** – Major injury boost: key central defender had been nursing a significant ankle injury (sustained at Crystal Palace in May) for ~3 weeks. Pochettino confirmed all 26 players are available; Richards is fit to be selected.\n- ⚠️ **Uncertainty**: Pochettino refused to confirm whether Richards will *start*, only that he is available. Richards is described as the team's most irreplaceable player and 2025 US Soccer Male Player of the Year.\n- Full squad of 26 available with no suspensions or other injury concerns reported.\n\n**USA – Recent Form:**\n- Beat Senegal 3-2 (warm-up win)\n- Lost 2-1 to Germany in final warm-up match\n\n**Paraguay – Team News:**\n- No specific injury, suspension, or lineup news reported in available sources.\n\n**Tactical/Context:**\n- Mauricio Pochettino (Argentina) coaching USA; had ~2 years to prepare as co-hosts (no qualifying needed).\n- Group D also includes Australia and Turkey; top 2 advance to knockouts.\n- Home advantage for USA at SoFi Stadium, Inglewood.\n- Starting XI not confirmed pre-match; Pochettino keeping lineup secret.",
+      "polymarket_odds": [
+        {
+          "title": "United States vs. Paraguay",
+          "slug": "fwc-usa-par-2026-06-12",
+          "markets": [
+            {
+              "question": "Will United States win against Paraguay in the World Cup match scheduled for Jun 12, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.4600",
+                "0.4700"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-usa"
+            },
+            {
+              "question": "Will the World Cup match United States vs Paraguay scheduled for Jun 12, 2026 end in a draw?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.2800",
+                "0.2900"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-draw"
+            },
+            {
+              "question": "Will Paraguay win against United States in the World Cup match scheduled for Jun 12, 2026?",
+              "outcomes": [
+                "No",
+                "Yes"
+              ],
+              "outcome_prices": [
+                "0.2300",
+                "0.2400"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-par"
+            },
+            {
+              "question": "Will Ricardo Pepi record at least 3 goals in USA vs PAR?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0100",
+                "0.1100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "astatc-fwc-usa-par-2026-06-12-goals-ricpep-gte3"
+            },
+            {
+              "question": "Will Weston McKennie record at least 2 shots in USA vs PAR?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.5700",
+                "0.6600"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "astatc-fwc-usa-par-2026-06-12-shots-fwcwesmck-gte2"
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "united states vs paraguay",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
+    },
+    {
+      "created_at": "2026-06-12T14:24:29.895095Z",
+      "key": "united states vs paraguay::openrouter/anthropic/claude-haiku-4.5",
+      "match_id": 19,
+      "match": "United States vs Paraguay",
+      "choices": [
+        "United States",
+        "Paraguay",
+        "Draw"
+      ],
+      "model_alias": "claude-haiku-4.5",
+      "model": "openrouter/anthropic/claude-haiku-4.5",
+      "prediction": "United States",
+      "scoreline": "United States 2-1 Paraguay",
+      "goal_scorers": [
+        "Christian Pulisic",
+        "Weston McKennie",
+        "Antonio Sanabria"
+      ],
+      "confidence": 0.68,
+      "rationale": "The United States holds clear advantages: home advantage in Los Angeles, superior squad quality with elite European-based players, and stronger attacking depth. Pulisic and Pepi provide world-class finishing options. While Paraguay has experienced midfielders like Almiron, their overall squad lacks the quality to compete at this level. Market odds (46% USA win) align with this assessment. The 2-1 scoreline reflects USA's attacking superiority while acknowledging Paraguay's ability to score from set pieces or counterattacks (Sanabria is a capable finisher). Confidence is moderate-to-high due to home advantage and squad quality, though defensive concerns and tactical uncertainty prevent higher confidence.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 6694,
+          "completion_tokens": 1105,
+          "total_tokens": 7799,
+          "cost": 0.012219
+        },
+        "calls": [
+          {
+            "model": "openrouter/anthropic/claude-haiku-4.5",
+            "usage": {
+              "completion_tokens": 433,
+              "prompt_tokens": 2600,
+              "total_tokens": 3033,
+              "cost": 0.004765
+            },
+            "cost": 0.004765
+          },
+          {
+            "model": "openrouter/anthropic/claude-haiku-4.5",
+            "usage": {
+              "completion_tokens": 672,
+              "prompt_tokens": 4094,
+              "total_tokens": 4766,
+              "cost": 0.007454
+            },
+            "cost": 0.007454
+          }
+        ]
+      },
+      "news_summary": "• **Injuries**: Chris Richards (ankle) cleared as available after three-week recovery; all 26 USMNT players fit for selection\n• **Form**: Recent warm-ups mixed—3-2 win vs Senegal, 2-1 loss vs Germany\n• **Tactical**: Pochettino keeping lineup secret; Richards' starting status uncertain despite availability\n• **Context**: Group D opener; top-two finish required for knockout progression; USA co-hosting provides home advantage\n• **Uncertainty**: Exact starting XI unknown; Richards may not start despite being available",
+      "polymarket_odds": [
+        {
+          "title": "United States vs. Paraguay",
+          "slug": "fwc-usa-par-2026-06-12",
+          "markets": [
+            {
+              "question": "Will United States win against Paraguay in the World Cup match scheduled for Jun 12, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.4600",
+                "0.4700"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-usa"
+            },
+            {
+              "question": "Will the World Cup match United States vs Paraguay scheduled for Jun 12, 2026 end in a draw?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.2800",
+                "0.2900"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-draw"
+            },
+            {
+              "question": "Will Paraguay win against United States in the World Cup match scheduled for Jun 12, 2026?",
+              "outcomes": [
+                "No",
+                "Yes"
+              ],
+              "outcome_prices": [
+                "0.2300",
+                "0.2400"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-par"
+            },
+            {
+              "question": "Will Ricardo Pepi record at least 3 goals in USA vs PAR?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0100",
+                "0.1100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "astatc-fwc-usa-par-2026-06-12-goals-ricpep-gte3"
+            },
+            {
+              "question": "Will Weston McKennie record at least 2 shots in USA vs PAR?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.5700",
+                "0.6600"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "astatc-fwc-usa-par-2026-06-12-shots-fwcwesmck-gte2"
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "united states vs paraguay",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
+    },
+    {
+      "created_at": "2026-06-12T14:25:07.326679Z",
+      "key": "united states vs paraguay::openrouter/deepseek/deepseek-v4-pro",
+      "match_id": 19,
+      "match": "United States vs Paraguay",
+      "choices": [
+        "United States",
+        "Paraguay",
+        "Draw"
+      ],
+      "model_alias": "deepseek-v4-pro",
+      "model": "openrouter/deepseek/deepseek-v4-pro",
+      "prediction": "United States",
+      "scoreline": "United States 2-0 Paraguay",
+      "goal_scorers": [
+        "Christian Pulisic",
+        "Folarin Balogun",
+        "Miguel Almirón"
+      ],
+      "confidence": 0.7,
+      "rationale": "The US holds a clear edge in squad quality (players from Europe’s top leagues), enjoys home-field advantage, and faces a Paraguay side with minimal recent competitive exposure. Odds markets heavily favor the US, and their attacking options should breach a Paraguay defense that lacks consistent international testing. A clean sheet is plausible given the US’s organized midfield and defensive depth.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 5802,
+          "completion_tokens": 2367,
+          "total_tokens": 8169,
+          "cost": 0.0168576
+        },
+        "calls": [
+          {
+            "model": "openrouter/deepseek/deepseek-v4-pro",
+            "usage": {
+              "completion_tokens": 1470,
+              "prompt_tokens": 2205,
+              "total_tokens": 3675,
+              "cost": 0.008232
+            },
+            "cost": 0.008232
+          },
+          {
+            "model": "openrouter/deepseek/deepseek-v4-pro",
+            "usage": {
+              "completion_tokens": 897,
+              "prompt_tokens": 3597,
+              "total_tokens": 4494,
+              "cost": 0.0086256
+            },
+            "cost": 0.0086256
+          }
+        ]
+      },
+      "news_summary": "- Injuries: United States – no injuries; Chris Richards (key CB) returned from ankle issue, all 26 players fit. Paraguay – no injury news reported.\n- Tactical news: No details on formation or tactical plans for either side.\n- Form: USA – lost 2-1 vs Germany, beat Senegal 3-2 in warm-up matches. Paraguay – no recent results mentioned.\n- Suspensions: None reported for either team.\n- Uncertainty: Chris Richards’ starting role is unconfirmed despite being available; no clarity on Paraguay’s lineup or fitness.",
+      "polymarket_odds": [
+        {
+          "title": "United States vs. Paraguay",
+          "slug": "fwc-usa-par-2026-06-12",
+          "markets": [
+            {
+              "question": "Will United States win against Paraguay in the World Cup match scheduled for Jun 12, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.4600",
+                "0.4700"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-usa"
+            },
+            {
+              "question": "Will the World Cup match United States vs Paraguay scheduled for Jun 12, 2026 end in a draw?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.2800",
+                "0.2900"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-draw"
+            },
+            {
+              "question": "Will Paraguay win against United States in the World Cup match scheduled for Jun 12, 2026?",
+              "outcomes": [
+                "No",
+                "Yes"
+              ],
+              "outcome_prices": [
+                "0.2300",
+                "0.2400"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-par"
+            },
+            {
+              "question": "Will Ricardo Pepi record at least 3 goals in USA vs PAR?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0100",
+                "0.1100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "astatc-fwc-usa-par-2026-06-12-goals-ricpep-gte3"
+            },
+            {
+              "question": "Will Weston McKennie record at least 2 shots in USA vs PAR?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.5700",
+                "0.6600"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "astatc-fwc-usa-par-2026-06-12-shots-fwcwesmck-gte2"
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "united states vs paraguay",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
+    },
+    {
+      "created_at": "2026-06-12T14:26:18.567704Z",
+      "key": "united states vs paraguay::openrouter/minimax/minimax-m3",
+      "match_id": 19,
+      "match": "United States vs Paraguay",
+      "choices": [
+        "United States",
+        "Paraguay",
+        "Draw"
+      ],
+      "model_alias": "minimax-m3",
+      "model": "openrouter/minimax/minimax-m3",
+      "prediction": "United States",
+      "scoreline": "United States 2-1 Paraguay",
+      "goal_scorers": [
+        "Christian Pulisic",
+        "Ricardo Pepi",
+        "Miguel Almiron"
+      ],
+      "confidence": 0.52,
+      "rationale": "USA favored by slim margin due to home advantage at SoFi Stadium and superior attacking depth (Pulisic, Pepi, Balogun, McKennie all capable). However, Polymarket's 28% draw probability and Paraguay's defensive organization under Alfaro suggest a tight contest. Paraguay's Almiron remains dangerous and can capitalize on transitions. Predicted 2-1 reflects narrow USA win with both teams finding the net, consistent with USMNT's recent warm-up pattern of scoring and conceding.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 9630,
+          "completion_tokens": 3171,
+          "total_tokens": 12801,
+          "cost": 0.00661212
+        },
+        "calls": [
+          {
+            "model": "openrouter/minimax/minimax-m3",
+            "usage": {
+              "completion_tokens": 542,
+              "prompt_tokens": 2328,
+              "total_tokens": 2870,
+              "cost": 0.00132144
+            },
+            "cost": 0.00132144
+          },
+          {
+            "model": "openrouter/minimax/minimax-m3",
+            "usage": {
+              "completion_tokens": 1600,
+              "prompt_tokens": 3666,
+              "total_tokens": 5266,
+              "cost": 0.00299244
+            },
+            "cost": 0.00299244
+          },
+          {
+            "model": "openrouter/minimax/minimax-m3",
+            "usage": {
+              "completion_tokens": 1029,
+              "prompt_tokens": 3636,
+              "total_tokens": 4665,
+              "cost": 0.00229824
+            },
+            "cost": 0.00229824
+          }
+        ]
+      },
+      "news_summary": "- **Injuries/Availability**: Chris Richards (key CB, ankle injury) declared available by Pochettino; full 26-man USMNT squad fit and available.\n- **Tactical/Team News**: Pochettino kept starting XI confidential until matchday; no confirmed lineup yet. USMNT playing at home in SoFi Stadium (Los Angeles).\n- **Form**: Mixed warm-up results — 3-2 win over Senegal, then 2-1 loss to Germany. Antonee Robinson mentioned in Germany match context.\n- **Squad Status**: No suspensions reported for either side.\n- **Context**: World Cup 2026 Group D opener; group also includes Australia and Turkey, with only top-two finish guaranteeing knockout qualification.\n- **Uncertainty**: Final starting XIs unconfirmed at time of reporting; Paraguay team news limited in available items.",
+      "polymarket_odds": [
+        {
+          "title": "United States vs. Paraguay",
+          "slug": "fwc-usa-par-2026-06-12",
+          "markets": [
+            {
+              "question": "Will United States win against Paraguay in the World Cup match scheduled for Jun 12, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.4600",
+                "0.4700"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-usa"
+            },
+            {
+              "question": "Will the World Cup match United States vs Paraguay scheduled for Jun 12, 2026 end in a draw?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.2800",
+                "0.2900"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-draw"
+            },
+            {
+              "question": "Will Paraguay win against United States in the World Cup match scheduled for Jun 12, 2026?",
+              "outcomes": [
+                "No",
+                "Yes"
+              ],
+              "outcome_prices": [
+                "0.2300",
+                "0.2400"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-par"
+            },
+            {
+              "question": "Will Ricardo Pepi record at least 3 goals in USA vs PAR?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0100",
+                "0.1100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "astatc-fwc-usa-par-2026-06-12-goals-ricpep-gte3"
+            },
+            {
+              "question": "Will Weston McKennie record at least 2 shots in USA vs PAR?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.5700",
+                "0.6600"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "astatc-fwc-usa-par-2026-06-12-shots-fwcwesmck-gte2"
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "united states vs paraguay",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
+    },
+    {
+      "created_at": "2026-06-12T14:27:10.389535Z",
+      "key": "united states vs paraguay::openrouter/xiaomi/mimo-v2.5-pro",
+      "match_id": 19,
+      "match": "United States vs Paraguay",
+      "choices": [
+        "United States",
+        "Paraguay",
+        "Draw"
+      ],
+      "model_alias": "mimo-v2.5-pro",
+      "model": "openrouter/xiaomi/mimo-v2.5-pro",
+      "prediction": "United States",
+      "scoreline": "United States 2-1 Paraguay",
+      "goal_scorers": [
+        "Christian Pulisic",
+        "Ricardo Pepi",
+        "Miguel Almirón"
+      ],
+      "confidence": 0.58,
+      "rationale": "Home advantage, superior squad depth, and market odds favoring the USA suggest a narrow victory, but Paraguay's attacking threats (e.g., Almirón) indicate they are likely to score.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 6099,
+          "completion_tokens": 2011,
+          "total_tokens": 8110,
+          "cost": 0.004402635
+        },
+        "calls": [
+          {
+            "model": "openrouter/xiaomi/mimo-v2.5-pro",
+            "usage": {
+              "completion_tokens": 596,
+              "prompt_tokens": 2374,
+              "total_tokens": 2970,
+              "cost": 0.00155121
+            },
+            "cost": 0.00155121
+          },
+          {
+            "model": "openrouter/xiaomi/mimo-v2.5-pro",
+            "usage": {
+              "completion_tokens": 1415,
+              "prompt_tokens": 3725,
+              "total_tokens": 5140,
+              "cost": 0.002851425
+            },
+            "cost": 0.002851425
+          }
+        ]
+      },
+      "news_summary": "- **Injuries/Availability**: Major boost for USA: key CB Chris Richards (ankle) is confirmed available. Coach Pochettino states all 26 players are fit and available for selection.\n- **Tactical News**: Specific starting lineups for both teams are not confirmed in the available sources. Pochettino has not disclosed his starting XI.\n- **Form**: USA coming off a 3-2 win over Senegal and a 2-1 loss to Germany in recent warm-up friendlies.\n- **Suspensions**: No suspensions reported.\n- **Uncertainty**: Primary uncertainty is the exact starting lineup for the USA, particularly in defense with Richards' role after his injury.",
+      "polymarket_odds": [
+        {
+          "title": "United States vs. Paraguay",
+          "slug": "fwc-usa-par-2026-06-12",
+          "markets": [
+            {
+              "question": "Will United States win against Paraguay in the World Cup match scheduled for Jun 12, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.4600",
+                "0.4700"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-usa"
+            },
+            {
+              "question": "Will the World Cup match United States vs Paraguay scheduled for Jun 12, 2026 end in a draw?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.2800",
+                "0.2900"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-draw"
+            },
+            {
+              "question": "Will Paraguay win against United States in the World Cup match scheduled for Jun 12, 2026?",
+              "outcomes": [
+                "No",
+                "Yes"
+              ],
+              "outcome_prices": [
+                "0.2300",
+                "0.2400"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-par"
+            },
+            {
+              "question": "Will Ricardo Pepi record at least 3 goals in USA vs PAR?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0100",
+                "0.1100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "astatc-fwc-usa-par-2026-06-12-goals-ricpep-gte3"
+            },
+            {
+              "question": "Will Weston McKennie record at least 2 shots in USA vs PAR?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.5700",
+                "0.6600"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "astatc-fwc-usa-par-2026-06-12-shots-fwcwesmck-gte2"
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "united states vs paraguay",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
+    },
+    {
+      "created_at": "2026-06-12T14:30:15.145035Z",
+      "key": "united states vs paraguay::openrouter/moonshotai/kimi-k2.6",
+      "match_id": 19,
+      "match": "United States vs Paraguay",
+      "choices": [
+        "United States",
+        "Paraguay",
+        "Draw"
+      ],
+      "model_alias": "kimi-k2.6",
+      "model": "openrouter/moonshotai/kimi-k2.6",
+      "prediction": "United States",
+      "scoreline": "United States 2-1 Paraguay",
+      "goal_scorers": [
+        "Christian Pulisic",
+        "Ricardo Pepi",
+        "Folarin Balogun"
+      ],
+      "confidence": 0.62,
+      "rationale": "Co-host USA field a fully fit squad with superior top-five-league talent and home support at SoFi Stadium. Polymarket odds (~46% implied for a U.S. win vs. ~24% for Paraguay) and competitive recent performances against Germany and Senegal favor the Americans over a Paraguay side with less proven offensive firepower at the international level.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 5820,
+          "completion_tokens": 4487,
+          "total_tokens": 10307,
+          "cost": 0.0199118
+        },
+        "calls": [
+          {
+            "model": "openrouter/moonshotai/kimi-k2.6",
+            "usage": {
+              "completion_tokens": 1147,
+              "prompt_tokens": 2223,
+              "total_tokens": 3370,
+              "cost": 0.0056782
+            },
+            "cost": 0.0056782
+          },
+          {
+            "model": "openrouter/moonshotai/kimi-k2.6",
+            "usage": {
+              "completion_tokens": 3340,
+              "prompt_tokens": 3597,
+              "total_tokens": 6937,
+              "cost": 0.0142336
+            },
+            "cost": 0.0142336
+          }
+        ]
+      },
+      "news_summary": "- **USA Injury/Squad**: Full availability confirmed – all 26 players fit for the opener. Key central defender Chris Richards (ankle injury since May) has recovered and is available, though his starting spot is not guaranteed.\n- **USA Form**: Mixed warm-up results; beat Senegal 3-2 but lost 2-1 to Germany in the final pre-tournament friendly.\n- **Tactical/Context**: USA are co-hosts and had nearly two years to prepare without CONCACAF qualifying. Match is the Group D opener at SoFi Stadium in Los Angeles.\n- **Paraguay**: No specific injury, suspension, or lineup news reported in the available coverage.\n- **Uncertainty**: Pochettino is keeping the starting XI private until matchday, leaving doubt over Richards’ inclusion despite his fitness.",
+      "polymarket_odds": [
+        {
+          "title": "United States vs. Paraguay",
+          "slug": "fwc-usa-par-2026-06-12",
+          "markets": [
+            {
+              "question": "Will United States win against Paraguay in the World Cup match scheduled for Jun 12, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.4600",
+                "0.4700"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-usa"
+            },
+            {
+              "question": "Will the World Cup match United States vs Paraguay scheduled for Jun 12, 2026 end in a draw?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.2800",
+                "0.2900"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-draw"
+            },
+            {
+              "question": "Will Paraguay win against United States in the World Cup match scheduled for Jun 12, 2026?",
+              "outcomes": [
+                "No",
+                "Yes"
+              ],
+              "outcome_prices": [
+                "0.2300",
+                "0.2400"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-par"
+            },
+            {
+              "question": "Will Ricardo Pepi record at least 3 goals in USA vs PAR?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0100",
+                "0.1100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "astatc-fwc-usa-par-2026-06-12-goals-ricpep-gte3"
+            },
+            {
+              "question": "Will Weston McKennie record at least 2 shots in USA vs PAR?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.5700",
+                "0.6600"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "astatc-fwc-usa-par-2026-06-12-shots-fwcwesmck-gte2"
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "united states vs paraguay",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
+    },
+    {
+      "created_at": "2026-06-12T14:40:31.626926Z",
+      "key": "united states vs paraguay::openrouter/x-ai/grok-4.3",
+      "match_id": 19,
+      "match": "United States vs Paraguay",
+      "choices": [
+        "United States",
+        "Paraguay",
+        "Draw"
+      ],
+      "model_alias": "grok-4.3",
+      "model": "openrouter/x-ai/grok-4.3",
+      "prediction": "United States",
+      "scoreline": "United States 2-1 Paraguay",
+      "goal_scorers": [
+        "Christian Pulisic",
+        "Ricardo Pepi",
+        "Weston McKennie"
+      ],
+      "confidence": 0.55,
+      "rationale": "Home advantage + superior squad depth and market-implied probability favor a narrow United States victory.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 5790,
+          "completion_tokens": 940,
+          "total_tokens": 6730,
+          "cost": 0.0071011
+        },
+        "calls": [
+          {
+            "model": "openrouter/x-ai/grok-4.3",
+            "usage": {
+              "completion_tokens": 450,
+              "prompt_tokens": 2272,
+              "total_tokens": 2722,
+              "cost": 0.001613
+            },
+            "cost": 0.001613
+          },
+          {
+            "model": "openrouter/x-ai/grok-4.3",
+            "usage": {
+              "completion_tokens": 490,
+              "prompt_tokens": 3518,
+              "total_tokens": 4008,
+              "cost": 0.0054881
+            },
+            "cost": 0.0054881
+          }
+        ]
+      },
+      "news_summary": "- **Injuries**: Chris Richards (key CB) fully fit/available after ankle issue; entire 26-man USMNT squad declared fit.\n- **Tactical news**: Pochettino keeps starting XI secret on matchday-1; no lineup leaks.\n- **Form**: USA warm-ups ended with 3-2 win vs Senegal but 2-1 loss vs Germany.\n- **Suspensions**: None reported for either side.\n- **Uncertainty**: Minimal—only exact USA XI remains unknown.",
+      "polymarket_odds": [
+        {
+          "title": "United States vs. Paraguay",
+          "slug": "fwc-usa-par-2026-06-12",
+          "markets": [
+            {
+              "question": "Will United States win against Paraguay in the World Cup match scheduled for Jun 12, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.4600",
+                "0.4700"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-usa"
+            },
+            {
+              "question": "Will the World Cup match United States vs Paraguay scheduled for Jun 12, 2026 end in a draw?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.2800",
+                "0.2900"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-draw"
+            },
+            {
+              "question": "Will Paraguay win against United States in the World Cup match scheduled for Jun 12, 2026?",
+              "outcomes": [
+                "No",
+                "Yes"
+              ],
+              "outcome_prices": [
+                "0.2300",
+                "0.2400"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-par"
+            },
+            {
+              "question": "Will Ricardo Pepi record at least 3 goals in USA vs PAR?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0100",
+                "0.1100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "astatc-fwc-usa-par-2026-06-12-goals-ricpep-gte3"
+            },
+            {
+              "question": "Will Weston McKennie record at least 2 shots in USA vs PAR?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.5700",
+                "0.6600"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "astatc-fwc-usa-par-2026-06-12-shots-fwcwesmck-gte2"
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "united states vs paraguay",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
+    },
+    {
+      "created_at": "2026-06-12T14:41:24.984886Z",
+      "key": "united states vs paraguay::openrouter/z-ai/glm-5.1",
+      "match_id": 19,
+      "match": "United States vs Paraguay",
+      "choices": [
+        "United States",
+        "Paraguay",
+        "Draw"
+      ],
+      "model_alias": "glm-5.1",
+      "model": "openrouter/z-ai/glm-5.1",
+      "prediction": "United States",
+      "scoreline": "United States 2-1 Paraguay",
+      "goal_scorers": [
+        "Christian Pulisic",
+        "Ricardo Pepi",
+        "Miguel Almiron"
+      ],
+      "confidence": 0.46,
+      "rationale": "USA holds slight advantage as co-hosts playing in Los Angeles with a stronger European-based squad featuring Pulisic, McKennie, and Balogun. Pochettino's extended preparation time and full squad availability (including Richards) are positives. However, Paraguay's defensive experience (Gomez 89 caps, Alonso 71 caps) and counter-attacking threat via Almiron keeps this competitive. Market odds (46% USA, 28% Draw, 24% Paraguay) reflect the narrow margin, hence moderate confidence in a USA win.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 5734,
+          "completion_tokens": 1867,
+          "total_tokens": 7601,
+          "cost": 0.016127719999999998
+        },
+        "calls": [
+          {
+            "model": "openrouter/z-ai/glm-5.1",
+            "usage": {
+              "completion_tokens": 894,
+              "prompt_tokens": 2212,
+              "total_tokens": 3106,
+              "cost": 0.00698616
+            },
+            "cost": 0.00698616
+          },
+          {
+            "model": "openrouter/z-ai/glm-5.1",
+            "usage": {
+              "completion_tokens": 973,
+              "prompt_tokens": 3522,
+              "total_tokens": 4495,
+              "cost": 0.00914156
+            },
+            "cost": 0.00914156
+          }
+        ]
+      },
+      "news_summary": "- **Injuries/Availability**: Major boost for the USA as key CB Chris Richards (ankle injury) is available for the opener; coach Pochettino confirmed the entire 26-man roster is fit.\n- **Uncertainty**: Pochettino has not confirmed whether Richards will start despite his availability.\n- **Form**: USA's recent World Cup warm-up results were a 3-2 win over Senegal and a 2-1 defeat to Germany.\n- **Tactical/Context**: As co-hosts, the USMNT bypassed CONCACAF qualifying, giving Pochettino nearly two years to prepare. Group D also includes Australia and Turkey, where only a top-two finish guarantees knockout progression.\n- **Suspensions**: None reported.",
+      "polymarket_odds": [
+        {
+          "title": "United States vs. Paraguay",
+          "slug": "fwc-usa-par-2026-06-12",
+          "markets": [
+            {
+              "question": "Will United States win against Paraguay in the World Cup match scheduled for Jun 12, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.4600",
+                "0.4700"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-usa"
+            },
+            {
+              "question": "Will the World Cup match United States vs Paraguay scheduled for Jun 12, 2026 end in a draw?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.2800",
+                "0.2900"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-draw"
+            },
+            {
+              "question": "Will Paraguay win against United States in the World Cup match scheduled for Jun 12, 2026?",
+              "outcomes": [
+                "No",
+                "Yes"
+              ],
+              "outcome_prices": [
+                "0.2300",
+                "0.2400"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-par"
+            },
+            {
+              "question": "Will Ricardo Pepi record at least 3 goals in USA vs PAR?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0100",
+                "0.1100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "astatc-fwc-usa-par-2026-06-12-goals-ricpep-gte3"
+            },
+            {
+              "question": "Will Weston McKennie record at least 2 shots in USA vs PAR?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.5700",
+                "0.6600"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "astatc-fwc-usa-par-2026-06-12-shots-fwcwesmck-gte2"
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "united states vs paraguay",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
+    },
+    {
+      "created_at": "2026-06-12T14:42:11.780911Z",
+      "key": "united states vs paraguay::openrouter/qwen/qwen3.7-max",
+      "match_id": 19,
+      "match": "United States vs Paraguay",
+      "choices": [
+        "United States",
+        "Paraguay",
+        "Draw"
+      ],
+      "model_alias": "qwen-3.7-max",
+      "model": "openrouter/qwen/qwen3.7-max",
+      "prediction": "United States",
+      "scoreline": "United States 2-1 Paraguay",
+      "goal_scorers": [
+        "Christian Pulisic",
+        "Ricardo Pepi",
+        "Miguel Almiron"
+      ],
+      "confidence": 0.46,
+      "rationale": "The USMNT's home advantage in Los Angeles, combined with superior attacking talent and midfield creativity, gives them the edge over a resilient Paraguayan side, aligning with betting markets that favor a narrow home victory.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 6222,
+          "completion_tokens": 2170,
+          "total_tokens": 8392,
+          "cost": 0.015915
+        },
+        "calls": [
+          {
+            "model": "openrouter/qwen/qwen3.7-max",
+            "usage": {
+              "completion_tokens": 1257,
+              "prompt_tokens": 2362,
+              "total_tokens": 3619,
+              "cost": 0.00766625
+            },
+            "cost": 0.00766625
+          },
+          {
+            "model": "openrouter/qwen/qwen3.7-max",
+            "usage": {
+              "completion_tokens": 913,
+              "prompt_tokens": 3860,
+              "total_tokens": 4773,
+              "cost": 0.00824875
+            },
+            "cost": 0.00824875
+          }
+        ]
+      },
+      "news_summary": "• **Injuries & Availability**: The USMNT has a fully fit 26-man roster available. Key central defender Chris Richards is cleared to play after recovering from a May ankle injury. No injury or availability updates are provided for Paraguay.\n• **Tactical News**: USMNT manager Mauricio Pochettino has not revealed his starting XI, specifically keeping quiet on whether Richards will start in central defense. The USA is playing at home (SoFi Stadium, Los Angeles) as co-hosts in Group D (alongside Australia and Turkey).\n• **Form**: The USA enters the tournament with mixed warm-up results, having beaten Senegal 3-2 before losing 2-1 to Germany. Paraguay's recent form and pre-tournament results are not mentioned.\n• **Suspensions**: None reported for either team.\n• **Uncertainty**: The exact USMNT starting lineup remains unconfirmed. There is also a significant lack of information regarding Paraguay's team news, tactical approach, and current form.",
+      "polymarket_odds": [
+        {
+          "title": "United States vs. Paraguay",
+          "slug": "fwc-usa-par-2026-06-12",
+          "markets": [
+            {
+              "question": "Will United States win against Paraguay in the World Cup match scheduled for Jun 12, 2026?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.4600",
+                "0.4700"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-usa"
+            },
+            {
+              "question": "Will the World Cup match United States vs Paraguay scheduled for Jun 12, 2026 end in a draw?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.2800",
+                "0.2900"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-draw"
+            },
+            {
+              "question": "Will Paraguay win against United States in the World Cup match scheduled for Jun 12, 2026?",
+              "outcomes": [
+                "No",
+                "Yes"
+              ],
+              "outcome_prices": [
+                "0.2300",
+                "0.2400"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "atc-fwc-usa-par-2026-06-12-par"
+            },
+            {
+              "question": "Will Ricardo Pepi record at least 3 goals in USA vs PAR?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0100",
+                "0.1100"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "astatc-fwc-usa-par-2026-06-12-goals-ricpep-gte3"
+            },
+            {
+              "question": "Will Weston McKennie record at least 2 shots in USA vs PAR?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.5700",
+                "0.6600"
+              ],
+              "volume": null,
+              "liquidity": null,
+              "url": null,
+              "source_slug": "astatc-fwc-usa-par-2026-06-12-shots-fwcwesmck-gte2"
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "united states vs paraguay",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
     }
   ],
   "leaderboard": {
@@ -5478,7 +7618,7 @@
         "model_alias": "claude-haiku-4.5",
         "matches_scored": 2,
         "total_points": 175,
-        "total_cost": 0.03584,
+        "total_cost": 0.048059,
         "result_points": 100,
         "scoreline_points": 50,
         "goal_difference_points": 20,
@@ -5492,7 +7632,7 @@
         "model_alias": "claude-sonnet-4.7",
         "matches_scored": 2,
         "total_points": 175,
-        "total_cost": 0.11751,
+        "total_cost": 0.161106,
         "result_points": 100,
         "scoreline_points": 50,
         "goal_difference_points": 20,
@@ -5506,7 +7646,7 @@
         "model_alias": "deepseek-v4-pro",
         "matches_scored": 2,
         "total_points": 175,
-        "total_cost": 0.03815597,
+        "total_cost": 0.05501357,
         "result_points": 100,
         "scoreline_points": 50,
         "goal_difference_points": 20,
@@ -5520,7 +7660,7 @@
         "model_alias": "gpt-5.5",
         "matches_scored": 2,
         "total_points": 175,
-        "total_cost": 0.15066,
+        "total_cost": 0.204065,
         "result_points": 100,
         "scoreline_points": 50,
         "goal_difference_points": 20,
@@ -5534,7 +7674,7 @@
         "model_alias": "grok-4.3",
         "matches_scored": 2,
         "total_points": 175,
-        "total_cost": 0.0245561,
+        "total_cost": 0.0316572,
         "result_points": 100,
         "scoreline_points": 50,
         "goal_difference_points": 20,
@@ -5548,7 +7688,7 @@
         "model_alias": "mimo-v2.5-pro",
         "matches_scored": 2,
         "total_points": 175,
-        "total_cost": 0.042713,
+        "total_cost": 0.04711564,
         "result_points": 100,
         "scoreline_points": 50,
         "goal_difference_points": 20,
@@ -5562,7 +7702,7 @@
         "model_alias": "qwen-3.7-max",
         "matches_scored": 2,
         "total_points": 175,
-        "total_cost": 0.04601125,
+        "total_cost": 0.06192625,
         "result_points": 100,
         "scoreline_points": 50,
         "goal_difference_points": 20,
@@ -5576,7 +7716,7 @@
         "model_alias": "gpt-5.4-nano",
         "matches_scored": 2,
         "total_points": 145,
-        "total_cost": 0.00528015,
+        "total_cost": 0.0072929,
         "result_points": 100,
         "scoreline_points": 25,
         "goal_difference_points": 10,
@@ -5590,7 +7730,7 @@
         "model_alias": "gemini-3-flash",
         "matches_scored": 2,
         "total_points": 140,
-        "total_cost": 0.0136795,
+        "total_cost": 0.018936,
         "result_points": 100,
         "scoreline_points": 25,
         "goal_difference_points": 10,
@@ -5604,7 +7744,7 @@
         "model_alias": "gemini-3.1-flash-lite",
         "matches_scored": 2,
         "total_points": 140,
-        "total_cost": 0.00596125,
+        "total_cost": 0.00829725,
         "result_points": 100,
         "scoreline_points": 25,
         "goal_difference_points": 10,
@@ -5618,7 +7758,7 @@
         "model_alias": "glm-5.1",
         "matches_scored": 2,
         "total_points": 140,
-        "total_cost": 0.05556824,
+        "total_cost": 0.07169596,
         "result_points": 100,
         "scoreline_points": 25,
         "goal_difference_points": 10,
@@ -5632,7 +7772,7 @@
         "model_alias": "gpt-5.4-mini",
         "matches_scored": 2,
         "total_points": 140,
-        "total_cost": 0.02019,
+        "total_cost": 0.026712,
         "result_points": 100,
         "scoreline_points": 25,
         "goal_difference_points": 10,
@@ -5646,7 +7786,7 @@
         "model_alias": "kimi-k2.6",
         "matches_scored": 2,
         "total_points": 140,
-        "total_cost": 0.056537,
+        "total_cost": 0.0764488,
         "result_points": 100,
         "scoreline_points": 25,
         "goal_difference_points": 10,
@@ -5660,7 +7800,7 @@
         "model_alias": "minimax-m3",
         "matches_scored": 2,
         "total_points": 140,
-        "total_cost": 0.01174434,
+        "total_cost": 0.01835646,
         "result_points": 100,
         "scoreline_points": 25,
         "goal_difference_points": 10,
@@ -5674,7 +7814,7 @@
         "model_alias": "gemini-3.5-pro",
         "matches_scored": 2,
         "total_points": 90,
-        "total_cost": 0.10093,
+        "total_cost": 0.136594,
         "result_points": 50,
         "scoreline_points": 25,
         "goal_difference_points": 10,
@@ -5685,7 +7825,7 @@
         "average_points": 45.0
       }
     ],
-    "generated_at": "2026-06-12T08:06:59.345874Z"
+    "generated_at": "2026-06-12T14:42:11.978099Z"
   },
   "resolution_state": {
     "result_attempts": {}

@@ -1,0 +1,12 @@
+[project]
+name = "world-cup-predictor"
+version = "0.1.0"
+description = "LLM predictions for the 2026 FIFA World Cup"
+requires-python = ">=3.10"
+dependencies = [
+    "dspy==3.0.3",
+    "pypdf2==3.0.1",
+    "python-dotenv==1.1.1",
+    "requests==2.32.5",
+    "rich==13.9.4",
+]
