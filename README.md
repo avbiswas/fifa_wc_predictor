@@ -1,5 +1,7 @@
 # FIFA World Cup 2026 Prediction Data
 
+https://github.com/user-attachments/assets/f19e6deb-2467-43e4-96d7-b831e6116b89
+
 LLMs predict FIFA World Cup 2026!
 
 ## Support
@@ -157,4 +159,3 @@ For an offline wiring check:
 ```bash
 python3 scripts/predict_match_dspy.py --match-id 1 --skip-news --skip-polymarket
 ```
-
