@@ -1,6 +1,6 @@
 # FIFA World Cup 2026 Prediction Data
 
-Starter data for a FIFA World Cup 2026 match-winner prediction system.
+LLMs predict FIFA World Cup 2026!
 
 ## Data
 
