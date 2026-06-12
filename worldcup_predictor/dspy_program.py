@@ -34,9 +34,9 @@ class MatchPredictor(dspy.Module):
                     str,
                     dspy.OutputField(desc=f"Predicted scoreline, for example '{team1} 2-1 {team2}' or '{team1} 1-1 {team2}'."),
                 ),
-                "players_to_watch": (
+                "goal_scorers": (
                     str,
-                    dspy.OutputField(desc="Comma-separated players most likely to influence the match, with team names if useful."),
+                    dspy.OutputField(desc="Exactly three comma-separated players most likely to score a goal."),
                 ),
                 "confidence": (float, dspy.OutputField(desc="Probability-like confidence from 0.0 to 1.0.")),
                 "rationale": (str, dspy.OutputField(desc="Brief evidence-based reasoning.")),

@@ -105,7 +105,46 @@ Run only models missing a saved prediction:
 ./run_missing_predictions --match-id 1
 ```
 
-Each prediction is appended to `data/predictions/predictions.json` with the model name, winner prediction, scoreline, players to watch, confidence, reasoning, and LM usage. Add `--no-save` to print without writing prediction history.
+Each prediction is appended to `data/predictions/predictions.json` with the model name, winner prediction, scoreline, three predicted goal scorers, confidence, reasoning, and LM usage. Add `--no-save` to print without writing prediction history.
+
+## Results and scoring
+
+Fetch a completed match result and score all saved predictions for it:
+
+```bash
+./fetch_result --match-id 1
+```
+
+If automatic fixture matching is ambiguous, pass the TheSportsDB event ID:
+
+```bash
+./fetch_result --match-id 1 --fixture-id 123456
+```
+
+Results, available goal scorers, and prediction scores are written to `data/predictions/predictions.json`. Final scores come from TheSportsDB's free public API; no result API key or paid plan is required. Recompute scores from already saved results without making API calls:
+
+```bash
+./score_predictions
+```
+
+Each match is worth 100 points: 50 for the correct 90-minute result, 25 for the exact scoreline, 10 for the correct goal difference, and 15 for predicted goal scorers.
+
+Resolve the current day manually:
+
+```bash
+./resolve_day
+```
+
+The command first prints every match it intends to predict and every result it intends to fetch. It then asks once whether to fetch all pending past results, followed by a separate approval prompt for each future match prediction batch. Enter `y` or `Y` to approve an action.
+
+This command:
+
+- runs only missing model predictions for resolved fixtures kicking off within the next 24 hours;
+- fetches only missing results for matches whose kickoff time has passed;
+- recalculates scores and the model leaderboard;
+- records a one-hour retry window when a result is not final yet.
+
+It is idempotent: predictions and completed results already present in the JSON are not requested again. Use `./resolve_day --dry-run` to print the plan and exit without prompting.
 
 For an offline wiring check:
 

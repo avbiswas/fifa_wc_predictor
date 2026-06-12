@@ -12,7 +12,6 @@
       "model": "openrouter/google/gemini-3-flash-preview",
       "prediction": "Mexico",
       "scoreline": "Mexico 2-0 South Africa",
-      "players_to_watch": "Santiago Giménez (Mexico), Edson Álvarez (Mexico), Lyle Foster (South Africa), Ronwen Williams (South Africa)",
       "confidence": 0.75,
       "rationale": "Mexico has the home-field advantage of playing in Mexico City (altitude) and a superior squad depth with players active in top European leagues. South Africa is a cohesive unit but lacks the clinical finishing required to upset a host nation in a World Cup opener.",
       "news_summary": "* **Injuries:** No current injury data available due to lack of news items.\n* **Tactical News:** No specific tactical shifts or lineup leaks reported.\n* **Form:** Recent form cannot be assessed without updated match data.\n* **Suspensions:** No active suspensions reported for this fixture.\n* **Uncertainty:** High; absence of news items prevents a detailed pre-match analysis.",
@@ -26,6 +25,36 @@
         "key": "mexico vs south africa",
         "news_from_cache": false,
         "polymarket_from_cache": false
+      },
+      "match_id": 1,
+      "goal_scorers": [
+        "Santiago Giménez (Mexico)",
+        "Edson Álvarez (Mexico)",
+        "Lyle Foster (South Africa)"
+      ],
+      "score": {
+        "total": 85,
+        "result": 50,
+        "scoreline": 25,
+        "goal_difference": 10,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Santiago Giménez (Mexico)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Edson Álvarez (Mexico)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Lyle Foster (South Africa)",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -40,7 +69,6 @@
       "model": "openrouter/google/gemini-3-flash-preview",
       "prediction": "Mexico",
       "scoreline": "Mexico 2-0 South Africa",
-      "players_to_watch": "Santiago Giménez (Mexico), Edson Álvarez (Mexico), Ronwen Williams (South Africa), Lyle Foster (South Africa)",
       "confidence": 0.65,
       "rationale": "Mexico has a significant home-field advantage playing at the Estadio Azteca and possesses a squad with more players competing in top European leagues compared to South Africa. While South Africa is defensively resilient, the altitude and the intensity of the home crowd in a World Cup opener are expected to tilt the result in Mexico's favor.",
       "usage": {
@@ -84,6 +112,36 @@
         "key": "mexico vs south africa",
         "news_from_cache": false,
         "polymarket_from_cache": false
+      },
+      "match_id": 1,
+      "goal_scorers": [
+        "Santiago Giménez (Mexico)",
+        "Edson Álvarez (Mexico)",
+        "Ronwen Williams (South Africa)"
+      ],
+      "score": {
+        "total": 85,
+        "result": 50,
+        "scoreline": 25,
+        "goal_difference": 10,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Santiago Giménez (Mexico)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Edson Álvarez (Mexico)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Ronwen Williams (South Africa)",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -98,7 +156,6 @@
       "model": "openrouter/google/gemini-3-flash-preview",
       "prediction": "Mexico",
       "scoreline": "Mexico 2-0 South Africa",
-      "players_to_watch": "Raul Jimenez (Mexico), Edson Alvarez (Mexico), Lyle Foster (South Africa), Ronwen Williams (South Africa)",
       "confidence": 0.75,
       "rationale": "Mexico has the home-field advantage of the Estadio Azteca and a significantly higher-rated squad in terms of individual quality and European experience. Polymarket odds reflect a high probability of a Mexico victory, and the historical trend of host nations in World Cup openers is very strong.",
       "usage": {
@@ -220,6 +277,36 @@
         "key": "mexico vs south africa",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "match_id": 1,
+      "goal_scorers": [
+        "Raul Jimenez (Mexico)",
+        "Edson Alvarez (Mexico)",
+        "Lyle Foster (South Africa)"
+      ],
+      "score": {
+        "total": 90,
+        "result": 50,
+        "scoreline": 25,
+        "goal_difference": 10,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Raul Jimenez (Mexico)",
+            "matched_scorer": "R. Jiménez",
+            "points": 5
+          },
+          {
+            "predicted": "Edson Alvarez (Mexico)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Lyle Foster (South Africa)",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -235,7 +322,6 @@
       "model": "openrouter/google/gemini-3.1-flash-lite",
       "prediction": "Mexico",
       "scoreline": "Mexico 2-0 South Africa",
-      "players_to_watch": "Raul Jimenez (Mexico), Edson Alvarez (Mexico), Teboho Mokoena (South Africa), Lyle Foster (South Africa)",
       "confidence": 0.75,
       "rationale": "Mexico's home-field advantage in a World Cup opener is a decisive factor. Their squad features more players competing in top-tier European leagues compared to South Africa, and they are expected to control the game's tempo despite South Africa's organized midfield.",
       "usage": {
@@ -357,6 +443,36 @@
         "key": "mexico vs south africa",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "match_id": 1,
+      "goal_scorers": [
+        "Raul Jimenez (Mexico)",
+        "Edson Alvarez (Mexico)",
+        "Teboho Mokoena (South Africa)"
+      ],
+      "score": {
+        "total": 90,
+        "result": 50,
+        "scoreline": 25,
+        "goal_difference": 10,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Raul Jimenez (Mexico)",
+            "matched_scorer": "R. Jiménez",
+            "points": 5
+          },
+          {
+            "predicted": "Edson Alvarez (Mexico)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Teboho Mokoena (South Africa)",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -372,7 +488,6 @@
       "model": "openrouter/google/gemini-3-flash-preview",
       "prediction": "Mexico",
       "scoreline": "Mexico 2-0 South Africa",
-      "players_to_watch": "Raul Jimenez (Mexico), Edson Alvarez (Mexico), Lyle Foster (South Africa), Ronwen Williams (South Africa)",
       "confidence": 0.75,
       "rationale": "Mexico has a massive home-field advantage as co-hosts and a superior squad depth compared to South Africa. The Polymarket odds reflect a strong market consensus for a Mexico victory, and the historical difficulty for visiting teams playing in Mexico City (altitude and atmosphere) further supports this outcome.",
       "usage": {
@@ -494,6 +609,36 @@
         "key": "mexico vs south africa",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "match_id": 1,
+      "goal_scorers": [
+        "Raul Jimenez (Mexico)",
+        "Edson Alvarez (Mexico)",
+        "Lyle Foster (South Africa)"
+      ],
+      "score": {
+        "total": 90,
+        "result": 50,
+        "scoreline": 25,
+        "goal_difference": 10,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Raul Jimenez (Mexico)",
+            "matched_scorer": "R. Jiménez",
+            "points": 5
+          },
+          {
+            "predicted": "Edson Alvarez (Mexico)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Lyle Foster (South Africa)",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -509,7 +654,6 @@
       "model": "openrouter/~google/gemini-pro-latest",
       "prediction": "Mexico",
       "scoreline": "Mexico 2-0 South Africa",
-      "players_to_watch": "Raul Jimenez (Mexico), Edson Alvarez (Mexico), Lyle Foster (South Africa), Teboho Mokoena (South Africa)",
       "confidence": 0.69,
       "rationale": "Mexico benefits from a significant home-field and altitude advantage in Mexico City. Betting markets strongly favor them (69% implied probability), and their squad possesses greater top-flight European experience compared to South Africa's largely domestic-based roster.",
       "usage": {
@@ -631,6 +775,36 @@
         "key": "mexico vs south africa",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "match_id": 1,
+      "goal_scorers": [
+        "Raul Jimenez (Mexico)",
+        "Edson Alvarez (Mexico)",
+        "Lyle Foster (South Africa)"
+      ],
+      "score": {
+        "total": 90,
+        "result": 50,
+        "scoreline": 25,
+        "goal_difference": 10,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Raul Jimenez (Mexico)",
+            "matched_scorer": "R. Jiménez",
+            "points": 5
+          },
+          {
+            "predicted": "Edson Alvarez (Mexico)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Lyle Foster (South Africa)",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -646,7 +820,6 @@
       "model": "openrouter/~anthropic/claude-sonnet-latest",
       "prediction": "Mexico",
       "scoreline": "Mexico 2-0 South Africa",
-      "players_to_watch": "Raul Jimenez (Mexico), Edson Alvarez (Mexico), Orbelin Pineda (Mexico), Lyle Foster (South Africa), Teboho Mokoena (South Africa), Themba Zwane (South Africa)",
       "confidence": 0.65,
       "rationale": "Mexico holds a commanding home advantage playing in Mexico City as a co-host, with a significantly more experienced squad featuring multiple European-based players (Jimenez 126 caps/45 goals, Alvarez 99 caps, Ochoa 153 caps). Polymarket implies ~69% win probability for Mexico. Even with Gimenez doubtful, Raul Jimenez provides proven World Cup-level attacking quality. South Africa's squad is predominantly domestic-league based, though Foster (Burnley) and Mokoena provide quality. The 2010 draw was on South African soil; Mexico's home crowd and superior depth should be decisive in a 2-0 victory.",
       "usage": {
@@ -768,6 +941,36 @@
         "key": "mexico vs south africa",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "match_id": 1,
+      "goal_scorers": [
+        "Raul Jimenez (Mexico)",
+        "Edson Alvarez (Mexico)",
+        "Orbelin Pineda (Mexico)"
+      ],
+      "score": {
+        "total": 90,
+        "result": 50,
+        "scoreline": 25,
+        "goal_difference": 10,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Raul Jimenez (Mexico)",
+            "matched_scorer": "R. Jiménez",
+            "points": 5
+          },
+          {
+            "predicted": "Edson Alvarez (Mexico)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Orbelin Pineda (Mexico)",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -783,7 +986,6 @@
       "model": "openrouter/deepseek/deepseek-v4-pro",
       "prediction": "Mexico",
       "scoreline": "Mexico 2-0 South Africa",
-      "players_to_watch": "Raúl Jiménez, Edson Álvarez, Lyle Foster, Ronwen Williams",
       "confidence": 0.75,
       "rationale": "Mexico is heavily favored in the match odds (69% implied win probability) and enjoys home advantage in the World Cup opener. The squad has superior experience across top European leagues and domestically, while South Africa’s mostly domestic-based lineup lacks the same depth. Doubtful injuries to Santiago Giménez (Mexico) and Aubrey Modiba (South Africa) slightly affect both sides, but Mexico’s alternatives are stronger. With no recent form data, the prediction relies on squad quality and market sentiment.",
       "usage": {
@@ -905,6 +1107,36 @@
         "key": "mexico vs south africa",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "match_id": 1,
+      "goal_scorers": [
+        "Raúl Jiménez",
+        "Edson Álvarez",
+        "Lyle Foster"
+      ],
+      "score": {
+        "total": 90,
+        "result": 50,
+        "scoreline": 25,
+        "goal_difference": 10,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Raúl Jiménez",
+            "matched_scorer": "R. Jiménez",
+            "points": 5
+          },
+          {
+            "predicted": "Edson Álvarez",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Lyle Foster",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -920,7 +1152,6 @@
       "model": "openrouter/minimax/minimax-m3",
       "prediction": "Mexico",
       "scoreline": "Mexico 2-1 South Africa",
-      "players_to_watch": "Raúl Jiménez (Mexico, FW/Fulham), Guillermo Ochoa (Mexico, GK), Santiago Giménez (Mexico, FW/AC Milan, if fit), Edson Álvarez (Mexico, DF/Fenerbahçe), Lyle Foster (South Africa, FW/Burnley), Teboho Mokoena (South Africa, MF/Mamelodi Sundowns), Relebohile Mofokeng (South Africa, FW/Orlando Pirates)",
       "confidence": 0.68,
       "rationale": "Mexico's home advantage at altitude in Mexico City, combined with a noticeably deeper and more experienced squad featuring many European-based starters, makes them clear favorites in this Group A opener. The Polymarket market agrees (~69% Mexico win). However, opening-match tension, South Africa's physicality and tournament pedigree, and Giménez's doubtful status prevent a higher confidence. A narrow 2-1 Mexico win reflects expected Mexican superiority with realistic South African resistance — the 2010 precedent also ended 1-1, suggesting Bafana Bafana can trouble Mexico if not entirely shut down.",
       "usage": {
@@ -1042,6 +1273,36 @@
         "key": "mexico vs south africa",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "match_id": 1,
+      "goal_scorers": [
+        "Raúl Jiménez (Mexico, FW/Fulham)",
+        "Guillermo Ochoa (Mexico, GK)",
+        "Santiago Giménez (Mexico, FW/AC Milan, if fit)"
+      ],
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Raúl Jiménez (Mexico, FW/Fulham)",
+            "matched_scorer": "R. Jiménez",
+            "points": 5
+          },
+          {
+            "predicted": "Guillermo Ochoa (Mexico, GK)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Santiago Giménez (Mexico, FW/AC Milan, if fit)",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -1057,7 +1318,6 @@
       "model": "openrouter/z-ai/glm-5.1",
       "prediction": "Mexico",
       "scoreline": "Mexico 2-0 South Africa",
-      "players_to_watch": "Raúl Jiménez (Mexico), Edson Álvarez (Mexico), Luis Chávez (Mexico), Lyle Foster (South Africa), Teboho Mokoena (South Africa), Ronwen Williams (South Africa)",
       "confidence": 0.67,
       "rationale": "Mexico holds significant advantages: home co-host status in Mexico City's altitude, more European-based players, and vastly more international experience (Ochoa 153 caps, Jiménez 126 caps vs South Africa's Mokoena 57 caps). South Africa's squad is largely domestic-based, which may struggle with the altitude and quality gap. Market odds (~69% Mexico) align with this assessment. The main risk is World Cup opener tension potentially leading to a cagey draw, but Mexico's home advantage should prove decisive.",
       "usage": {
@@ -1179,6 +1439,36 @@
         "key": "mexico vs south africa",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "match_id": 1,
+      "goal_scorers": [
+        "Raúl Jiménez (Mexico)",
+        "Edson Álvarez (Mexico)",
+        "Luis Chávez (Mexico)"
+      ],
+      "score": {
+        "total": 90,
+        "result": 50,
+        "scoreline": 25,
+        "goal_difference": 10,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Raúl Jiménez (Mexico)",
+            "matched_scorer": "R. Jiménez",
+            "points": 5
+          },
+          {
+            "predicted": "Edson Álvarez (Mexico)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Luis Chávez (Mexico)",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -1194,7 +1484,6 @@
       "model": "openrouter/qwen/qwen3.7-max",
       "prediction": "Mexico",
       "scoreline": "Mexico 2-0 South Africa",
-      "players_to_watch": "Raúl Jiménez (Mexico), Edson Álvarez (Mexico), Lyle Foster (South Africa), Teboho Mokoena (South Africa)",
       "confidence": 0.75,
       "rationale": "Mexico benefits from a massive home advantage in Mexico City and possesses a squad with far more top-tier European experience compared to South Africa's predominantly domestic-based lineup. The betting markets heavily favor Mexico (approx. 70% win probability), and their midfield control and attacking depth should be enough to neutralize South Africa's counter-attacks and secure a comfortable opening match victory.",
       "usage": {
@@ -1316,6 +1605,36 @@
         "key": "mexico vs south africa",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "match_id": 1,
+      "goal_scorers": [
+        "Raúl Jiménez (Mexico)",
+        "Edson Álvarez (Mexico)",
+        "Lyle Foster (South Africa)"
+      ],
+      "score": {
+        "total": 90,
+        "result": 50,
+        "scoreline": 25,
+        "goal_difference": 10,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Raúl Jiménez (Mexico)",
+            "matched_scorer": "R. Jiménez",
+            "points": 5
+          },
+          {
+            "predicted": "Edson Álvarez (Mexico)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Lyle Foster (South Africa)",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -1331,7 +1650,6 @@
       "model": "openrouter/openai/gpt-5.5",
       "prediction": "Mexico",
       "scoreline": "Mexico 2-0 South Africa",
-      "players_to_watch": "Raul Jimenez (Mexico), Edson Alvarez (Mexico), Orbelin Pineda (Mexico), Julian Quinones (Mexico), Lyle Foster (South Africa), Teboho Mokoena (South Africa), Ronwen Williams (South Africa)",
       "confidence": 0.67,
       "rationale": "Mexico have home advantage in Mexico City, the stronger and more experienced squad, and market odds heavily favor them. South Africa have enough attacking quality to make it competitive, but Mexico’s depth and conditions should be decisive.",
       "usage": {
@@ -1453,6 +1771,36 @@
         "key": "mexico vs south africa",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "match_id": 1,
+      "goal_scorers": [
+        "Raul Jimenez (Mexico)",
+        "Edson Alvarez (Mexico)",
+        "Orbelin Pineda (Mexico)"
+      ],
+      "score": {
+        "total": 90,
+        "result": 50,
+        "scoreline": 25,
+        "goal_difference": 10,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Raul Jimenez (Mexico)",
+            "matched_scorer": "R. Jiménez",
+            "points": 5
+          },
+          {
+            "predicted": "Edson Alvarez (Mexico)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Orbelin Pineda (Mexico)",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -1468,7 +1816,6 @@
       "model": "openrouter/openai/gpt-5.4-mini",
       "prediction": "Mexico",
       "scoreline": "Mexico 2-1 South Africa",
-      "players_to_watch": "Raúl Jiménez (Mexico), Orbelín Pineda (Mexico), Edson Álvarez (Mexico), Ronwen Williams (South Africa), Teboho Mokoena (South Africa), Lyle Foster (South Africa)",
       "confidence": 0.69,
       "rationale": "Mexico are favored by the available odds and squad strength, plus they play at home. South Africa have some quality, but Mexico’s depth and attacking options should edge it. A 2-1 result fits a competitive opener with Mexico controlling more of the decisive moments.",
       "usage": {
@@ -1590,6 +1937,36 @@
         "key": "mexico vs south africa",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "match_id": 1,
+      "goal_scorers": [
+        "Raúl Jiménez (Mexico)",
+        "Orbelín Pineda (Mexico)",
+        "Edson Álvarez (Mexico)"
+      ],
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Raúl Jiménez (Mexico)",
+            "matched_scorer": "R. Jiménez",
+            "points": 5
+          },
+          {
+            "predicted": "Orbelín Pineda (Mexico)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Edson Álvarez (Mexico)",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -1605,7 +1982,6 @@
       "model": "openrouter/anthropic/claude-haiku-4.5",
       "prediction": "Mexico",
       "scoreline": "Mexico 2-0 South Africa",
-      "players_to_watch": "Raúl Jiménez (Mexico), Santiago Giménez (Mexico), Orbelín Pineda (Mexico), Lyle Foster (South Africa), Themba Zwane (South Africa), Teboho Mokoena (South Africa)",
       "confidence": 0.72,
       "rationale": "Mexico's superior squad depth, home advantage in Mexico City, and significantly more experienced players across all positions create a clear advantage. Raúl Jiménez's proven goal-scoring ability at the highest level, combined with Mexico's multiple attacking options, should overcome South Africa's defensive organization. While South Africa can be competitive, Mexico's quality gap and home support make a Mexico victory the most likely outcome. The 2-0 scoreline reflects Mexico's dominance without excessive optimism, accounting for South Africa's defensive resilience and the possibility of a tighter contest.",
       "usage": {
@@ -1737,6 +2113,36 @@
         "key": "mexico vs south africa",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "match_id": 1,
+      "goal_scorers": [
+        "Raúl Jiménez (Mexico)",
+        "Santiago Giménez (Mexico)",
+        "Orbelín Pineda (Mexico)"
+      ],
+      "score": {
+        "total": 90,
+        "result": 50,
+        "scoreline": 25,
+        "goal_difference": 10,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Raúl Jiménez (Mexico)",
+            "matched_scorer": "R. Jiménez",
+            "points": 5
+          },
+          {
+            "predicted": "Santiago Giménez (Mexico)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Orbelín Pineda (Mexico)",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -1753,7 +2159,6 @@
       "model": "openrouter/openai/gpt-5.4-nano",
       "prediction": "Mexico",
       "scoreline": "Mexico 2-1 South Africa",
-      "players_to_watch": "Raúl Jiménez (Mexico), Alexis Vega (Mexico), Julián Quiñones (Mexico), Guillermo Ochoa (Mexico), Aubrey Modiba (South Africa), Lyle Foster (South Africa), Oswin Appollis (South Africa)",
       "confidence": 0.64,
       "rationale": "Polymarket pricing implies Mexico are favored to win (South Africa win is ~0.10, draw ~0.21). Mexico’s projected XI includes multiple proven attackers and experienced midfield/ball progression, while South Africa’s best threat (Foster/Appollis) likely needs clean service—potentially reduced if Modiba is not fully fit. A narrow home win (2-1) fits the implied odds and uncertainty around late fitness.",
       "usage": {
@@ -1875,6 +2280,35 @@
         "key": "mexico vs south africa",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "goal_scorers": [
+        "Raúl Jiménez (Mexico)",
+        "Alexis Vega (Mexico)",
+        "Julián Quiñones (Mexico)"
+      ],
+      "score": {
+        "total": 60,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 10,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Raúl Jiménez (Mexico)",
+            "matched_scorer": "R. Jiménez",
+            "points": 5
+          },
+          {
+            "predicted": "Alexis Vega (Mexico)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Julián Quiñones (Mexico)",
+            "matched_scorer": "J. Quiñones",
+            "points": 5
+          }
+        ]
       }
     },
     {
@@ -1891,7 +2325,6 @@
       "model": "openrouter/moonshotai/kimi-k2.6",
       "prediction": "Mexico",
       "scoreline": "Mexico 2-1 South Africa",
-      "players_to_watch": "Mexico: Raúl Jiménez, Edson Álvarez, Orbelín Pineda, South Africa: Lyle Foster, Teboho Mokoena, Ronwen Williams",
       "confidence": 0.72,
       "rationale": "Home advantage at altitude, superior squad depth and European pedigree, plus market odds heavily favoring the hosts support a Mexico win despite Giménez's absence.",
       "usage": {
@@ -2013,6 +2446,35 @@
         "key": "mexico vs south africa",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "goal_scorers": [
+        "Raúl Jiménez",
+        "Edson Álvarez",
+        "Orbelín Pineda"
+      ],
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Raúl Jiménez",
+            "matched_scorer": "R. Jiménez",
+            "points": 5
+          },
+          {
+            "predicted": "Edson Álvarez",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Orbelín Pineda",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -2029,7 +2491,6 @@
       "model": "openrouter/x-ai/grok-4.3",
       "prediction": "Mexico",
       "scoreline": "Mexico 2-0 South Africa",
-      "players_to_watch": "Raúl Jiménez (Mexico), Edson Álvarez (Mexico), Lyle Foster (South Africa)",
       "confidence": 0.78,
       "rationale": "Home advantage + superior squad depth and betting market heavily favor Mexico; South Africa unlikely to take points away in Mexico City.",
       "usage": {
@@ -2151,6 +2612,35 @@
         "key": "mexico vs south africa",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "goal_scorers": [
+        "Raúl Jiménez (Mexico)",
+        "Edson Álvarez (Mexico)",
+        "Lyle Foster (South Africa)"
+      ],
+      "score": {
+        "total": 90,
+        "result": 50,
+        "scoreline": 25,
+        "goal_difference": 10,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Raúl Jiménez (Mexico)",
+            "matched_scorer": "R. Jiménez",
+            "points": 5
+          },
+          {
+            "predicted": "Edson Álvarez (Mexico)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Lyle Foster (South Africa)",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -2167,7 +2657,6 @@
       "model": "openrouter/xiaomi/mimo-v2.5-pro",
       "prediction": "Mexico",
       "scoreline": "Mexico 2-0 South Africa",
-      "players_to_watch": "Raúl Jiménez (Mexico), Themba Zwane (South Africa), Edson Álvarez (Mexico), Lyle Foster (South Africa)",
       "confidence": 0.7,
       "rationale": "Mexico benefits from a strong home advantage in Mexico City, a squad with more experience in top European leagues, and favorable betting odds (Polymarket ~69% implied win probability). Their historical World Cup performance and defensive solidity suggest they can secure a win. South Africa, while organized, lacks the same depth of individual match-winners at the highest level.",
       "usage": {
@@ -2289,6 +2778,35 @@
         "key": "mexico vs south africa",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "goal_scorers": [
+        "Raúl Jiménez (Mexico)",
+        "Themba Zwane (South Africa)",
+        "Edson Álvarez (Mexico)"
+      ],
+      "score": {
+        "total": 90,
+        "result": 50,
+        "scoreline": 25,
+        "goal_difference": 10,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Raúl Jiménez (Mexico)",
+            "matched_scorer": "R. Jiménez",
+            "points": 5
+          },
+          {
+            "predicted": "Themba Zwane (South Africa)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Edson Álvarez (Mexico)",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -2305,7 +2823,6 @@
       "model": "openrouter/openai/gpt-5.5",
       "prediction": "South Korea",
       "scoreline": "South Korea 2-1 Czech Republic",
-      "players_to_watch": "Son Heung-min (South Korea), Lee Kang-in (South Korea), Kim Min-jae (South Korea), Hwang Hee-chan (South Korea)",
       "confidence": 0.57,
       "rationale": "South Korea have the stronger available squad evidence, superior named attacking talent, and unbeaten qualifying context, while Czech Republic’s team data is limited and their route through playoffs suggests a tough but beatable opponent. Defensive injury concerns keep confidence moderate.",
       "usage": {
@@ -2361,6 +2878,35 @@
         "key": "south korea vs czech republic",
         "news_from_cache": false,
         "polymarket_from_cache": false
+      },
+      "goal_scorers": [
+        "Son Heung-min (South Korea)",
+        "Lee Kang-in (South Korea)",
+        "Kim Min-jae (South Korea)"
+      ],
+      "score": {
+        "total": 85,
+        "result": 50,
+        "scoreline": 25,
+        "goal_difference": 10,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Son Heung-min (South Korea)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Lee Kang-in (South Korea)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Kim Min-jae (South Korea)",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -2377,7 +2923,6 @@
       "model": "openrouter/openai/gpt-5.4-mini",
       "prediction": "South Korea",
       "scoreline": "South Korea 2-1 Czech Republic",
-      "players_to_watch": "Son Heung-min (South Korea), Hwang Hee-chan (South Korea), Kim Min-jae (South Korea), Lee Jae-sung (South Korea)",
       "confidence": 0.57,
       "rationale": "South Korea have the stronger and more settled squad, superior star power, and unbeaten qualifying context; Czech Republic’s path through playoff penalties points to a less convincing profile. Neutral venue reduces certainty, but Korea still edge it.",
       "usage": {
@@ -2433,6 +2978,35 @@
         "key": "south korea vs czech republic",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "goal_scorers": [
+        "Son Heung-min (South Korea)",
+        "Hwang Hee-chan (South Korea)",
+        "Kim Min-jae (South Korea)"
+      ],
+      "score": {
+        "total": 85,
+        "result": 50,
+        "scoreline": 25,
+        "goal_difference": 10,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Son Heung-min (South Korea)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Hwang Hee-chan (South Korea)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Kim Min-jae (South Korea)",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -2449,7 +3023,6 @@
       "model": "openrouter/openai/gpt-5.4-nano",
       "prediction": "South Korea",
       "scoreline": "South Korea 2-1 Czech Republic",
-      "players_to_watch": "South Korea: Son Heung-min, Hwang Hee-chan, Lee Jae-sung; Czech Republic: (unknown XI—key impact players likely to be their main striker and central midfielder)",
       "confidence": 0.56,
       "rationale": "Home advantage plus a strong, clear South Korea attacking focal point (Son) outweighs the defensive uncertainty around Kim Tae-hyeon. Czech Republic’s lack of provided lineup/injury context reduces certainty, and a close, high-attendance opener profile favors a narrow South Korea win.",
       "usage": {
@@ -2505,6 +3078,35 @@
         "key": "south korea vs czech republic",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "goal_scorers": [
+        "Son Heung-min",
+        "Hwang Hee-chan",
+        "Lee Jae-sung"
+      ],
+      "score": {
+        "total": 85,
+        "result": 50,
+        "scoreline": 25,
+        "goal_difference": 10,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Son Heung-min",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Hwang Hee-chan",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Lee Jae-sung",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -2521,7 +3123,6 @@
       "model": "openrouter/google/gemini-3.1-flash-lite",
       "prediction": "South Korea",
       "scoreline": "South Korea 2-0 Czech Republic",
-      "players_to_watch": "Son Heung-min (South Korea), Kim Min-jae (South Korea), Lee Kang-in (South Korea)",
       "confidence": 0.75,
       "rationale": "South Korea's superior tournament experience, consistent qualifying form, and presence of elite individual players give them a clear edge over a Czech Republic team that has been absent from the World Cup for two decades and struggled to qualify.",
       "usage": {
@@ -2577,6 +3178,35 @@
         "key": "south korea vs czech republic",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "goal_scorers": [
+        "Son Heung-min (South Korea)",
+        "Kim Min-jae (South Korea)",
+        "Lee Kang-in (South Korea)"
+      ],
+      "score": {
+        "total": 50,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Son Heung-min (South Korea)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Kim Min-jae (South Korea)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Lee Kang-in (South Korea)",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -2593,7 +3223,6 @@
       "model": "openrouter/google/gemini-3-flash-preview",
       "prediction": "South Korea",
       "scoreline": "South Korea 2-0 Czech Republic",
-      "players_to_watch": "Son Heung-min (South Korea), Kim Min-jae (South Korea), Lee Kang-in (South Korea), Hwang Hee-chan (South Korea)",
       "confidence": 0.65,
       "rationale": "South Korea possesses world-class talent in key areas (Son, Kim Min-jae) and enters the tournament with strong momentum from an unbeaten qualifying run. The Czech Republic's reliance on penalty shootouts to qualify suggests they may struggle to control games against high-tempo opposition. Despite some defensive injury concerns for Korea, their offensive depth is superior.",
       "usage": {
@@ -2649,6 +3278,35 @@
         "key": "south korea vs czech republic",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "goal_scorers": [
+        "Son Heung-min (South Korea)",
+        "Kim Min-jae (South Korea)",
+        "Lee Kang-in (South Korea)"
+      ],
+      "score": {
+        "total": 50,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Son Heung-min (South Korea)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Kim Min-jae (South Korea)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Lee Kang-in (South Korea)",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -2665,7 +3323,6 @@
       "model": "openrouter/~google/gemini-pro-latest",
       "prediction": "Draw",
       "scoreline": "South Korea 1-1 Czech Republic",
-      "players_to_watch": "Son Heung-min (South Korea), Kim Min-jae (South Korea), Lee Kang-in (South Korea), Tomas Soucek (Czech Republic), Patrik Schick (Czech Republic)",
       "confidence": 0.6,
       "rationale": "Opening group matches are often cagey. South Korea possesses superior attacking talent and World Cup experience, but a makeshift defense due to injury could allow a disciplined,",
       "usage": {
@@ -2721,6 +3378,35 @@
         "key": "south korea vs czech republic",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "goal_scorers": [
+        "Son Heung-min (South Korea)",
+        "Kim Min-jae (South Korea)",
+        "Lee Kang-in (South Korea)"
+      ],
+      "score": {
+        "total": 0,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Son Heung-min (South Korea)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Kim Min-jae (South Korea)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Lee Kang-in (South Korea)",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -2737,7 +3423,6 @@
       "model": "openrouter/~anthropic/claude-sonnet-latest",
       "prediction": "South Korea",
       "scoreline": "South Korea 2-1 Czech Republic",
-      "players_to_watch": "Son Heung-min (South Korea), Lee Kang-in (South Korea), Kim Min-jae (South Korea), Hwang Hee-chan (South Korea), Hwang In-beom (South Korea)",
       "confidence": 0.44,
       "rationale": "South Korea holds clear advantages: FIFA ranking 25th vs Czech Republic (typically ~40th), a squad packed with elite European club players (Son at LAFC/ex-Spurs, Kim Min-jae at Bayern, Lee Kang-in at PSG, Hwang Hee-chan at Wolves), and unbeaten Asian qualifying. Czech Republic returns to the World Cup for the first time since 2006 after scraping through two UEFA playoff penalty shootouts, suggesting they were not dominant in qualifying. South Korea's defensive injury (Kim Tae-hyun out) is a concern, but Kim Min-jae remains the anchor. Czech Republic's tactical discipline and European pedigree keep this competitive, but South Korea's individual quality and tournament experience at this level should prove decisive in a tight opener.",
       "usage": {
@@ -2793,6 +3478,35 @@
         "key": "south korea vs czech republic",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "goal_scorers": [
+        "Son Heung-min (South Korea)",
+        "Lee Kang-in (South Korea)",
+        "Kim Min-jae (South Korea)"
+      ],
+      "score": {
+        "total": 85,
+        "result": 50,
+        "scoreline": 25,
+        "goal_difference": 10,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Son Heung-min (South Korea)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Lee Kang-in (South Korea)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Kim Min-jae (South Korea)",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -2809,7 +3523,6 @@
       "model": "openrouter/anthropic/claude-haiku-4.5",
       "prediction": "South Korea",
       "scoreline": "South Korea 2-1 Czech Republic",
-      "players_to_watch": "Son Heung-min (South Korea), Kim Minjae (South Korea), Hwang Hee-chan (South Korea), Lee Jaesung (South Korea)",
       "confidence": 0.72,
       "rationale": "South Korea are favorites due to superior global ranking (25th), unbeaten Asian qualifying campaign, stronger squad depth with European club players, and tactical clarity under Hong Myung-bo. Czech Republic's first World Cup appearance since 2006 and playoff qualification route suggest less tournament experience. Despite losing Kim Tae-hyun defensively, South Korea's Bayern Munich center-back Kim Minjae and attacking talent (Son Heung-min with 144 caps/56 goals) provide sufficient quality to secure victory. The 2-1 scoreline reflects South Korea's attacking advantage while acknowledging Czech Republic's potential to create chances.",
       "usage": {
@@ -2865,6 +3578,35 @@
         "key": "south korea vs czech republic",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "goal_scorers": [
+        "Son Heung-min (South Korea)",
+        "Kim Minjae (South Korea)",
+        "Hwang Hee-chan (South Korea)"
+      ],
+      "score": {
+        "total": 85,
+        "result": 50,
+        "scoreline": 25,
+        "goal_difference": 10,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Son Heung-min (South Korea)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Kim Minjae (South Korea)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Hwang Hee-chan (South Korea)",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -2881,7 +3623,6 @@
       "model": "openrouter/deepseek/deepseek-v4-pro",
       "prediction": "South Korea",
       "scoreline": "South Korea 2-1 Czech Republic",
-      "players_to_watch": "Son Heung-min (South Korea), Lee Kang-in (South Korea), Hwang Hee-chan (South Korea), Patrik Schick (Czech Republic), Tomáš Souček (Czech Republic)",
       "confidence": 0.68,
       "rationale": "South Korea’s established attacking talent (Son, Lee Kang‑in, Hwang) against a Czech defence that has not been detailed suggests they will create chances. The Asian side’s unbeaten qualifying run and the Czech reliance on playoff penalties point to a form advantage. The missing Czech squad data introduces uncertainty, but the available team news strongly favours South Korea’s coherence.",
       "usage": {
@@ -2937,6 +3678,35 @@
         "key": "south korea vs czech republic",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "goal_scorers": [
+        "Son Heung-min (South Korea)",
+        "Lee Kang-in (South Korea)",
+        "Hwang Hee-chan (South Korea)"
+      ],
+      "score": {
+        "total": 85,
+        "result": 50,
+        "scoreline": 25,
+        "goal_difference": 10,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Son Heung-min (South Korea)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Lee Kang-in (South Korea)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Hwang Hee-chan (South Korea)",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -2953,7 +3723,6 @@
       "model": "openrouter/minimax/minimax-m3",
       "prediction": "South Korea",
       "scoreline": "South Korea 2-1 Czech Republic",
-      "players_to_watch": "Son Heung-min (South Korea), Kim Min-jae (South Korea), Lee Kang-in (South Korea), Hwang Hee-chan (South Korea)",
       "confidence": 0.65,
       "rationale": "South Korea hold a clear quality advantage across the pitch with multiple elite European-based stars (Son, Kim Min-jae, Lee Kang-in, Hwang In-beom) and superior recent competitive form (unbeaten in qualifying). Czech Republic, while defensively organized, are returning to the World Cup after two decades and have limited squad depth at this level. Defensive concerns for South Korea (Kim Tae-hyun out) and first-match nerves prevent higher confidence, but the talent gap and home support (de facto, large Korean diaspora expected) should see South Korea through in a tight contest.",
       "usage": {
@@ -3009,6 +3778,35 @@
         "key": "south korea vs czech republic",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "goal_scorers": [
+        "Son Heung-min (South Korea)",
+        "Kim Min-jae (South Korea)",
+        "Lee Kang-in (South Korea)"
+      ],
+      "score": {
+        "total": 85,
+        "result": 50,
+        "scoreline": 25,
+        "goal_difference": 10,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Son Heung-min (South Korea)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Kim Min-jae (South Korea)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Lee Kang-in (South Korea)",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -3025,7 +3823,6 @@
       "model": "openrouter/xiaomi/mimo-v2.5-pro",
       "prediction": "South Korea",
       "scoreline": "South Korea 2-1 Czech Republic",
-      "players_to_watch": "Son Heung-min (South Korea), Hwang Hee-chan (South Korea), Kim Min-jae (South Korea)",
       "confidence": 0.65,
       "rationale": "South Korea's unbeaten qualifying form, strong squad led by Son Heung-min and Kim Min-jae, and confirmed tactical lineup give them an edge over a Czech Republic team that advanced through playoffs on penalties and has incomplete squad information, suggesting a likely but not certain victory.",
       "usage": {
@@ -3081,6 +3878,35 @@
         "key": "south korea vs czech republic",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "goal_scorers": [
+        "Son Heung-min (South Korea)",
+        "Hwang Hee-chan (South Korea)",
+        "Kim Min-jae (South Korea)"
+      ],
+      "score": {
+        "total": 85,
+        "result": 50,
+        "scoreline": 25,
+        "goal_difference": 10,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Son Heung-min (South Korea)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Hwang Hee-chan (South Korea)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Kim Min-jae (South Korea)",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -3097,7 +3923,6 @@
       "model": "openrouter/x-ai/grok-4.3",
       "prediction": "South Korea",
       "scoreline": "South Korea 2-1 Czech Republic",
-      "players_to_watch": "Son Heung-min (South Korea), Kim Min-jae (South Korea), Hwang Hee-chan (South Korea)",
       "confidence": 0.72,
       "rationale": "South Korea's depth and attacking quality outweigh Czech Republic's limited recent pedigree; expect a narrow but clear win.",
       "usage": {
@@ -3153,6 +3978,35 @@
         "key": "south korea vs czech republic",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "goal_scorers": [
+        "Son Heung-min (South Korea)",
+        "Kim Min-jae (South Korea)",
+        "Hwang Hee-chan (South Korea)"
+      ],
+      "score": {
+        "total": 85,
+        "result": 50,
+        "scoreline": 25,
+        "goal_difference": 10,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Son Heung-min (South Korea)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Kim Min-jae (South Korea)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Hwang Hee-chan (South Korea)",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -3169,7 +4023,6 @@
       "model": "openrouter/z-ai/glm-5.1",
       "prediction": "South Korea",
       "scoreline": "South Korea 2-0 Czech Republic",
-      "players_to_watch": "Son Heung-min (South Korea), Kim Minjae (South Korea), Lee Kangin (South Korea), Hwang Heechan (South Korea)",
       "confidence": 0.68,
       "rationale": "South Korea's superior squad quality (Son, Kim Minjae, Lee Kangin all at elite clubs), unbeaten qualifying campaign, and consistent World Cup experience give them a clear edge. Czech Republic's struggles in qualifying (two penalty shootout wins) and 20-year World Cup absence raise serious doubts about their ability to compete at this level. South Korea's defensive injury concerns are mitigated by Kim Minjae's presence, making a South Korea victory the most probable outcome.",
       "usage": {
@@ -3225,6 +4078,35 @@
         "key": "south korea vs czech republic",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "goal_scorers": [
+        "Son Heung-min (South Korea)",
+        "Kim Minjae (South Korea)",
+        "Lee Kangin (South Korea)"
+      ],
+      "score": {
+        "total": 50,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Son Heung-min (South Korea)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Kim Minjae (South Korea)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Lee Kangin (South Korea)",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -3241,7 +4123,6 @@
       "model": "openrouter/qwen/qwen3.7-max",
       "prediction": "South Korea",
       "scoreline": "South Korea 2-1 Czech Republic",
-      "players_to_watch": "Son Heung-min (South Korea), Lee Kang-in (South Korea), Kim Min-jae (South Korea)",
       "confidence": 0.65,
       "rationale": "South Korea possesses greater individual quality and top-level club experience across their starting XI, while the Czech Republic's reliance on penalty shootouts in qualifying hints at potential struggles in open play against a dynamic and technically gifted South Korean attack.",
       "usage": {
@@ -3297,6 +4178,35 @@
         "key": "south korea vs czech republic",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "goal_scorers": [
+        "Son Heung-min (South Korea)",
+        "Lee Kang-in (South Korea)",
+        "Kim Min-jae (South Korea)"
+      ],
+      "score": {
+        "total": 85,
+        "result": 50,
+        "scoreline": 25,
+        "goal_difference": 10,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Son Heung-min (South Korea)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Lee Kang-in (South Korea)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Kim Min-jae (South Korea)",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -3313,7 +4223,6 @@
       "model": "openrouter/moonshotai/kimi-k2.6",
       "prediction": "South Korea",
       "scoreline": "South Korea 2-1 Czech Republic",
-      "players_to_watch": "Son Heung-min (South Korea), Kim Min-jae (South Korea), Hwang Hee-chan (South Korea), Lee Gi-hyuk (South Korea)",
       "confidence": 0.68,
       "rationale": "South Korea’s unbeaten qualifying run and superior attacking options outweigh their late defensive change, whereas Czech Republic’s arduous playoff path and 20-year World Cup absence indicate they are underdogs vulnerable to South Korea’s pace and quality in the final third.",
       "usage": {
@@ -3369,7 +4278,1473 @@
         "key": "south korea vs czech republic",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "goal_scorers": [
+        "Son Heung-min (South Korea)",
+        "Kim Min-jae (South Korea)",
+        "Hwang Hee-chan (South Korea)"
+      ],
+      "score": {
+        "total": 85,
+        "result": 50,
+        "scoreline": 25,
+        "goal_difference": 10,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Son Heung-min (South Korea)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Kim Min-jae (South Korea)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Hwang Hee-chan (South Korea)",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
+    },
+    {
+      "created_at": "2026-06-12T06:57:01.208287Z",
+      "key": "canada vs bosnia & herzegovina::openrouter/openai/gpt-5.5",
+      "match_id": 7,
+      "match": "Canada vs Bosnia & Herzegovina",
+      "choices": [
+        "Canada",
+        "Bosnia & Herzegovina",
+        "Draw"
+      ],
+      "model_alias": "gpt-5.5",
+      "model": "openrouter/openai/gpt-5.5",
+      "prediction": "Canada",
+      "scoreline": "Canada 2-1 Bosnia & Herzegovina",
+      "confidence": 0.57,
+      "rationale": "Canada’s home-field advantage and superior known attacking options make them slight favourites, but Davies’ likely absence and Bosnia’s unbeaten form keep the matchup close.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 4578,
+          "completion_tokens": 924,
+          "total_tokens": 5502,
+          "cost": 0.05061
+        },
+        "calls": [
+          {
+            "model": "openrouter/openai/gpt-5.5",
+            "usage": {
+              "completion_tokens": 659,
+              "prompt_tokens": 2269,
+              "total_tokens": 2928,
+              "cost": 0.031115
+            },
+            "cost": null
+          },
+          {
+            "model": "openrouter/openai/gpt-5.5",
+            "usage": {
+              "completion_tokens": 265,
+              "prompt_tokens": 2309,
+              "total_tokens": 2574,
+              "cost": 0.019495
+            },
+            "cost": null
+          }
+        ]
+      },
+      "news_summary": "- **Canada injuries:** Marcelo Flores is reported out with an ACL injury. Alphonso Davies is doubtful / probably not starting due to a hamstring issue, a major loss given his talismanic role. Moise Bombito is also doubtful with a leg problem.\n- **Canada tactical/lineup notes:** Predicted XIs suggest Jesse Marsch may start without Davies, with Canada relying on their established attacking core and home advantage. Sports Mole’s partial predicted back line includes Crepeau, Johnston, de Fougerolles, Cornelius and Laryea.\n- **Bosnia team news:** No concrete Bosnia injury or suspension information is available in the provided snippets. Treat availability as uncertain, not confirmed full strength.\n- **Form/context:** Both teams are described as being on eight-match unbeaten international runs. Canada are co-hosts, playing at BMO Field, and seeking their first-ever World Cup points/win after losing all six previous finals matches.\n- **Bosnia form/context:** Bosnia are underdogs but dangerous, having qualified via playoffs, including an upset of Italy on penalties and wins over Wales/Italy en route. They are ranked 64th but are not viewed as easy opposition.\n- **Match stakes/tactical angle:** Canada are favourites at home and this is framed as a key Group B match, potentially important for second place behind Switzerland. Bosnia are expected to be organized and capable of spoiling the host-nation opener.\n- **Suspensions:** No suspensions are mentioned in the supplied news items.\n- **Uncertainty:** Davies’ actual availability is the biggest swing factor; reports lean toward him missing the starting XI but do not definitively rule him out.",
+      "polymarket_odds": [
+        {
+          "warning": "Polymarket lookup failed or found no market.",
+          "failures": [
+            {
+              "endpoint": "global_gamma",
+              "url": "https://gamma-api.polymarket.com/public-search",
+              "error": "HTTPSConnectionPool(host='gamma-api.polymarket.com', port=443): Max retries exceeded with url: /public-search?q=Canada+Bosnia+%26+Herzegovina+World+Cup&limit_per_type=10&search_tags=false&search_profiles=false (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x10d941c30>: Failed to resolve 'gamma-api.polymarket.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+            },
+            {
+              "endpoint": "us_gateway",
+              "url": "https://gateway.polymarket.us/v1/search",
+              "error": "Request succeeded but no matching market was found."
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "canada vs bosnia & herzegovina",
+        "news_from_cache": false,
+        "polymarket_from_cache": false
+      },
+      "goal_scorers": [
+        "Jonathan David",
+        "Tajon Buchanan",
+        "Stephen Eustaquio"
+      ]
+    },
+    {
+      "created_at": "2026-06-12T06:57:13.554444Z",
+      "key": "canada vs bosnia & herzegovina::openrouter/openai/gpt-5.4-mini",
+      "match_id": 7,
+      "match": "Canada vs Bosnia & Herzegovina",
+      "choices": [
+        "Canada",
+        "Bosnia & Herzegovina",
+        "Draw"
+      ],
+      "model_alias": "gpt-5.4-mini",
+      "model": "openrouter/openai/gpt-5.4-mini",
+      "prediction": "Canada",
+      "scoreline": "Canada 2-1 Bosnia & Herzegovina",
+      "confidence": 0.58,
+      "rationale": "Home-field advantage plus Canada's superior attacking options should edge a close game, though injuries to Davies and Bombito reduce certainty.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 6697,
+          "completion_tokens": 800,
+          "total_tokens": 7497,
+          "cost": 0.00862275
+        },
+        "calls": [
+          {
+            "model": "openrouter/openai/gpt-5.4-mini",
+            "usage": {
+              "completion_tokens": 419,
+              "prompt_tokens": 2269,
+              "total_tokens": 2688,
+              "cost": 0.00358725
+            },
+            "cost": null
+          },
+          {
+            "model": "openrouter/openai/gpt-5.4-mini",
+            "usage": {
+              "completion_tokens": 220,
+              "prompt_tokens": 2169,
+              "total_tokens": 2389,
+              "cost": 0.00261675
+            },
+            "cost": null
+          },
+          {
+            "model": "openrouter/openai/gpt-5.4-mini",
+            "usage": {
+              "completion_tokens": 161,
+              "prompt_tokens": 2259,
+              "total_tokens": 2420,
+              "cost": 0.00241875
+            },
+            "cost": null
+          }
+        ]
+      },
+      "news_summary": "- Canada injuries/availability:\n  - Marcelo Flores out with ACL injury.\n  - Alphonso Davies doubtful/probable absence due to hamstring problem; major fitness concern.\n  - Moise Bombito doubtful with a leg issue.\n- Bosnia & Herzegovina:\n  - No specific injury or suspension news mentioned in the supplied snippets.\n  - Lineup/availability uncertainty remains because the snippets do not list their team news.\n- Tactical/form context:\n  - Canada are home favorites at BMO Field/Toronto and expected to push for a historic first World Cup win/points.\n  - Bosnia come in with good form and upset credentials after reaching the tournament via playoff wins.\n  - Both teams are described as being on unbeaten runs internationally in one preview.\n- Suspensions:\n  - No suspensions reported in the provided news items.\n- Uncertainty:\n  - Davies’ status is the biggest potential lineup swing for Canada.\n  - Bosnia team news is incomplete in the provided snippets.",
+      "polymarket_odds": [
+        {
+          "warning": "Polymarket lookup failed or found no market.",
+          "failures": [
+            {
+              "endpoint": "global_gamma",
+              "url": "https://gamma-api.polymarket.com/public-search",
+              "error": "HTTPSConnectionPool(host='gamma-api.polymarket.com', port=443): Max retries exceeded with url: /public-search?q=Canada+Bosnia+%26+Herzegovina+World+Cup&limit_per_type=10&search_tags=false&search_profiles=false (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x10d941c30>: Failed to resolve 'gamma-api.polymarket.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+            },
+            {
+              "endpoint": "us_gateway",
+              "url": "https://gateway.polymarket.us/v1/search",
+              "error": "Request succeeded but no matching market was found."
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "canada vs bosnia & herzegovina",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      },
+      "goal_scorers": [
+        "Jonathan David",
+        "Cyle Larin",
+        "Alistair Johnston"
+      ]
+    },
+    {
+      "created_at": "2026-06-12T06:57:21.165303Z",
+      "key": "canada vs bosnia & herzegovina::openrouter/openai/gpt-5.4-nano",
+      "match_id": 7,
+      "match": "Canada vs Bosnia & Herzegovina",
+      "choices": [
+        "Canada",
+        "Bosnia & Herzegovina",
+        "Draw"
+      ],
+      "model_alias": "gpt-5.4-nano",
+      "model": "openrouter/openai/gpt-5.4-nano",
+      "prediction": "Canada",
+      "scoreline": "Canada 2-1 Bosnia & Herzegovina",
+      "confidence": 0.58,
+      "rationale": "Home advantage plus stronger listed attacking quality makes Canada likelier to score; Canada’s likelihood of creating chances outweighs the defensive uncertainty from possible absences/doubtfulness at left-back, but that same uncertainty should prevent a comfortable margin.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 4398,
+          "completion_tokens": 669,
+          "total_tokens": 5067,
+          "cost": 0.00171585
+        },
+        "calls": [
+          {
+            "model": "openrouter/openai/gpt-5.4-nano",
+            "usage": {
+              "completion_tokens": 449,
+              "prompt_tokens": 2269,
+              "total_tokens": 2718,
+              "cost": 0.00101505
+            },
+            "cost": null
+          },
+          {
+            "model": "openrouter/openai/gpt-5.4-nano",
+            "usage": {
+              "completion_tokens": 220,
+              "prompt_tokens": 2129,
+              "total_tokens": 2349,
+              "cost": 0.0007008
+            },
+            "cost": null
+          }
+        ]
+      },
+      "news_summary": "- **Injuries (Canada):** Marcelo Flores **out** (ACL). Alphonso Davies **doubtful** (hamstring). Moise Bombito **doubtful** (leg).\n- **Suspensions:** None mentioned in provided items.\n- **Bosnia injuries/suspensions:** Not specified in the provided snippets → **uncertainty**.\n- **Form/intent:** Both teams reported on **8-match unbeaten** international runs; Canada seek first-ever points in this World Cup opening match at home.\n- **Key tactical uncertainty:** Canada’s left side/defensive stability depends heavily on whether **Davies** and **Bombito** start.\n- **Competitive context:** Canada viewed as favorites; match framed as crucial for **Group B second place** behind Switzerland.",
+      "polymarket_odds": [
+        {
+          "warning": "Polymarket lookup failed or found no market.",
+          "failures": [
+            {
+              "endpoint": "global_gamma",
+              "url": "https://gamma-api.polymarket.com/public-search",
+              "error": "HTTPSConnectionPool(host='gamma-api.polymarket.com', port=443): Max retries exceeded with url: /public-search?q=Canada+Bosnia+%26+Herzegovina+World+Cup&limit_per_type=10&search_tags=false&search_profiles=false (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x10d941c30>: Failed to resolve 'gamma-api.polymarket.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+            },
+            {
+              "endpoint": "us_gateway",
+              "url": "https://gateway.polymarket.us/v1/search",
+              "error": "Request succeeded but no matching market was found."
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "canada vs bosnia & herzegovina",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      },
+      "goal_scorers": [
+        "Alphonso Davies",
+        "Cyle Larin",
+        "Edin Džeko"
+      ]
+    },
+    {
+      "created_at": "2026-06-12T06:57:27.091204Z",
+      "key": "canada vs bosnia & herzegovina::openrouter/google/gemini-3.1-flash-lite",
+      "match_id": 7,
+      "match": "Canada vs Bosnia & Herzegovina",
+      "choices": [
+        "Canada",
+        "Bosnia & Herzegovina",
+        "Draw"
+      ],
+      "model_alias": "gemini-3.1-flash-lite",
+      "model": "openrouter/google/gemini-3.1-flash-lite",
+      "prediction": "Canada",
+      "scoreline": "Canada 2-1 Bosnia & Herzegovina",
+      "confidence": 0.65,
+      "rationale": "Canada's home-field advantage in Toronto and the clinical finishing of Jonathan David provide the edge needed to overcome a resilient Bosnia & Herzegovina side in a high-stakes group match.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 4857,
+          "completion_tokens": 552,
+          "total_tokens": 5409,
+          "cost": 0.00204225
+        },
+        "calls": [
+          {
+            "model": "openrouter/google/gemini-3.1-flash-lite",
+            "usage": {
+              "completion_tokens": 272,
+              "prompt_tokens": 2546,
+              "total_tokens": 2818,
+              "cost": 0.0010445
+            },
+            "cost": 0.0010445
+          },
+          {
+            "model": "openrouter/google/gemini-3.1-flash-lite",
+            "usage": {
+              "completion_tokens": 280,
+              "prompt_tokens": 2311,
+              "total_tokens": 2591,
+              "cost": 0.00099775
+            },
+            "cost": 0.00099775
+          }
+        ]
+      },
+      "news_summary": "*   **Injuries (Canada):** Marcelo Flores (ACL) is out.\n*   **Uncertainty (Canada):** Alphonso Davies (hamstring) and Moise Bombito (leg) are both doubtful for the opener.\n*   **Form:** Both Canada and Bosnia & Herzegovina enter the match on impressive eight-match unbeaten runs.\n*   **Tactical/Context:** Canada is the favorite to win at home in Toronto; the match is viewed as a critical \"battle for second place\" in Group B.\n*   **History:** Canada is seeking their first-ever point in a World Cup finals match, having lost all six of their previous appearances.",
+      "polymarket_odds": [
+        {
+          "warning": "Polymarket lookup failed or found no market.",
+          "failures": [
+            {
+              "endpoint": "global_gamma",
+              "url": "https://gamma-api.polymarket.com/public-search",
+              "error": "HTTPSConnectionPool(host='gamma-api.polymarket.com', port=443): Max retries exceeded with url: /public-search?q=Canada+Bosnia+%26+Herzegovina+World+Cup&limit_per_type=10&search_tags=false&search_profiles=false (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x10d941c30>: Failed to resolve 'gamma-api.polymarket.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+            },
+            {
+              "endpoint": "us_gateway",
+              "url": "https://gateway.polymarket.us/v1/search",
+              "error": "Request succeeded but no matching market was found."
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "canada vs bosnia & herzegovina",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      },
+      "goal_scorers": [
+        "Jonathan David",
+        "Cyle Larin",
+        "Stephen Eustaquio"
+      ]
+    },
+    {
+      "created_at": "2026-06-12T06:57:36.432490Z",
+      "key": "canada vs bosnia & herzegovina::openrouter/google/gemini-3-flash-preview",
+      "match_id": 7,
+      "match": "Canada vs Bosnia & Herzegovina",
+      "choices": [
+        "Canada",
+        "Bosnia & Herzegovina",
+        "Draw"
+      ],
+      "model_alias": "gemini-3-flash",
+      "model": "openrouter/google/gemini-3-flash-preview",
+      "prediction": "Draw",
+      "scoreline": "Canada 1-1 Bosnia & Herzegovina",
+      "confidence": 0.55,
+      "rationale": "Canada is playing at home but will likely be without their best player, Alphonso Davies. Bosnia & Herzegovina has shown strong defensive form against elite European opposition. Given both teams are on eight-match unbeaten streaks and Canada has historically struggled to secure wins in the World Cup, a draw is the most logical result.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 4915,
+          "completion_tokens": 671,
+          "total_tokens": 5586,
+          "cost": 0.0044705000000000005
+        },
+        "calls": [
+          {
+            "model": "openrouter/google/gemini-3-flash-preview",
+            "usage": {
+              "completion_tokens": 369,
+              "prompt_tokens": 2546,
+              "total_tokens": 2915,
+              "cost": 0.00238
+            },
+            "cost": 0.00238
+          },
+          {
+            "model": "openrouter/google/gemini-3-flash-preview",
+            "usage": {
+              "completion_tokens": 302,
+              "prompt_tokens": 2369,
+              "total_tokens": 2671,
+              "cost": 0.0020905
+            },
+            "cost": 0.0020905
+          }
+        ]
+      },
+      "news_summary": "*   **Injuries:** \n    *   **Canada:** Alphonso Davies (Hamstring) is a major doubt and unlikely to start; Moise Bombito (Leg) is doubtful; Marcelo Flores (ACL) is out.\n    *   **Bosnia & Herzegovina:** No specific injuries reported in the provided text.\n*   **Tactical News:** Canada, coached by Jesse Marsch, is expected to utilize home-field advantage at BMO Field. Bosnia is noted for a resilient defensive setup that recently stifled Italy.\n*   **Form:** Both teams are on impressive eight-match unbeaten runs in international play. Canada has lost all six of its previous World Cup matches (1986, 2022).\n*   **Suspensions:** No suspensions reported for either side.\n*   **Uncertainty:** High uncertainty regarding Alphonso Davies's involvement; his absence significantly impacts Canada's left-side dynamics and overall threat.",
+      "polymarket_odds": [
+        {
+          "warning": "Polymarket lookup failed or found no market.",
+          "failures": [
+            {
+              "endpoint": "global_gamma",
+              "url": "https://gamma-api.polymarket.com/public-search",
+              "error": "HTTPSConnectionPool(host='gamma-api.polymarket.com', port=443): Max retries exceeded with url: /public-search?q=Canada+Bosnia+%26+Herzegovina+World+Cup&limit_per_type=10&search_tags=false&search_profiles=false (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x10d941c30>: Failed to resolve 'gamma-api.polymarket.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+            },
+            {
+              "endpoint": "us_gateway",
+              "url": "https://gateway.polymarket.us/v1/search",
+              "error": "Request succeeded but no matching market was found."
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "canada vs bosnia & herzegovina",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      },
+      "goal_scorers": [
+        "Jonathan David",
+        "Stephen Eustaquio",
+        "Tajon Buchanan"
+      ]
+    },
+    {
+      "created_at": "2026-06-12T06:58:00.124891Z",
+      "key": "canada vs bosnia & herzegovina::openrouter/~google/gemini-pro-latest",
+      "match_id": 7,
+      "match": "Canada vs Bosnia & Herzegovina",
+      "choices": [
+        "Canada",
+        "Bosnia & Herzegovina",
+        "Draw"
+      ],
+      "model_alias": "gemini-3.5-pro",
+      "model": "openrouter/~google/gemini-pro-latest",
+      "prediction": "Draw",
+      "scoreline": "Canada 1-1 Bosnia & Herzegovina",
+      "confidence": 0.55,
+      "rationale": "Canada's home advantage is counterbalanced by the doubtful fitness of Alphonso Davies and Moise Bombito. Bosnia & Herzegovina's impressive eight-game unbeaten run and momentum from their qualifying upset over Italy make them a formidable opponent, pointing toward a hard-fought stalemate.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 4892,
+          "completion_tokens": 1929,
+          "total_tokens": 6821,
+          "cost": 0.032932
+        },
+        "calls": [
+          {
+            "model": "openrouter/~google/gemini-pro-latest",
+            "usage": {
+              "completion_tokens": 740,
+              "prompt_tokens": 2546,
+              "total_tokens": 3286,
+              "cost": 0.013972
+            },
+            "cost": null
+          },
+          {
+            "model": "openrouter/~google/gemini-pro-latest",
+            "usage": {
+              "completion_tokens": 1189,
+              "prompt_tokens": 2346,
+              "total_tokens": 3535,
+              "cost": 0.01896
+            },
+            "cost": null
+          }
+        ]
+      },
+      "news_summary": "* **Injuries:** Canada will be without Marcelo Flores (ACL). Alphonso Davies (hamstring) and Moise Bombito (leg) are listed as doubtful. No injuries are reported for Bosnia & Herzegovina.\n* **Suspensions:** None reported for either team.\n* **Form:** Both nations enter the match on eight-game unbeaten runs. Bosnia & Herzegovina secured their spot in the tournament by upsetting Italy on penalties.\n* **Tactics & Context:** Canada is playing on home soil at BMO Field in Toronto. Under head coach Jesse Marsch, the co-hosts are looking to secure their first-ever World Cup points, having lost all six of their previous World Cup matches.\n* **Uncertainty:** The biggest question mark is the fitness of Canada's talisman Alphonso Davies and whether he will be able to feature in the starting XI.",
+      "polymarket_odds": [
+        {
+          "warning": "Polymarket lookup failed or found no market.",
+          "failures": [
+            {
+              "endpoint": "global_gamma",
+              "url": "https://gamma-api.polymarket.com/public-search",
+              "error": "HTTPSConnectionPool(host='gamma-api.polymarket.com', port=443): Max retries exceeded with url: /public-search?q=Canada+Bosnia+%26+Herzegovina+World+Cup&limit_per_type=10&search_tags=false&search_profiles=false (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x10d941c30>: Failed to resolve 'gamma-api.polymarket.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+            },
+            {
+              "endpoint": "us_gateway",
+              "url": "https://gateway.polymarket.us/v1/search",
+              "error": "Request succeeded but no matching market was found."
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "canada vs bosnia & herzegovina",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      },
+      "goal_scorers": [
+        "Jonathan David",
+        "Stephen Eustaquio",
+        "Ermedin Demirovic"
+      ]
+    },
+    {
+      "created_at": "2026-06-12T06:58:37.363535Z",
+      "key": "canada vs bosnia & herzegovina::openrouter/~anthropic/claude-sonnet-latest",
+      "match_id": 7,
+      "match": "Canada vs Bosnia & Herzegovina",
+      "choices": [
+        "Canada",
+        "Bosnia & Herzegovina",
+        "Draw"
+      ],
+      "model_alias": "claude-sonnet-4.7",
+      "model": "openrouter/~anthropic/claude-sonnet-latest",
+      "prediction": "Canada",
+      "scoreline": "Canada 2-1 Bosnia & Herzegovina",
+      "confidence": 0.52,
+      "rationale": "Canada hold significant home advantage at BMO Field in Toronto with a passionate crowd behind them. Jonathan David (39 international goals, Juventus) is their primary match-winner and in peak form. Bosnia & Herzegovina, ranked 64th, qualified via playoffs and are organized but lack the individual quality of Canada's attack. The key uncertainty is Alphonso Davies' fitness — his presence would make Canada considerably stronger. Stephen Eustaquio provides the creative engine in midfield. Bosnia showed resilience beating Italy on penalties but Canada's attacking depth (David, Larin, Buchanan) and home-field advantage should prove decisive. Bosnia will likely sit deep and threaten on the counter, making this a tight but ultimately Canadian victory.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 5166,
+          "completion_tokens": 1351,
+          "total_tokens": 6517,
+          "cost": 0.035763
+        },
+        "calls": [
+          {
+            "model": "openrouter/~anthropic/claude-sonnet-latest",
+            "usage": {
+              "completion_tokens": 566,
+              "prompt_tokens": 2542,
+              "total_tokens": 3108,
+              "cost": 0.016116
+            },
+            "cost": null
+          },
+          {
+            "model": "openrouter/~anthropic/claude-sonnet-latest",
+            "usage": {
+              "completion_tokens": 785,
+              "prompt_tokens": 2624,
+              "total_tokens": 3409,
+              "cost": 0.019647
+            },
+            "cost": null
+          }
+        ]
+      },
+      "news_summary": "**Canada vs Bosnia & Herzegovina – World Cup 2026 Group B (June 12, BMO Field, Toronto)**\n\n**Canada:**\n- **OUT:** Marcelo Flores (ACL)\n- **DOUBTFUL:** Alphonso Davies (hamstring) – key talisman and first-choice LB, has not played since 2025 CONCACAF; his absence would be a significant blow\n- **DOUBTFUL:** Moise Bombito (leg injury)\n- Coach Jesse Marsch publicly confident; Canada are co-hosts and playing in front of home crowd\n- Canada have lost all 6 previous World Cup matches; a draw would be historic\n- Both teams on 8-match unbeaten international runs heading in\n\n**Bosnia & Herzegovina:**\n- No injury or suspension concerns reported\n- Qualified via playoffs, eliminating Wales and Italy (on penalties)\n- Ranked 64th in the world; considered underdogs but dangerous\n\n**Tactical/Context:**\n- Canada are favorites at home; Switzerland seen as heavy favorites to top the group, making this match a de facto battle for second place\n- Davies' availability is the biggest uncertainty – without him, Canada's attacking threat down the left is significantly reduced\n- First-ever meeting between these two nations",
+      "polymarket_odds": [
+        {
+          "warning": "Polymarket lookup failed or found no market.",
+          "failures": [
+            {
+              "endpoint": "global_gamma",
+              "url": "https://gamma-api.polymarket.com/public-search",
+              "error": "HTTPSConnectionPool(host='gamma-api.polymarket.com', port=443): Max retries exceeded with url: /public-search?q=Canada+Bosnia+%26+Herzegovina+World+Cup&limit_per_type=10&search_tags=false&search_profiles=false (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x10d941c30>: Failed to resolve 'gamma-api.polymarket.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+            },
+            {
+              "endpoint": "us_gateway",
+              "url": "https://gateway.polymarket.us/v1/search",
+              "error": "Request succeeded but no matching market was found."
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "canada vs bosnia & herzegovina",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      },
+      "goal_scorers": [
+        "Jonathan David",
+        "Alphonso Davies",
+        "Stephen Eustaquio"
+      ]
+    },
+    {
+      "created_at": "2026-06-12T06:58:53.684829Z",
+      "key": "canada vs bosnia & herzegovina::openrouter/anthropic/claude-haiku-4.5",
+      "match_id": 7,
+      "match": "Canada vs Bosnia & Herzegovina",
+      "choices": [
+        "Canada",
+        "Bosnia & Herzegovina",
+        "Draw"
+      ],
+      "model_alias": "claude-haiku-4.5",
+      "model": "openrouter/anthropic/claude-haiku-4.5",
+      "prediction": "Canada",
+      "scoreline": "Canada 2-1 Bosnia & Herzegovina",
+      "confidence": 0.58,
+      "rationale": "Canada's home advantage in Toronto and attacking depth (David, Larin, Buchanan) provide a slight edge despite Alphonso Davies' injury concerns. Jonathan David's proven goal-scoring ability (39 goals for Juventus) and Cyle Larin's experience (90 caps, 30 goals) are critical. However, Bosnia & Herzegovina's quality (demonstrated by eliminating Italy) and both teams' unbeaten runs suggest a competitive match. The absence of Davies weakens Canada's defensive structure, making this a narrow prediction. A 2-1 scoreline reflects Canada's attacking potential overcoming Bosnia & Herzegovina's defensive organization, but the confidence is moderate due to injury uncertainties and Bosnia & Herzegovina's proven capability.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 5086,
+          "completion_tokens": 1160,
+          "total_tokens": 6246,
+          "cost": 0.010886
+        },
+        "calls": [
+          {
+            "model": "openrouter/anthropic/claude-haiku-4.5",
+            "usage": {
+              "completion_tokens": 516,
+              "prompt_tokens": 2541,
+              "total_tokens": 3057,
+              "cost": 0.005121
+            },
+            "cost": 0.0051210000000000006
+          },
+          {
+            "model": "openrouter/anthropic/claude-haiku-4.5",
+            "usage": {
+              "completion_tokens": 644,
+              "prompt_tokens": 2545,
+              "total_tokens": 3189,
+              "cost": 0.005765
+            },
+            "cost": 0.005765
+          }
+        ]
+      },
+      "news_summary": "**Injuries & Availability:**\n- Canada: Marcelo Flores out (ACL); Alphonso Davies doubtful (hamstring); Moise Bombito doubtful (leg)\n- Davies is Canada's key player (Bayern Munich LB) and likely to miss or be limited\n- Bosnia-Herzegovina: No significant injuries reported\n\n**Form & Context:**\n- Both teams on 8-match unbeaten runs\n- Canada seeking first-ever World Cup win (0-6 record); first home World Cup match since 1986\n- Bosnia-Herzegovina upset Italy on penalties in qualifying; second World Cup appearance\n- Canada are home favorites; Switzerland heavy group favorites\n\n**Tactical Notes:**\n- Jesse Marsch managing Canada\n- Canada likely to play without Davies in starting XI\n- Bosnia-Herzegovina demonstrated quality by eliminating Italy\n\n**Uncertainty:**\n- Davies' fitness and availability remains the primary concern for Canada's starting lineup",
+      "polymarket_odds": [
+        {
+          "warning": "Polymarket lookup failed or found no market.",
+          "failures": [
+            {
+              "endpoint": "global_gamma",
+              "url": "https://gamma-api.polymarket.com/public-search",
+              "error": "HTTPSConnectionPool(host='gamma-api.polymarket.com', port=443): Max retries exceeded with url: /public-search?q=Canada+Bosnia+%26+Herzegovina+World+Cup&limit_per_type=10&search_tags=false&search_profiles=false (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x10d941c30>: Failed to resolve 'gamma-api.polymarket.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+            },
+            {
+              "endpoint": "us_gateway",
+              "url": "https://gateway.polymarket.us/v1/search",
+              "error": "Request succeeded but no matching market was found."
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "canada vs bosnia & herzegovina",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      },
+      "goal_scorers": [
+        "Jonathan David",
+        "Cyle Larin",
+        "Stephen Eustaquio"
+      ]
+    },
+    {
+      "created_at": "2026-06-12T06:59:24.797252Z",
+      "key": "canada vs bosnia & herzegovina::openrouter/deepseek/deepseek-v4-pro",
+      "match_id": 7,
+      "match": "Canada vs Bosnia & Herzegovina",
+      "choices": [
+        "Canada",
+        "Bosnia & Herzegovina",
+        "Draw"
+      ],
+      "model_alias": "deepseek-v4-pro",
+      "model": "openrouter/deepseek/deepseek-v4-pro",
+      "prediction": "Canada",
+      "scoreline": "Canada 2-1 Bosnia & Herzegovina",
+      "confidence": 0.6,
+      "rationale": "Canada’s home advantage and superior attacking talent (David, Larin) give them a narrow edge despite Davies’ likely absence. Bosnia’s unbeaten run and lack of injuries add danger, but Canada’s depth and the need to win at home in a group stage push them to a narrow victory.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 4432,
+          "completion_tokens": 1820,
+          "total_tokens": 6252,
+          "cost": 0.012979776
+        },
+        "calls": [
+          {
+            "model": "openrouter/deepseek/deepseek-v4-pro",
+            "usage": {
+              "completion_tokens": 696,
+              "prompt_tokens": 2276,
+              "total_tokens": 2972,
+              "cost": 0.005898144
+            },
+            "cost": null
+          },
+          {
+            "model": "openrouter/deepseek/deepseek-v4-pro",
+            "usage": {
+              "completion_tokens": 1124,
+              "prompt_tokens": 2156,
+              "total_tokens": 3280,
+              "cost": 0.007081632
+            },
+            "cost": null
+          }
+        ]
+      },
+      "news_summary": "- Canada: Out: Marcelo Flores (ACL); Doubtful: Alphonso Davies (hamstring, unlikely to start), Moise Bombito (leg). No suspensions.\n- Bosnia-Herzegovina: No reported injuries or suspensions.\n- Form: Both teams are on 8-match unbeaten runs internationally.\n- Tactical: Canada adjusting without Davies; Bosnia seen as tricky opposition that upset Italy in qualifying.\n- Uncertainty: Davies’ availability is the major doubt; if absent, Canada’s attacking threat may be reduced.",
+      "polymarket_odds": [
+        {
+          "warning": "Polymarket lookup failed or found no market.",
+          "failures": [
+            {
+              "endpoint": "global_gamma",
+              "url": "https://gamma-api.polymarket.com/public-search",
+              "error": "HTTPSConnectionPool(host='gamma-api.polymarket.com', port=443): Max retries exceeded with url: /public-search?q=Canada+Bosnia+%26+Herzegovina+World+Cup&limit_per_type=10&search_tags=false&search_profiles=false (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x10d941c30>: Failed to resolve 'gamma-api.polymarket.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+            },
+            {
+              "endpoint": "us_gateway",
+              "url": "https://gateway.polymarket.us/v1/search",
+              "error": "Request succeeded but no matching market was found."
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "canada vs bosnia & herzegovina",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      },
+      "goal_scorers": [
+        "Jonathan David",
+        "Cyle Larin",
+        "Stephen Eustaquio"
+      ]
+    },
+    {
+      "created_at": "2026-06-12T07:00:27.694142Z",
+      "key": "canada vs bosnia & herzegovina::openrouter/minimax/minimax-m3",
+      "match_id": 7,
+      "match": "Canada vs Bosnia & Herzegovina",
+      "choices": [
+        "Canada",
+        "Bosnia & Herzegovina",
+        "Draw"
+      ],
+      "model_alias": "minimax-m3",
+      "model": "openrouter/minimax/minimax-m3",
+      "prediction": "Canada",
+      "scoreline": "Canada 2-1 Bosnia & Herzegovina",
+      "confidence": 0.55,
+      "rationale": "Canada's co-host advantage in Toronto is decisive. Jonathan David provides elite attacking quality (Juventus starter, 39 goals in 77 caps), supported by Tajon Buchanan's creativity on the wing. Even with Davies potentially limited, the home crowd and Canada's momentum under Marsch should see them through a tight contest. Bosnia showed pedigree upsetting Italy in qualifying, so a clean sheet is unlikely —",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 4731,
+          "completion_tokens": 2268,
+          "total_tokens": 6999,
+          "cost": 0.00408618
+        },
+        "calls": [
+          {
+            "model": "openrouter/minimax/minimax-m3",
+            "usage": {
+              "completion_tokens": 668,
+              "prompt_tokens": 2387,
+              "total_tokens": 3055,
+              "cost": 0.00149034
+            },
+            "cost": null
+          },
+          {
+            "model": "openrouter/minimax/minimax-m3",
+            "usage": {
+              "completion_tokens": 1600,
+              "prompt_tokens": 2344,
+              "total_tokens": 3944,
+              "cost": 0.00259584
+            },
+            "cost": null
+          }
+        ]
+      },
+      "news_summary": "- **Injuries (Canada)**: Alphonso Davies (hamstring, doubtful — hasn't played for Canada since 2025 CONCACAF), Moise Bombito (leg, doubtful), Marcelo Flores (ACL, out)\n- **Injuries (Bosnia)**: No specific injury reports identified from available news\n- **Tactical/Form**: Both teams on 8-match unbeaten runs; Canada favored as co-hosts under Jesse Marsch; Bosnia upset Italy on penalties in qualifying\n- **Suspensions**: None reported\n- **Key uncertainty**: Whether Alphonso Davies (Canada's talisman) starts is the major question mark; his absence would significantly weaken Canada. Bombito's status also unclear.\n- **Context**: Canada's first World Cup match on home soil since 1986; they have lost all 6 previous WC matches. Bosnia in their 2nd World Cup. Group B also includes Switzerland (favorites) and likely another team — this match is seen as battle for 2nd place.",
+      "polymarket_odds": [
+        {
+          "warning": "Polymarket lookup failed or found no market.",
+          "failures": [
+            {
+              "endpoint": "global_gamma",
+              "url": "https://gamma-api.polymarket.com/public-search",
+              "error": "HTTPSConnectionPool(host='gamma-api.polymarket.com', port=443): Max retries exceeded with url: /public-search?q=Canada+Bosnia+%26+Herzegovina+World+Cup&limit_per_type=10&search_tags=false&search_profiles=false (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x10d941c30>: Failed to resolve 'gamma-api.polymarket.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+            },
+            {
+              "endpoint": "us_gateway",
+              "url": "https://gateway.polymarket.us/v1/search",
+              "error": "Request succeeded but no matching market was found."
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "canada vs bosnia & herzegovina",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      },
+      "goal_scorers": [
+        "Jonathan David",
+        "Alphonso Davies",
+        "Tajon Buchanan"
+      ]
+    },
+    {
+      "created_at": "2026-06-12T07:02:22.191679Z",
+      "key": "canada vs bosnia & herzegovina::openrouter/xiaomi/mimo-v2.5-pro",
+      "match_id": 7,
+      "match": "Canada vs Bosnia & Herzegovina",
+      "choices": [
+        "Canada",
+        "Bosnia & Herzegovina",
+        "Draw"
+      ],
+      "model_alias": "mimo-v2.5-pro",
+      "model": "openrouter/xiaomi/mimo-v2.5-pro",
+      "prediction": "Canada",
+      "scoreline": "Canada 1-0 Bosnia & Herzegovina",
+      "confidence": 0.65,
+      "rationale": "Canada's home advantage and strong attacking options, even with Davies doubtful, give them a slight edge against a defensively solid Bosnia side. Bosnia's qualification success highlights their resilience, but Canada's need for first World Cup points and fan support may drive a narrow victory.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 4761,
+          "completion_tokens": 3728,
+          "total_tokens": 8489,
+          "cost": 0.015945
+        },
+        "calls": [
+          {
+            "model": "openrouter/xiaomi/mimo-v2.5-pro",
+            "usage": {
+              "completion_tokens": 1230,
+              "prompt_tokens": 2456,
+              "total_tokens": 3686,
+              "cost": 0.00213846
+            },
+            "cost": 0.006146
+          },
+          {
+            "model": "openrouter/xiaomi/mimo-v2.5-pro",
+            "usage": {
+              "completion_tokens": 2498,
+              "prompt_tokens": 2305,
+              "total_tokens": 4803,
+              "cost": 0.003175935
+            },
+            "cost": 0.009798999999999999
+          }
+        ]
+      },
+      "news_summary": "- **Injuries**: \n  - Canada: Marcelo Flores out (ACL); Alphonso Davies doubtful (hamstring), Moise Bombito doubtful (leg). Davies' absence is critical as the team's talisman.\n  - Bosnia & Herzegovina: No specific injuries reported in the snippets.\n- **Form**: Both teams on eight-match unbeaten runs internationally. Canada seeks first-ever World Cup points (lost all six previous matches); Bosnia qualified by upsetting Italy on penalties.\n- **Tactical News**: Predicted Canada XI includes Crepeau; Johnston, de Fougerolles, Cornelius, Laryea (partial lineup from Sports Mole). Canada are home favorites under coach Jesse Marsch; Bosnia likely to adopt a defensive approach based on their qualification.\n- **Suspensions**: No suspensions mentioned for either team.\n- **Uncertainty**: Alphonso Davies' availability is a major uncertainty—could significantly impact Canada's attacking threat and overall performance. Also, Bosnia's ability to handle pressure as underdogs.",
+      "polymarket_odds": [
+        {
+          "warning": "Polymarket lookup failed or found no market.",
+          "failures": [
+            {
+              "endpoint": "global_gamma",
+              "url": "https://gamma-api.polymarket.com/public-search",
+              "error": "HTTPSConnectionPool(host='gamma-api.polymarket.com', port=443): Max retries exceeded with url: /public-search?q=Canada+Bosnia+%26+Herzegovina+World+Cup&limit_per_type=10&search_tags=false&search_profiles=false (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x10d941c30>: Failed to resolve 'gamma-api.polymarket.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+            },
+            {
+              "endpoint": "us_gateway",
+              "url": "https://gateway.polymarket.us/v1/search",
+              "error": "Request succeeded but no matching market was found."
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "canada vs bosnia & herzegovina",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      },
+      "goal_scorers": [
+        "Jonathan David",
+        "Cyle Larin",
+        "Stephen Eustaquio"
+      ]
+    },
+    {
+      "created_at": "2026-06-12T07:05:14.380150Z",
+      "key": "canada vs bosnia & herzegovina::openrouter/moonshotai/kimi-k2.6",
+      "match_id": 7,
+      "match": "Canada vs Bosnia & Herzegovina",
+      "choices": [
+        "Canada",
+        "Bosnia & Herzegovina",
+        "Draw"
+      ],
+      "model_alias": "kimi-k2.6",
+      "model": "openrouter/moonshotai/kimi-k2.6",
+      "prediction": "Draw",
+      "scoreline": "Canada 1-1 Bosnia & Herzegovina",
+      "confidence": 0.55,
+      "rationale": "Canada’s home support and potent strike force are offset by the probable absence of Alphonso Davies and Bosnia’s demonstrated ability to upset major nations. With both sides on long unbeaten runs and high stakes surrounding Canada’s hunt for a first World Cup point, a tightly contested stalemate in Toronto is the most evidence-backed outcome.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 4530,
+          "completion_tokens": 5198,
+          "total_tokens": 9728,
+          "cost": 0.021297200000000002
+        },
+        "calls": [
+          {
+            "model": "openrouter/moonshotai/kimi-k2.6",
+            "usage": {
+              "completion_tokens": 1378,
+              "prompt_tokens": 2312,
+              "total_tokens": 3690,
+              "cost": 0.0065348
+            },
+            "cost": null
+          },
+          {
+            "model": "openrouter/moonshotai/kimi-k2.6",
+            "usage": {
+              "completion_tokens": 3820,
+              "prompt_tokens": 2218,
+              "total_tokens": 6038,
+              "cost": 0.0147624
+            },
+            "cost": null
+          }
+        ]
+      },
+      "news_summary": "- **Injuries**: CAN – Alphonso Davies (hamstring) doubtful and likely absent from the XI; Marcelo Flores (ACL) out; Moise Bombito (leg) doubtful. BIH – no reported injuries.\n- **Tactical**: Canada expected to start Crepeau; Johnston, de Fougerolles, Cornelius, Laryea; record goalscorer leads attack. Davies’ absence alters left-side dynamics and attacking width.\n- **Form**: Both teams on 8-match unbeaten runs. Canada hunting first World Cup points ever (0 from 6 games). Bosnia arrive after beating Wales and Italy on penalties in qualifying.\n- **Suspensions**: None reported for either side.\n- **Uncertainty**: High – Davies’ availability is a game-time decision that heavily impacts Canada’s quality; co-host status vs. Bosnia’s upset pedigree creates volatile favorite/underdog dynamic.",
+      "polymarket_odds": [
+        {
+          "warning": "Polymarket lookup failed or found no market.",
+          "failures": [
+            {
+              "endpoint": "global_gamma",
+              "url": "https://gamma-api.polymarket.com/public-search",
+              "error": "HTTPSConnectionPool(host='gamma-api.polymarket.com', port=443): Max retries exceeded with url: /public-search?q=Canada+Bosnia+%26+Herzegovina+World+Cup&limit_per_type=10&search_tags=false&search_profiles=false (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x10d941c30>: Failed to resolve 'gamma-api.polymarket.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+            },
+            {
+              "endpoint": "us_gateway",
+              "url": "https://gateway.polymarket.us/v1/search",
+              "error": "Request succeeded but no matching market was found."
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "canada vs bosnia & herzegovina",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      },
+      "goal_scorers": [
+        "Jonathan David",
+        "Cyle Larin",
+        "Stephen Eustaquio"
+      ]
+    },
+    {
+      "created_at": "2026-06-12T07:05:27.453614Z",
+      "key": "canada vs bosnia & herzegovina::openrouter/x-ai/grok-4.3",
+      "match_id": 7,
+      "match": "Canada vs Bosnia & Herzegovina",
+      "choices": [
+        "Canada",
+        "Bosnia & Herzegovina",
+        "Draw"
+      ],
+      "model_alias": "grok-4.3",
+      "model": "openrouter/x-ai/grok-4.3",
+      "prediction": "Canada",
+      "scoreline": "Canada 2-0 Bosnia & Herzegovina",
+      "confidence": 0.72,
+      "rationale": "Home advantage + superior squad depth outweigh Bosnia’s recent form; Canada expected to secure first World Cup points.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 4469,
+          "completion_tokens": 1132,
+          "total_tokens": 5601,
+          "cost": 0.00814745
+        },
+        "calls": [
+          {
+            "model": "openrouter/x-ai/grok-4.3",
+            "usage": {
+              "completion_tokens": 541,
+              "prompt_tokens": 2309,
+              "total_tokens": 2850,
+              "cost": 0.00410435
+            },
+            "cost": null
+          },
+          {
+            "model": "openrouter/x-ai/grok-4.3",
+            "usage": {
+              "completion_tokens": 591,
+              "prompt_tokens": 2160,
+              "total_tokens": 2751,
+              "cost": 0.0040431
+            },
+            "cost": null
+          }
+        ]
+      },
+      "news_summary": "- Injuries: Canada - Marcelo Flores (ACL) out; Alphonso Davies (hamstring) and Moise Bombito (leg) doubtful.\n- Suspensions: None reported for either side.\n- Form: Both teams on 8-match unbeaten runs; Canada seeking first-ever World Cup points (lost all 6 prior finals matches).\n- Other: Canada (co-hosts) heavy favorites at BMO Field; Bosnia qualified via playoff win over Italy on penalties; Davies likely unavailable.\n- Uncertainty: Davies/Bombito availability; exact predicted XIs still fluid.",
+      "polymarket_odds": [
+        {
+          "warning": "Polymarket lookup failed or found no market.",
+          "failures": [
+            {
+              "endpoint": "global_gamma",
+              "url": "https://gamma-api.polymarket.com/public-search",
+              "error": "HTTPSConnectionPool(host='gamma-api.polymarket.com', port=443): Max retries exceeded with url: /public-search?q=Canada+Bosnia+%26+Herzegovina+World+Cup&limit_per_type=10&search_tags=false&search_profiles=false (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x10d941c30>: Failed to resolve 'gamma-api.polymarket.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+            },
+            {
+              "endpoint": "us_gateway",
+              "url": "https://gateway.polymarket.us/v1/search",
+              "error": "Request succeeded but no matching market was found."
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "canada vs bosnia & herzegovina",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      },
+      "goal_scorers": [
+        "Jonathan David",
+        "Cyle Larin",
+        "Stephen Eustáquio"
+      ]
+    },
+    {
+      "created_at": "2026-06-12T07:07:16.452837Z",
+      "key": "canada vs bosnia & herzegovina::openrouter/z-ai/glm-5.1",
+      "match_id": 7,
+      "match": "Canada vs Bosnia & Herzegovina",
+      "choices": [
+        "Canada",
+        "Bosnia & Herzegovina",
+        "Draw"
+      ],
+      "model_alias": "glm-5.1",
+      "model": "openrouter/z-ai/glm-5.1",
+      "prediction": "Canada",
+      "scoreline": "Canada 2-1 Bosnia & Herzegovina",
+      "confidence": 0.58,
+      "rationale": "Canada's home advantage at BMO Field and proven strike force of David (39 international goals) and Larin (30 goals) give them the edge, despite Davies' doubtful status and Canada's poor World Cup history. Bosnia's playoff upsets show grit, but Canada's individual quality in attack should prevail in a tight contest.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 6617,
+          "completion_tokens": 3401,
+          "total_tokens": 10018,
+          "cost": 0.024182060000000002
+        },
+        "calls": [
+          {
+            "model": "openrouter/z-ai/glm-5.1",
+            "usage": {
+              "completion_tokens": 772,
+              "prompt_tokens": 2307,
+              "total_tokens": 3079,
+              "cost": 0.00658046
+            },
+            "cost": null
+          },
+          {
+            "model": "openrouter/z-ai/glm-5.1",
+            "usage": {
+              "completion_tokens": 1600,
+              "prompt_tokens": 2167,
+              "total_tokens": 3767,
+              "cost": 0.0100738
+            },
+            "cost": null
+          },
+          {
+            "model": "openrouter/z-ai/glm-5.1",
+            "usage": {
+              "completion_tokens": 1029,
+              "prompt_tokens": 2143,
+              "total_tokens": 3172,
+              "cost": 0.0075278
+            },
+            "cost": null
+          }
+        ]
+      },
+      "news_summary": "• **Injuries**: Canada - Marcelo Flores (ACL, out), Alphonso Davies (hamstring, doubtful), Moise Bombito (leg, doubtful). No Bosnia injuries reported.\n• **Tactical**: World Cup Group B opener; Canada co-hosts with home advantage at BMO Field; match seen as battle for 2nd place behind Switzerland; Bosnia upset Italy and Wales in playoffs despite ranking 64th.\n• **Form**: Both teams on 8-match unbeaten runs internationally; Canada have lost all 6 previous World Cup matches (0 points historically); Bosnia in 2nd World Cup appearance.\n• **Suspensions**: None reported for either side.\n• **Uncertainty**: Davies availability is key - Canada's talisman/captain hasn't played since 2025 CONCACAF; his absence would significantly weaken the hosts.",
+      "polymarket_odds": [
+        {
+          "warning": "Polymarket lookup failed or found no market.",
+          "failures": [
+            {
+              "endpoint": "global_gamma",
+              "url": "https://gamma-api.polymarket.com/public-search",
+              "error": "HTTPSConnectionPool(host='gamma-api.polymarket.com', port=443): Max retries exceeded with url: /public-search?q=Canada+Bosnia+%26+Herzegovina+World+Cup&limit_per_type=10&search_tags=false&search_profiles=false (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x10d941c30>: Failed to resolve 'gamma-api.polymarket.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+            },
+            {
+              "endpoint": "us_gateway",
+              "url": "https://gateway.polymarket.us/v1/search",
+              "error": "Request succeeded but no matching market was found."
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "canada vs bosnia & herzegovina",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      },
+      "goal_scorers": [
+        "Jonathan David",
+        "Cyle Larin",
+        "Stephen Eustáquio"
+      ]
+    },
+    {
+      "created_at": "2026-06-12T07:08:07.806041Z",
+      "key": "canada vs bosnia & herzegovina::openrouter/qwen/qwen3.7-max",
+      "match_id": 7,
+      "match": "Canada vs Bosnia & Herzegovina",
+      "choices": [
+        "Canada",
+        "Bosnia & Herzegovina",
+        "Draw"
+      ],
+      "model_alias": "qwen-3.7-max",
+      "model": "openrouter/qwen/qwen3.7-max",
+      "prediction": "Draw",
+      "scoreline": "Canada 1-1 Bosnia & Herzegovina",
+      "confidence": 0.45,
+      "rationale": "Canada's home advantage is heavily offset by the potential absence of Alphonso Davies and defensive uncertainties, while Bosnia's strong playoff form and full fitness make them a highly resilient opponent. A 1-1 draw reflects a tactical, hard-fought match where both teams manage to score but fail to secure a decisive edge.",
+      "usage": {
+        "totals": {
+          "prompt_tokens": 4775,
+          "completion_tokens": 2607,
+          "total_tokens": 7382,
+          "cost": 0.015745000000000002
+        },
+        "calls": [
+          {
+            "model": "openrouter/qwen/qwen3.7-max",
+            "usage": {
+              "completion_tokens": 1532,
+              "prompt_tokens": 2480,
+              "total_tokens": 4012,
+              "cost": 0.008845
+            },
+            "cost": null
+          },
+          {
+            "model": "openrouter/qwen/qwen3.7-max",
+            "usage": {
+              "completion_tokens": 1075,
+              "prompt_tokens": 2295,
+              "total_tokens": 3370,
+              "cost": 0.0069
+            },
+            "cost": null
+          }
+        ]
+      },
+      "news_summary": "- **Injuries**: Canada's Marcelo Flores is out (ACL) and Moise Bombito is doubtful (leg). No injuries are reported for Bosnia & Herzegovina.\n- **Tactical News & Form**: Both teams enter the tournament on an eight-match unbeaten run. Canada is seeking its first-ever World Cup points/win on home soil, while Bosnia arrives with confidence after knocking out Italy and Wales in the European playoffs.\n- **Suspensions**: None reported for either team.\n- **Uncertainty**: Canada's captain and talisman Alphonso Davies is a major doubt due to a hamstring issue and is expected to miss the starting lineup, creating significant uncertainty regarding Canada's tactical setup and left-flank threat.",
+      "polymarket_odds": [
+        {
+          "warning": "Polymarket lookup failed or found no market.",
+          "failures": [
+            {
+              "endpoint": "global_gamma",
+              "url": "https://gamma-api.polymarket.com/public-search",
+              "error": "HTTPSConnectionPool(host='gamma-api.polymarket.com', port=443): Max retries exceeded with url: /public-search?q=Canada+Bosnia+%26+Herzegovina+World+Cup&limit_per_type=10&search_tags=false&search_profiles=false (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x10d941c30>: Failed to resolve 'gamma-api.polymarket.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+            },
+            {
+              "endpoint": "us_gateway",
+              "url": "https://gateway.polymarket.us/v1/search",
+              "error": "Request succeeded but no matching market was found."
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "canada vs bosnia & herzegovina",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      },
+      "goal_scorers": [
+        "Jonathan David",
+        "Stephen Eustaquio",
+        "Edin Dzeko"
+      ]
     }
-  ]
+  ],
+  "leaderboard": {
+    "completed_matchdays": 1,
+    "available": true,
+    "rows": [
+      {
+        "model_alias": "claude-haiku-4.5",
+        "matches_scored": 2,
+        "total_points": 175,
+        "total_cost": 0.03584,
+        "result_points": 100,
+        "scoreline_points": 50,
+        "goal_difference_points": 20,
+        "goal_scorer_points": 5,
+        "correct_results": 2,
+        "exact_scores": 2,
+        "correct_goal_scorers": 1,
+        "average_points": 87.5
+      },
+      {
+        "model_alias": "claude-sonnet-4.7",
+        "matches_scored": 2,
+        "total_points": 175,
+        "total_cost": 0.11751,
+        "result_points": 100,
+        "scoreline_points": 50,
+        "goal_difference_points": 20,
+        "goal_scorer_points": 5,
+        "correct_results": 2,
+        "exact_scores": 2,
+        "correct_goal_scorers": 1,
+        "average_points": 87.5
+      },
+      {
+        "model_alias": "deepseek-v4-pro",
+        "matches_scored": 2,
+        "total_points": 175,
+        "total_cost": 0.03815597,
+        "result_points": 100,
+        "scoreline_points": 50,
+        "goal_difference_points": 20,
+        "goal_scorer_points": 5,
+        "correct_results": 2,
+        "exact_scores": 2,
+        "correct_goal_scorers": 1,
+        "average_points": 87.5
+      },
+      {
+        "model_alias": "gpt-5.5",
+        "matches_scored": 2,
+        "total_points": 175,
+        "total_cost": 0.15066,
+        "result_points": 100,
+        "scoreline_points": 50,
+        "goal_difference_points": 20,
+        "goal_scorer_points": 5,
+        "correct_results": 2,
+        "exact_scores": 2,
+        "correct_goal_scorers": 1,
+        "average_points": 87.5
+      },
+      {
+        "model_alias": "grok-4.3",
+        "matches_scored": 2,
+        "total_points": 175,
+        "total_cost": 0.0245561,
+        "result_points": 100,
+        "scoreline_points": 50,
+        "goal_difference_points": 20,
+        "goal_scorer_points": 5,
+        "correct_results": 2,
+        "exact_scores": 2,
+        "correct_goal_scorers": 1,
+        "average_points": 87.5
+      },
+      {
+        "model_alias": "mimo-v2.5-pro",
+        "matches_scored": 2,
+        "total_points": 175,
+        "total_cost": 0.042713,
+        "result_points": 100,
+        "scoreline_points": 50,
+        "goal_difference_points": 20,
+        "goal_scorer_points": 5,
+        "correct_results": 2,
+        "exact_scores": 2,
+        "correct_goal_scorers": 1,
+        "average_points": 87.5
+      },
+      {
+        "model_alias": "qwen-3.7-max",
+        "matches_scored": 2,
+        "total_points": 175,
+        "total_cost": 0.04601125,
+        "result_points": 100,
+        "scoreline_points": 50,
+        "goal_difference_points": 20,
+        "goal_scorer_points": 5,
+        "correct_results": 2,
+        "exact_scores": 2,
+        "correct_goal_scorers": 1,
+        "average_points": 87.5
+      },
+      {
+        "model_alias": "gpt-5.4-nano",
+        "matches_scored": 2,
+        "total_points": 145,
+        "total_cost": 0.00528015,
+        "result_points": 100,
+        "scoreline_points": 25,
+        "goal_difference_points": 10,
+        "goal_scorer_points": 10,
+        "correct_results": 2,
+        "exact_scores": 1,
+        "correct_goal_scorers": 2,
+        "average_points": 72.5
+      },
+      {
+        "model_alias": "gemini-3-flash",
+        "matches_scored": 2,
+        "total_points": 140,
+        "total_cost": 0.0136795,
+        "result_points": 100,
+        "scoreline_points": 25,
+        "goal_difference_points": 10,
+        "goal_scorer_points": 5,
+        "correct_results": 2,
+        "exact_scores": 1,
+        "correct_goal_scorers": 1,
+        "average_points": 70.0
+      },
+      {
+        "model_alias": "gemini-3.1-flash-lite",
+        "matches_scored": 2,
+        "total_points": 140,
+        "total_cost": 0.00596125,
+        "result_points": 100,
+        "scoreline_points": 25,
+        "goal_difference_points": 10,
+        "goal_scorer_points": 5,
+        "correct_results": 2,
+        "exact_scores": 1,
+        "correct_goal_scorers": 1,
+        "average_points": 70.0
+      },
+      {
+        "model_alias": "glm-5.1",
+        "matches_scored": 2,
+        "total_points": 140,
+        "total_cost": 0.05556824,
+        "result_points": 100,
+        "scoreline_points": 25,
+        "goal_difference_points": 10,
+        "goal_scorer_points": 5,
+        "correct_results": 2,
+        "exact_scores": 1,
+        "correct_goal_scorers": 1,
+        "average_points": 70.0
+      },
+      {
+        "model_alias": "gpt-5.4-mini",
+        "matches_scored": 2,
+        "total_points": 140,
+        "total_cost": 0.02019,
+        "result_points": 100,
+        "scoreline_points": 25,
+        "goal_difference_points": 10,
+        "goal_scorer_points": 5,
+        "correct_results": 2,
+        "exact_scores": 1,
+        "correct_goal_scorers": 1,
+        "average_points": 70.0
+      },
+      {
+        "model_alias": "kimi-k2.6",
+        "matches_scored": 2,
+        "total_points": 140,
+        "total_cost": 0.056537,
+        "result_points": 100,
+        "scoreline_points": 25,
+        "goal_difference_points": 10,
+        "goal_scorer_points": 5,
+        "correct_results": 2,
+        "exact_scores": 1,
+        "correct_goal_scorers": 1,
+        "average_points": 70.0
+      },
+      {
+        "model_alias": "minimax-m3",
+        "matches_scored": 2,
+        "total_points": 140,
+        "total_cost": 0.01174434,
+        "result_points": 100,
+        "scoreline_points": 25,
+        "goal_difference_points": 10,
+        "goal_scorer_points": 5,
+        "correct_results": 2,
+        "exact_scores": 1,
+        "correct_goal_scorers": 1,
+        "average_points": 70.0
+      },
+      {
+        "model_alias": "gemini-3.5-pro",
+        "matches_scored": 2,
+        "total_points": 90,
+        "total_cost": 0.10093,
+        "result_points": 50,
+        "scoreline_points": 25,
+        "goal_difference_points": 10,
+        "goal_scorer_points": 5,
+        "correct_results": 1,
+        "exact_scores": 1,
+        "correct_goal_scorers": 1,
+        "average_points": 45.0
+      }
+    ],
+    "generated_at": "2026-06-12T08:06:59.345874Z"
+  },
+  "resolution_state": {
+    "result_attempts": {}
+  },
+  "results": {
+    "1": {
+      "match_id": 1,
+      "match": "Mexico vs South Africa",
+      "fixture_id": 2391728,
+      "provider": "TheSportsDB",
+      "status": "FT",
+      "fetched_at": "2026-06-12T07:16:23.838579Z",
+      "team1": "Mexico",
+      "team2": "South Africa",
+      "team1_score": 2,
+      "team2_score": 0,
+      "winner": "Mexico",
+      "goals": [
+        {
+          "team": "Mexico",
+          "scorer": "J. Quiñones",
+          "minute": 9
+        },
+        {
+          "team": "Mexico",
+          "scorer": "R. Jiménez",
+          "minute": 67
+        }
+      ]
+    },
+    "2": {
+      "match_id": 2,
+      "match": "South Korea vs Czech Republic",
+      "fixture_id": 2461103,
+      "provider": "TheSportsDB",
+      "status": "FT",
+      "fetched_at": "2026-06-12T07:16:26.739562Z",
+      "team1": "South Korea",
+      "team2": "Czech Republic",
+      "team1_score": 2,
+      "team2_score": 1,
+      "winner": "South Korea",
+      "goals": [
+        {
+          "team": "South Korea",
+          "scorer": "I.B. Hwang",
+          "minute": 67
+        },
+        {
+          "team": "South Korea",
+          "scorer": "H.G. Oh",
+          "minute": 80
+        },
+        {
+          "team": "Czech Republic",
+          "scorer": "L. Krejčí",
+          "minute": 59
+        }
+      ]
+    }
+  }
 }

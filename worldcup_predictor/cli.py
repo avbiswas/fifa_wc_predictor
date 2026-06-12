@@ -8,6 +8,7 @@ from .dspy_program import MatchPredictor, configure_dspy, summarize_news
 from .env import load_env
 from .models import default_model_alias, model_registry_rows, resolve_model, validate_openrouter_models
 from .paths import CACHE_PATH, ROOT
+from .goal_scorers import normalize_goal_scorers
 from .predictions import save_prediction_record
 from .prepare import prepare_match_data
 from .usage import extract_lm_usage
@@ -78,7 +79,7 @@ def main() -> int:
         "model": resolved_model,
         "prediction": result.prediction,
         "scoreline": result.scoreline,
-        "players_to_watch": result.players_to_watch,
+        "goal_scorers": normalize_goal_scorers(result.goal_scorers),
         "confidence": result.confidence,
         "rationale": result.rationale,
         "usage": extract_lm_usage(lm),

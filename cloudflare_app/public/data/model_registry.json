@@ -67,43 +67,43 @@
     "minimax-m3": {
       "model": "openrouter/minimax/minimax-m3",
       "provider": "minimax",
-      "provider_label": "MiniMax",
-      "group": "Open source",
+      "provider_label": "Minimax",
+      "group": "Minimax",
       "icon": "/icons/minimax.svg"
     },
     "mimo-v2.5-pro": {
       "model": "openrouter/xiaomi/mimo-v2.5-pro",
       "provider": "xiaomi",
       "provider_label": "Xiaomi",
-      "group": "Open source",
+      "group": "Xiaomi",
       "icon": "/icons/xiaomi.svg"
     },
     "kimi-k2.6": {
       "model": "openrouter/moonshotai/kimi-k2.6",
       "provider": "moonshotai",
       "provider_label": "Moonshot AI",
-      "group": "Open source",
+      "group": "Moonshot AI",
       "icon": "/icons/moonshotai.svg"
     },
     "grok-4.3": {
       "model": "openrouter/x-ai/grok-4.3",
       "provider": "x-ai",
-      "provider_label": "xAI",
-      "group": "Open source",
+      "provider_label": "XAI",
+      "group": "XAI",
       "icon": "/icons/xai.svg"
     },
     "glm-5.1": {
       "model": "openrouter/z-ai/glm-5.1",
       "provider": "z-ai",
-      "provider_label": "Z.ai",
-      "group": "Open source",
+      "provider_label": "ZAI",
+      "group": "ZAI",
       "icon": "/icons/zhipuai.svg"
     },
     "qwen-3.7-max": {
       "model": "openrouter/qwen/qwen3.7-max",
       "provider": "qwen",
       "provider_label": "Qwen",
-      "group": "Open source",
+      "group": "Qwen",
       "icon": "/icons/qwen.svg"
     }
   }

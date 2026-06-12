@@ -36,7 +36,7 @@
               </a>
             </div>
           </div>
-          <div class="match-card">
+          <div id="matchSummaryCard" class="match-card">
             <span id="matchName">Loading match...</span>
             <strong id="consensus">Consensus pending</strong>
           </div>
@@ -45,13 +45,14 @@
         <nav class="tabs" aria-label="Benchmark views">
           <button id="predictionsTab" class="tab active" type="button">Predictions</button>
           <button id="leaderboardTab" class="tab" type="button">Model Leaderboard</button>
+          <button id="rulesTab" class="tab" type="button">Rules</button>
         </nav>
 
         <section id="predictionsView">
           <section id="tbaView" class="panel tba-view" hidden>
             <p class="eyebrow">Predictions</p>
             <h2>TBA</h2>
-            <p class="tba-note">Predictions are run up to 12 hours before each match so models have up-to-date news and odds updates.</p>
+            <p class="tba-note">Predictions are run within 24 hours before each match so models have up-to-date news and odds updates.</p>
           </section>
 
           <section id="predictionContent">
@@ -89,6 +90,7 @@
                       <th>Pick</th>
                       <th>Scoreline</th>
                       <th>Confidence</th>
+                      <th>Total Score</th>
                       <th>Cost</th>
                     </tr>
                   </thead>
@@ -99,9 +101,72 @@
           </section>
         </section>
 
-        <section id="modelLeaderboardView" class="panel unavailable-view" hidden>
-          <p class="eyebrow">Model Leaderboard</p>
-          <h2>Available after 7 matchdays</h2>
+        <section id="modelLeaderboardView" class="panel leaderboard-view" hidden>
+          <div id="leaderboardUnavailable" class="unavailable-view">
+            <p class="eyebrow">Model Leaderboard</p>
+            <h2>Available after the first completed match</h2>
+          </div>
+          <div id="leaderboardContent" hidden>
+            <div class="panel-head">
+              <p class="eyebrow">Model Leaderboard</p>
+              <h2>Overall standings</h2>
+            </div>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th><button class="sort-button" type="button" data-sort="rank"><span>Rank</span><b aria-hidden="true"></b></button></th>
+                    <th><button class="sort-button" type="button" data-sort="model_alias"><span>Model</span><b aria-hidden="true"></b></button></th>
+                    <th><button class="sort-button active" type="button" data-sort="total_points" aria-sort="descending"><span>Points</span><b aria-hidden="true">↓</b></button></th>
+                    <th><button class="sort-button" type="button" data-sort="average_points"><span>Average</span><b aria-hidden="true"></b></button></th>
+                    <th><button class="sort-button" type="button" data-sort="matches_scored"><span>Matches</span><b aria-hidden="true"></b></button></th>
+                    <th><button class="sort-button" type="button" data-sort="correct_results"><span>Correct Results</span><b aria-hidden="true"></b></button></th>
+                    <th><button class="sort-button" type="button" data-sort="exact_scores"><span>Exact Scores</span><b aria-hidden="true"></b></button></th>
+                    <th><button class="sort-button" type="button" data-sort="total_cost"><span>Cost to Run</span><b aria-hidden="true"></b></button></th>
+                  </tr>
+                </thead>
+                <tbody id="leaderboardRows"></tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <section id="rulesView" class="panel rules-view" hidden>
+          <div class="panel-head">
+            <p class="eyebrow">Scoring</p>
+            <h2>100 points per match</h2>
+          </div>
+          <div class="rule-list">
+            <article>
+              <strong>50</strong>
+              <div>
+                <h3>Match result</h3>
+                <p>Correct team or draw after 90 minutes, including stoppage time.</p>
+              </div>
+            </article>
+            <article>
+              <strong>25</strong>
+              <div>
+                <h3>Scoreline</h3>
+                <p>Exact final score after 90 minutes.</p>
+              </div>
+            </article>
+            <article>
+              <strong>10</strong>
+              <div>
+                <h3>Goal difference</h3>
+                <p>Correct winning margin, including zero for a draw. This is awarded in addition to an exact score.</p>
+              </div>
+            </article>
+            <article>
+              <strong>15</strong>
+              <div>
+                <h3>Goal scorers</h3>
+                <p>Three predicted scorers, worth 5 points each when that player scores at least once.</p>
+              </div>
+            </article>
+          </div>
+          <p class="rules-note">Results use free public data from TheSportsDB, with scorer names from the open World Cup feed when available. Knockout matches are scored after 90 minutes, before extra time or penalties.</p>
         </section>
       </section>
     </main>
