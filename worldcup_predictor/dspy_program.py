@@ -66,8 +66,28 @@ class MatchPredictor(dspy.Module):
             polymarket_odds=polymarket_odds,
         )
 
+    async def aforward(
+        self,
+        match: str,
+        match_context: str,
+        news_summary: str,
+        team1_squad: str,
+        team2_squad: str,
+        recent_record: str,
+        polymarket_odds: str,
+    ):
+        return await self.predict.acall(
+            match=match,
+            match_context=match_context,
+            news_summary=news_summary,
+            team1_squad=team1_squad,
+            team2_squad=team2_squad,
+            recent_record=recent_record,
+            polymarket_odds=polymarket_odds,
+        )
 
-def configure_dspy(model: str = MODEL) -> dspy.LM:
+
+def make_lm(model: str) -> dspy.LM:
     if not os.environ.get("OPENROUTER_API_KEY"):
         raise SystemExit("OPENROUTER_API_KEY is not set. Add it to .env or .envrc.")
     temperature = 1.0 if model.startswith("openrouter/openai/gpt-5") else 0.2
@@ -80,7 +100,7 @@ def configure_dspy(model: str = MODEL) -> dspy.LM:
         max_tokens = 4000
     else:
         max_tokens = 1600
-    lm = dspy.LM(
+    return dspy.LM(
         model,
         temperature=temperature,
         max_tokens=max_tokens,
@@ -90,6 +110,10 @@ def configure_dspy(model: str = MODEL) -> dspy.LM:
             "X-Title": "world-cup-predictor",
         },
     )
+
+
+def configure_dspy(model: str = MODEL) -> dspy.LM:
+    lm = make_lm(model)
     dspy.configure(lm=lm, cache=False)
     return lm
 

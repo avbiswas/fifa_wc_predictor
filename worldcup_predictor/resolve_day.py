@@ -1,15 +1,15 @@
 from __future__ import annotations
 
 import argparse
+import asyncio
 import json
-import subprocess
-import sys
 from datetime import datetime, timedelta, timezone
 
 from .data import read_csv
 from .env import load_env
 from .models import competition_aliases, load_model_registry
 from .paths import DATA_DIR, ROOT
+from .predict_async import run_predictions_async
 from .predictions import load_prediction_store, write_prediction_store
 from .results import fetch_match_result
 from .scoring import score_store, update_leaderboard
@@ -128,23 +128,15 @@ def resolve_day(
                 }
             )
             continue
-        for alias in missing:
-            command = [
-                sys.executable,
-                "scripts/predict_match_dspy.py",
-                "--match-id",
-                str(match_id),
-                "--model",
-                alias,
-                "--news-results",
-                str(news_results),
-            ]
-            result = subprocess.run(command, cwd=ROOT)
-            if result.returncode == 0:
-                predictions_changed = True
-                summary["predictions_run"].append({"match_id": match_id, "model": alias})
-            else:
-                summary["prediction_failures"].append({"match_id": match_id, "model": alias})
+        results = asyncio.run(run_predictions_async(
+            match_id=match_id,
+            aliases=missing,
+            news_results=news_results,
+        ))
+        if results["predictions_run"]:
+            predictions_changed = True
+        summary["predictions_run"].extend(results["predictions_run"])
+        summary["prediction_failures"].extend(results["prediction_failures"])
 
     if predictions_changed:
         store = load_prediction_store()
