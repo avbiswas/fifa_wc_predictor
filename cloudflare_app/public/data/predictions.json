@@ -5969,6 +5969,30 @@
         "key": "united states vs paraguay",
         "news_from_cache": false,
         "polymarket_from_cache": false
+      },
+      "score": {
+        "total": 50,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Christian Pulisic",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Ricardo Pepi",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Miguel Almiron",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -6111,6 +6135,30 @@
         "key": "united states vs paraguay",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "score": {
+        "total": 50,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Christian Pulisic",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Ricardo Pepi",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Miguel Almiron",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -6253,6 +6301,30 @@
         "key": "united states vs paraguay",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "score": {
+        "total": 50,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Christian Pulisic",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Ricardo Pepi",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Miguel Almirón",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -6395,6 +6467,30 @@
         "key": "united states vs paraguay",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Christian Pulisic",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Folarin Balogun",
+            "matched_scorer": "F. Balogun",
+            "points": 5
+          },
+          {
+            "predicted": "Miguel Almirón",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -6537,6 +6633,30 @@
         "key": "united states vs paraguay",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Christian Pulisic",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Folarin Balogun",
+            "matched_scorer": "F. Balogun",
+            "points": 5
+          },
+          {
+            "predicted": "Miguel Almiron",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -6679,6 +6799,30 @@
         "key": "united states vs paraguay",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "score": {
+        "total": 50,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Christian Pulisic",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Ricardo Pepi",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Miguel Almiron",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -6821,6 +6965,30 @@
         "key": "united states vs paraguay",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "score": {
+        "total": 50,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Christian Pulisic",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Ricardo Pepi",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Miguel Almiron",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -6963,6 +7131,30 @@
         "key": "united states vs paraguay",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "score": {
+        "total": 50,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Christian Pulisic",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Weston McKennie",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Antonio Sanabria",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -7105,6 +7297,30 @@
         "key": "united states vs paraguay",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Christian Pulisic",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Folarin Balogun",
+            "matched_scorer": "F. Balogun",
+            "points": 5
+          },
+          {
+            "predicted": "Miguel Almirón",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -7257,6 +7473,30 @@
         "key": "united states vs paraguay",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "score": {
+        "total": 50,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Christian Pulisic",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Ricardo Pepi",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Miguel Almiron",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -7399,6 +7639,30 @@
         "key": "united states vs paraguay",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "score": {
+        "total": 50,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Christian Pulisic",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Ricardo Pepi",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Miguel Almirón",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -7541,6 +7805,30 @@
         "key": "united states vs paraguay",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Christian Pulisic",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Ricardo Pepi",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Folarin Balogun",
+            "matched_scorer": "F. Balogun",
+            "points": 5
+          }
+        ]
       }
     },
     {
@@ -7683,6 +7971,30 @@
         "key": "united states vs paraguay",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "score": {
+        "total": 50,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Christian Pulisic",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Ricardo Pepi",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Weston McKennie",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -7825,6 +8137,30 @@
         "key": "united states vs paraguay",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "score": {
+        "total": 50,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Christian Pulisic",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Ricardo Pepi",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Miguel Almiron",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -7967,6 +8303,30 @@
         "key": "united states vs paraguay",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "score": {
+        "total": 50,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Christian Pulisic",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Ricardo Pepi",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Miguel Almiron",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     }
   ],
@@ -7976,37 +8336,107 @@
     "rows": [
       {
         "model_alias": "qwen-3.7-max",
-        "matches_scored": 3,
-        "total_points": 260,
+        "matches_scored": 4,
+        "total_points": 310,
         "total_cost": 0.06192625,
-        "result_points": 150,
+        "result_points": 200,
         "scoreline_points": 75,
         "goal_difference_points": 30,
         "goal_scorer_points": 5,
-        "correct_results": 3,
+        "correct_results": 4,
         "exact_scores": 3,
         "correct_goal_scorers": 1,
-        "average_points": 86.67
+        "average_points": 77.5
       },
       {
         "model_alias": "kimi-k2.6",
-        "matches_scored": 3,
-        "total_points": 230,
+        "matches_scored": 4,
+        "total_points": 285,
         "total_cost": 0.0764488,
-        "result_points": 150,
+        "result_points": 200,
         "scoreline_points": 50,
         "goal_difference_points": 20,
-        "goal_scorer_points": 10,
-        "correct_results": 3,
+        "goal_scorer_points": 15,
+        "correct_results": 4,
         "exact_scores": 2,
-        "correct_goal_scorers": 2,
-        "average_points": 76.67
+        "correct_goal_scorers": 3,
+        "average_points": 71.25
       },
       {
         "model_alias": "gemini-3.5-flash",
-        "matches_scored": 3,
-        "total_points": 225,
+        "matches_scored": 4,
+        "total_points": 280,
         "total_cost": 0.018936,
+        "result_points": 200,
+        "scoreline_points": 50,
+        "goal_difference_points": 20,
+        "goal_scorer_points": 10,
+        "correct_results": 4,
+        "exact_scores": 2,
+        "correct_goal_scorers": 2,
+        "average_points": 70.0
+      },
+      {
+        "model_alias": "deepseek-v4-pro",
+        "matches_scored": 4,
+        "total_points": 235,
+        "total_cost": 0.05501357,
+        "result_points": 150,
+        "scoreline_points": 50,
+        "goal_difference_points": 20,
+        "goal_scorer_points": 15,
+        "correct_results": 3,
+        "exact_scores": 2,
+        "correct_goal_scorers": 3,
+        "average_points": 58.75
+      },
+      {
+        "model_alias": "claude-haiku-4.5",
+        "matches_scored": 4,
+        "total_points": 230,
+        "total_cost": 0.048059,
+        "result_points": 150,
+        "scoreline_points": 50,
+        "goal_difference_points": 20,
+        "goal_scorer_points": 10,
+        "correct_results": 3,
+        "exact_scores": 2,
+        "correct_goal_scorers": 2,
+        "average_points": 57.5
+      },
+      {
+        "model_alias": "grok-4.3",
+        "matches_scored": 4,
+        "total_points": 230,
+        "total_cost": 0.0316572,
+        "result_points": 150,
+        "scoreline_points": 50,
+        "goal_difference_points": 20,
+        "goal_scorer_points": 10,
+        "correct_results": 3,
+        "exact_scores": 2,
+        "correct_goal_scorers": 2,
+        "average_points": 57.5
+      },
+      {
+        "model_alias": "mimo-v2.5-pro",
+        "matches_scored": 4,
+        "total_points": 230,
+        "total_cost": 0.04711564,
+        "result_points": 150,
+        "scoreline_points": 50,
+        "goal_difference_points": 20,
+        "goal_scorer_points": 10,
+        "correct_results": 3,
+        "exact_scores": 2,
+        "correct_goal_scorers": 2,
+        "average_points": 57.5
+      },
+      {
+        "model_alias": "claude-sonnet-4.7",
+        "matches_scored": 4,
+        "total_points": 225,
+        "total_cost": 0.161106,
         "result_points": 150,
         "scoreline_points": 50,
         "goal_difference_points": 20,
@@ -8014,178 +8444,108 @@
         "correct_results": 3,
         "exact_scores": 2,
         "correct_goal_scorers": 1,
-        "average_points": 75.0
-      },
-      {
-        "model_alias": "claude-haiku-4.5",
-        "matches_scored": 3,
-        "total_points": 180,
-        "total_cost": 0.048059,
-        "result_points": 100,
-        "scoreline_points": 50,
-        "goal_difference_points": 20,
-        "goal_scorer_points": 10,
-        "correct_results": 2,
-        "exact_scores": 2,
-        "correct_goal_scorers": 2,
-        "average_points": 60.0
-      },
-      {
-        "model_alias": "deepseek-v4-pro",
-        "matches_scored": 3,
-        "total_points": 180,
-        "total_cost": 0.05501357,
-        "result_points": 100,
-        "scoreline_points": 50,
-        "goal_difference_points": 20,
-        "goal_scorer_points": 10,
-        "correct_results": 2,
-        "exact_scores": 2,
-        "correct_goal_scorers": 2,
-        "average_points": 60.0
-      },
-      {
-        "model_alias": "grok-4.3",
-        "matches_scored": 3,
-        "total_points": 180,
-        "total_cost": 0.0316572,
-        "result_points": 100,
-        "scoreline_points": 50,
-        "goal_difference_points": 20,
-        "goal_scorer_points": 10,
-        "correct_results": 2,
-        "exact_scores": 2,
-        "correct_goal_scorers": 2,
-        "average_points": 60.0
-      },
-      {
-        "model_alias": "mimo-v2.5-pro",
-        "matches_scored": 3,
-        "total_points": 180,
-        "total_cost": 0.04711564,
-        "result_points": 100,
-        "scoreline_points": 50,
-        "goal_difference_points": 20,
-        "goal_scorer_points": 10,
-        "correct_results": 2,
-        "exact_scores": 2,
-        "correct_goal_scorers": 2,
-        "average_points": 60.0
-      },
-      {
-        "model_alias": "claude-sonnet-4.7",
-        "matches_scored": 3,
-        "total_points": 175,
-        "total_cost": 0.161106,
-        "result_points": 100,
-        "scoreline_points": 50,
-        "goal_difference_points": 20,
-        "goal_scorer_points": 5,
-        "correct_results": 2,
-        "exact_scores": 2,
-        "correct_goal_scorers": 1,
-        "average_points": 58.33
+        "average_points": 56.25
       },
       {
         "model_alias": "gemini-3.1-pro",
-        "matches_scored": 3,
-        "total_points": 175,
+        "matches_scored": 4,
+        "total_points": 225,
         "total_cost": 0.136594,
-        "result_points": 100,
+        "result_points": 150,
         "scoreline_points": 50,
         "goal_difference_points": 20,
         "goal_scorer_points": 5,
-        "correct_results": 2,
+        "correct_results": 3,
         "exact_scores": 2,
         "correct_goal_scorers": 1,
-        "average_points": 58.33
+        "average_points": 56.25
       },
       {
         "model_alias": "gpt-5.5",
-        "matches_scored": 3,
-        "total_points": 175,
+        "matches_scored": 4,
+        "total_points": 225,
         "total_cost": 0.204065,
-        "result_points": 100,
+        "result_points": 150,
         "scoreline_points": 50,
         "goal_difference_points": 20,
         "goal_scorer_points": 5,
-        "correct_results": 2,
+        "correct_results": 3,
         "exact_scores": 2,
         "correct_goal_scorers": 1,
-        "average_points": 58.33
+        "average_points": 56.25
       },
       {
-        "model_alias": "gpt-5.4-nano",
-        "matches_scored": 3,
-        "total_points": 150,
-        "total_cost": 0.0072929,
-        "result_points": 100,
+        "model_alias": "gemini-3.1-flash-lite",
+        "matches_scored": 4,
+        "total_points": 200,
+        "total_cost": 0.00829725,
+        "result_points": 150,
         "scoreline_points": 25,
         "goal_difference_points": 10,
         "goal_scorer_points": 15,
-        "correct_results": 2,
+        "correct_results": 3,
         "exact_scores": 1,
         "correct_goal_scorers": 3,
         "average_points": 50.0
       },
       {
-        "model_alias": "gemini-3.1-flash-lite",
-        "matches_scored": 3,
-        "total_points": 145,
-        "total_cost": 0.00829725,
-        "result_points": 100,
+        "model_alias": "gpt-5.4-nano",
+        "matches_scored": 4,
+        "total_points": 200,
+        "total_cost": 0.0072929,
+        "result_points": 150,
         "scoreline_points": 25,
         "goal_difference_points": 10,
-        "goal_scorer_points": 10,
-        "correct_results": 2,
+        "goal_scorer_points": 15,
+        "correct_results": 3,
         "exact_scores": 1,
-        "correct_goal_scorers": 2,
-        "average_points": 48.33
+        "correct_goal_scorers": 3,
+        "average_points": 50.0
       },
       {
         "model_alias": "glm-5.1",
-        "matches_scored": 3,
-        "total_points": 145,
+        "matches_scored": 4,
+        "total_points": 195,
         "total_cost": 0.07169596,
-        "result_points": 100,
+        "result_points": 150,
         "scoreline_points": 25,
         "goal_difference_points": 10,
         "goal_scorer_points": 10,
-        "correct_results": 2,
+        "correct_results": 3,
         "exact_scores": 1,
         "correct_goal_scorers": 2,
-        "average_points": 48.33
+        "average_points": 48.75
       },
       {
         "model_alias": "gpt-5.4-mini",
-        "matches_scored": 3,
-        "total_points": 145,
+        "matches_scored": 4,
+        "total_points": 195,
         "total_cost": 0.026712,
-        "result_points": 100,
+        "result_points": 150,
         "scoreline_points": 25,
         "goal_difference_points": 10,
         "goal_scorer_points": 10,
-        "correct_results": 2,
+        "correct_results": 3,
         "exact_scores": 1,
         "correct_goal_scorers": 2,
-        "average_points": 48.33
+        "average_points": 48.75
       },
       {
         "model_alias": "minimax-m3",
-        "matches_scored": 3,
-        "total_points": 140,
+        "matches_scored": 4,
+        "total_points": 190,
         "total_cost": 0.01835646,
-        "result_points": 100,
+        "result_points": 150,
         "scoreline_points": 25,
         "goal_difference_points": 10,
         "goal_scorer_points": 5,
-        "correct_results": 2,
+        "correct_results": 3,
         "exact_scores": 1,
         "correct_goal_scorers": 1,
-        "average_points": 46.67
+        "average_points": 47.5
       }
     ],
-    "generated_at": "2026-06-12T21:06:59.778362Z"
+    "generated_at": "2026-06-13T07:23:07.197443Z"
   },
   "resolution_state": {
     "result_attempts": {}
@@ -8268,6 +8628,46 @@
           "team": "Bosnia and Herzegovina",
           "scorer": "Jovo Lukić",
           "minute": 21
+        }
+      ]
+    },
+    "19": {
+      "match_id": 19,
+      "match": "United States vs Paraguay",
+      "fixture_id": 2391729,
+      "provider": "TheSportsDB",
+      "status": "FT",
+      "fetched_at": "2026-06-13T07:23:07.168526Z",
+      "team1": "United States",
+      "team2": "Paraguay",
+      "team1_score": 4,
+      "team2_score": 1,
+      "winner": "United States",
+      "goals": [
+        {
+          "team": "United States",
+          "scorer": "D. Bobadilla 7'(OG)",
+          "minute": null
+        },
+        {
+          "team": "United States",
+          "scorer": "F. Balogun",
+          "minute": 31
+        },
+        {
+          "team": "United States",
+          "scorer": "F. Balogun 45'+5'",
+          "minute": null
+        },
+        {
+          "team": "United States",
+          "scorer": "G. Reyna 90'+8'",
+          "minute": null
+        },
+        {
+          "team": "Paraguay",
+          "scorer": "Maurício",
+          "minute": 73
         }
       ]
     }
