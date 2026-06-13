@@ -136,7 +136,7 @@ h2 {
 .schedule-item {
   width: 100%;
   display: grid;
-  grid-template-columns: 38px minmax(0, 1fr);
+  grid-template-columns: 38px minmax(0, 1fr) 18px;
   gap: 5px 8px;
   min-height: 48px;
   margin: 0 0 5px;
@@ -148,11 +148,18 @@ h2 {
   cursor: pointer;
 }
 
-.schedule-item:hover,
+.schedule-item:not(:disabled):hover,
 .schedule-item.active {
   border-color: var(--line);
   background: var(--ink);
   color: var(--paper);
+}
+
+.schedule-item:disabled {
+  border-color: rgba(47, 42, 36, 0.16);
+  background: rgba(231, 221, 202, 0.46);
+  color: rgba(20, 17, 15, 0.42);
+  cursor: not-allowed;
 }
 
 .schedule-num {
@@ -186,9 +193,69 @@ h2 {
   white-space: nowrap;
 }
 
-.schedule-item:hover .schedule-meta,
+.schedule-status {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+  align-self: center;
+  justify-self: center;
+  width: 14px;
+  height: 14px;
+}
+
+.schedule-item.predicted .schedule-status {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: #2f80ed;
+  box-shadow: 0 0 0 0 rgba(47, 128, 237, 0.54);
+  animation: prediction-pulse 1.25s ease-in-out infinite;
+}
+
+.schedule-item.done .schedule-status {
+  position: relative;
+  border-radius: 999px;
+  background: var(--green);
+}
+
+.schedule-item.done .schedule-status::after {
+  content: "";
+  position: absolute;
+  left: 4px;
+  top: 2px;
+  width: 4px;
+  height: 7px;
+  border: solid rgba(244, 239, 229, 0.88);
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.schedule-item.upcoming .schedule-status {
+  border: 1px solid rgba(47, 42, 36, 0.22);
+  border-radius: 999px;
+}
+
+.schedule-item:disabled .schedule-num,
+.schedule-item:disabled .schedule-meta,
+.schedule-item:disabled .schedule-teams b {
+  color: rgba(20, 17, 15, 0.34);
+}
+
+.schedule-item:not(:disabled):hover .schedule-meta,
 .schedule-item.active .schedule-meta {
   color: var(--paper-2);
+}
+
+@keyframes prediction-pulse {
+  0%,
+  100% {
+    opacity: 0.42;
+    box-shadow: 0 0 0 0 rgba(47, 128, 237, 0.42);
+  }
+
+  50% {
+    opacity: 1;
+    box-shadow: 0 0 0 5px rgba(47, 128, 237, 0);
+  }
 }
 
 .benchmark-view {
@@ -323,10 +390,16 @@ th {
   min-width: 76px;
   padding: 5px 8px;
   border: 1px solid var(--line);
-  background: #d8ead5;
-  color: var(--green);
+  background: var(--pick-bg, #d8ead5);
+  color: var(--pick-fg, var(--green));
   font-weight: 900;
   text-align: center;
+  box-shadow: inset 0 0 0 1px rgba(255, 250, 240, 0.28);
+}
+
+.draw-pick {
+  border-color: rgba(47, 42, 36, 0.52);
+  box-shadow: none;
 }
 
 .model-label {

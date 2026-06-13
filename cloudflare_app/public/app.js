@@ -19,35 +19,86 @@ const modelRows = Object.entries(modelRegistry.models || {}).map(([alias, metada
 }));
 const modelMetadata = new Map(modelRows.map((row) => [row.alias, row]));
 const leaderboardSort = { key: "total_points", direction: "desc" };
+const pickColors = {
+  Algeria: { bg: "#006633", fg: "#ffffff" },
+  Argentina: { bg: "#75aadb", fg: "#14110f" },
+  Australia: { bg: "#ffcd00", fg: "#14110f" },
+  Austria: { bg: "#c8102e", fg: "#ffffff" },
+  Belgium: { bg: "#fae042", fg: "#14110f" },
+  "Bosnia & Herzegovina": { bg: "#002f6c", fg: "#ffffff" },
+  Brazil: { bg: "#009b3a", fg: "#ffffff" },
+  Canada: { bg: "#d80621", fg: "#ffffff" },
+  "Cape Verde": { bg: "#003893", fg: "#ffffff" },
+  Colombia: { bg: "#fcd116", fg: "#14110f" },
+  Croatia: { bg: "#171796", fg: "#ffffff" },
+  "Curaçao": { bg: "#002b7f", fg: "#ffffff" },
+  "Czech Republic": { bg: "#d7141a", fg: "#ffffff" },
+  "DR Congo": { bg: "#007fff", fg: "#14110f" },
+  Ecuador: { bg: "#ffdd00", fg: "#14110f" },
+  Egypt: { bg: "#ce1126", fg: "#ffffff" },
+  England: { bg: "#cf142b", fg: "#ffffff" },
+  France: { bg: "#0055a4", fg: "#ffffff" },
+  Germany: { bg: "#000000", fg: "#ffffff" },
+  Ghana: { bg: "#fcd116", fg: "#14110f" },
+  Haiti: { bg: "#00209f", fg: "#ffffff" },
+  Iran: { bg: "#239f40", fg: "#ffffff" },
+  Iraq: { bg: "#ce1126", fg: "#ffffff" },
+  "Ivory Coast": { bg: "#f77f00", fg: "#14110f" },
+  Japan: { bg: "#bc002d", fg: "#ffffff" },
+  Jordan: { bg: "#007a3d", fg: "#ffffff" },
+  Mexico: { bg: "#006847", fg: "#ffffff" },
+  Morocco: { bg: "#c1272d", fg: "#ffffff" },
+  Netherlands: { bg: "#ff4f00", fg: "#14110f" },
+  "New Zealand": { bg: "#00247d", fg: "#ffffff" },
+  Norway: { bg: "#ba0c2f", fg: "#ffffff" },
+  Panama: { bg: "#005293", fg: "#ffffff" },
+  Paraguay: { bg: "#0038a8", fg: "#ffffff" },
+  Portugal: { bg: "#006600", fg: "#ffffff" },
+  Qatar: { bg: "#8a1538", fg: "#ffffff" },
+  "Saudi Arabia": { bg: "#006c35", fg: "#ffffff" },
+  Scotland: { bg: "#005eb8", fg: "#ffffff" },
+  Senegal: { bg: "#00853f", fg: "#ffffff" },
+  "South Africa": { bg: "#007a4d", fg: "#ffffff" },
+  "South Korea": { bg: "#c60c30", fg: "#ffffff" },
+  Spain: { bg: "#aa151b", fg: "#ffffff" },
+  Sweden: { bg: "#006aa7", fg: "#ffffff" },
+  Switzerland: { bg: "#d52b1e", fg: "#ffffff" },
+  Tunisia: { bg: "#e70013", fg: "#ffffff" },
+  Turkey: { bg: "#e30a17", fg: "#ffffff" },
+  "United States": { bg: "#3c3b6e", fg: "#ffffff" },
+  Uruguay: { bg: "#0038a8", fg: "#ffffff" },
+  Uzbekistan: { bg: "#0099b5", fg: "#14110f" },
+  Draw: { bg: "#b8b1a7", fg: "#14110f" },
+};
 
 renderSchedule();
 renderLeaderboard();
-selectMatch(matchIdFromHash() || 1);
+selectMatch(selectableMatchId(matchIdFromHash()) || defaultMatchId());
 wireTabs();
 
 window.addEventListener("hashchange", () => {
-  selectMatch(matchIdFromHash() || 1);
+  selectMatch(selectableMatchId(matchIdFromHash()) || defaultMatchId());
 });
 
 function renderSchedule() {
   const list = document.getElementById("scheduleList");
-  const chronologicalSchedule = [...schedule].sort((a, b) => {
-    const kickoffA = Date.parse(a.kickoff_utc || `${a.date}T23:59:59Z`);
-    const kickoffB = Date.parse(b.kickoff_utc || `${b.date}T23:59:59Z`);
-    return kickoffA - kickoffB || Number(a.match_id) - Number(b.match_id);
-  });
+  const chronologicalSchedule = chronologicalMatches();
   const buttons = chronologicalSchedule.map((match, index) => {
+    const status = matchStatus(match);
     const button = document.createElement("button");
-    button.className = "schedule-item";
+    button.className = `schedule-item ${status}`;
     button.type = "button";
     button.dataset.matchId = match.match_id;
+    button.disabled = status === "upcoming";
+    button.setAttribute("aria-label", `${match.team1} vs ${match.team2}, ${status}`);
     button.innerHTML = `
       <span class="schedule-num">${String(index + 1).padStart(3, "0")}</span>
       <span class="schedule-teams">${escapeHtml(match.team1)} <b>vs</b> ${escapeHtml(match.team2)}</span>
       <span class="schedule-meta">${escapeHtml(match.date)} · ${escapeHtml(match.ground)}</span>
+      <span class="schedule-status" aria-hidden="true"></span>
     `;
     button.addEventListener("click", () => {
-      window.location.hash = `match-${match.match_id}`;
+      window.location.hash = `match-${index + 1}`;
     });
     return button;
   });
@@ -56,19 +107,55 @@ function renderSchedule() {
 
 function selectMatch(matchId) {
   const match = schedule.find((item) => Number(item.match_id) === Number(matchId)) || schedule[0];
-  const matchName = `${match.team1} vs ${match.team2}`;
-  const predictions = latestByAlias(
-    allPredictions.filter((row) => Number(row.match_id) === Number(match.match_id) || row.match === matchName),
-  );
+  const predictions = latestByAlias(predictionsForMatch(match));
   const result = predictionStore.results?.[String(match.match_id)];
 
   for (const button of document.querySelectorAll(".schedule-item")) {
     button.classList.toggle("active", Number(button.dataset.matchId) === Number(match.match_id));
   }
+  document.querySelector(".schedule-item.active")?.scrollIntoView({ block: "nearest" });
 
   renderSummary(match, predictions, result);
   renderPredictionState(predictions);
   renderPredictionTable(predictions);
+}
+
+function matchStatus(match) {
+  const predictions = predictionsForMatch(match);
+  if (predictionStore.results?.[String(match.match_id)] || predictions.some((row) => row.score)) {
+    return "done";
+  }
+  return predictions.length ? "predicted" : "upcoming";
+}
+
+function predictionsForMatch(match) {
+  const matchName = `${match.team1} vs ${match.team2}`;
+  return allPredictions.filter(
+    (row) => Number(row.match_id) === Number(match.match_id) || row.match === matchName,
+  );
+}
+
+function defaultMatchId() {
+  const chronologicalSchedule = chronologicalMatches();
+  const firstPredicted = chronologicalSchedule.find((match) => matchStatus(match) === "predicted");
+  if (firstPredicted) return Number(firstPredicted.match_id);
+
+  const doneMatches = chronologicalSchedule.filter((match) => matchStatus(match) === "done");
+  return Number(doneMatches.at(-1)?.match_id || chronologicalSchedule[0]?.match_id || 1);
+}
+
+function selectableMatchId(matchId) {
+  if (!matchId) return null;
+  const match = schedule.find((item) => Number(item.match_id) === Number(matchId));
+  return match && matchStatus(match) !== "upcoming" ? Number(match.match_id) : null;
+}
+
+function chronologicalMatches() {
+  return [...schedule].sort((a, b) => {
+    const kickoffA = Date.parse(a.kickoff_utc || `${a.date}T23:59:59Z`);
+    const kickoffB = Date.parse(b.kickoff_utc || `${b.date}T23:59:59Z`);
+    return kickoffA - kickoffB || Number(a.match_id) - Number(b.match_id);
+  });
 }
 
 function latestByAlias(rows) {
@@ -358,11 +445,7 @@ function latestScoredPredictionsForAlias(alias) {
 }
 
 function chronologicalMatchNumber(matchId) {
-  const ordered = [...schedule].sort((a, b) => {
-    const kickoffA = Date.parse(a.kickoff_utc || `${a.date}T23:59:59Z`);
-    const kickoffB = Date.parse(b.kickoff_utc || `${b.date}T23:59:59Z`);
-    return kickoffA - kickoffB || Number(a.match_id) - Number(b.match_id);
-  });
+  const ordered = chronologicalMatches();
   return ordered.findIndex((match) => Number(match.match_id) === Number(matchId)) + 1;
 }
 
@@ -417,7 +500,8 @@ function wireTabs() {
 
 function matchIdFromHash() {
   const match = window.location.hash.match(/^#match-(\d+)$/);
-  return match ? Number(match[1]) : null;
+  if (!match) return null;
+  return Number(chronologicalMatches()[Number(match[1]) - 1]?.match_id || 0) || null;
 }
 
 function mode(values) {
@@ -437,7 +521,10 @@ function cell(value) {
 function cellWithPick(value) {
   const td = document.createElement("td");
   const span = document.createElement("span");
-  span.className = "pick";
+  const colors = pickColors[value] || pickColors.Draw;
+  span.className = `pick ${colors === pickColors.Draw ? "draw-pick" : "team-pick"}`;
+  span.style.setProperty("--pick-bg", colors.bg);
+  span.style.setProperty("--pick-fg", colors.fg);
   span.textContent = value ?? "";
   td.append(span);
   return td;
