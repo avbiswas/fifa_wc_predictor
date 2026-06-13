@@ -117,6 +117,7 @@ function selectMatch(matchId) {
 
   renderSummary(match, predictions, result);
   renderPredictionState(predictions);
+  renderTugOfWar(match, predictions, result);
   renderPredictionTable(predictions);
 }
 
@@ -191,6 +192,86 @@ function renderPredictionState(rows) {
   const predictionContent = document.getElementById("predictionContent");
   tbaView.hidden = rows.length > 0;
   predictionContent.hidden = rows.length === 0;
+}
+
+function renderTugOfWar(match, rows, result) {
+  const element = document.getElementById("tugOfWar");
+  if (!rows.length) {
+    element.replaceChildren();
+    return;
+  }
+
+  const team1 = match.team1;
+  const team2 = match.team2;
+  const pull = weightedPull(team1, team2, rows);
+  const team1Colors = pickColors[team1] || pickColors.Draw;
+  const team2Colors = pickColors[team2] || pickColors.Draw;
+  const leader = pull.team1 === pull.team2
+    ? "Even pull"
+    : `${pull.team1 > pull.team2 ? team1 : team2} ${Math.abs(pull.team1 - pull.team2)} pts ahead`;
+  const finalLine = result
+    ? `Final ${result.team1} ${result.team1_score}-${result.team2_score} ${result.team2}`
+    : "";
+
+  element.style.setProperty("--team1-bg", team1Colors.bg);
+  element.style.setProperty("--team1-fg", team1Colors.fg);
+  element.style.setProperty("--team2-bg", team2Colors.bg);
+  element.style.setProperty("--team2-fg", team2Colors.fg);
+  element.style.setProperty("--team1-pull", `${pull.team1}%`);
+  element.innerHTML = `
+    <div class="tug-head">
+      <div>
+        <p class="eyebrow">Model pull</p>
+        <strong>${escapeHtml(leader)}</strong>
+      </div>
+      ${finalLine ? `<span class="tug-final">${escapeHtml(finalLine)}</span>` : ""}
+    </div>
+    <div class="tug-stage">
+      <div class="tug-team tug-team-one">
+        <span>${escapeHtml(team1)}</span>
+        <strong>${pull.team1}%</strong>
+      </div>
+      <div class="tug-rope" aria-hidden="true">
+        <span class="tug-left"></span>
+        <span class="tug-knot"></span>
+        <span class="tug-right"></span>
+      </div>
+      <div class="tug-team tug-team-two">
+        <strong>${pull.team2}%</strong>
+        <span>${escapeHtml(team2)}</span>
+      </div>
+    </div>
+  `;
+}
+
+function weightedPull(team1, team2, rows) {
+  let team1Pull = 0;
+  let team2Pull = 0;
+
+  for (const row of rows) {
+    const confidence = confidenceWeight(row.confidence);
+    if (row.prediction === team1) {
+      team1Pull += 0.5 + confidence / 2;
+      team2Pull += 0.5 - confidence / 2;
+    } else if (row.prediction === team2) {
+      team1Pull += 0.5 - confidence / 2;
+      team2Pull += 0.5 + confidence / 2;
+    } else if (row.prediction === "Draw") {
+      team1Pull += 0.5;
+      team2Pull += 0.5;
+    }
+  }
+
+  const total = team1Pull + team2Pull;
+  if (!total) return { team1: 50, team2: 50 };
+
+  const team1Percent = Math.round((team1Pull / total) * 100);
+  return { team1: team1Percent, team2: 100 - team1Percent };
+}
+
+function confidenceWeight(value) {
+  if (value === undefined || value === null || value === "") return 1;
+  return Math.min(Math.max(Number(value), 0), 1);
 }
 
 function renderPredictionTable(rows) {
