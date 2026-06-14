@@ -147,6 +147,21 @@ PYTHONPATH=. uv run python scripts/backtest_predictions.py
 
 This writes `reports/backtest_latest.json` and `reports/backtest_latest.md` with completed match scores, model summaries, per-prediction rows, and consensus results. Reports are generated artifacts and are ignored by git.
 
+Build a weighted + calibrated ensemble forecast:
+
+```bash
+PYTHONPATH=. uv run python scripts/ensemble_forecast.py
+```
+
+The ensemble uses `config/ensemble_models.json` to pick a top-performing model pool, weight models by recent scored performance, and add a draw-risk calibration layer. Its report compares raw consensus, weighted consensus, and calibrated picks on completed matches, then emits final forecasts for unscored matches.
+
+Run a configured Hermes roster before building the ensemble:
+
+```bash
+PYTHONPATH=. uv run python scripts/run_model_roster.py --dry-run
+PYTHONPATH=. uv run python scripts/run_model_roster.py --days 3 --future-only
+```
+
 ## Optional Hermes backend
 
 If you use [Hermes Agent](https://github.com/NousResearch/hermes-agent), you can run prepared match artifacts through your locally configured Hermes model/provider without using the OpenRouter/DSPy path:

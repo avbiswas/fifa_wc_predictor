@@ -1,0 +1,21 @@
+{
+  "min_matches_for_weight": 3,
+  "min_coverage_ratio": 0.75,
+  "top_models": 5,
+  "weight_floor": 0.25,
+  "draw_vote_threshold": 2,
+  "draw_probability_floor": 0.2,
+  "raw_draw_vote_threshold": 3,
+  "raw_draw_share_floor": 0.2,
+  "weak_favorite_probability_ceiling": 0.62,
+  "low_confidence_ceiling": 0.62,
+  "unanimous_low_confidence_ceiling": 0.68,
+  "risk_confidence_penalty": 0.12,
+  "hermes_roster": [
+    {
+      "provider": null,
+      "model": null,
+      "description": "Use Hermes' configured default provider/model."
+    }
+  ]
+}
