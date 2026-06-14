@@ -102,6 +102,23 @@ class ScoringTests(unittest.TestCase):
         self.assertEqual(leaderboard["completed_matchdays"], 1)
         self.assertTrue(leaderboard["available"])
 
+    def test_leaderboard_accepts_external_model_aliases(self) -> None:
+        store = {
+            "results": {"1": {"match_id": 1}},
+            "predictions": [
+                {
+                    "match_id": 1,
+                    "model_alias": "hermes-gpt-5.5-codex",
+                    "usage": {"totals": {"cost": 0}},
+                    "score": {"total": 60, "result": 50, "scoreline": 0, "goal_difference": 10, "goal_scorers": 0},
+                },
+            ],
+        }
+        leaderboard = update_leaderboard(store, [{"match_id": "1", "round": "Matchday 1"}])
+        hermes = next(row for row in leaderboard["rows"] if row["model_alias"] == "hermes-gpt-5.5-codex")
+        self.assertEqual(hermes["matches_scored"], 1)
+        self.assertEqual(hermes["total_points"], 60)
+
 
 class ResultNormalizationTests(unittest.TestCase):
     def test_common_international_team_aliases(self) -> None:

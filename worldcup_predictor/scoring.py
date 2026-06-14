@@ -72,28 +72,14 @@ def update_leaderboard(store: dict, schedule: list[dict]) -> dict:
         if prediction.get("score"):
             latest[key] = prediction
 
-    aggregates = {
-        alias: {
-            "model_alias": alias,
-            "matches_scored": 0,
-            "total_points": 0,
-            "total_cost": 0.0,
-            "result_points": 0,
-            "scoreline_points": 0,
-            "goal_difference_points": 0,
-            "goal_scorer_points": 0,
-            "correct_results": 0,
-            "exact_scores": 0,
-            "correct_goal_scorers": 0,
-        }
-        for alias in registry.get("models", {})
-    }
+    aggregates = {alias: _empty_leaderboard_row(alias) for alias in registry.get("models", {})}
     for (_, alias), prediction in latest_predictions.items():
-        aggregates[alias]["total_cost"] += float(
+        row = aggregates.setdefault(alias, _empty_leaderboard_row(alias))
+        row["total_cost"] += float(
             prediction.get("usage", {}).get("totals", {}).get("cost") or 0
         )
     for (_, alias), prediction in latest.items():
-        row = aggregates[alias]
+        row = aggregates.setdefault(alias, _empty_leaderboard_row(alias))
         score = prediction["score"]
         row["matches_scored"] += 1
         row["total_points"] += int(score["total"])
@@ -135,6 +121,22 @@ def update_leaderboard(store: dict, schedule: list[dict]) -> dict:
     )
     store["leaderboard"] = leaderboard
     return leaderboard
+
+
+def _empty_leaderboard_row(alias: str) -> dict:
+    return {
+        "model_alias": alias,
+        "matches_scored": 0,
+        "total_points": 0,
+        "total_cost": 0.0,
+        "result_points": 0,
+        "scoreline_points": 0,
+        "goal_difference_points": 0,
+        "goal_scorer_points": 0,
+        "correct_results": 0,
+        "exact_scores": 0,
+        "correct_goal_scorers": 0,
+    }
 
 
 def parse_scoreline(value: str) -> tuple[int, int] | None:
