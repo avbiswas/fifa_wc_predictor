@@ -13279,6 +13279,30 @@
         "key": "haiti vs scotland",
         "news_from_cache": false,
         "polymarket_from_cache": false
+      },
+      "score": {
+        "total": 65,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 10,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Che Adams",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "John McGinn",
+            "matched_scorer": "J. McGinn",
+            "points": 5
+          },
+          {
+            "predicted": "Duckens Nazon",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -13421,6 +13445,30 @@
         "key": "haiti vs scotland",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "score": {
+        "total": 65,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 10,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Che Adams",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "John McGinn",
+            "matched_scorer": "J. McGinn",
+            "points": 5
+          },
+          {
+            "predicted": "Duckens Nazon",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -13563,6 +13611,30 @@
         "key": "haiti vs scotland",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "score": {
+        "total": 60,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 10,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "NazON Duckens",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Scott McTominay",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Lawr ence Shankland",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -13705,6 +13777,30 @@
         "key": "haiti vs scotland",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "John McGinn",
+            "matched_scorer": "J. McGinn",
+            "points": 5
+          },
+          {
+            "predicted": "Che Adams",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Lawrence Shankland",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -13847,6 +13943,30 @@
         "key": "haiti vs scotland",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "score": {
+        "total": 65,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 10,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "John McGinn",
+            "matched_scorer": "J. McGinn",
+            "points": 5
+          },
+          {
+            "predicted": "Che Adams",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Duckens Nazon",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -13989,6 +14109,30 @@
         "key": "haiti vs scotland",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "score": {
+        "total": 65,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 10,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "John McGinn",
+            "matched_scorer": "J. McGinn",
+            "points": 5
+          },
+          {
+            "predicted": "Che Adams",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Duckens Nazon",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -14131,6 +14275,30 @@
         "key": "haiti vs scotland",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "score": {
+        "total": 65,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 10,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "John McGinn",
+            "matched_scorer": "J. McGinn",
+            "points": 5
+          },
+          {
+            "predicted": "Che Adams",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Duckens Nazon",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -14273,6 +14441,30 @@
         "key": "haiti vs scotland",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Che Adams",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Lyndon Dykes",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "John McGinn",
+            "matched_scorer": "J. McGinn",
+            "points": 5
+          }
+        ]
       }
     },
     {
@@ -14415,6 +14607,30 @@
         "key": "haiti vs scotland",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "John McGinn",
+            "matched_scorer": "J. McGinn",
+            "points": 5
+          },
+          {
+            "predicted": "Che Adams",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Duckens Nazon",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -14557,6 +14773,30 @@
         "key": "haiti vs scotland",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Che Adams",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "John McGinn",
+            "matched_scorer": "J. McGinn",
+            "points": 5
+          },
+          {
+            "predicted": "Duckens Nazon",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -14699,6 +14939,30 @@
         "key": "haiti vs scotland",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "score": {
+        "total": 65,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 10,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Che Adams",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "John McGinn",
+            "matched_scorer": "J. McGinn",
+            "points": 5
+          },
+          {
+            "predicted": "Duckens Nazon",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -15006,6 +15270,30 @@
         "key": "haiti vs scotland",
         "news_from_cache": true,
         "polymarket_from_cache": true
+      },
+      "score": {
+        "total": 65,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 10,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Che Adams",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "John McGinn",
+            "matched_scorer": "J. McGinn",
+            "points": 5
+          },
+          {
+            "predicted": "Lyndon Dykes",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
       }
     },
     {
@@ -15132,7 +15420,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Che Adams",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "John McGinn",
+            "matched_scorer": "J. McGinn",
+            "points": 5
+          },
+          {
+            "predicted": "Ryan Christie",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-13T15:52:02.126212Z",
@@ -15258,7 +15570,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 50,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "McGinn",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Adams",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Nazon",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-13T15:59:42.294628Z",
@@ -16284,7 +16620,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 65,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 10,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Duckens Nazon",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Frantzdy Pierrot",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "John McGinn",
+            "matched_scorer": "J. McGinn",
+            "points": 5
+          }
+        ]
+      }
     }
   ],
   "leaderboard": {
@@ -16293,37 +16653,135 @@
     "rows": [
       {
         "model_alias": "qwen-3.7-max",
-        "matches_scored": 6,
-        "total_points": 315,
+        "matches_scored": 7,
+        "total_points": 370,
         "total_cost": 0.11555125,
-        "result_points": 200,
+        "result_points": 250,
         "scoreline_points": 75,
         "goal_difference_points": 30,
-        "goal_scorer_points": 10,
-        "correct_results": 4,
+        "goal_scorer_points": 15,
+        "correct_results": 5,
         "exact_scores": 3,
-        "correct_goal_scorers": 2,
-        "average_points": 52.5
+        "correct_goal_scorers": 3,
+        "average_points": 52.86
       },
       {
         "model_alias": "kimi-k2.6",
-        "matches_scored": 6,
-        "total_points": 295,
+        "matches_scored": 7,
+        "total_points": 360,
         "total_cost": 0.13316148,
-        "result_points": 200,
+        "result_points": 250,
         "scoreline_points": 50,
-        "goal_difference_points": 20,
-        "goal_scorer_points": 25,
-        "correct_results": 4,
+        "goal_difference_points": 30,
+        "goal_scorer_points": 30,
+        "correct_results": 5,
         "exact_scores": 2,
-        "correct_goal_scorers": 5,
-        "average_points": 49.17
+        "correct_goal_scorers": 6,
+        "average_points": 51.43
       },
       {
         "model_alias": "gemini-3.5-flash",
-        "matches_scored": 6,
-        "total_points": 290,
+        "matches_scored": 7,
+        "total_points": 355,
         "total_cost": 0.1331505,
+        "result_points": 250,
+        "scoreline_points": 50,
+        "goal_difference_points": 30,
+        "goal_scorer_points": 25,
+        "correct_results": 5,
+        "exact_scores": 2,
+        "correct_goal_scorers": 5,
+        "average_points": 50.71
+      },
+      {
+        "model_alias": "grok-4.3",
+        "matches_scored": 7,
+        "total_points": 305,
+        "total_cost": 0.06625765,
+        "result_points": 200,
+        "scoreline_points": 50,
+        "goal_difference_points": 30,
+        "goal_scorer_points": 25,
+        "correct_results": 4,
+        "exact_scores": 2,
+        "correct_goal_scorers": 5,
+        "average_points": 43.57
+      },
+      {
+        "model_alias": "mimo-v2.5-pro",
+        "matches_scored": 7,
+        "total_points": 305,
+        "total_cost": 0.0671888,
+        "result_points": 200,
+        "scoreline_points": 50,
+        "goal_difference_points": 30,
+        "goal_scorer_points": 25,
+        "correct_results": 4,
+        "exact_scores": 2,
+        "correct_goal_scorers": 5,
+        "average_points": 43.57
+      },
+      {
+        "model_alias": "gpt-5.5",
+        "matches_scored": 7,
+        "total_points": 300,
+        "total_cost": 0.422795,
+        "result_points": 200,
+        "scoreline_points": 50,
+        "goal_difference_points": 30,
+        "goal_scorer_points": 20,
+        "correct_results": 4,
+        "exact_scores": 2,
+        "correct_goal_scorers": 4,
+        "average_points": 42.86
+      },
+      {
+        "model_alias": "claude-sonnet-4.7",
+        "matches_scored": 7,
+        "total_points": 295,
+        "total_cost": 0.326319,
+        "result_points": 200,
+        "scoreline_points": 50,
+        "goal_difference_points": 30,
+        "goal_scorer_points": 15,
+        "correct_results": 4,
+        "exact_scores": 2,
+        "correct_goal_scorers": 3,
+        "average_points": 42.14
+      },
+      {
+        "model_alias": "deepseek-v4-pro",
+        "matches_scored": 7,
+        "total_points": 295,
+        "total_cost": 0.11771295,
+        "result_points": 200,
+        "scoreline_points": 50,
+        "goal_difference_points": 20,
+        "goal_scorer_points": 25,
+        "correct_results": 4,
+        "exact_scores": 2,
+        "correct_goal_scorers": 5,
+        "average_points": 42.14
+      },
+      {
+        "model_alias": "gemini-3.1-pro",
+        "matches_scored": 7,
+        "total_points": 295,
+        "total_cost": 0.278282,
+        "result_points": 200,
+        "scoreline_points": 50,
+        "goal_difference_points": 30,
+        "goal_scorer_points": 15,
+        "correct_results": 4,
+        "exact_scores": 2,
+        "correct_goal_scorers": 3,
+        "average_points": 42.14
+      },
+      {
+        "model_alias": "claude-haiku-4.5",
+        "matches_scored": 7,
+        "total_points": 290,
+        "total_cost": 0.093778,
         "result_points": 200,
         "scoreline_points": 50,
         "goal_difference_points": 20,
@@ -16331,187 +16789,83 @@
         "correct_results": 4,
         "exact_scores": 2,
         "correct_goal_scorers": 4,
-        "average_points": 48.33
-      },
-      {
-        "model_alias": "deepseek-v4-pro",
-        "matches_scored": 6,
-        "total_points": 240,
-        "total_cost": 0.11771295,
-        "result_points": 150,
-        "scoreline_points": 50,
-        "goal_difference_points": 20,
-        "goal_scorer_points": 20,
-        "correct_results": 3,
-        "exact_scores": 2,
-        "correct_goal_scorers": 4,
-        "average_points": 40.0
-      },
-      {
-        "model_alias": "grok-4.3",
-        "matches_scored": 6,
-        "total_points": 240,
-        "total_cost": 0.06625765,
-        "result_points": 150,
-        "scoreline_points": 50,
-        "goal_difference_points": 20,
-        "goal_scorer_points": 20,
-        "correct_results": 3,
-        "exact_scores": 2,
-        "correct_goal_scorers": 4,
-        "average_points": 40.0
-      },
-      {
-        "model_alias": "mimo-v2.5-pro",
-        "matches_scored": 6,
-        "total_points": 240,
-        "total_cost": 0.0671888,
-        "result_points": 150,
-        "scoreline_points": 50,
-        "goal_difference_points": 20,
-        "goal_scorer_points": 20,
-        "correct_results": 3,
-        "exact_scores": 2,
-        "correct_goal_scorers": 4,
-        "average_points": 40.0
-      },
-      {
-        "model_alias": "claude-haiku-4.5",
-        "matches_scored": 6,
-        "total_points": 235,
-        "total_cost": 0.093778,
-        "result_points": 150,
-        "scoreline_points": 50,
-        "goal_difference_points": 20,
-        "goal_scorer_points": 15,
-        "correct_results": 3,
-        "exact_scores": 2,
-        "correct_goal_scorers": 3,
-        "average_points": 39.17
-      },
-      {
-        "model_alias": "gpt-5.5",
-        "matches_scored": 6,
-        "total_points": 235,
-        "total_cost": 0.422795,
-        "result_points": 150,
-        "scoreline_points": 50,
-        "goal_difference_points": 20,
-        "goal_scorer_points": 15,
-        "correct_results": 3,
-        "exact_scores": 2,
-        "correct_goal_scorers": 3,
-        "average_points": 39.17
-      },
-      {
-        "model_alias": "claude-sonnet-4.7",
-        "matches_scored": 6,
-        "total_points": 230,
-        "total_cost": 0.326319,
-        "result_points": 150,
-        "scoreline_points": 50,
-        "goal_difference_points": 20,
-        "goal_scorer_points": 10,
-        "correct_results": 3,
-        "exact_scores": 2,
-        "correct_goal_scorers": 2,
-        "average_points": 38.33
-      },
-      {
-        "model_alias": "gemini-3.1-pro",
-        "matches_scored": 6,
-        "total_points": 230,
-        "total_cost": 0.278282,
-        "result_points": 150,
-        "scoreline_points": 50,
-        "goal_difference_points": 20,
-        "goal_scorer_points": 10,
-        "correct_results": 3,
-        "exact_scores": 2,
-        "correct_goal_scorers": 2,
-        "average_points": 38.33
-      },
-      {
-        "model_alias": "gemini-3.1-flash-lite",
-        "matches_scored": 6,
-        "total_points": 210,
-        "total_cost": 0.01678575,
-        "result_points": 150,
-        "scoreline_points": 25,
-        "goal_difference_points": 10,
-        "goal_scorer_points": 25,
-        "correct_results": 3,
-        "exact_scores": 1,
-        "correct_goal_scorers": 5,
-        "average_points": 35.0
+        "average_points": 41.43
       },
       {
         "model_alias": "gpt-5.4-mini",
-        "matches_scored": 6,
-        "total_points": 205,
+        "matches_scored": 7,
+        "total_points": 270,
         "total_cost": 0.050268,
-        "result_points": 150,
+        "result_points": 200,
+        "scoreline_points": 25,
+        "goal_difference_points": 20,
+        "goal_scorer_points": 25,
+        "correct_results": 4,
+        "exact_scores": 1,
+        "correct_goal_scorers": 5,
+        "average_points": 38.57
+      },
+      {
+        "model_alias": "gemini-3.1-flash-lite",
+        "matches_scored": 7,
+        "total_points": 265,
+        "total_cost": 0.01678575,
+        "result_points": 200,
         "scoreline_points": 25,
         "goal_difference_points": 10,
-        "goal_scorer_points": 20,
-        "correct_results": 3,
+        "goal_scorer_points": 30,
+        "correct_results": 4,
         "exact_scores": 1,
-        "correct_goal_scorers": 4,
-        "average_points": 34.17
+        "correct_goal_scorers": 6,
+        "average_points": 37.86
       },
       {
         "model_alias": "gpt-5.4-nano",
-        "matches_scored": 6,
-        "total_points": 205,
+        "matches_scored": 7,
+        "total_points": 265,
         "total_cost": 0.0143483,
-        "result_points": 150,
+        "result_points": 200,
         "scoreline_points": 25,
-        "goal_difference_points": 10,
+        "goal_difference_points": 20,
         "goal_scorer_points": 20,
-        "correct_results": 3,
+        "correct_results": 4,
         "exact_scores": 1,
         "correct_goal_scorers": 4,
-        "average_points": 34.17
+        "average_points": 37.86
       },
       {
         "model_alias": "glm-5.1",
-        "matches_scored": 6,
-        "total_points": 200,
+        "matches_scored": 7,
+        "total_points": 250,
         "total_cost": 0.12768214,
-        "result_points": 150,
+        "result_points": 200,
         "scoreline_points": 25,
         "goal_difference_points": 10,
         "goal_scorer_points": 15,
-        "correct_results": 3,
+        "correct_results": 4,
         "exact_scores": 1,
         "correct_goal_scorers": 3,
-        "average_points": 33.33
+        "average_points": 35.71
       },
       {
         "model_alias": "minimax-m3",
-        "matches_scored": 6,
-        "total_points": 190,
+        "matches_scored": 7,
+        "total_points": 245,
         "total_cost": 0.03433164,
-        "result_points": 150,
+        "result_points": 200,
         "scoreline_points": 25,
         "goal_difference_points": 10,
-        "goal_scorer_points": 5,
-        "correct_results": 3,
+        "goal_scorer_points": 10,
+        "correct_results": 4,
         "exact_scores": 1,
-        "correct_goal_scorers": 1,
-        "average_points": 31.67
+        "correct_goal_scorers": 2,
+        "average_points": 35.0
       }
     ],
-    "generated_at": "2026-06-14T01:42:31.298315Z"
+    "generated_at": "2026-06-14T03:50:23.586043Z"
   },
   "resolution_state": {
-    "result_attempts": {
-      "14": {
-        "checked_at": "2026-06-14T01:42:11.005238Z",
-        "retry_after": "2026-06-14T02:42:11.005238Z",
-        "error": "TheSportsDB event 2391731 is not finished (status=1H)."
-      }
-    }
+    "result_attempts": {}
   },
   "results": {
     "1": {
@@ -16681,6 +17035,26 @@
           "team": "Morocco",
           "scorer": "I. Saibari",
           "minute": 21
+        }
+      ]
+    },
+    "14": {
+      "match_id": 14,
+      "match": "Haiti vs Scotland",
+      "fixture_id": 2391731,
+      "provider": "TheSportsDB",
+      "status": "FT",
+      "fetched_at": "2026-06-14T03:50:23.568276Z",
+      "team1": "Haiti",
+      "team2": "Scotland",
+      "team1_score": 0,
+      "team2_score": 1,
+      "winner": "Scotland",
+      "goals": [
+        {
+          "team": "Scotland",
+          "scorer": "J. McGinn",
+          "minute": 28
         }
       ]
     }
