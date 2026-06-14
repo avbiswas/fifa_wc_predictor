@@ -32,3 +32,46 @@ def save_prediction_record(record: dict) -> str:
     store.setdefault("predictions", []).append(stored_record)
     write_prediction_store(store)
     return str(PREDICTIONS_PATH.relative_to(ROOT))
+
+
+def model_performance_context(
+    store: dict,
+    model_alias: str,
+    model: str,
+    current_match_id: int | None = None,
+    limit: int = 5,
+) -> str:
+    rows = []
+    results = store.get("results", {})
+    for prediction in store.get("predictions", []):
+        if prediction.get("model_alias") != model_alias and prediction.get("model") != model:
+            continue
+        match_id = prediction.get("match_id")
+        if match_id is None or (current_match_id is not None and int(match_id) == current_match_id):
+            continue
+        result = results.get(str(match_id))
+        score = prediction.get("score")
+        if not result or not score:
+            continue
+        rows.append((prediction.get("created_at") or "", prediction, result, score))
+
+    if not rows:
+        return "Your last 5 match performances:\nNo scored match history available yet."
+
+    lines = ["Your last 5 match performances:"]
+    for index, (_, prediction, result, score) in enumerate(
+        sorted(rows, key=lambda row: row[0], reverse=True)[:limit],
+        start=1,
+    ):
+        winner = result.get("winner") or "Unknown"
+        final_score = (
+            f"{result.get('team1')} {result.get('team1_score')}-"
+            f"{result.get('team2_score')} {result.get('team2')}"
+        )
+        lines.append(
+            f"{index} | {prediction.get('match')} | "
+            f"You predicted {prediction.get('scoreline')} | "
+            f"Final score: {final_score} ({winner}) | "
+            f"Your points: {score.get('total')}/100"
+        )
+    return "\n".join(lines)

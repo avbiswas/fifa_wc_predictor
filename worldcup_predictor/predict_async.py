@@ -12,7 +12,7 @@ from .env import load_env
 from .goal_scorers import normalize_goal_scorers
 from .models import default_model_alias, resolve_model
 from .paths import PREDICTIONS_PATH, ROOT
-from .predictions import load_prediction_store, write_prediction_store
+from .predictions import load_prediction_store, model_performance_context, write_prediction_store
 from .prepare import prepare_match_data
 from .usage import extract_lm_usage
 
@@ -36,6 +36,7 @@ async def _predict_one(
     match_id: int,
     prepared: dict,
     news_summary: str,
+    performance_store: dict,
     semaphore: asyncio.Semaphore,
 ) -> dict:
     async with semaphore:
@@ -44,6 +45,12 @@ async def _predict_one(
         lm = make_lm(resolved_model)
         team1, team2, _ = prepared["choices"]
         model_inputs = prepared["model_inputs"]
+        performance_history = model_performance_context(
+            performance_store,
+            model_alias=model_alias,
+            model=resolved_model,
+            current_match_id=match_id,
+        )
 
         predictor = MatchPredictor(team1, team2)
         print(f"  [{alias}] started", flush=True)
@@ -55,6 +62,7 @@ async def _predict_one(
                 team1_squad=model_inputs["team1_squad"],
                 team2_squad=model_inputs["team2_squad"],
                 recent_record=model_inputs["recent_record"],
+                performance_history=performance_history,
                 polymarket_odds=model_inputs["polymarket_odds"],
             )
 
@@ -72,6 +80,7 @@ async def _predict_one(
             "rationale": result.rationale,
             "usage": extract_lm_usage(lm),
             "news_summary": news_summary,
+            "performance_history": performance_history,
             "polymarket_odds": prepared["artifacts"]["polymarket_odds"],
         }
         print(f"  [{alias}] done in {elapsed:.1f}s — {result.prediction} ({result.scoreline})", flush=True)
@@ -96,12 +105,13 @@ async def run_predictions_async(
     print(f"[{match_name}] running {len(aliases)} prediction(s) in parallel (max {max_concurrent} concurrent)...", flush=True)
 
     semaphore = asyncio.Semaphore(max_concurrent)
+    performance_store = load_prediction_store()
     successes: list[dict] = []
     failures: list[dict] = []
 
     async def run_one(alias: str) -> None:
         try:
-            output = await _predict_one(alias, match_id, prepared, news_summary, semaphore)
+            output = await _predict_one(alias, match_id, prepared, news_summary, performance_store, semaphore)
             if not output["prediction"] or not output["scoreline"] or not output["rationale"]:
                 raise ValueError("incomplete structured output from model")
             await _save_async(output)

@@ -3,6 +3,7 @@ from __future__ import annotations
 import unittest
 
 from worldcup_predictor.goal_scorers import normalize_goal_scorers
+from worldcup_predictor.predictions import model_performance_context
 from worldcup_predictor.results import _team_key
 from worldcup_predictor.scoring import (
     score_goal_scorers,
@@ -101,6 +102,75 @@ class ScoringTests(unittest.TestCase):
         self.assertEqual(gpt["total_cost"], 0.05)
         self.assertEqual(leaderboard["completed_matchdays"], 1)
         self.assertTrue(leaderboard["available"])
+
+
+class ModelPerformanceContextTests(unittest.TestCase):
+    def test_formats_latest_five_scored_predictions_for_same_model(self) -> None:
+        store = {
+            "results": {
+                str(index): {
+                    "team1": f"Team {index}A",
+                    "team2": f"Team {index}B",
+                    "team1_score": index % 3,
+                    "team2_score": (index + 1) % 3,
+                    "winner": "Draw" if index == 2 else f"Team {index}A",
+                }
+                for index in range(1, 8)
+            },
+            "predictions": [
+                {
+                    "created_at": f"2026-06-{index:02d}T00:00:00Z",
+                    "match_id": index,
+                    "match": f"Team {index}A vs Team {index}B",
+                    "model_alias": "gemini-3.5-flash",
+                    "model": "openrouter/google/gemini-3.5-flash",
+                    "scoreline": f"Team {index}A 2-1 Team {index}B",
+                    "score": {"total": index * 10},
+                }
+                for index in range(1, 8)
+            ]
+            + [
+                {
+                    "created_at": "2026-06-09T00:00:00Z",
+                    "match_id": 9,
+                    "match": "Other A vs Other B",
+                    "model_alias": "other-model",
+                    "model": "openrouter/other",
+                    "scoreline": "Other A 1-0 Other B",
+                    "score": {"total": 100},
+                },
+                {
+                    "created_at": "2026-06-10T00:00:00Z",
+                    "match_id": 10,
+                    "match": "Unscored A vs Unscored B",
+                    "model_alias": "gemini-3.5-flash",
+                    "model": "openrouter/google/gemini-3.5-flash",
+                    "scoreline": "Unscored A 1-0 Unscored B",
+                },
+            ],
+        }
+
+        context = model_performance_context(
+            store,
+            model_alias="gemini-3.5-flash",
+            model="openrouter/google/gemini-3.5-flash",
+            current_match_id=7,
+        )
+
+        lines = context.splitlines()
+        self.assertEqual(lines[0], "Your last 5 match performances:")
+        self.assertEqual(len(lines), 6)
+        self.assertIn("1 | Team 6A vs Team 6B | You predicted Team 6A 2-1 Team 6B", lines[1])
+        self.assertIn("Your points: 60/100", lines[1])
+        self.assertNotIn("Team 7A", context)
+        self.assertNotIn("Other A", context)
+        self.assertNotIn("Unscored A", context)
+
+    def test_returns_empty_history_message_when_model_has_no_scored_rows(self) -> None:
+        self.assertEqual(
+            model_performance_context({}, "gemini-3.5-flash", "openrouter/google/gemini-3.5-flash"),
+            "Your last 5 match performances:\nNo scored match history available yet.",
+        )
 
 
 class ResultNormalizationTests(unittest.TestCase):

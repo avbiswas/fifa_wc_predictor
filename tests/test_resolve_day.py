@@ -92,7 +92,7 @@ class ResolveDayTests(unittest.TestCase):
         )
 
     @patch("worldcup_predictor.resolve_day.fetch_match_result")
-    @patch("worldcup_predictor.resolve_day.subprocess.run")
+    @patch("worldcup_predictor.resolve_day.run_predictions_async")
     @patch("worldcup_predictor.resolve_day.write_prediction_store")
     def test_noop_rerun_makes_no_external_calls(self, write_store, run_model, fetch_result) -> None:
         fixture = match(1, "2026-06-11T20:00:00Z")

@@ -9,7 +9,7 @@ from .env import load_env
 from .models import default_model_alias, model_registry_rows, resolve_model, validate_openrouter_models
 from .paths import CACHE_PATH, ROOT
 from .goal_scorers import normalize_goal_scorers
-from .predictions import save_prediction_record
+from .predictions import load_prediction_store, model_performance_context, save_prediction_record
 from .prepare import prepare_match_data
 from .usage import extract_lm_usage
 
@@ -60,6 +60,12 @@ def main() -> int:
     model_inputs = prepared["model_inputs"]
     artifacts = prepared["artifacts"]
     news_summary = summarize_news(match_name, model_inputs["news_items"])
+    performance_history = model_performance_context(
+        load_prediction_store(),
+        model_alias=model_alias,
+        model=resolved_model,
+        current_match_id=match_id,
+    )
     predictor = MatchPredictor(team1, team2)
     result = predictor(
         match=model_inputs["match"],
@@ -68,6 +74,7 @@ def main() -> int:
         team1_squad=model_inputs["team1_squad"],
         team2_squad=model_inputs["team2_squad"],
         recent_record=model_inputs["recent_record"],
+        performance_history=performance_history,
         polymarket_odds=model_inputs["polymarket_odds"],
     )
 
@@ -84,6 +91,7 @@ def main() -> int:
         "rationale": result.rationale,
         "usage": extract_lm_usage(lm),
         "news_summary": news_summary,
+        "performance_history": performance_history,
         "polymarket_odds": artifacts["polymarket_odds"],
         "cache": {
             "path": str(CACHE_PATH.relative_to(ROOT)),

@@ -28,6 +28,7 @@ class MatchPredictor(dspy.Module):
                 "team1_squad": (str, dspy.InputField()),
                 "team2_squad": (str, dspy.InputField()),
                 "recent_record": (str, dspy.InputField()),
+                "performance_history": (str, dspy.InputField(desc="The model's own last five scored match predictions and points.")),
                 "polymarket_odds": (str, dspy.InputField()),
                 "prediction": (choices, dspy.OutputField(desc=f"Must be exactly one of: {team1}, {team2}, Draw.")),
                 "scoreline": (
@@ -54,6 +55,7 @@ class MatchPredictor(dspy.Module):
         team1_squad: str,
         team2_squad: str,
         recent_record: str,
+        performance_history: str,
         polymarket_odds: str,
     ):
         return self.predict(
@@ -63,6 +65,7 @@ class MatchPredictor(dspy.Module):
             team1_squad=team1_squad,
             team2_squad=team2_squad,
             recent_record=recent_record,
+            performance_history=performance_history,
             polymarket_odds=polymarket_odds,
         )
 
@@ -74,6 +77,7 @@ class MatchPredictor(dspy.Module):
         team1_squad: str,
         team2_squad: str,
         recent_record: str,
+        performance_history: str,
         polymarket_odds: str,
     ):
         return await self.predict.acall(
@@ -83,6 +87,7 @@ class MatchPredictor(dspy.Module):
             team1_squad=team1_squad,
             team2_squad=team2_squad,
             recent_record=recent_record,
+            performance_history=performance_history,
             polymarket_odds=polymarket_odds,
         )
 
