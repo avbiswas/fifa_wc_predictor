@@ -17065,7 +17065,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 60,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 10,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Jamal Musiala",
+            "matched_scorer": "J. Musiala",
+            "points": 5
+          },
+          {
+            "predicted": "Florian Wirtz",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Kai Havertz",
+            "matched_scorer": "K. Havertz 45'+5'(p)",
+            "points": 5
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-14T16:16:41.382140Z",
@@ -17126,7 +17150,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 50,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Musiala",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Wirtz",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Havertz",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-14T16:16:41.579174Z",
@@ -17187,7 +17235,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 60,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 10,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Kai Havertz",
+            "matched_scorer": "K. Havertz 45'+5'(p)",
+            "points": 5
+          },
+          {
+            "predicted": "Jamal Musiala",
+            "matched_scorer": "J. Musiala",
+            "points": 5
+          },
+          {
+            "predicted": "Florian Wirtz",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-14T16:16:44.695054Z",
@@ -17248,7 +17320,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 60,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 10,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Kai Havertz",
+            "matched_scorer": "K. Havertz 45'+5'(p)",
+            "points": 5
+          },
+          {
+            "predicted": "Jamal Musiala",
+            "matched_scorer": "J. Musiala",
+            "points": 5
+          },
+          {
+            "predicted": "Florian Wirtz",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-14T16:16:47.845202Z",
@@ -17309,7 +17405,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 60,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 10,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Kai Havertz",
+            "matched_scorer": "K. Havertz 45'+5'(p)",
+            "points": 5
+          },
+          {
+            "predicted": "Jamal Musiala",
+            "matched_scorer": "J. Musiala",
+            "points": 5
+          },
+          {
+            "predicted": "Florian Wirtz",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-14T16:16:49.912434Z",
@@ -17370,7 +17490,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 50,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Havertz",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Musiala",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Wirtz",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-14T16:16:50.518590Z",
@@ -17431,7 +17575,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 60,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 10,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Kai Havertz",
+            "matched_scorer": "K. Havertz 45'+5'(p)",
+            "points": 5
+          },
+          {
+            "predicted": "Jamal Musiala",
+            "matched_scorer": "J. Musiala",
+            "points": 5
+          },
+          {
+            "predicted": "Florian Wirtz",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-14T16:16:59.051569Z",
@@ -17492,7 +17660,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 60,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 10,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Kai Havertz",
+            "matched_scorer": "K. Havertz 45'+5'(p)",
+            "points": 5
+          },
+          {
+            "predicted": "Florian Wirtz",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Jamal Musiala",
+            "matched_scorer": "J. Musiala",
+            "points": 5
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-14T16:16:59.161178Z",
@@ -17553,7 +17745,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 60,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 10,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Kai Havertz",
+            "matched_scorer": "K. Havertz 45'+5'(p)",
+            "points": 5
+          },
+          {
+            "predicted": "Jamal Musiala",
+            "matched_scorer": "J. Musiala",
+            "points": 5
+          },
+          {
+            "predicted": "Florian Wirtz",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-14T16:17:02.060316Z",
@@ -17614,7 +17830,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 50,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Havertz",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Musiala",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Wirtz",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-14T16:17:17.852468Z",
@@ -17675,7 +17915,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 60,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 10,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Jamal Musiala",
+            "matched_scorer": "J. Musiala",
+            "points": 5
+          },
+          {
+            "predicted": "Florian Wirtz",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Kai Havertz",
+            "matched_scorer": "K. Havertz 45'+5'(p)",
+            "points": 5
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-14T16:17:20.539135Z",
@@ -17736,7 +18000,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 60,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 10,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Jamal Musiala",
+            "matched_scorer": "J. Musiala",
+            "points": 5
+          },
+          {
+            "predicted": "Florian Wirtz",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Kai Havertz",
+            "matched_scorer": "K. Havertz 45'+5'(p)",
+            "points": 5
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-14T16:17:21.693281Z",
@@ -17797,7 +18085,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 60,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 10,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Kai Havertz",
+            "matched_scorer": "K. Havertz 45'+5'(p)",
+            "points": 5
+          },
+          {
+            "predicted": "Florian Wirtz",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Jamal Musiala",
+            "matched_scorer": "J. Musiala",
+            "points": 5
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-14T16:17:26.094220Z",
@@ -17858,7 +18170,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 60,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 10,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Florian Wirtz",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Jamal Musiala",
+            "matched_scorer": "J. Musiala",
+            "points": 5
+          },
+          {
+            "predicted": "Kai Havertz",
+            "matched_scorer": "K. Havertz 45'+5'(p)",
+            "points": 5
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-14T16:17:47.850853Z",
@@ -17919,7 +18255,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 60,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 10,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Kai Havertz",
+            "matched_scorer": "K. Havertz 45'+5'(p)",
+            "points": 5
+          },
+          {
+            "predicted": "Jamal Musiala",
+            "matched_scorer": "J. Musiala",
+            "points": 5
+          },
+          {
+            "predicted": "Florian Wirtz",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-14T16:18:08.664404Z",
@@ -23583,42 +23943,98 @@
     }
   ],
   "leaderboard": {
-    "completed_matchdays": 3,
+    "completed_matchdays": 4,
     "available": true,
     "rows": [
       {
         "model_alias": "qwen-3.7-max",
-        "matches_scored": 8,
-        "total_points": 370,
+        "matches_scored": 9,
+        "total_points": 430,
         "total_cost": 0.15657,
-        "result_points": 250,
+        "result_points": 300,
         "scoreline_points": 75,
         "goal_difference_points": 30,
-        "goal_scorer_points": 15,
-        "correct_results": 5,
+        "goal_scorer_points": 25,
+        "correct_results": 6,
         "exact_scores": 3,
-        "correct_goal_scorers": 3,
-        "average_points": 46.25
+        "correct_goal_scorers": 5,
+        "average_points": 47.78
       },
       {
         "model_alias": "kimi-k2.6",
-        "matches_scored": 8,
-        "total_points": 360,
+        "matches_scored": 9,
+        "total_points": 420,
         "total_cost": 0.20449788,
-        "result_points": 250,
+        "result_points": 300,
         "scoreline_points": 50,
         "goal_difference_points": 30,
-        "goal_scorer_points": 30,
-        "correct_results": 5,
+        "goal_scorer_points": 40,
+        "correct_results": 6,
         "exact_scores": 2,
-        "correct_goal_scorers": 6,
-        "average_points": 45.0
+        "correct_goal_scorers": 8,
+        "average_points": 46.67
       },
       {
         "model_alias": "gemini-3.5-flash",
-        "matches_scored": 8,
-        "total_points": 355,
+        "matches_scored": 9,
+        "total_points": 415,
         "total_cost": 0.206262,
+        "result_points": 300,
+        "scoreline_points": 50,
+        "goal_difference_points": 30,
+        "goal_scorer_points": 35,
+        "correct_results": 6,
+        "exact_scores": 2,
+        "correct_goal_scorers": 7,
+        "average_points": 46.11
+      },
+      {
+        "model_alias": "claude-haiku-4.5",
+        "matches_scored": 9,
+        "total_points": 375,
+        "total_cost": 0.128305,
+        "result_points": 250,
+        "scoreline_points": 75,
+        "goal_difference_points": 30,
+        "goal_scorer_points": 20,
+        "correct_results": 5,
+        "exact_scores": 3,
+        "correct_goal_scorers": 4,
+        "average_points": 41.67
+      },
+      {
+        "model_alias": "mimo-v2.5-pro",
+        "matches_scored": 9,
+        "total_points": 365,
+        "total_cost": 0.08100448,
+        "result_points": 250,
+        "scoreline_points": 50,
+        "goal_difference_points": 30,
+        "goal_scorer_points": 35,
+        "correct_results": 5,
+        "exact_scores": 2,
+        "correct_goal_scorers": 7,
+        "average_points": 40.56
+      },
+      {
+        "model_alias": "gpt-5.5",
+        "matches_scored": 9,
+        "total_points": 360,
+        "total_cost": 0.559655,
+        "result_points": 250,
+        "scoreline_points": 50,
+        "goal_difference_points": 30,
+        "goal_scorer_points": 30,
+        "correct_results": 5,
+        "exact_scores": 2,
+        "correct_goal_scorers": 6,
+        "average_points": 40.0
+      },
+      {
+        "model_alias": "claude-sonnet-4.7",
+        "matches_scored": 9,
+        "total_points": 355,
+        "total_cost": 0.44562,
         "result_points": 250,
         "scoreline_points": 50,
         "goal_difference_points": 30,
@@ -23626,178 +24042,122 @@
         "correct_results": 5,
         "exact_scores": 2,
         "correct_goal_scorers": 5,
-        "average_points": 44.38
-      },
-      {
-        "model_alias": "claude-haiku-4.5",
-        "matches_scored": 8,
-        "total_points": 325,
-        "total_cost": 0.128305,
-        "result_points": 200,
-        "scoreline_points": 75,
-        "goal_difference_points": 30,
-        "goal_scorer_points": 20,
-        "correct_results": 4,
-        "exact_scores": 3,
-        "correct_goal_scorers": 4,
-        "average_points": 40.62
-      },
-      {
-        "model_alias": "grok-4.3",
-        "matches_scored": 8,
-        "total_points": 305,
-        "total_cost": 0.0918844,
-        "result_points": 200,
-        "scoreline_points": 50,
-        "goal_difference_points": 30,
-        "goal_scorer_points": 25,
-        "correct_results": 4,
-        "exact_scores": 2,
-        "correct_goal_scorers": 5,
-        "average_points": 38.12
-      },
-      {
-        "model_alias": "mimo-v2.5-pro",
-        "matches_scored": 8,
-        "total_points": 305,
-        "total_cost": 0.08100448,
-        "result_points": 200,
-        "scoreline_points": 50,
-        "goal_difference_points": 30,
-        "goal_scorer_points": 25,
-        "correct_results": 4,
-        "exact_scores": 2,
-        "correct_goal_scorers": 5,
-        "average_points": 38.12
-      },
-      {
-        "model_alias": "gpt-5.5",
-        "matches_scored": 8,
-        "total_points": 300,
-        "total_cost": 0.559655,
-        "result_points": 200,
-        "scoreline_points": 50,
-        "goal_difference_points": 30,
-        "goal_scorer_points": 20,
-        "correct_results": 4,
-        "exact_scores": 2,
-        "correct_goal_scorers": 4,
-        "average_points": 37.5
-      },
-      {
-        "model_alias": "claude-sonnet-4.7",
-        "matches_scored": 8,
-        "total_points": 295,
-        "total_cost": 0.44562,
-        "result_points": 200,
-        "scoreline_points": 50,
-        "goal_difference_points": 30,
-        "goal_scorer_points": 15,
-        "correct_results": 4,
-        "exact_scores": 2,
-        "correct_goal_scorers": 3,
-        "average_points": 36.88
+        "average_points": 39.44
       },
       {
         "model_alias": "deepseek-v4-pro",
-        "matches_scored": 8,
-        "total_points": 295,
+        "matches_scored": 9,
+        "total_points": 355,
         "total_cost": 0.16863562,
-        "result_points": 200,
+        "result_points": 250,
         "scoreline_points": 50,
         "goal_difference_points": 20,
-        "goal_scorer_points": 25,
-        "correct_results": 4,
+        "goal_scorer_points": 35,
+        "correct_results": 5,
         "exact_scores": 2,
-        "correct_goal_scorers": 5,
-        "average_points": 36.88
+        "correct_goal_scorers": 7,
+        "average_points": 39.44
       },
       {
         "model_alias": "gemini-3.1-pro",
-        "matches_scored": 8,
-        "total_points": 295,
+        "matches_scored": 9,
+        "total_points": 355,
         "total_cost": 0.377312,
-        "result_points": 200,
+        "result_points": 250,
         "scoreline_points": 50,
         "goal_difference_points": 30,
-        "goal_scorer_points": 15,
-        "correct_results": 4,
+        "goal_scorer_points": 25,
+        "correct_results": 5,
         "exact_scores": 2,
-        "correct_goal_scorers": 3,
-        "average_points": 36.88
+        "correct_goal_scorers": 5,
+        "average_points": 39.44
+      },
+      {
+        "model_alias": "grok-4.3",
+        "matches_scored": 9,
+        "total_points": 355,
+        "total_cost": 0.0918844,
+        "result_points": 250,
+        "scoreline_points": 50,
+        "goal_difference_points": 30,
+        "goal_scorer_points": 25,
+        "correct_results": 5,
+        "exact_scores": 2,
+        "correct_goal_scorers": 5,
+        "average_points": 39.44
       },
       {
         "model_alias": "gpt-5.4-mini",
-        "matches_scored": 8,
-        "total_points": 270,
+        "matches_scored": 9,
+        "total_points": 330,
         "total_cost": 0.067413,
-        "result_points": 200,
+        "result_points": 250,
         "scoreline_points": 25,
         "goal_difference_points": 20,
-        "goal_scorer_points": 25,
-        "correct_results": 4,
+        "goal_scorer_points": 35,
+        "correct_results": 5,
         "exact_scores": 1,
-        "correct_goal_scorers": 5,
-        "average_points": 33.75
+        "correct_goal_scorers": 7,
+        "average_points": 36.67
       },
       {
         "model_alias": "gemini-3.1-flash-lite",
-        "matches_scored": 8,
-        "total_points": 265,
+        "matches_scored": 9,
+        "total_points": 325,
         "total_cost": 0.0229895,
-        "result_points": 200,
+        "result_points": 250,
         "scoreline_points": 25,
         "goal_difference_points": 10,
-        "goal_scorer_points": 30,
-        "correct_results": 4,
+        "goal_scorer_points": 40,
+        "correct_results": 5,
         "exact_scores": 1,
-        "correct_goal_scorers": 6,
-        "average_points": 33.12
+        "correct_goal_scorers": 8,
+        "average_points": 36.11
       },
       {
         "model_alias": "gpt-5.4-nano",
-        "matches_scored": 8,
-        "total_points": 265,
+        "matches_scored": 9,
+        "total_points": 315,
         "total_cost": 0.01891795,
-        "result_points": 200,
+        "result_points": 250,
         "scoreline_points": 25,
         "goal_difference_points": 20,
         "goal_scorer_points": 20,
-        "correct_results": 4,
+        "correct_results": 5,
         "exact_scores": 1,
         "correct_goal_scorers": 4,
-        "average_points": 33.12
+        "average_points": 35.0
       },
       {
         "model_alias": "glm-5.1",
-        "matches_scored": 8,
-        "total_points": 250,
+        "matches_scored": 9,
+        "total_points": 310,
         "total_cost": 0.1752307,
-        "result_points": 200,
+        "result_points": 250,
         "scoreline_points": 25,
         "goal_difference_points": 10,
-        "goal_scorer_points": 15,
-        "correct_results": 4,
+        "goal_scorer_points": 25,
+        "correct_results": 5,
         "exact_scores": 1,
-        "correct_goal_scorers": 3,
-        "average_points": 31.25
+        "correct_goal_scorers": 5,
+        "average_points": 34.44
       },
       {
         "model_alias": "minimax-m3",
-        "matches_scored": 8,
-        "total_points": 245,
+        "matches_scored": 9,
+        "total_points": 305,
         "total_cost": 0.05236098,
-        "result_points": 200,
+        "result_points": 250,
         "scoreline_points": 25,
         "goal_difference_points": 10,
-        "goal_scorer_points": 10,
-        "correct_results": 4,
+        "goal_scorer_points": 20,
+        "correct_results": 5,
         "exact_scores": 1,
-        "correct_goal_scorers": 2,
-        "average_points": 30.62
+        "correct_goal_scorers": 4,
+        "average_points": 33.89
       }
     ],
-    "generated_at": "2026-06-14T16:26:25.437152Z"
+    "generated_at": "2026-06-14T19:22:59.386202Z"
   },
   "resolution_state": {
     "result_attempts": {}
@@ -24015,6 +24375,61 @@
           "team": "Australia",
           "scorer": "C. Metcalfe",
           "minute": 75
+        }
+      ]
+    },
+    "25": {
+      "match_id": 25,
+      "match": "Germany vs Curaçao",
+      "fixture_id": 2391733,
+      "provider": "TheSportsDB",
+      "status": "FT",
+      "fetched_at": "2026-06-14T19:22:59.344451Z",
+      "team1": "Germany",
+      "team2": "Curaçao",
+      "team1_score": 7,
+      "team2_score": 1,
+      "winner": "Germany",
+      "goals": [
+        {
+          "team": "Germany",
+          "scorer": "Felix Nmecha",
+          "minute": 7
+        },
+        {
+          "team": "Germany",
+          "scorer": "N. Schlotterbeck",
+          "minute": 38
+        },
+        {
+          "team": "Germany",
+          "scorer": "K. Havertz 45'+5'(p)",
+          "minute": null
+        },
+        {
+          "team": "Germany",
+          "scorer": "J. Musiala",
+          "minute": 47
+        },
+        {
+          "team": "Germany",
+          "scorer": "N. Brown",
+          "minute": 68
+        },
+        {
+          "team": "Germany",
+          "scorer": "D. Undav",
+          "minute": 78
+        },
+        {
+          "team": "Germany",
+          "scorer": "K. Havertz",
+          "minute": 88
+        },
+        {
+          "team": "Curaçao",
+          "scorer": "L. Comenencia",
+          "minute": 21
         }
       ]
     }
