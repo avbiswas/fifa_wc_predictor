@@ -15654,7 +15654,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 0,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Arda Güler",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Hakan Çalhanoğlu",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Harry Souttar",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-13T15:59:42.716831Z",
@@ -15714,7 +15738,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 0,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Hakan Çalhanoğlu",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Kerem Aktürkoğlu",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Jackson Irvine",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-13T15:59:43.350254Z",
@@ -15774,7 +15822,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 0,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Mathew Leckie",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Barış Alper Yılmaz",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Arda Güler",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-13T15:59:48.088523Z",
@@ -15834,7 +15906,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 0,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Hakan Calhanoglu",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Arda Guler",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Harry Souttar",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-13T15:59:50.007659Z",
@@ -15894,7 +15990,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 0,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Arda Guler",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Hakan Calhanoglu",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Harry Souttar",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-13T15:59:52.458862Z",
@@ -15954,7 +16074,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 35,
+        "result": 0,
+        "scoreline": 25,
+        "goal_difference": 10,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Hakan Çalhanoğlu",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Kerem Aktürkoğlu",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Arda Güler",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-13T15:59:57.562317Z",
@@ -16014,7 +16158,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 0,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Hakan Calhanoglu",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Arda Guler",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Mathew Leckie",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-13T16:00:04.935471Z",
@@ -16074,7 +16242,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 0,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Hakan Calhanoglu",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Arda Guler",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Baris Alper Yilmaz",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-13T16:00:06.835094Z",
@@ -16134,7 +16326,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 0,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Hakan Calhanoglu",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Kerem Akturkoglu",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Jackson Irvine",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-13T16:00:10.836058Z",
@@ -16194,7 +16410,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 0,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Arda Guler",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Kerem Akturkoglu",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Hakan Calhanoglu",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-13T16:00:16.279289Z",
@@ -16254,7 +16494,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 0,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Hakan Calhanoglu",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Arda Guler",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Mathew Leckie",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-13T16:00:30.381897Z",
@@ -16314,7 +16578,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 0,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Hakan Çalhanoğlu",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Arda Güler",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Harry Souttar",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-13T16:00:31.951008Z",
@@ -16374,7 +16662,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 0,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Arda Guler",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Hakan Calhanoglu",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Harry Souttar",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-13T16:00:33.247559Z",
@@ -16434,7 +16746,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 0,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Hakan Calhanoglu",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Arda Guler",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Harry Souttar",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-13T16:01:06.676435Z",
@@ -16494,7 +16830,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 0,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Hakan Calhanoglu",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Arda Guler",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Harry Souttar",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-13T16:14:54.441248Z",
@@ -16653,7 +17013,7 @@
     "rows": [
       {
         "model_alias": "qwen-3.7-max",
-        "matches_scored": 7,
+        "matches_scored": 8,
         "total_points": 370,
         "total_cost": 0.11555125,
         "result_points": 250,
@@ -16663,11 +17023,11 @@
         "correct_results": 5,
         "exact_scores": 3,
         "correct_goal_scorers": 3,
-        "average_points": 52.86
+        "average_points": 46.25
       },
       {
         "model_alias": "kimi-k2.6",
-        "matches_scored": 7,
+        "matches_scored": 8,
         "total_points": 360,
         "total_cost": 0.13316148,
         "result_points": 250,
@@ -16677,11 +17037,11 @@
         "correct_results": 5,
         "exact_scores": 2,
         "correct_goal_scorers": 6,
-        "average_points": 51.43
+        "average_points": 45.0
       },
       {
         "model_alias": "gemini-3.5-flash",
-        "matches_scored": 7,
+        "matches_scored": 8,
         "total_points": 355,
         "total_cost": 0.1331505,
         "result_points": 250,
@@ -16691,11 +17051,25 @@
         "correct_results": 5,
         "exact_scores": 2,
         "correct_goal_scorers": 5,
-        "average_points": 50.71
+        "average_points": 44.38
+      },
+      {
+        "model_alias": "claude-haiku-4.5",
+        "matches_scored": 8,
+        "total_points": 325,
+        "total_cost": 0.093778,
+        "result_points": 200,
+        "scoreline_points": 75,
+        "goal_difference_points": 30,
+        "goal_scorer_points": 20,
+        "correct_results": 4,
+        "exact_scores": 3,
+        "correct_goal_scorers": 4,
+        "average_points": 40.62
       },
       {
         "model_alias": "grok-4.3",
-        "matches_scored": 7,
+        "matches_scored": 8,
         "total_points": 305,
         "total_cost": 0.06625765,
         "result_points": 200,
@@ -16705,11 +17079,11 @@
         "correct_results": 4,
         "exact_scores": 2,
         "correct_goal_scorers": 5,
-        "average_points": 43.57
+        "average_points": 38.12
       },
       {
         "model_alias": "mimo-v2.5-pro",
-        "matches_scored": 7,
+        "matches_scored": 8,
         "total_points": 305,
         "total_cost": 0.0671888,
         "result_points": 200,
@@ -16719,11 +17093,11 @@
         "correct_results": 4,
         "exact_scores": 2,
         "correct_goal_scorers": 5,
-        "average_points": 43.57
+        "average_points": 38.12
       },
       {
         "model_alias": "gpt-5.5",
-        "matches_scored": 7,
+        "matches_scored": 8,
         "total_points": 300,
         "total_cost": 0.422795,
         "result_points": 200,
@@ -16733,11 +17107,11 @@
         "correct_results": 4,
         "exact_scores": 2,
         "correct_goal_scorers": 4,
-        "average_points": 42.86
+        "average_points": 37.5
       },
       {
         "model_alias": "claude-sonnet-4.7",
-        "matches_scored": 7,
+        "matches_scored": 8,
         "total_points": 295,
         "total_cost": 0.326319,
         "result_points": 200,
@@ -16747,11 +17121,11 @@
         "correct_results": 4,
         "exact_scores": 2,
         "correct_goal_scorers": 3,
-        "average_points": 42.14
+        "average_points": 36.88
       },
       {
         "model_alias": "deepseek-v4-pro",
-        "matches_scored": 7,
+        "matches_scored": 8,
         "total_points": 295,
         "total_cost": 0.11771295,
         "result_points": 200,
@@ -16761,11 +17135,11 @@
         "correct_results": 4,
         "exact_scores": 2,
         "correct_goal_scorers": 5,
-        "average_points": 42.14
+        "average_points": 36.88
       },
       {
         "model_alias": "gemini-3.1-pro",
-        "matches_scored": 7,
+        "matches_scored": 8,
         "total_points": 295,
         "total_cost": 0.278282,
         "result_points": 200,
@@ -16775,25 +17149,11 @@
         "correct_results": 4,
         "exact_scores": 2,
         "correct_goal_scorers": 3,
-        "average_points": 42.14
-      },
-      {
-        "model_alias": "claude-haiku-4.5",
-        "matches_scored": 7,
-        "total_points": 290,
-        "total_cost": 0.093778,
-        "result_points": 200,
-        "scoreline_points": 50,
-        "goal_difference_points": 20,
-        "goal_scorer_points": 20,
-        "correct_results": 4,
-        "exact_scores": 2,
-        "correct_goal_scorers": 4,
-        "average_points": 41.43
+        "average_points": 36.88
       },
       {
         "model_alias": "gpt-5.4-mini",
-        "matches_scored": 7,
+        "matches_scored": 8,
         "total_points": 270,
         "total_cost": 0.050268,
         "result_points": 200,
@@ -16803,11 +17163,11 @@
         "correct_results": 4,
         "exact_scores": 1,
         "correct_goal_scorers": 5,
-        "average_points": 38.57
+        "average_points": 33.75
       },
       {
         "model_alias": "gemini-3.1-flash-lite",
-        "matches_scored": 7,
+        "matches_scored": 8,
         "total_points": 265,
         "total_cost": 0.01678575,
         "result_points": 200,
@@ -16817,11 +17177,11 @@
         "correct_results": 4,
         "exact_scores": 1,
         "correct_goal_scorers": 6,
-        "average_points": 37.86
+        "average_points": 33.12
       },
       {
         "model_alias": "gpt-5.4-nano",
-        "matches_scored": 7,
+        "matches_scored": 8,
         "total_points": 265,
         "total_cost": 0.0143483,
         "result_points": 200,
@@ -16831,11 +17191,11 @@
         "correct_results": 4,
         "exact_scores": 1,
         "correct_goal_scorers": 4,
-        "average_points": 37.86
+        "average_points": 33.12
       },
       {
         "model_alias": "glm-5.1",
-        "matches_scored": 7,
+        "matches_scored": 8,
         "total_points": 250,
         "total_cost": 0.12768214,
         "result_points": 200,
@@ -16845,11 +17205,11 @@
         "correct_results": 4,
         "exact_scores": 1,
         "correct_goal_scorers": 3,
-        "average_points": 35.71
+        "average_points": 31.25
       },
       {
         "model_alias": "minimax-m3",
-        "matches_scored": 7,
+        "matches_scored": 8,
         "total_points": 245,
         "total_cost": 0.03433164,
         "result_points": 200,
@@ -16859,10 +17219,10 @@
         "correct_results": 4,
         "exact_scores": 1,
         "correct_goal_scorers": 2,
-        "average_points": 35.0
+        "average_points": 30.62
       }
     ],
-    "generated_at": "2026-06-14T03:50:23.586043Z"
+    "generated_at": "2026-06-14T06:18:30.663153Z"
   },
   "resolution_state": {
     "result_attempts": {}
@@ -17055,6 +17415,31 @@
           "team": "Scotland",
           "scorer": "J. McGinn",
           "minute": 28
+        }
+      ]
+    },
+    "20": {
+      "match_id": 20,
+      "match": "Australia vs Turkey",
+      "fixture_id": 2461105,
+      "provider": "TheSportsDB",
+      "status": "FT",
+      "fetched_at": "2026-06-14T06:18:30.633617Z",
+      "team1": "Australia",
+      "team2": "Turkey",
+      "team1_score": 2,
+      "team2_score": 0,
+      "winner": "Australia",
+      "goals": [
+        {
+          "team": "Australia",
+          "scorer": "Nestory Irankunda",
+          "minute": 27
+        },
+        {
+          "team": "Australia",
+          "scorer": "C. Metcalfe",
+          "minute": 75
         }
       ]
     }
