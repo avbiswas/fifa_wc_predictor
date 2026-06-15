@@ -139,6 +139,48 @@ Results, available goal scorers, and prediction scores are written to `data/pred
 
 Each match is worth 100 points: 50 for the correct 90-minute result, 25 for the exact scoreline, 10 for the correct goal difference, and 15 for predicted goal scorers.
 
+Generate a local backtest report from saved predictions and fetched results:
+
+```bash
+PYTHONPATH=. uv run python scripts/backtest_predictions.py
+```
+
+This writes `reports/backtest_latest.json` and `reports/backtest_latest.md` with completed match scores, model summaries, per-prediction rows, and consensus results. Reports are generated artifacts and are ignored by git.
+
+Build a weighted + calibrated ensemble forecast:
+
+```bash
+PYTHONPATH=. uv run python scripts/ensemble_forecast.py
+```
+
+The ensemble uses `config/ensemble_models.json` to pick a top-performing model pool, weight models by recent scored performance, and add a draw-risk calibration layer. Its report compares raw consensus, weighted consensus, and calibrated picks on completed matches, then emits final forecasts for unscored matches.
+
+Run a configured Hermes roster before building the ensemble:
+
+```bash
+PYTHONPATH=. uv run python scripts/run_model_roster.py --dry-run
+PYTHONPATH=. uv run python scripts/run_model_roster.py --days 3 --future-only
+```
+
+## Optional Hermes backend
+
+If you use [Hermes Agent](https://github.com/NousResearch/hermes-agent), you can run prepared match artifacts through your locally configured Hermes model/provider without using the OpenRouter/DSPy path:
+
+```bash
+PYTHONPATH=. uv run python scripts/run_hermes_predictions.py --days 3
+```
+
+Run a mini-tournament across explicit Hermes providers/models:
+
+```bash
+PYTHONPATH=. uv run python scripts/run_hermes_predictions.py \
+  --days 3 \
+  --hermes-model gpt-5.5 --hermes-provider openai-codex \
+  --hermes-model claude-sonnet-4.7 --hermes-provider anthropic
+```
+
+The script stores outputs in the same `data/predictions/predictions.json` schema using model aliases like `hermes-default`, `hermes-gpt-5.5-codex`, or `hermes-anthropic-claude-sonnet-4.7`.
+
 Resolve the current day manually:
 
 ```bash

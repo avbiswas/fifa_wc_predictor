@@ -28,6 +28,7 @@ build/
 # Generated or re-downloadable source artifacts
 data/raw/
 data/cache/
+reports/
 
 # Keep static app data checked in; the Cloudflare app fetches these JSON files.
 !cloudflare_app/public/data/
