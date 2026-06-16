@@ -12,7 +12,7 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from scripts.generate_leverage_tip_sheet import build_leverage_sheet, render_markdown  # noqa: E402
+from scripts.generate_leverage_tip_sheet import build_leverage_sheet, default_context_path, render_markdown  # noqa: E402
 from worldcup_predictor.kicktipp_archive import archive_leverage_report  # noqa: E402
 
 STATE_PATH = ROOT / "reports" / "kicktipp_watchdog_state.json"
@@ -28,7 +28,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--hours", type=float, default=36)
     parser.add_argument("--alert-window-hours", type=float, default=2.25)
     parser.add_argument("--no-weather", action="store_true")
-    parser.add_argument("--context", default=str(ROOT / "data" / "kicktipp" / "rounds.json"))
+    parser.add_argument("--context", default=str(default_context_path()))
     parser.add_argument("--leverage-mode", help="Override mode from the KickTipp context, e.g. controlled_attack/desperation.")
     return parser
 

@@ -25,6 +25,12 @@ from worldcup_predictor.leverage_optimizer import (  # noqa: E402
 from worldcup_predictor.kicktipp_archive import archive_leverage_report  # noqa: E402
 
 DEFAULT_CONTEXT = ROOT / "data" / "kicktipp" / "rounds.json"
+LOCAL_CONTEXT = ROOT / "data" / "kicktipp" / "rounds.local.json"
+
+
+def default_context_path() -> Path:
+    """Prefer a git-ignored private KickTipp context when present."""
+    return LOCAL_CONTEXT if LOCAL_CONTEXT.exists() else DEFAULT_CONTEXT
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -35,7 +41,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--include-started", action="store_true")
     parser.add_argument("--no-weather", action="store_true")
     parser.add_argument("--mode", choices=sorted(MODE_WEIGHTS), help="Override mode from KickTipp context.")
-    parser.add_argument("--context", default=str(DEFAULT_CONTEXT), help="KickTipp friend/standings context JSON.")
+    parser.add_argument("--context", default=str(default_context_path()), help="KickTipp friend/standings context JSON.")
     parser.add_argument("--target-draws", type=int, help="Override slate draw budget.")
     parser.add_argument("--json-out", default="reports/leverage_tip_sheet.json")
     parser.add_argument("--markdown-out", default="reports/leverage_tip_sheet.md")
