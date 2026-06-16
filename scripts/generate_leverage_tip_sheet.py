@@ -22,6 +22,7 @@ from worldcup_predictor.leverage_optimizer import (  # noqa: E402
     optimize_match,
     slate_draw_target,
 )
+from worldcup_predictor.kicktipp_archive import archive_leverage_report  # noqa: E402
 
 DEFAULT_CONTEXT = ROOT / "data" / "kicktipp" / "rounds.json"
 
@@ -38,6 +39,9 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--target-draws", type=int, help="Override slate draw budget.")
     parser.add_argument("--json-out", default="reports/leverage_tip_sheet.json")
     parser.add_argument("--markdown-out", default="reports/leverage_tip_sheet.md")
+    parser.add_argument("--archive-dir", default="data/kicktipp/archive", help="Append-only local archive for pre-kickoff backtests.")
+    parser.add_argument("--archive", dest="archive", action="store_true", default=True, help="Persist an immutable snapshot for later backtests. Default: on.")
+    parser.add_argument("--no-archive", dest="archive", action="store_false", help="Do not write the local backtest archive.")
     parser.add_argument("--compact", action="store_true")
     return parser
 
@@ -228,6 +232,7 @@ def main() -> int:
     md_path.parent.mkdir(parents=True, exist_ok=True)
     json_path.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     md_path.write_text(render_markdown(report), encoding="utf-8")
+    archive_result = archive_leverage_report(report, resolve_output_path(args.archive_dir)) if args.archive else None
     if args.compact:
         print(compact_output(report))
     else:
@@ -237,6 +242,7 @@ def main() -> int:
             "tips": [{"match": row.get("match"), "final": (row.get("final_pick") or {}).get("scoreline"), "status": row.get("status")} for row in report["rows"]],
             "json_out": display_path(json_path),
             "markdown_out": display_path(md_path),
+            "archive": archive_result,
         }, indent=2, ensure_ascii=False))
     return 0
 

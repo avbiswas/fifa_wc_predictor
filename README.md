@@ -60,8 +60,11 @@ PYTHONPATH=. /Users/niko/.local/bin/uv run python scripts/generate_tip_sheet.py 
 # Tune draw-trap thresholds from completed matches
 PYTHONPATH=. /Users/niko/.local/bin/uv run python scripts/tune_kicktipp_optimizer.py --days-back 14
 
-# Backtest the source-backed KickTipp strategy
+# Backtest archived pre-kickoff picks once actual scorelines are available
 PYTHONPATH=. /Users/niko/.local/bin/uv run python scripts/backtest_kicktipp_optimizer.py --days-back 14
+
+# Debug-only old behavior: recompute from current ESPN odds if no archive exists
+PYTHONPATH=. /Users/niko/.local/bin/uv run python scripts/backtest_kicktipp_optimizer.py --days-back 14 --fallback-live-recompute
 
 # Optimize bonus-question answer sets after filling data/kicktipp/bonus_questions.json
 PYTHONPATH=. /Users/niko/.local/bin/uv run python scripts/optimize_bonus_questions.py
@@ -79,6 +82,14 @@ Generated reports are ignored by git and written under `reports/`:
 - `reports/kicktipp_optimizer_backtest.md` / `.json` — completed-match strategy backtest
 - `reports/bonus_question_optimizer.md` / `.json` — bonus answer-set optimizer output
 - `reports/tip_sheet_watchdog.md` / `.json` — cron/watchdog sheet
+
+Append-only local archives are ignored by git and written under:
+
+- `data/kicktipp/archive/reports/YYYY-MM-DD/*.json` — immutable full leverage-sheet snapshots
+- `data/kicktipp/archive/picks.jsonl` — one pre-kickoff decision record per generated match/timestamp
+- `data/kicktipp/archive/latest_by_event/*.json` — latest pre-kickoff pick per event for clean backtests
+
+This archive is the important bit for serious evaluation. The report files are just the latest view; the archive is what lets us score exactly what we would have submitted after the result lands. The CLI sheet and cron/watchdog both write it.
 
 Tracked config/context:
 

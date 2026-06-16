@@ -29,6 +29,7 @@ build/
 data/raw/
 data/cache/
 reports/
+data/kicktipp/archive/
 
 # Keep static app data checked in; the Cloudflare app fetches these JSON files.
 !cloudflare_app/public/data/

@@ -13,10 +13,12 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
 from scripts.generate_leverage_tip_sheet import build_leverage_sheet, render_markdown  # noqa: E402
+from worldcup_predictor.kicktipp_archive import archive_leverage_report  # noqa: E402
 
 STATE_PATH = ROOT / "reports" / "kicktipp_watchdog_state.json"
 JSON_OUT = ROOT / "reports" / "tip_sheet_watchdog.json"
 MD_OUT = ROOT / "reports" / "tip_sheet_watchdog.md"
+ARCHIVE_DIR = ROOT / "data" / "kicktipp" / "archive"
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -105,6 +107,7 @@ def main() -> int:
     JSON_OUT.parent.mkdir(parents=True, exist_ok=True)
     JSON_OUT.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     MD_OUT.write_text(render_markdown(report), encoding="utf-8")
+    archive_leverage_report(report, ARCHIVE_DIR)
 
     rows = report.get("rows", [])
     state = load_state()

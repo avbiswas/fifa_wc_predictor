@@ -12,6 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
 from worldcup_predictor.tip_optimizer import exploit_engine_tip, ranked_market_tips, score_tip  # noqa: E402
+from worldcup_predictor.kicktipp_archive import latest_archived_picks, record_event_key, scoreline_from_archived_record  # noqa: E402
 from worldcup_predictor.tip_sources import (  # noqa: E402
     competitor_map,
     date_range,
@@ -23,8 +24,14 @@ from worldcup_predictor.tip_sources import (  # noqa: E402
 
 
 def build_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(description="Backtest the KickTipp exploit-engine baseline against completed ESPN World Cup matches.")
+    parser = argparse.ArgumentParser(description="Backtest archived KickTipp exploit-engine picks against completed ESPN World Cup matches.")
     parser.add_argument("--days-back", type=int, default=14)
+    parser.add_argument("--archive-dir", default="data/kicktipp/archive", help="Append-only pre-kickoff pick archive.")
+    parser.add_argument(
+        "--fallback-live-recompute",
+        action="store_true",
+        help="If no archived pick exists, recompute from current ESPN odds. Debug only; not a clean pre-kickoff backtest.",
+    )
     parser.add_argument("--json-out", default="reports/kicktipp_optimizer_backtest.json")
     parser.add_argument("--markdown-out", default="reports/kicktipp_optimizer_backtest.md")
     return parser
@@ -47,9 +54,10 @@ def completed(event: dict[str, Any]) -> bool:
     return bool(((competitions[0].get("status") or {}).get("type") or {}).get("completed"))
 
 
-def build_backtest(days_back: int) -> dict[str, Any]:
+def build_backtest(days_back: int, *, archive_dir: str | Path, fallback_live_recompute: bool = False) -> dict[str, Any]:
     now = datetime.now(timezone.utc)
     start = now - timedelta(days=days_back)
+    archived_picks = latest_archived_picks(ROOT / archive_dir if not Path(archive_dir).is_absolute() else archive_dir)
     scoreboard = fetch_espn_scoreboard(date_range(start, days_back + 1))
     rows = []
     for event in scoreboard.get("events", []):
@@ -61,6 +69,44 @@ def build_backtest(days_back: int) -> dict[str, Any]:
         score = actual_score(event)
         if score is None:
             continue
+        event_key = record_event_key({"event_id": event.get("id"), "match": f"{home} vs {away}", "kickoff_utc": event.get("date")})
+        archived = archived_picks.get(event_key)
+        if archived:
+            predicted = scoreline_from_archived_record(archived)
+            points = score_tip(predicted, score)
+            row_data = archived.get("row") or {}
+            rows.append(
+                {
+                    "event_id": event.get("id"),
+                    "match": f"{home} vs {away}",
+                    "kickoff_utc": event.get("date"),
+                    "actual": f"{score[0]}:{score[1]}",
+                    "tip": archived.get("final_tip"),
+                    "selection_reason": (row_data.get("selection_reason") or "archived pre-kickoff leverage pick"),
+                    "market_ev_tip": (row_data.get("ev_pick") or {}).get("scoreline"),
+                    "market_ev_points": (row_data.get("ev_pick") or {}).get("expected_points"),
+                    "actual_points": points,
+                    "predicted_at": archived.get("generated_at"),
+                    "archive_snapshot_id": archived.get("snapshot_id"),
+                    "pick_source": "archive",
+                    "status": "ok",
+                }
+            )
+            continue
+
+        if not fallback_live_recompute:
+            rows.append(
+                {
+                    "event_id": event.get("id"),
+                    "match": f"{home} vs {away}",
+                    "kickoff_utc": event.get("date"),
+                    "actual": f"{score[0]}:{score[1]}",
+                    "status": "missing_archived_pick",
+                    "pick_source": "missing_archive",
+                }
+            )
+            continue
+
         summary = fetch_espn_summary(str(event["id"]))
         market = parse_espn_odds(summary)
         if not market:
@@ -80,6 +126,7 @@ def build_backtest(days_back: int) -> dict[str, Any]:
                 "market_ev_tip": market_top.scoreline,
                 "market_ev_points": round(market_top.expected_points, 3),
                 "actual_points": points,
+                "pick_source": "live_recompute",
                 "status": "ok",
             }
         )
@@ -87,12 +134,16 @@ def build_backtest(days_back: int) -> dict[str, Any]:
     return {
         "generated_at": now.isoformat().replace("+00:00", "Z"),
         "days_back": days_back,
+        "archive_dir": str(archive_dir),
         "summary": {
             "matches": len(scored),
             "points": sum(row["actual_points"] for row in scored),
             "average_points": round(sum(row["actual_points"] for row in scored) / len(scored), 3) if scored else 0,
             "exact": sum(1 for row in scored if row["actual_points"] == 4),
             "nonzero": sum(1 for row in scored if row["actual_points"] > 0),
+            "archived_matches": sum(1 for row in scored if row.get("pick_source") == "archive"),
+            "live_recomputed_matches": sum(1 for row in scored if row.get("pick_source") == "live_recompute"),
+            "missing_archived_picks": sum(1 for row in rows if row.get("status") == "missing_archived_pick"),
         },
         "rows": rows,
     }
@@ -106,12 +157,13 @@ def render_markdown(report: dict[str, Any]) -> str:
         f"Generated: `{report['generated_at']}`",
         "",
         f"Matches: **{summary['matches']}**, points: **{summary['points']}**, avg: **{summary['average_points']}**, exact: **{summary['exact']}**, nonzero: **{summary['nonzero']}**.",
+        f"Archived picks: **{summary.get('archived_matches', 0)}**. Live recomputed fallback: **{summary.get('live_recomputed_matches', 0)}**. Missing archive: **{summary.get('missing_archived_picks', 0)}**.",
         "",
-        "| Match | Actual | Tip | Points | Market EV |",
-        "|---|---:|---:|---:|---:|",
+        "| Match | Actual | Tip | Points | Source | Predicted at | Market EV |",
+        "|---|---:|---:|---:|---|---|---:|",
     ]
     for row in report["rows"]:
-        lines.append(f"| {row['match']} | {row.get('actual', '—')} | {row.get('tip', '—')} | {row.get('actual_points', '—')} | {row.get('market_ev_points', '—')} |")
+        lines.append(f"| {row['match']} | {row.get('actual', '—')} | {row.get('tip', '—')} | {row.get('actual_points', '—')} | {row.get('pick_source', row.get('status', '—'))} | {row.get('predicted_at', '—')} | {row.get('market_ev_points', '—')} |")
     return "\n".join(lines) + "\n"
 
 
@@ -131,7 +183,7 @@ def display_path(path: Path) -> str:
 
 def main() -> int:
     args = build_parser().parse_args()
-    report = build_backtest(args.days_back)
+    report = build_backtest(args.days_back, archive_dir=args.archive_dir, fallback_live_recompute=args.fallback_live_recompute)
     json_path = resolve_output_path(args.json_out)
     md_path = resolve_output_path(args.markdown_out)
     json_path.parent.mkdir(parents=True, exist_ok=True)
