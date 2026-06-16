@@ -17,6 +17,7 @@ from worldcup_predictor.leverage_optimizer import (  # noqa: E402
     Odds,
     apply_slate_draw_budget,
     choose_mode_from_state,
+    estimate_opponents_from_history,
     known_predictions_for_match,
     load_kicktipp_context,
     optimize_match,
@@ -105,12 +106,29 @@ def build_leverage_sheet(
         odds_row = row["odds_decimal"]
         odds = Odds(home=float(odds_row["home"]), draw=float(odds_row["draw"]), away=float(odds_row["away"]))
         known_field, known_leaders = known_predictions_for_match(context, event_id=row.get("event_id"), match=row.get("match"))
+        # Priority for the friend-field model: actual screenshotted picks for THIS match
+        # (rare, since KickTipp hides tips until kickoff) > per-opponent projections from
+        # real round_history > the generic public-chalk template inside optimize_match.
+        if known_field:
+            field_predictions: list | None = known_field
+            leader_predictions: list | None = known_leaders or None
+            field_source = "known_picks"
+        else:
+            projected_field, projected_leaders = estimate_opponents_from_history(context, odds)
+            if projected_field:
+                field_predictions = projected_field
+                leader_predictions = projected_leaders or None
+                field_source = "history_projection"
+            else:
+                field_predictions = None
+                leader_predictions = None
+                field_source = "generic_template"
         optimized = optimize_match(
             match=row["match"],
             odds=odds,
             over_under=row.get("over_under"),
-            field_predictions=known_field or None,
-            leader_predictions=known_leaders or None,
+            field_predictions=field_predictions,
+            leader_predictions=leader_predictions,
             mode=mode,
         )
         optimized.update(
@@ -130,6 +148,7 @@ def build_leverage_sheet(
                 "elo": row.get("elo"),
                 "known_field_used": [f"{h}:{a}" for h, a in known_field],
                 "known_leaders_used": [f"{h}:{a}" for h, a in known_leaders],
+                "field_source": field_source,
             }
         )
         rows.append(rounded_nested(optimized))
@@ -197,7 +216,7 @@ def render_markdown(report: dict[str, Any]) -> str:
             f"- Final **{final['scoreline']}** ({final['pick']}), EV {final['expected_points']:.2f}, edge vs field {final['edge_vs_field']:.2f}, edge vs leaders {final['edge_vs_leaders']:.2f}."
         )
         lines.append(
-            f"- Fair 1/X/2: {fair['home']:.1%}/{fair['draw']:.1%}/{fair['away']:.1%}; field estimate: {', '.join(row.get('estimated_field_predictions') or [])}; leaders: {', '.join(row.get('estimated_leader_predictions') or [])}."
+            f"- Fair 1/X/2: {fair['home']:.1%}/{fair['draw']:.1%}/{fair['away']:.1%}; field ({row.get('field_source', 'generic_template')}): {', '.join(row.get('estimated_field_predictions') or [])}; leaders: {', '.join(row.get('estimated_leader_predictions') or [])}."
         )
         lines.append(f"- Baseline EV/draw-trap pick: {row.get('baseline_tip')} — {row.get('baseline_reason')}.")
         if row.get("draw_budget_adjusted"):

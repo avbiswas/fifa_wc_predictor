@@ -32,7 +32,7 @@ That second question is how you produce last-place sludge.
 - ESPN public World Cup scoreboard and summary endpoints
 - DraftKings-style moneyline odds exposed in ESPN summaries
 - no-vig 1/X/2 probabilities
-- Poisson scoreline distribution fitted to market probabilities and over/under
+- Dixon-Coles-corrected Poisson scoreline distribution fitted to market probabilities and over/under (low-score correction lifts 0:0/1:1, the exact scores that actually land)
 - KickTipp-specific expected-points scoring
 - draw-trap tuning from completed matches
 - friend/leader context from `data/kicktipp/rounds.json`
@@ -114,7 +114,7 @@ Fill `data/kicktipp/rounds.json` when screenshots or live friend picks are avail
 }
 ```
 
-If no friend picks are known, the engine estimates public chalk from market favorite strength. Real friend data is better. Screenshots beat vibes.
+If no friend picks are known for the specific fixture, the engine now projects each tracked opponent from their real `round_history` (revealed draw/scoring/contrarian tendencies rotated onto the match), and only falls back to a generic public-chalk template when there is no history. Each row reports its `field_source` (`known_picks` / `history_projection` / `generic_template`). Real friend data is better. Screenshots beat vibes.
 
 ## Bonus questions
 

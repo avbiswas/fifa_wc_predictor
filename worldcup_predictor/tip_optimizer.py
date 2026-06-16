@@ -58,7 +58,36 @@ def american_to_decimal(value: int | float | str) -> float:
     return 1 + 100 / abs(number)
 
 
-def poisson_distribution(home_lambda: float, away_lambda: float, max_goals: int = 8) -> dict[tuple[int, int], float]:
+# Dixon & Coles (1997) low-score dependence parameter. Independent Poisson systematically
+# under-predicts 0:0 and 1:1 and over-predicts 1:0 and 0:1; a small negative rho corrects
+# the four low-score cells. -0.13 is the original paper's estimate and a robust default —
+# we deliberately do NOT fit it to this tournament's tiny sample (that is how you overfit).
+# For KickTipp this matters a lot: exact = 4 is the jackpot and 1:1 is the modal real score.
+DIXON_COLES_RHO = -0.13
+
+
+def dixon_coles_tau(home_goals: int, away_goals: int, home_lambda: float, away_lambda: float, rho: float) -> float:
+    """Dixon-Coles correction factor for the four low-score cells; 1.0 elsewhere."""
+    if home_goals == 0 and away_goals == 0:
+        return 1.0 - home_lambda * away_lambda * rho
+    if home_goals == 0 and away_goals == 1:
+        return 1.0 + home_lambda * rho
+    if home_goals == 1 and away_goals == 0:
+        return 1.0 + away_lambda * rho
+    if home_goals == 1 and away_goals == 1:
+        return 1.0 - rho
+    return 1.0
+
+
+def poisson_distribution(
+    home_lambda: float,
+    away_lambda: float,
+    max_goals: int = 8,
+    *,
+    rho: float = DIXON_COLES_RHO,
+) -> dict[tuple[int, int], float]:
+    """Bivariate scoreline distribution: independent Poisson with a Dixon-Coles low-score
+    correction. ``rho=0`` recovers the plain independent-Poisson model."""
     scores: dict[tuple[int, int], float] = {}
     total = 0.0
     for home_goals in range(max_goals + 1):
@@ -66,6 +95,10 @@ def poisson_distribution(home_lambda: float, away_lambda: float, max_goals: int 
         for away_goals in range(max_goals + 1):
             away_prob = math.exp(-away_lambda) * away_lambda ** away_goals / math.factorial(away_goals)
             probability = home_prob * away_prob
+            if rho:
+                # tau stays positive for rho=-0.13 and the fitted lambda range (<=~4.2),
+                # but clamp defensively so a large rho can never produce negative mass.
+                probability *= max(0.0, dixon_coles_tau(home_goals, away_goals, home_lambda, away_lambda, rho))
             scores[(home_goals, away_goals)] = probability
             total += probability
     return {score: probability / total for score, probability in scores.items()}
@@ -83,6 +116,7 @@ def fit_market_lambdas(
     *,
     over_under: float | None = None,
     max_goals: int = 8,
+    rho: float = DIXON_COLES_RHO,
 ) -> tuple[float, float, dict[str, float]]:
     target = fair_probabilities(odds)
     target_total = over_under if over_under and over_under > 0 else 2.5
@@ -91,7 +125,7 @@ def fit_market_lambdas(
         home_lambda = home_step / 100
         for away_step in range(20, 421, 5):
             away_lambda = away_step / 100
-            distribution = poisson_distribution(home_lambda, away_lambda, max_goals=max_goals)
+            distribution = poisson_distribution(home_lambda, away_lambda, max_goals=max_goals, rho=rho)
             probs = distribution_outcome_probabilities(distribution)
             loss = (
                 6.0 * sum((probs[key] - target[key]) ** 2 for key in target)
@@ -161,28 +195,48 @@ def exploit_engine_tip(
     over_under: float | None = None,
     draw_floor: float = 0.22,
     draw_favorite_ceiling: float = 0.65,
+    draw_ev_slack: float = 0.06,
     rules: ScoreRules | None = None,
 ) -> Tip:
-    """KickTipp-specific baseline: market EV with an empirical draw-trap layer.
+    """KickTipp-specific baseline: market EV with an EV-bounded draw tie-break.
 
-    The early tournament sample punished favorite scorelines whenever draw probability
-    was live and the favorite was not clearly above ~65%. This is not betting advice;
-    it is scoring-rule exploitation for 2/3/4-point friend leagues. The full private-
-    league decision layer lives in ``leverage_optimizer.py``.
+    The previous version blanket-overrode favorite scorelines with ``1:1`` whenever the
+    draw was "live" (draw >= floor, favorite < ceiling). That was an unconditional
+    expected-points donation: ``market_optimal_tip`` already picks a draw exactly when a
+    draw scoreline has the best EV, so any *override* on top of it can only swap in a
+    lower-EV pick. On realistic World Cup odds that override cost ~0.4 pts/match (e.g.
+    1:1 at EV 0.80 instead of 1:0 at EV 1.20).
+
+    The draw is now only chosen over the EV-optimal pick when it costs at most
+    ``draw_ev_slack`` expected points — i.e. a genuine near-tie that we break toward the
+    draw because the friend field underplays draws. Real draw *leverage* (the field
+    rarely tips draws, so a draw that lands is high-edge) is handled where it belongs:
+    the private-league decision layer in ``leverage_optimizer.py``.
     """
+    rules = rules or ScoreRules()
+    best = market_optimal_tip(odds, over_under=over_under, rules=rules)
     fair = fair_probabilities(odds)
     favorite_prob = max(fair["home"], fair["away"])
-    if fair["draw"] >= draw_floor and favorite_prob < draw_favorite_ceiling:
+    draw_live = fair["draw"] >= draw_floor and favorite_prob < draw_favorite_ceiling
+    if not draw_live or best.pick == "draw":
+        return best
+
+    home_lambda, away_lambda, _fitted = fit_market_lambdas(odds, over_under=over_under)
+    distribution = poisson_distribution(home_lambda, away_lambda)
+    best_ev = expected_tip_points((best.home_goals, best.away_goals), distribution, rules)
+    draw_ev = expected_tip_points((1, 1), distribution, rules)
+    if draw_ev >= best_ev - draw_ev_slack:
         return Tip(
             pick="draw",
             home_goals=1,
             away_goals=1,
             reason=(
-                f"draw trap override: fair draw {fair['draw']:.1%}, favorite only {favorite_prob:.1%}; "
-                "1:1 maximizes survival under the current draw-heavy tournament pattern"
+                f"draw tie-break: fair draw {fair['draw']:.1%}, favorite only {favorite_prob:.1%}; "
+                f"1:1 EV {draw_ev:.2f} within {draw_ev_slack:.2f} of {best.scoreline} EV {best_ev:.2f}; "
+                "field underplays draws"
             ),
         )
-    return market_optimal_tip(odds, over_under=over_under, rules=rules)
+    return best
 
 
 def war_machine_tip(

@@ -6,10 +6,12 @@ from worldcup_predictor.leverage_optimizer import (
     Odds,
     apply_slate_draw_budget,
     choose_mode_from_state,
+    estimate_opponents_from_history,
     estimate_player_tendencies,
     known_predictions_for_match,
     optimize_match,
     parse_scoreline,
+    project_opponent_pick,
     rank_leverage_candidates,
     slate_draw_target,
 )
@@ -93,6 +95,43 @@ class LeverageOptimizerTests(unittest.TestCase):
         field, leaders = known_predictions_for_match(context, event_id="99", match="France vs Senegal")
         self.assertEqual(field, [(2, 1)])
         self.assertEqual(leaders, [(2, 1)])
+
+    def test_project_opponent_pick_reflects_scoring_style_and_favorite(self) -> None:
+        favorite_match = Odds(home=1.8, draw=3.4, away=4.2)
+        chaos_history = [(4, 2), (3, 1), (5, 2), (3, 2), (4, 1), (2, 2)]
+        tight_history = [(1, 0), (2, 1), (1, 0), (2, 0), (2, 1), (1, 0)]
+        chaos_pick = project_opponent_pick(chaos_history, favorite_match)
+        tight_pick = project_opponent_pick(tight_history, favorite_match)
+        # Both back the home favorite, but the high-scoring player projects more goals.
+        self.assertGreater(chaos_pick[0], chaos_pick[1])
+        self.assertGreater(tight_pick[0], tight_pick[1])
+        self.assertGreater(sum(chaos_pick), sum(tight_pick))
+
+    def test_project_opponent_pick_follows_the_market_favorite_side(self) -> None:
+        home_history = [(2, 1), (2, 0), (1, 0), (3, 1)]
+        away_favorite = Odds(home=4.2, draw=3.4, away=1.8)
+        pick = project_opponent_pick(home_history, away_favorite)
+        # Away is favored, so even a home-leaning player is projected onto an away win.
+        self.assertLess(pick[0], pick[1])
+
+    def test_estimate_opponents_from_history_excludes_niko_and_splits_leaders(self) -> None:
+        context = {
+            "current_state": {"niko_player": "Me"},
+            "leader_names": ["Boss"],
+            "round_history": (
+                [{"player": "Me", "tip": "1:1"} for _ in range(6)]
+                + [{"player": "Boss", "tip": "2:1", "is_leader": True} for _ in range(6)]
+                + [{"player": "Rando", "tip": "2:0"} for _ in range(6)]
+            ),
+        }
+        field, leaders = estimate_opponents_from_history(context, Odds(home=1.8, draw=3.4, away=4.2))
+        self.assertEqual(len(field), 2)  # Boss + Rando, never Me
+        self.assertEqual(len(leaders), 1)  # only Boss
+
+    def test_estimate_opponents_from_history_empty_without_history(self) -> None:
+        field, leaders = estimate_opponents_from_history({}, Odds(home=1.8, draw=3.4, away=4.2))
+        self.assertEqual(field, [])
+        self.assertEqual(leaders, [])
 
     def test_estimate_player_tendencies(self) -> None:
         tendencies = estimate_player_tendencies(

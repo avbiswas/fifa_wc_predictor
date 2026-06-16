@@ -256,6 +256,99 @@ def estimate_leader_predictions(odds: Odds, *, over_under: float | None = None, 
     return field[:2]
 
 
+def project_opponent_pick(scores: list[Score], odds: Odds, *, draw_prob_floor: float = 0.26) -> Score:
+    """Project a specific opponent's likely scoreline for THIS match from their history.
+
+    This is the core of actually *exploiting friends* rather than a faceless chalk
+    template: each opponent's revealed tendencies (draw appetite, scoring level, typical
+    winning margin, away/underdog willingness) are rotated onto the current fixture's
+    market favorite. It is intentionally coarse — 12-16 picks per player is a small
+    sample, so we model stable rates, not a brittle per-match oracle.
+    """
+    if not scores:
+        raise ValueError("Cannot project from an empty pick history")
+    fair = fair_probabilities(odds)
+    favorite_side = "home" if fair["home"] >= fair["away"] else "away"
+    favorite_prob = max(fair["home"], fair["away"])
+
+    count = len(scores)
+    draw_rate = sum(1 for score in scores if score[0] == score[1]) / count
+    away_rate = sum(1 for score in scores if score[0] < score[1]) / count
+    average_total = sum(sum(score) for score in scores) / count
+    margins = [abs(score[0] - score[1]) for score in scores if score[0] != score[1]]
+    average_margin = sum(margins) / len(margins) if margins else 1.0
+
+    # A genuinely draw-prone player in a draw-live match tips their habitual draw. Most
+    # of the field is NOT draw-prone, which is exactly why draws are high-leverage.
+    if draw_rate >= 0.30 and fair["draw"] >= draw_prob_floor and favorite_prob < 0.62:
+        return (1, 1) if average_total >= 1.5 else (0, 0)
+
+    # Side: back the market favorite, unless this player is a real away/underdog
+    # contrarian (high absolute away rate) AND the favorite is not commanding. Even
+    # contrarians respect a strong favorite.
+    side = favorite_side
+    if favorite_side == "home" and away_rate >= 0.40 and favorite_prob < 0.58:
+        side = "away"
+
+    winner_goals = max(1, min(6, round((average_total + average_margin) / 2)))
+    loser_goals = max(0, min(winner_goals, round((average_total - average_margin) / 2)))
+    return (winner_goals, loser_goals) if side == "home" else (loser_goals, winner_goals)
+
+
+def estimate_opponents_from_history(
+    context: dict[str, Any],
+    odds: Odds,
+    *,
+    min_history: int = 6,
+    draw_prob_floor: float = 0.26,
+) -> tuple[list[Score], list[Score]]:
+    """Project (field, leaders) scoreline picks for a match from real ``round_history``.
+
+    Returns ``([], [])`` when there is not enough history, so callers can fall back to the
+    generic public-chalk template. Niko's own picks are excluded from the field; the three
+    tracked leaders (by ``leader_names`` or the ``is_leader`` flag) also form the leader
+    sub-field that the anti-leader / leader-correlation terms key off.
+    """
+    history = context.get("round_history") or []
+    if not history:
+        return [], []
+
+    state = context.get("current_state") or {}
+    excluded = {str(state.get("niko_player") or "")}
+    excluded |= {str(alias) for alias in (state.get("niko_player_visible_aliases") or [])}
+    for player in context.get("players") or []:
+        if player.get("role") == "niko" and player.get("name"):
+            excluded.add(str(player["name"]))
+    excluded.discard("")
+    leader_names = {str(name) for name in (context.get("leader_names") or [])}
+
+    by_player: dict[str, list[Score]] = {}
+    is_leader: dict[str, bool] = {}
+    for row in history:
+        player = row.get("player")
+        tip = row.get("tip")
+        if not player or not tip or str(player) in excluded:
+            continue
+        try:
+            score = parse_scoreline(str(tip))
+        except ValueError:
+            continue
+        by_player.setdefault(str(player), []).append(score)
+        if row.get("is_leader"):
+            is_leader[str(player)] = True
+
+    field: list[Score] = []
+    leaders: list[Score] = []
+    for player, scores in sorted(by_player.items()):
+        if len(scores) < min_history:
+            continue
+        projected = project_opponent_pick(scores, odds, draw_prob_floor=draw_prob_floor)
+        field.append(projected)
+        if player in leader_names or is_leader.get(player):
+            leaders.append(projected)
+    return field, leaders
+
+
 def score_candidate(candidate: LeverageCandidate, mode: str, top_ev: float) -> float:
     weights = MODE_WEIGHTS.get(mode, MODE_WEIGHTS["controlled_attack"])
     if candidate.expected_points < top_ev - weights["ev_slack"]:
