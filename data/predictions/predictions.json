@@ -17005,10 +17005,3364 @@
           }
         ]
       }
+    },
+    {
+      "created_at": "2026-06-14T12:27:48.597458Z",
+      "key": "brazil vs morocco::hermes/openai-codex/gpt-5.5",
+      "match_id": 13,
+      "match": "Brazil vs Morocco",
+      "choices": [
+        "Brazil",
+        "Morocco",
+        "Draw"
+      ],
+      "model_alias": "hermes-gpt-5.5-codex",
+      "model": "hermes/openai-codex/gpt-5.5",
+      "prediction": "Brazil",
+      "scoreline": "Brazil 2-1 Morocco",
+      "goal_scorers": [
+        "Neymar Jr (Brazil)",
+        "Vinicius Junior (Brazil)",
+        "Brahim Diaz (Morocco)"
+      ],
+      "confidence": 0.62,
+      "rationale": "Brazil edge the artifact-based matchup on squad depth and attacking pedigree, with Neymar Jr listed at 79 international goals, Vinicius Junior and Raphinha providing elite wide threat, and an experienced defensive core including Alisson, Marquinhos and Casemiro. Morocco are strong enough to score through Brahim Diaz, El Kaabi or Rahimi and have high-quality defensive pieces such as Bounou and Hakimi, but the supplied squads point to a narrow Brazil advantage while unavailable recent form and news reduce certainty.",
+      "news_summary": "- News search unavailable: EXA_API_KEY not set, so no external updates were used; - Recent records unavailable in the local dataset; - Polymarket data supplied is mostly non-match-specific or stale, so it was not treated as decisive.",
+      "polymarket_odds": [
+        {
+          "title": "World Cup Matches",
+          "slug": "world-cup-matches",
+          "markets": [
+            {
+              "question": "World Cup: Tuesday - Will Argentina beat Saudi Arabia?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0000003745787832534296825390047545289117",
+                "0.9999996254212167465703174609952455"
+              ],
+              "volume": "5667.962447",
+              "liquidity": "25.020075",
+              "url": null,
+              "source_slug": "world-cup-2022-tuesday-will-argentina-beat-saudi-arabia"
+            },
+            {
+              "question": "World Cup: Tuesday - Will Denmark beat Tunisia?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0000008382046583264734388851051080998816",
+                "0.9999991617953416735265611148948919"
+              ],
+              "volume": "7519.843175",
+              "liquidity": "25.03562",
+              "url": null,
+              "source_slug": "world-cup-2022-tuesday-will-denmark-beat-tunisia"
+            },
+            {
+              "question": "World Cup: Tuesday - Will Mexico beat Poland?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0000008074096274619823323505215838597938",
+                "0.9999991925903725380176676494784161"
+              ],
+              "volume": "5404.996325",
+              "liquidity": "25.040061",
+              "url": null,
+              "source_slug": "world-cup-2022-tuesday-will-mexico-beat-poland"
+            },
+            {
+              "question": "World Cup: Tuesday - Will France beat Australia?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.9999997366664747420352704986513923",
+                "0.0000002633335252579647295013486076605947"
+              ],
+              "volume": "4868.067446",
+              "liquidity": "25.030604",
+              "url": null,
+              "source_slug": "world-cup-2022-tuesday-will-france-beat-australia"
+            },
+            {
+              "question": "World Cup: Wednesday - Will Croatia beat Morocco?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.000001097349921977270253042920633368001",
+                "0.9999989026500780227297469570793666"
+              ],
+              "volume": "4566.914594",
+              "liquidity": "25.030454",
+              "url": null,
+              "source_slug": "world-cup-2022-wednesday-will-croatia-beat-morocco"
+            }
+          ]
+        },
+        {
+          "title": "Which country will win the 2022 World Cup?",
+          "slug": "which-country-will-win-the-2022-world-cup",
+          "markets": [
+            {
+              "question": "Will Brazil win the 2022 World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0004260854510246076575693245883651686",
+                "0.9995739145489753923424306754116348"
+              ],
+              "volume": "10241.390327",
+              "liquidity": "589.706752",
+              "url": null,
+              "source_slug": "will-brazil-win-the-2022-world-cup"
+            },
+            {
+              "question": "Will Argentina win the 2022 World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.9992636849310142238421633303148847",
+                "0.0007363150689857761578366696851153297"
+              ],
+              "volume": "28469.031955",
+              "liquidity": "540.872544",
+              "url": null,
+              "source_slug": "will-argentina-win-the-2022-world-cup"
+            },
+            {
+              "question": "Will France win the 2022 World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.000432789644992665734910558840283108",
+                "0.9995672103550073342650894411597169"
+              ],
+              "volume": "55507.143286",
+              "liquidity": "492.642958",
+              "url": null,
+              "source_slug": "will-france-win-the-2022-world-cup"
+            },
+            {
+              "question": "Will England win the 2022 World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0",
+                "1"
+              ],
+              "volume": "7433.122293",
+              "liquidity": "440.742341",
+              "url": null,
+              "source_slug": "will-england-win-the-2022-world-cup"
+            },
+            {
+              "question": "Will Spain win the 2022 World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0004203871893808473520629730678032446",
+                "0.9995796128106191526479370269321968"
+              ],
+              "volume": "4348.802424",
+              "liquidity": "410.834795",
+              "url": null,
+              "source_slug": "will-spain-win-the-2022-world-cup"
+            }
+          ]
+        },
+        {
+          "title": "World Cup Winner ",
+          "slug": "world-cup-winner",
+          "markets": [
+            {
+              "question": "Will Spain win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.1665",
+                "0.8335"
+              ],
+              "volume": "43972331.4889665",
+              "liquidity": "7354750.13133",
+              "url": null,
+              "source_slug": "will-spain-win-the-2026-fifa-world-cup-963"
+            },
+            {
+              "question": "Will New Zealand win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0005",
+                "0.9995"
+              ],
+              "volume": "46046031.53264519",
+              "liquidity": "20830469.2163",
+              "url": null,
+              "source_slug": "will-new-zealand-win-the-2026-fifa-world-cup-635"
+            },
+            {
+              "question": "Will Switzerland win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0095",
+                "0.9905"
+              ],
+              "volume": "47862637.630792126",
+              "liquidity": "2149242.1967",
+              "url": null,
+              "source_slug": "will-switzerland-win-the-2026-fifa-world-cup"
+            },
+            {
+              "question": "Will England win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0965",
+                "0.9035"
+              ],
+              "volume": "37410608.43092837",
+              "liquidity": "7815471.23413",
+              "url": null,
+              "source_slug": "will-england-win-the-2026-fifa-world-cup-937"
+            },
+            {
+              "question": "Will Team AM win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [],
+              "volume": "0",
+              "liquidity": "0",
+              "url": null,
+              "source_slug": "will-team-am-win-the-2026-fifa-world-cup"
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "brazil vs morocco",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      },
+      "score": {
+        "total": 5,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Neymar Jr (Brazil)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Vinicius Junior (Brazil)",
+            "matched_scorer": "V. Júnior",
+            "points": 5
+          },
+          {
+            "predicted": "Brahim Diaz (Morocco)",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
+    },
+    {
+      "created_at": "2026-06-14T12:28:38.725247Z",
+      "key": "haiti vs scotland::hermes/openai-codex/gpt-5.5",
+      "match_id": 14,
+      "match": "Haiti vs Scotland",
+      "choices": [
+        "Haiti",
+        "Scotland",
+        "Draw"
+      ],
+      "model_alias": "hermes-gpt-5.5-codex",
+      "model": "hermes/openai-codex/gpt-5.5",
+      "prediction": "Scotland",
+      "scoreline": "Haiti 1-2 Scotland",
+      "goal_scorers": [
+        "Duckens Nazon (Haiti)",
+        "Scott McTominay (Scotland)",
+        "John McGinn (Scotland)"
+      ],
+      "confidence": 0.62,
+      "rationale": "Scotland have the stronger squad profile in the supplied artifact, with several high-caps players at major European clubs and proven international goal contributors in Scott McTominay, John McGinn, Che Adams and Lyndon Dykes; Haiti still carry credible scoring threat through Duckens Nazon and Frantzdy Pierrot, whose international goal records make a Haiti goal plausible, but Scotland's midfield scoring depth and defensive experience give them the edge.",
+      "news_summary": "- News search unavailable: EXA_API_KEY not set; search skipped. - Recent-record data unavailable for both teams in the local dataset. - Available evidence is squad-only, favoring Scotland on club level, caps, and midfield attacking output.",
+      "polymarket_odds": [
+        {
+          "title": "World Cup Winner ",
+          "slug": "world-cup-winner",
+          "markets": [
+            {
+              "question": "Will Spain win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.1665",
+                "0.8335"
+              ],
+              "volume": "43972331.4889665",
+              "liquidity": "7354750.13133",
+              "url": null,
+              "source_slug": "will-spain-win-the-2026-fifa-world-cup-963"
+            },
+            {
+              "question": "Will New Zealand win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0005",
+                "0.9995"
+              ],
+              "volume": "46046031.53264519",
+              "liquidity": "20830469.2163",
+              "url": null,
+              "source_slug": "will-new-zealand-win-the-2026-fifa-world-cup-635"
+            },
+            {
+              "question": "Will Switzerland win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0095",
+                "0.9905"
+              ],
+              "volume": "47862637.630792126",
+              "liquidity": "2149242.1967",
+              "url": null,
+              "source_slug": "will-switzerland-win-the-2026-fifa-world-cup"
+            },
+            {
+              "question": "Will England win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0965",
+                "0.9035"
+              ],
+              "volume": "37410608.43092837",
+              "liquidity": "7815471.23413",
+              "url": null,
+              "source_slug": "will-england-win-the-2026-fifa-world-cup-937"
+            },
+            {
+              "question": "Will Team AM win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [],
+              "volume": "0",
+              "liquidity": "0",
+              "url": null,
+              "source_slug": "will-team-am-win-the-2026-fifa-world-cup"
+            }
+          ]
+        },
+        {
+          "title": "World Cup: Nation to Reach Final",
+          "slug": "world-cup-nation-to-reach-final",
+          "markets": [
+            {
+              "question": "Will South Korea reach the 2026 FIFA World Cup final?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0185",
+                "0.9815"
+              ],
+              "volume": "3485.9838550000004",
+              "liquidity": "73538.88515",
+              "url": null,
+              "source_slug": "will-south-korea-reach-the-2026-fifa-world-cup-final"
+            },
+            {
+              "question": "Will Czechia reach the 2026 FIFA World Cup final?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0145",
+                "0.9855"
+              ],
+              "volume": "4094.7532800000004",
+              "liquidity": "63375.83265",
+              "url": null,
+              "source_slug": "will-czechia-reach-the-2026-fifa-world-cup-final"
+            },
+            {
+              "question": "Will Switzerland reach the 2026 FIFA World Cup final?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0365",
+                "0.9635"
+              ],
+              "volume": "18718.70289799999",
+              "liquidity": "98885.82738",
+              "url": null,
+              "source_slug": "will-switzerland-reach-the-2026-fifa-world-cup-final"
+            },
+            {
+              "question": "Will Bosnia and Herzegovina reach the 2026 FIFA World Cup final?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.016",
+                "0.984"
+              ],
+              "volume": "596.976681",
+              "liquidity": "57891.16513",
+              "url": null,
+              "source_slug": "will-bosnia-and-herzegovina-reach-the-2026-fifa-world-cup-final"
+            },
+            {
+              "question": "Will Morocco reach the 2026 FIFA World Cup final?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0935",
+                "0.9065"
+              ],
+              "volume": "35915.581539000006",
+              "liquidity": "83031.33524",
+              "url": null,
+              "source_slug": "will-morocco-reach-the-2026-fifa-world-cup-final"
+            }
+          ]
+        },
+        {
+          "title": "World Cup: Team to Go Unbeaten (Group Stage)",
+          "slug": "world-cup-team-to-go-unbeaten-group-stage-20260612152746618",
+          "markets": [
+            {
+              "question": "Will Mexico go unbeaten in the 2026 FIFA World Cup Group Stage?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.63",
+                "0.37"
+              ],
+              "volume": "336.375",
+              "liquidity": "7077.473",
+              "url": null,
+              "source_slug": "will-mexico-go-unbeaten-in-the-2026-fifa-world-cup-group-stage-20260612152622418"
+            },
+            {
+              "question": "Will Canada go unbeaten in the 2026 FIFA World Cup Group Stage?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.5",
+                "0.5"
+              ],
+              "volume": "1476.2530749999999",
+              "liquidity": "539.4978",
+              "url": null,
+              "source_slug": "will-canada-go-unbeaten-in-the-2026-fifa-world-cup-group-stage-20260612152622419"
+            },
+            {
+              "question": "Will Iran go unbeaten in the 2026 FIFA World Cup Group Stage?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.1675",
+                "0.8325"
+              ],
+              "volume": "1129.97",
+              "liquidity": "610.76708",
+              "url": null,
+              "source_slug": "will-iran-go-unbeaten-in-the-2026-fifa-world-cup-group-stage-20260612152622421"
+            },
+            {
+              "question": "Will Qatar go unbeaten in the 2026 FIFA World Cup Group Stage?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.157",
+                "0.843"
+              ],
+              "volume": "858.302254",
+              "liquidity": "288.28851",
+              "url": null,
+              "source_slug": "will-qatar-go-unbeaten-in-the-2026-fifa-world-cup-group-stage-20260612152622425"
+            },
+            {
+              "question": "Will Jordan go unbeaten in the 2026 FIFA World Cup Group Stage?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0185",
+                "0.9815"
+              ],
+              "volume": "298.206583",
+              "liquidity": "3522.90657",
+              "url": null,
+              "source_slug": "will-jordan-go-unbeaten-in-the-2026-fifa-world-cup-group-stage-20260612152622427"
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "haiti vs scotland",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      },
+      "score": {
+        "total": 65,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 10,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Duckens Nazon (Haiti)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Scott McTominay (Scotland)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "John McGinn (Scotland)",
+            "matched_scorer": "J. McGinn",
+            "points": 5
+          }
+        ]
+      }
+    },
+    {
+      "created_at": "2026-06-14T12:28:57.751368Z",
+      "key": "australia vs turkey::hermes/openai-codex/gpt-5.5",
+      "match_id": 20,
+      "match": "Australia vs Turkey",
+      "choices": [
+        "Australia",
+        "Turkey",
+        "Draw"
+      ],
+      "model_alias": "hermes-gpt-5.5-codex",
+      "model": "hermes/openai-codex/gpt-5.5",
+      "prediction": "Turkey",
+      "scoreline": "Australia 1-2 Turkey",
+      "goal_scorers": [
+        "Harry Souttar (Australia)",
+        "Hakan Çalhanoğlu (Turkey)",
+        "Arda Güler (Turkey)"
+      ],
+      "confidence": 0.61,
+      "rationale": "Turkey have the stronger squad profile in the supplied artifact, with high-cap midfield leadership through Hakan Çalhanoğlu, attacking quality from Arda Güler, Kenan Yıldız and Kerem Aktürkoğlu, and experienced defenders such as Merih Demiral and Çağlar Söyüncü. Australia have set-piece threat and experience through Harry Souttar, Jackson Irvine and Mathew Leckie, but the local dataset provides no recent-form edge, so Turkey's higher top-end club pedigree and attacking depth make a narrow win the best call.",
+      "news_summary": "• News search unavailable: EXA_API_KEY not set, so news was skipped. • Recent records unavailable in the local dataset for both teams. • No match-specific injury, lineup, or market odds relevant to Australia vs Turkey were supplied.",
+      "polymarket_odds": [
+        {
+          "title": "2026 FIFA World Cup: Which countries qualify?",
+          "slug": "2026-fifa-world-cup-which-countries-qualify",
+          "markets": [
+            {
+              "question": "Will Italy qualify for the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0",
+                "1"
+              ],
+              "volume": "515109.45727799914",
+              "liquidity": null,
+              "url": null,
+              "source_slug": "will-italy-qualify-for-the-2026-fifa-world-cup"
+            },
+            {
+              "question": "Will Netherlands qualify for the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "1",
+                "0"
+              ],
+              "volume": "7759.946623",
+              "liquidity": null,
+              "url": null,
+              "source_slug": "will-netherlands-qualify-for-the-2026-fifa-world-cup"
+            },
+            {
+              "question": "Will Belgium qualify for the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "1",
+                "0"
+              ],
+              "volume": "16165.628878",
+              "liquidity": null,
+              "url": null,
+              "source_slug": "will-belgium-qualify-for-the-2026-fifa-world-cup"
+            },
+            {
+              "question": "Will Croatia qualify for the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "1",
+                "0"
+              ],
+              "volume": "6400.949231",
+              "liquidity": null,
+              "url": null,
+              "source_slug": "will-croatia-qualify-for-the-2026-fifa-world-cup"
+            },
+            {
+              "question": "Will Colombia qualify for the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "1",
+                "0"
+              ],
+              "volume": "13673.922584",
+              "liquidity": "0",
+              "url": null,
+              "source_slug": "will-colombia-qualify-for-the-2026-fifa-world-cup"
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "australia vs turkey",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      },
+      "score": {
+        "total": 0,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Harry Souttar (Australia)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Hakan Çalhanoğlu (Turkey)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Arda Güler (Turkey)",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
+    },
+    {
+      "created_at": "2026-06-14T12:29:15.417026Z",
+      "key": "germany vs curaçao::hermes/openai-codex/gpt-5.5",
+      "match_id": 25,
+      "match": "Germany vs Curaçao",
+      "choices": [
+        "Germany",
+        "Curaçao",
+        "Draw"
+      ],
+      "model_alias": "hermes-gpt-5.5-codex",
+      "model": "hermes/openai-codex/gpt-5.5",
+      "prediction": "Germany",
+      "scoreline": "Germany 3-0 Curaçao",
+      "goal_scorers": [
+        "Kai Havertz (Germany)",
+        "Florian Wirtz (Germany)",
+        "Jamal Musiala (Germany)"
+      ],
+      "confidence": 0.82,
+      "rationale": "Germany are strongly favored by the supplied evidence: their squad has elite top-club depth and higher international production across attackers and midfielders, while the market artifact gives Germany a 0.67 price to win Group E versus Curaçao at 0.006. Curaçao have experienced players such as Leandro Bacuna and Juninho Bacuna, but the squad and market context point to a clear Germany win; recent records were unavailable locally.",
+      "news_summary": "- News search unavailable: EXA_API_KEY not set; skipped.\n- Recent records unavailable in the local dataset for both teams.\n- Supplied market context heavily favors Germany in Group E over Curaçao.",
+      "polymarket_odds": [
+        {
+          "title": "World Cup Winner ",
+          "slug": "world-cup-winner",
+          "markets": [
+            {
+              "question": "Will Spain win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.1665",
+                "0.8335"
+              ],
+              "volume": "43972331.4889665",
+              "liquidity": "7354750.13133",
+              "url": null,
+              "source_slug": "will-spain-win-the-2026-fifa-world-cup-963"
+            },
+            {
+              "question": "Will New Zealand win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0005",
+                "0.9995"
+              ],
+              "volume": "46046031.53264519",
+              "liquidity": "20830469.2163",
+              "url": null,
+              "source_slug": "will-new-zealand-win-the-2026-fifa-world-cup-635"
+            },
+            {
+              "question": "Will Switzerland win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0095",
+                "0.9905"
+              ],
+              "volume": "47862637.630792126",
+              "liquidity": "2149242.1967",
+              "url": null,
+              "source_slug": "will-switzerland-win-the-2026-fifa-world-cup"
+            },
+            {
+              "question": "Will England win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0965",
+                "0.9035"
+              ],
+              "volume": "37410608.43092837",
+              "liquidity": "7815471.23413",
+              "url": null,
+              "source_slug": "will-england-win-the-2026-fifa-world-cup-937"
+            },
+            {
+              "question": "Will Team AM win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [],
+              "volume": "0",
+              "liquidity": "0",
+              "url": null,
+              "source_slug": "will-team-am-win-the-2026-fifa-world-cup"
+            }
+          ]
+        },
+        {
+          "title": "World Cup: Team to Go Unbeaten (Group Stage)",
+          "slug": "world-cup-team-to-go-unbeaten-group-stage-20260612152746618",
+          "markets": [
+            {
+              "question": "Will Mexico go unbeaten in the 2026 FIFA World Cup Group Stage?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.63",
+                "0.37"
+              ],
+              "volume": "336.375",
+              "liquidity": "7077.473",
+              "url": null,
+              "source_slug": "will-mexico-go-unbeaten-in-the-2026-fifa-world-cup-group-stage-20260612152622418"
+            },
+            {
+              "question": "Will Canada go unbeaten in the 2026 FIFA World Cup Group Stage?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.5",
+                "0.5"
+              ],
+              "volume": "1476.2530749999999",
+              "liquidity": "539.4978",
+              "url": null,
+              "source_slug": "will-canada-go-unbeaten-in-the-2026-fifa-world-cup-group-stage-20260612152622419"
+            },
+            {
+              "question": "Will Iran go unbeaten in the 2026 FIFA World Cup Group Stage?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.1675",
+                "0.8325"
+              ],
+              "volume": "1129.97",
+              "liquidity": "610.76708",
+              "url": null,
+              "source_slug": "will-iran-go-unbeaten-in-the-2026-fifa-world-cup-group-stage-20260612152622421"
+            },
+            {
+              "question": "Will Qatar go unbeaten in the 2026 FIFA World Cup Group Stage?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.157",
+                "0.843"
+              ],
+              "volume": "858.302254",
+              "liquidity": "288.28851",
+              "url": null,
+              "source_slug": "will-qatar-go-unbeaten-in-the-2026-fifa-world-cup-group-stage-20260612152622425"
+            },
+            {
+              "question": "Will Jordan go unbeaten in the 2026 FIFA World Cup Group Stage?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0185",
+                "0.9815"
+              ],
+              "volume": "298.206583",
+              "liquidity": "3522.90657",
+              "url": null,
+              "source_slug": "will-jordan-go-unbeaten-in-the-2026-fifa-world-cup-group-stage-20260612152622427"
+            }
+          ]
+        },
+        {
+          "title": "World Cup Group E Winner",
+          "slug": "world-cup-group-e-winner",
+          "markets": [
+            {
+              "question": "Will Curaçao win Group E in the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.006",
+                "0.994"
+              ],
+              "volume": "57403.65063800005",
+              "liquidity": "14874.87779",
+              "url": null,
+              "source_slug": "will-curaao-win-group-e-in-the-2026-fifa-world-cup"
+            },
+            {
+              "question": "Will Ecuador win Group E in the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.225",
+                "0.775"
+              ],
+              "volume": "73129.67569099995",
+              "liquidity": "20772.7255",
+              "url": null,
+              "source_slug": "will-ecuador-win-group-e-in-the-2026-fifa-world-cup"
+            },
+            {
+              "question": "Will Germany win Group E in the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.67",
+                "0.33"
+              ],
+              "volume": "192055.50014400028",
+              "liquidity": "75196.5187",
+              "url": null,
+              "source_slug": "will-germany-win-group-e-in-the-2026-fifa-world-cup"
+            },
+            {
+              "question": "Will Ivory Coast win Group E in the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.121",
+                "0.879"
+              ],
+              "volume": "55926.88942200002",
+              "liquidity": "28797.69284",
+              "url": null,
+              "source_slug": "will-ivory-coast-win-group-e-in-the-2026-fifa-world-cup"
+            },
+            {
+              "question": "Will another team win Group E in the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [],
+              "volume": "0",
+              "liquidity": "0",
+              "url": null,
+              "source_slug": "will-another-team-win-group-e-in-the-2026-fifa-world-cup"
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "germany vs curaçao",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      },
+      "score": {
+        "total": 60,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 10,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Kai Havertz (Germany)",
+            "matched_scorer": "K. Havertz 45'+5'(p)",
+            "points": 5
+          },
+          {
+            "predicted": "Florian Wirtz (Germany)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Jamal Musiala (Germany)",
+            "matched_scorer": "J. Musiala",
+            "points": 5
+          }
+        ]
+      }
+    },
+    {
+      "created_at": "2026-06-14T12:29:34.133878Z",
+      "key": "netherlands vs japan::hermes/openai-codex/gpt-5.5",
+      "match_id": 31,
+      "match": "Netherlands vs Japan",
+      "choices": [
+        "Netherlands",
+        "Japan",
+        "Draw"
+      ],
+      "model_alias": "hermes-gpt-5.5-codex",
+      "model": "hermes/openai-codex/gpt-5.5",
+      "prediction": "Netherlands",
+      "scoreline": "Netherlands 2-1 Japan",
+      "goal_scorers": [
+        "Memphis Depay (Netherlands)",
+        "Cody Gakpo (Netherlands)",
+        "Ayase Ueda (Japan)"
+      ],
+      "confidence": 0.61,
+      "rationale": "Netherlands have the stronger supplied attacking profile, led by Memphis Depay with 55 international goals and Cody Gakpo with 21, plus additional depth from Wout Weghorst, Donyell Malen, and a high-cap defensive spine including Virgil van Dijk, Denzel Dumfries, and Nathan Aké. Japan have credible scoring threats in Ayase Ueda, Koki Ogawa, Junya Ito, Daichi Kamada, and Keito Nakamura, so a Japan goal is plausible, but the squad evidence favors a narrow Netherlands win; confidence is tempered because recent records are unavailable and the provided odds are not match-specific.",
+      "news_summary": "- News search unavailable: EXA_API_KEY not set, so news was skipped; - Recent records unavailable in the local dataset for both teams; - Provided Polymarket data is not specific to Netherlands vs Japan and was not treated as match odds.",
+      "polymarket_odds": [
+        {
+          "title": "World Cup Matches",
+          "slug": "world-cup-matches",
+          "markets": [
+            {
+              "question": "World Cup: Tuesday - Will Argentina beat Saudi Arabia?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0000003745787832534296825390047545289117",
+                "0.9999996254212167465703174609952455"
+              ],
+              "volume": "5667.962447",
+              "liquidity": "25.020075",
+              "url": null,
+              "source_slug": "world-cup-2022-tuesday-will-argentina-beat-saudi-arabia"
+            },
+            {
+              "question": "World Cup: Tuesday - Will Denmark beat Tunisia?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0000008382046583264734388851051080998816",
+                "0.9999991617953416735265611148948919"
+              ],
+              "volume": "7519.843175",
+              "liquidity": "25.03562",
+              "url": null,
+              "source_slug": "world-cup-2022-tuesday-will-denmark-beat-tunisia"
+            },
+            {
+              "question": "World Cup: Tuesday - Will Mexico beat Poland?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0000008074096274619823323505215838597938",
+                "0.9999991925903725380176676494784161"
+              ],
+              "volume": "5404.996325",
+              "liquidity": "25.040061",
+              "url": null,
+              "source_slug": "world-cup-2022-tuesday-will-mexico-beat-poland"
+            },
+            {
+              "question": "World Cup: Tuesday - Will France beat Australia?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.9999997366664747420352704986513923",
+                "0.0000002633335252579647295013486076605947"
+              ],
+              "volume": "4868.067446",
+              "liquidity": "25.030604",
+              "url": null,
+              "source_slug": "world-cup-2022-tuesday-will-france-beat-australia"
+            },
+            {
+              "question": "World Cup: Wednesday - Will Croatia beat Morocco?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.000001097349921977270253042920633368001",
+                "0.9999989026500780227297469570793666"
+              ],
+              "volume": "4566.914594",
+              "liquidity": "25.030454",
+              "url": null,
+              "source_slug": "world-cup-2022-wednesday-will-croatia-beat-morocco"
+            }
+          ]
+        },
+        {
+          "title": "Which country will win the 2022 World Cup?",
+          "slug": "which-country-will-win-the-2022-world-cup",
+          "markets": [
+            {
+              "question": "Will Brazil win the 2022 World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0004260854510246076575693245883651686",
+                "0.9995739145489753923424306754116348"
+              ],
+              "volume": "10241.390327",
+              "liquidity": "589.706752",
+              "url": null,
+              "source_slug": "will-brazil-win-the-2022-world-cup"
+            },
+            {
+              "question": "Will Argentina win the 2022 World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.9992636849310142238421633303148847",
+                "0.0007363150689857761578366696851153297"
+              ],
+              "volume": "28469.031955",
+              "liquidity": "540.872544",
+              "url": null,
+              "source_slug": "will-argentina-win-the-2022-world-cup"
+            },
+            {
+              "question": "Will France win the 2022 World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.000432789644992665734910558840283108",
+                "0.9995672103550073342650894411597169"
+              ],
+              "volume": "55507.143286",
+              "liquidity": "492.642958",
+              "url": null,
+              "source_slug": "will-france-win-the-2022-world-cup"
+            },
+            {
+              "question": "Will England win the 2022 World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0",
+                "1"
+              ],
+              "volume": "7433.122293",
+              "liquidity": "440.742341",
+              "url": null,
+              "source_slug": "will-england-win-the-2022-world-cup"
+            },
+            {
+              "question": "Will Spain win the 2022 World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0004203871893808473520629730678032446",
+                "0.9995796128106191526479370269321968"
+              ],
+              "volume": "4348.802424",
+              "liquidity": "410.834795",
+              "url": null,
+              "source_slug": "will-spain-win-the-2022-world-cup"
+            }
+          ]
+        },
+        {
+          "title": "World Cup Winner ",
+          "slug": "world-cup-winner",
+          "markets": [
+            {
+              "question": "Will Spain win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.1665",
+                "0.8335"
+              ],
+              "volume": "43972331.4889665",
+              "liquidity": "7354750.13133",
+              "url": null,
+              "source_slug": "will-spain-win-the-2026-fifa-world-cup-963"
+            },
+            {
+              "question": "Will New Zealand win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0005",
+                "0.9995"
+              ],
+              "volume": "46046031.53264519",
+              "liquidity": "20830469.2163",
+              "url": null,
+              "source_slug": "will-new-zealand-win-the-2026-fifa-world-cup-635"
+            },
+            {
+              "question": "Will Switzerland win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0095",
+                "0.9905"
+              ],
+              "volume": "47862637.630792126",
+              "liquidity": "2149242.1967",
+              "url": null,
+              "source_slug": "will-switzerland-win-the-2026-fifa-world-cup"
+            },
+            {
+              "question": "Will England win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0965",
+                "0.9035"
+              ],
+              "volume": "37410608.43092837",
+              "liquidity": "7815471.23413",
+              "url": null,
+              "source_slug": "will-england-win-the-2026-fifa-world-cup-937"
+            },
+            {
+              "question": "Will Team AM win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [],
+              "volume": "0",
+              "liquidity": "0",
+              "url": null,
+              "source_slug": "will-team-am-win-the-2026-fifa-world-cup"
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "netherlands vs japan",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      },
+      "score": {
+        "total": 0,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Memphis Depay (Netherlands)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Cody Gakpo (Netherlands)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Ayase Ueda (Japan)",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
+    },
+    {
+      "created_at": "2026-06-14T12:29:54.321333Z",
+      "key": "ivory coast vs ecuador::hermes/openai-codex/gpt-5.5",
+      "match_id": 26,
+      "match": "Ivory Coast vs Ecuador",
+      "choices": [
+        "Ivory Coast",
+        "Ecuador",
+        "Draw"
+      ],
+      "model_alias": "hermes-gpt-5.5-codex",
+      "model": "hermes/openai-codex/gpt-5.5",
+      "prediction": "Ecuador",
+      "scoreline": "Ivory Coast 0-3 Ecuador",
+      "goal_scorers": [
+        "Enner Valencia (Ecuador)",
+        "Gonzalo Plata (Ecuador)",
+        "Moisés Caicedo (Ecuador)"
+      ],
+      "confidence": 0.62,
+      "rationale": "The supplied artifact contains no Ivory Coast squad detail and no recent-record data for either team, while Ecuador has a complete squad with strong international experience and top-club representation: Enner Valencia has 105 caps and 49 goals, Moisés Caicedo has 61 caps with Chelsea, and defenders such as Piero Hincapié, Willian Pacho, and Pervis Estupiñán add high-level depth, making Ecuador the more evidence-supported pick despite limited context.",
+      "news_summary": "- News search unavailable: EXA_API_KEY not set; news search skipped. - Recent records unavailable in the local dataset for both teams. - Polymarket data supplied is broad World Cup market data and does not provide match-specific odds for Ivory Coast vs Ecuador.",
+      "polymarket_odds": [
+        {
+          "title": "World Cup Winner ",
+          "slug": "world-cup-winner",
+          "markets": [
+            {
+              "question": "Will Spain win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.1665",
+                "0.8335"
+              ],
+              "volume": "43972331.4889665",
+              "liquidity": "7354750.13133",
+              "url": null,
+              "source_slug": "will-spain-win-the-2026-fifa-world-cup-963"
+            },
+            {
+              "question": "Will New Zealand win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0005",
+                "0.9995"
+              ],
+              "volume": "46046031.53264519",
+              "liquidity": "20830469.2163",
+              "url": null,
+              "source_slug": "will-new-zealand-win-the-2026-fifa-world-cup-635"
+            },
+            {
+              "question": "Will Switzerland win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0095",
+                "0.9905"
+              ],
+              "volume": "47862637.630792126",
+              "liquidity": "2149242.1967",
+              "url": null,
+              "source_slug": "will-switzerland-win-the-2026-fifa-world-cup"
+            },
+            {
+              "question": "Will England win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0965",
+                "0.9035"
+              ],
+              "volume": "37410608.43092837",
+              "liquidity": "7815471.23413",
+              "url": null,
+              "source_slug": "will-england-win-the-2026-fifa-world-cup-937"
+            },
+            {
+              "question": "Will Team AM win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [],
+              "volume": "0",
+              "liquidity": "0",
+              "url": null,
+              "source_slug": "will-team-am-win-the-2026-fifa-world-cup"
+            }
+          ]
+        },
+        {
+          "title": "World Cup: Nation to Reach Final",
+          "slug": "world-cup-nation-to-reach-final",
+          "markets": [
+            {
+              "question": "Will South Korea reach the 2026 FIFA World Cup final?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0185",
+                "0.9815"
+              ],
+              "volume": "3485.9838550000004",
+              "liquidity": "73538.88515",
+              "url": null,
+              "source_slug": "will-south-korea-reach-the-2026-fifa-world-cup-final"
+            },
+            {
+              "question": "Will Czechia reach the 2026 FIFA World Cup final?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0145",
+                "0.9855"
+              ],
+              "volume": "4094.7532800000004",
+              "liquidity": "63375.83265",
+              "url": null,
+              "source_slug": "will-czechia-reach-the-2026-fifa-world-cup-final"
+            },
+            {
+              "question": "Will Switzerland reach the 2026 FIFA World Cup final?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0365",
+                "0.9635"
+              ],
+              "volume": "18718.70289799999",
+              "liquidity": "98885.82738",
+              "url": null,
+              "source_slug": "will-switzerland-reach-the-2026-fifa-world-cup-final"
+            },
+            {
+              "question": "Will Bosnia and Herzegovina reach the 2026 FIFA World Cup final?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.016",
+                "0.984"
+              ],
+              "volume": "596.976681",
+              "liquidity": "57891.16513",
+              "url": null,
+              "source_slug": "will-bosnia-and-herzegovina-reach-the-2026-fifa-world-cup-final"
+            },
+            {
+              "question": "Will Morocco reach the 2026 FIFA World Cup final?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0935",
+                "0.9065"
+              ],
+              "volume": "35915.581539000006",
+              "liquidity": "83031.33524",
+              "url": null,
+              "source_slug": "will-morocco-reach-the-2026-fifa-world-cup-final"
+            }
+          ]
+        },
+        {
+          "title": "World Cup: Team to Go Unbeaten (Group Stage)",
+          "slug": "world-cup-team-to-go-unbeaten-group-stage-20260612152746618",
+          "markets": [
+            {
+              "question": "Will Mexico go unbeaten in the 2026 FIFA World Cup Group Stage?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.63",
+                "0.37"
+              ],
+              "volume": "336.375",
+              "liquidity": "7077.473",
+              "url": null,
+              "source_slug": "will-mexico-go-unbeaten-in-the-2026-fifa-world-cup-group-stage-20260612152622418"
+            },
+            {
+              "question": "Will Canada go unbeaten in the 2026 FIFA World Cup Group Stage?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.5",
+                "0.5"
+              ],
+              "volume": "1476.2530749999999",
+              "liquidity": "539.4978",
+              "url": null,
+              "source_slug": "will-canada-go-unbeaten-in-the-2026-fifa-world-cup-group-stage-20260612152622419"
+            },
+            {
+              "question": "Will Iran go unbeaten in the 2026 FIFA World Cup Group Stage?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.1675",
+                "0.8325"
+              ],
+              "volume": "1129.97",
+              "liquidity": "610.76708",
+              "url": null,
+              "source_slug": "will-iran-go-unbeaten-in-the-2026-fifa-world-cup-group-stage-20260612152622421"
+            },
+            {
+              "question": "Will Qatar go unbeaten in the 2026 FIFA World Cup Group Stage?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.157",
+                "0.843"
+              ],
+              "volume": "858.302254",
+              "liquidity": "288.28851",
+              "url": null,
+              "source_slug": "will-qatar-go-unbeaten-in-the-2026-fifa-world-cup-group-stage-20260612152622425"
+            },
+            {
+              "question": "Will Jordan go unbeaten in the 2026 FIFA World Cup Group Stage?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0185",
+                "0.9815"
+              ],
+              "volume": "298.206583",
+              "liquidity": "3522.90657",
+              "url": null,
+              "source_slug": "will-jordan-go-unbeaten-in-the-2026-fifa-world-cup-group-stage-20260612152622427"
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "ivory coast vs ecuador",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      },
+      "score": {
+        "total": 0,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Enner Valencia (Ecuador)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Gonzalo Plata (Ecuador)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Moisés Caicedo (Ecuador)",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
+    },
+    {
+      "created_at": "2026-06-14T12:30:13.171172Z",
+      "key": "sweden vs tunisia::hermes/openai-codex/gpt-5.5",
+      "match_id": 32,
+      "match": "Sweden vs Tunisia",
+      "choices": [
+        "Sweden",
+        "Tunisia",
+        "Draw"
+      ],
+      "model_alias": "hermes-gpt-5.5-codex",
+      "model": "hermes/openai-codex/gpt-5.5",
+      "prediction": "Sweden",
+      "scoreline": "Sweden 2-1 Tunisia",
+      "goal_scorers": [
+        "Alexander Isak (Sweden)",
+        "Viktor Gyökeres (Sweden)",
+        "Elias Achouri (Tunisia)"
+      ],
+      "confidence": 0.62,
+      "rationale": "Sweden have the stronger attacking profile in the supplied squads, led by Viktor Gyökeres with 20 international goals and Alexander Isak with 17, plus Premier League-level support from Anthony Elanga and midfield depth. Tunisia carry experienced defenders and midfielders such as Montassar Talbi, Ellyes Skhiri and Hannibal Mejbri, and have plausible scoring threats in Elias Achouri and Firas Chaouat, but Sweden’s higher-end forward quality makes a narrow win more likely.",
+      "news_summary": "- News search unavailable: EXA_API_KEY not set; news search skipped. - Recent record unavailable for both teams in the local dataset. - Supplied market data is broad tournament-level Polymarket context, not match-specific odds.",
+      "polymarket_odds": [
+        {
+          "title": "World Cup Winner ",
+          "slug": "world-cup-winner",
+          "markets": [
+            {
+              "question": "Will Spain win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.1665",
+                "0.8335"
+              ],
+              "volume": "43972331.4889665",
+              "liquidity": "7354750.13133",
+              "url": null,
+              "source_slug": "will-spain-win-the-2026-fifa-world-cup-963"
+            },
+            {
+              "question": "Will New Zealand win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0005",
+                "0.9995"
+              ],
+              "volume": "46046031.53264519",
+              "liquidity": "20830469.2163",
+              "url": null,
+              "source_slug": "will-new-zealand-win-the-2026-fifa-world-cup-635"
+            },
+            {
+              "question": "Will Switzerland win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0095",
+                "0.9905"
+              ],
+              "volume": "47862637.630792126",
+              "liquidity": "2149242.1967",
+              "url": null,
+              "source_slug": "will-switzerland-win-the-2026-fifa-world-cup"
+            },
+            {
+              "question": "Will England win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0965",
+                "0.9035"
+              ],
+              "volume": "37410608.43092837",
+              "liquidity": "7815471.23413",
+              "url": null,
+              "source_slug": "will-england-win-the-2026-fifa-world-cup-937"
+            },
+            {
+              "question": "Will Team AM win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [],
+              "volume": "0",
+              "liquidity": "0",
+              "url": null,
+              "source_slug": "will-team-am-win-the-2026-fifa-world-cup"
+            }
+          ]
+        },
+        {
+          "title": "World Cup: Nation to Reach Final",
+          "slug": "world-cup-nation-to-reach-final",
+          "markets": [
+            {
+              "question": "Will South Korea reach the 2026 FIFA World Cup final?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0185",
+                "0.9815"
+              ],
+              "volume": "3485.9838550000004",
+              "liquidity": "73538.88515",
+              "url": null,
+              "source_slug": "will-south-korea-reach-the-2026-fifa-world-cup-final"
+            },
+            {
+              "question": "Will Czechia reach the 2026 FIFA World Cup final?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0145",
+                "0.9855"
+              ],
+              "volume": "4094.7532800000004",
+              "liquidity": "63375.83265",
+              "url": null,
+              "source_slug": "will-czechia-reach-the-2026-fifa-world-cup-final"
+            },
+            {
+              "question": "Will Switzerland reach the 2026 FIFA World Cup final?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0365",
+                "0.9635"
+              ],
+              "volume": "18718.70289799999",
+              "liquidity": "98885.82738",
+              "url": null,
+              "source_slug": "will-switzerland-reach-the-2026-fifa-world-cup-final"
+            },
+            {
+              "question": "Will Bosnia and Herzegovina reach the 2026 FIFA World Cup final?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.016",
+                "0.984"
+              ],
+              "volume": "596.976681",
+              "liquidity": "57891.16513",
+              "url": null,
+              "source_slug": "will-bosnia-and-herzegovina-reach-the-2026-fifa-world-cup-final"
+            },
+            {
+              "question": "Will Morocco reach the 2026 FIFA World Cup final?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0935",
+                "0.9065"
+              ],
+              "volume": "35915.581539000006",
+              "liquidity": "83031.33524",
+              "url": null,
+              "source_slug": "will-morocco-reach-the-2026-fifa-world-cup-final"
+            }
+          ]
+        },
+        {
+          "title": "World Cup: Team to Go Unbeaten (Group Stage)",
+          "slug": "world-cup-team-to-go-unbeaten-group-stage-20260612152746618",
+          "markets": [
+            {
+              "question": "Will Mexico go unbeaten in the 2026 FIFA World Cup Group Stage?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.63",
+                "0.37"
+              ],
+              "volume": "336.375",
+              "liquidity": "7077.473",
+              "url": null,
+              "source_slug": "will-mexico-go-unbeaten-in-the-2026-fifa-world-cup-group-stage-20260612152622418"
+            },
+            {
+              "question": "Will Canada go unbeaten in the 2026 FIFA World Cup Group Stage?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.5",
+                "0.5"
+              ],
+              "volume": "1476.2530749999999",
+              "liquidity": "539.4978",
+              "url": null,
+              "source_slug": "will-canada-go-unbeaten-in-the-2026-fifa-world-cup-group-stage-20260612152622419"
+            },
+            {
+              "question": "Will Iran go unbeaten in the 2026 FIFA World Cup Group Stage?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.1675",
+                "0.8325"
+              ],
+              "volume": "1129.97",
+              "liquidity": "610.76708",
+              "url": null,
+              "source_slug": "will-iran-go-unbeaten-in-the-2026-fifa-world-cup-group-stage-20260612152622421"
+            },
+            {
+              "question": "Will Qatar go unbeaten in the 2026 FIFA World Cup Group Stage?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.157",
+                "0.843"
+              ],
+              "volume": "858.302254",
+              "liquidity": "288.28851",
+              "url": null,
+              "source_slug": "will-qatar-go-unbeaten-in-the-2026-fifa-world-cup-group-stage-20260612152622425"
+            },
+            {
+              "question": "Will Jordan go unbeaten in the 2026 FIFA World Cup Group Stage?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0185",
+                "0.9815"
+              ],
+              "volume": "298.206583",
+              "liquidity": "3522.90657",
+              "url": null,
+              "source_slug": "will-jordan-go-unbeaten-in-the-2026-fifa-world-cup-group-stage-20260612152622427"
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "sweden vs tunisia",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      },
+      "score": {
+        "total": 60,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 10,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Alexander Isak (Sweden)",
+            "matched_scorer": "A. Isak",
+            "points": 5
+          },
+          {
+            "predicted": "Viktor Gyökeres (Sweden)",
+            "matched_scorer": "V. Gyökeres",
+            "points": 5
+          },
+          {
+            "predicted": "Elias Achouri (Tunisia)",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
+    },
+    {
+      "created_at": "2026-06-14T12:30:31.438338Z",
+      "key": "spain vs cape verde::hermes/openai-codex/gpt-5.5",
+      "match_id": 43,
+      "match": "Spain vs Cape Verde",
+      "choices": [
+        "Spain",
+        "Cape Verde",
+        "Draw"
+      ],
+      "model_alias": "hermes-gpt-5.5-codex",
+      "model": "hermes/openai-codex/gpt-5.5",
+      "prediction": "Spain",
+      "scoreline": "Spain 3-0 Cape Verde",
+      "goal_scorers": [
+        "Ferran Torres (Spain)",
+        "Lamine Yamal (Spain)",
+        "Mikel Oyarzabal (Spain)"
+      ],
+      "confidence": 0.86,
+      "rationale": "Spain are the clear pick based on the supplied artifact: they have a complete, high-cap squad drawn from elite clubs, with proven international scorers such as Ferran Torres, Mikel Oyarzabal, Dani Olmo, Lamine Yamal, Pedri, and Mikel Merino, while Cape Verde’s squad fields are empty and both teams’ recent records are unavailable locally; the only market signal supplied is broad World Cup pricing that treats Spain as a credible contender, reinforcing the talent gap.",
+      "news_summary": "- News search unavailable: EXA_API_KEY not set, so news was skipped. - Recent records are unavailable for both teams in the local dataset. - Cape Verde squad data is not supplied in the artifact.",
+      "polymarket_odds": [
+        {
+          "title": "World Cup Winner ",
+          "slug": "world-cup-winner",
+          "markets": [
+            {
+              "question": "Will Spain win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.1665",
+                "0.8335"
+              ],
+              "volume": "43972331.4889665",
+              "liquidity": "7354750.13133",
+              "url": null,
+              "source_slug": "will-spain-win-the-2026-fifa-world-cup-963"
+            },
+            {
+              "question": "Will New Zealand win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0005",
+                "0.9995"
+              ],
+              "volume": "46046031.53264519",
+              "liquidity": "20830469.2163",
+              "url": null,
+              "source_slug": "will-new-zealand-win-the-2026-fifa-world-cup-635"
+            },
+            {
+              "question": "Will Switzerland win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0095",
+                "0.9905"
+              ],
+              "volume": "47862637.630792126",
+              "liquidity": "2149242.1967",
+              "url": null,
+              "source_slug": "will-switzerland-win-the-2026-fifa-world-cup"
+            },
+            {
+              "question": "Will England win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0965",
+                "0.9035"
+              ],
+              "volume": "37410608.43092837",
+              "liquidity": "7815471.23413",
+              "url": null,
+              "source_slug": "will-england-win-the-2026-fifa-world-cup-937"
+            },
+            {
+              "question": "Will Team AM win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [],
+              "volume": "0",
+              "liquidity": "0",
+              "url": null,
+              "source_slug": "will-team-am-win-the-2026-fifa-world-cup"
+            }
+          ]
+        },
+        {
+          "title": "World Cup: Nation to Reach Final",
+          "slug": "world-cup-nation-to-reach-final",
+          "markets": [
+            {
+              "question": "Will South Korea reach the 2026 FIFA World Cup final?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0185",
+                "0.9815"
+              ],
+              "volume": "3485.9838550000004",
+              "liquidity": "73538.88515",
+              "url": null,
+              "source_slug": "will-south-korea-reach-the-2026-fifa-world-cup-final"
+            },
+            {
+              "question": "Will Czechia reach the 2026 FIFA World Cup final?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0145",
+                "0.9855"
+              ],
+              "volume": "4094.7532800000004",
+              "liquidity": "63375.83265",
+              "url": null,
+              "source_slug": "will-czechia-reach-the-2026-fifa-world-cup-final"
+            },
+            {
+              "question": "Will Switzerland reach the 2026 FIFA World Cup final?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0365",
+                "0.9635"
+              ],
+              "volume": "18718.70289799999",
+              "liquidity": "98885.82738",
+              "url": null,
+              "source_slug": "will-switzerland-reach-the-2026-fifa-world-cup-final"
+            },
+            {
+              "question": "Will Bosnia and Herzegovina reach the 2026 FIFA World Cup final?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.016",
+                "0.984"
+              ],
+              "volume": "596.976681",
+              "liquidity": "57891.16513",
+              "url": null,
+              "source_slug": "will-bosnia-and-herzegovina-reach-the-2026-fifa-world-cup-final"
+            },
+            {
+              "question": "Will Morocco reach the 2026 FIFA World Cup final?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0935",
+                "0.9065"
+              ],
+              "volume": "35915.581539000006",
+              "liquidity": "83031.33524",
+              "url": null,
+              "source_slug": "will-morocco-reach-the-2026-fifa-world-cup-final"
+            }
+          ]
+        },
+        {
+          "title": "World Cup: Team to Go Unbeaten (Group Stage)",
+          "slug": "world-cup-team-to-go-unbeaten-group-stage-20260612152746618",
+          "markets": [
+            {
+              "question": "Will Mexico go unbeaten in the 2026 FIFA World Cup Group Stage?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.63",
+                "0.37"
+              ],
+              "volume": "336.375",
+              "liquidity": "7077.473",
+              "url": null,
+              "source_slug": "will-mexico-go-unbeaten-in-the-2026-fifa-world-cup-group-stage-20260612152622418"
+            },
+            {
+              "question": "Will Canada go unbeaten in the 2026 FIFA World Cup Group Stage?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.5",
+                "0.5"
+              ],
+              "volume": "1476.2530749999999",
+              "liquidity": "539.4978",
+              "url": null,
+              "source_slug": "will-canada-go-unbeaten-in-the-2026-fifa-world-cup-group-stage-20260612152622419"
+            },
+            {
+              "question": "Will Iran go unbeaten in the 2026 FIFA World Cup Group Stage?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.1675",
+                "0.8325"
+              ],
+              "volume": "1129.97",
+              "liquidity": "610.76708",
+              "url": null,
+              "source_slug": "will-iran-go-unbeaten-in-the-2026-fifa-world-cup-group-stage-20260612152622421"
+            },
+            {
+              "question": "Will Qatar go unbeaten in the 2026 FIFA World Cup Group Stage?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.157",
+                "0.843"
+              ],
+              "volume": "858.302254",
+              "liquidity": "288.28851",
+              "url": null,
+              "source_slug": "will-qatar-go-unbeaten-in-the-2026-fifa-world-cup-group-stage-20260612152622425"
+            },
+            {
+              "question": "Will Jordan go unbeaten in the 2026 FIFA World Cup Group Stage?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0185",
+                "0.9815"
+              ],
+              "volume": "298.206583",
+              "liquidity": "3522.90657",
+              "url": null,
+              "source_slug": "will-jordan-go-unbeaten-in-the-2026-fifa-world-cup-group-stage-20260612152622427"
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "spain vs cape verde",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      },
+      "score": {
+        "total": 0,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Ferran Torres (Spain)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Lamine Yamal (Spain)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Mikel Oyarzabal (Spain)",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
+    },
+    {
+      "created_at": "2026-06-14T12:30:51.184428Z",
+      "key": "belgium vs egypt::hermes/openai-codex/gpt-5.5",
+      "match_id": 37,
+      "match": "Belgium vs Egypt",
+      "choices": [
+        "Belgium",
+        "Egypt",
+        "Draw"
+      ],
+      "model_alias": "hermes-gpt-5.5-codex",
+      "model": "hermes/openai-codex/gpt-5.5",
+      "prediction": "Belgium",
+      "scoreline": "Belgium 2-1 Egypt",
+      "goal_scorers": [
+        "Romelu Lukaku (Belgium)",
+        "Kevin De Bruyne (Belgium)",
+        "Mohamed Salah (Egypt)"
+      ],
+      "confidence": 0.62,
+      "rationale": "Belgium have the deeper supplied squad and more high-end international production, led by Lukaku's 90 goals in 126 caps, De Bruyne's 37 in 119, and an experienced spine including Courtois, Witsel, Tielemans and multiple top-five-league attackers. Egypt carry serious threat through Salah, Marmoush and Trezeguet, but the artifact shows Belgium with broader scoring depth and elite experience across positions, making a narrow Belgium win the most likely outcome.",
+      "news_summary": "- News search unavailable: EXA_API_KEY not set, so news was skipped. - Recent-record data unavailable for both teams in the local dataset. - No matchup-specific betting odds were supplied; Polymarket data shown is broad World Cup market context only.",
+      "polymarket_odds": [
+        {
+          "title": "World Cup Winner ",
+          "slug": "world-cup-winner",
+          "markets": [
+            {
+              "question": "Will Spain win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.1665",
+                "0.8335"
+              ],
+              "volume": "43972331.4889665",
+              "liquidity": "7354750.13133",
+              "url": null,
+              "source_slug": "will-spain-win-the-2026-fifa-world-cup-963"
+            },
+            {
+              "question": "Will New Zealand win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0005",
+                "0.9995"
+              ],
+              "volume": "46046031.53264519",
+              "liquidity": "20830469.2163",
+              "url": null,
+              "source_slug": "will-new-zealand-win-the-2026-fifa-world-cup-635"
+            },
+            {
+              "question": "Will Switzerland win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0095",
+                "0.9905"
+              ],
+              "volume": "47862637.630792126",
+              "liquidity": "2149242.1967",
+              "url": null,
+              "source_slug": "will-switzerland-win-the-2026-fifa-world-cup"
+            },
+            {
+              "question": "Will England win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0965",
+                "0.9035"
+              ],
+              "volume": "37410608.43092837",
+              "liquidity": "7815471.23413",
+              "url": null,
+              "source_slug": "will-england-win-the-2026-fifa-world-cup-937"
+            },
+            {
+              "question": "Will Team AM win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [],
+              "volume": "0",
+              "liquidity": "0",
+              "url": null,
+              "source_slug": "will-team-am-win-the-2026-fifa-world-cup"
+            }
+          ]
+        },
+        {
+          "title": "World Cup: Nation to Reach Final",
+          "slug": "world-cup-nation-to-reach-final",
+          "markets": [
+            {
+              "question": "Will South Korea reach the 2026 FIFA World Cup final?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0185",
+                "0.9815"
+              ],
+              "volume": "3485.9838550000004",
+              "liquidity": "73538.88515",
+              "url": null,
+              "source_slug": "will-south-korea-reach-the-2026-fifa-world-cup-final"
+            },
+            {
+              "question": "Will Czechia reach the 2026 FIFA World Cup final?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0145",
+                "0.9855"
+              ],
+              "volume": "4094.7532800000004",
+              "liquidity": "63375.83265",
+              "url": null,
+              "source_slug": "will-czechia-reach-the-2026-fifa-world-cup-final"
+            },
+            {
+              "question": "Will Switzerland reach the 2026 FIFA World Cup final?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0365",
+                "0.9635"
+              ],
+              "volume": "18718.70289799999",
+              "liquidity": "98885.82738",
+              "url": null,
+              "source_slug": "will-switzerland-reach-the-2026-fifa-world-cup-final"
+            },
+            {
+              "question": "Will Bosnia and Herzegovina reach the 2026 FIFA World Cup final?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.016",
+                "0.984"
+              ],
+              "volume": "596.976681",
+              "liquidity": "57891.16513",
+              "url": null,
+              "source_slug": "will-bosnia-and-herzegovina-reach-the-2026-fifa-world-cup-final"
+            },
+            {
+              "question": "Will Morocco reach the 2026 FIFA World Cup final?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0935",
+                "0.9065"
+              ],
+              "volume": "35915.581539000006",
+              "liquidity": "83031.33524",
+              "url": null,
+              "source_slug": "will-morocco-reach-the-2026-fifa-world-cup-final"
+            }
+          ]
+        },
+        {
+          "title": "World Cup: Team to Go Unbeaten (Group Stage)",
+          "slug": "world-cup-team-to-go-unbeaten-group-stage-20260612152746618",
+          "markets": [
+            {
+              "question": "Will Mexico go unbeaten in the 2026 FIFA World Cup Group Stage?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.63",
+                "0.37"
+              ],
+              "volume": "336.375",
+              "liquidity": "7077.473",
+              "url": null,
+              "source_slug": "will-mexico-go-unbeaten-in-the-2026-fifa-world-cup-group-stage-20260612152622418"
+            },
+            {
+              "question": "Will Canada go unbeaten in the 2026 FIFA World Cup Group Stage?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.5",
+                "0.5"
+              ],
+              "volume": "1476.2530749999999",
+              "liquidity": "539.4978",
+              "url": null,
+              "source_slug": "will-canada-go-unbeaten-in-the-2026-fifa-world-cup-group-stage-20260612152622419"
+            },
+            {
+              "question": "Will Iran go unbeaten in the 2026 FIFA World Cup Group Stage?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.1675",
+                "0.8325"
+              ],
+              "volume": "1129.97",
+              "liquidity": "610.76708",
+              "url": null,
+              "source_slug": "will-iran-go-unbeaten-in-the-2026-fifa-world-cup-group-stage-20260612152622421"
+            },
+            {
+              "question": "Will Qatar go unbeaten in the 2026 FIFA World Cup Group Stage?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.157",
+                "0.843"
+              ],
+              "volume": "858.302254",
+              "liquidity": "288.28851",
+              "url": null,
+              "source_slug": "will-qatar-go-unbeaten-in-the-2026-fifa-world-cup-group-stage-20260612152622425"
+            },
+            {
+              "question": "Will Jordan go unbeaten in the 2026 FIFA World Cup Group Stage?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0185",
+                "0.9815"
+              ],
+              "volume": "298.206583",
+              "liquidity": "3522.90657",
+              "url": null,
+              "source_slug": "will-jordan-go-unbeaten-in-the-2026-fifa-world-cup-group-stage-20260612152622427"
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "belgium vs egypt",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      },
+      "score": {
+        "total": 0,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Romelu Lukaku (Belgium)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Kevin De Bruyne (Belgium)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Mohamed Salah (Egypt)",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
+    },
+    {
+      "created_at": "2026-06-14T12:31:11.545610Z",
+      "key": "saudi arabia vs uruguay::hermes/openai-codex/gpt-5.5",
+      "match_id": 44,
+      "match": "Saudi Arabia vs Uruguay",
+      "choices": [
+        "Saudi Arabia",
+        "Uruguay",
+        "Draw"
+      ],
+      "model_alias": "hermes-gpt-5.5-codex",
+      "model": "hermes/openai-codex/gpt-5.5",
+      "prediction": "Uruguay",
+      "scoreline": "Saudi Arabia 1-2 Uruguay",
+      "goal_scorers": [
+        "Salem Aldawsari (Saudi Arabia)",
+        "Darwin Nuñez (Uruguay)",
+        "Federico Valverde (Uruguay)"
+      ],
+      "confidence": 0.66,
+      "rationale": "Uruguay are favored on squad strength and top-level club pedigree, with key players listed from Real Madrid, Liverpool/Al Hilal, Tottenham, Manchester United, Barcelona, Atletico Madrid and Napoli, plus multiple high-cap contributors such as Valverde, Bentancur, Gimenez and De Arrascaeta. Saudi Arabia have experienced attacking options in Salem Aldawsari, Feras Albrikan and Saleh Alshehri, but the artifact shows no recent-form edge and Uruguay’s midfield/defensive quality suggests they can control enough of a neutral-site match in Miami to win narrowly.",
+      "news_summary": "- Recent record unavailable in local dataset for both teams; - News search unavailable: EXA_API_KEY not set, news search skipped; - Polymarket data in artifact is broad World Cup market data, not match-specific Saudi Arabia vs Uruguay odds.",
+      "polymarket_odds": [
+        {
+          "title": "Which country will win the 2022 World Cup?",
+          "slug": "which-country-will-win-the-2022-world-cup",
+          "markets": [
+            {
+              "question": "Will Brazil win the 2022 World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0004260854510246076575693245883651686",
+                "0.9995739145489753923424306754116348"
+              ],
+              "volume": "10241.390327",
+              "liquidity": "589.706752",
+              "url": null,
+              "source_slug": "will-brazil-win-the-2022-world-cup"
+            },
+            {
+              "question": "Will Argentina win the 2022 World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.9992636849310142238421633303148847",
+                "0.0007363150689857761578366696851153297"
+              ],
+              "volume": "28469.031955",
+              "liquidity": "540.872544",
+              "url": null,
+              "source_slug": "will-argentina-win-the-2022-world-cup"
+            },
+            {
+              "question": "Will France win the 2022 World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.000432789644992665734910558840283108",
+                "0.9995672103550073342650894411597169"
+              ],
+              "volume": "55507.143286",
+              "liquidity": "492.642958",
+              "url": null,
+              "source_slug": "will-france-win-the-2022-world-cup"
+            },
+            {
+              "question": "Will England win the 2022 World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0",
+                "1"
+              ],
+              "volume": "7433.122293",
+              "liquidity": "440.742341",
+              "url": null,
+              "source_slug": "will-england-win-the-2022-world-cup"
+            },
+            {
+              "question": "Will Spain win the 2022 World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0004203871893808473520629730678032446",
+                "0.9995796128106191526479370269321968"
+              ],
+              "volume": "4348.802424",
+              "liquidity": "410.834795",
+              "url": null,
+              "source_slug": "will-spain-win-the-2022-world-cup"
+            }
+          ]
+        },
+        {
+          "title": "World Cup Winner ",
+          "slug": "world-cup-winner",
+          "markets": [
+            {
+              "question": "Will Spain win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.1665",
+                "0.8335"
+              ],
+              "volume": "43972331.4889665",
+              "liquidity": "7354750.13133",
+              "url": null,
+              "source_slug": "will-spain-win-the-2026-fifa-world-cup-963"
+            },
+            {
+              "question": "Will New Zealand win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0005",
+                "0.9995"
+              ],
+              "volume": "46046031.53264519",
+              "liquidity": "20830469.2163",
+              "url": null,
+              "source_slug": "will-new-zealand-win-the-2026-fifa-world-cup-635"
+            },
+            {
+              "question": "Will Switzerland win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0095",
+                "0.9905"
+              ],
+              "volume": "47862637.630792126",
+              "liquidity": "2149242.1967",
+              "url": null,
+              "source_slug": "will-switzerland-win-the-2026-fifa-world-cup"
+            },
+            {
+              "question": "Will England win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0965",
+                "0.9035"
+              ],
+              "volume": "37410608.43092837",
+              "liquidity": "7815471.23413",
+              "url": null,
+              "source_slug": "will-england-win-the-2026-fifa-world-cup-937"
+            },
+            {
+              "question": "Will Team AM win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [],
+              "volume": "0",
+              "liquidity": "0",
+              "url": null,
+              "source_slug": "will-team-am-win-the-2026-fifa-world-cup"
+            }
+          ]
+        },
+        {
+          "title": "World Cup: Nation to Reach Final",
+          "slug": "world-cup-nation-to-reach-final",
+          "markets": [
+            {
+              "question": "Will South Korea reach the 2026 FIFA World Cup final?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0185",
+                "0.9815"
+              ],
+              "volume": "3485.9838550000004",
+              "liquidity": "73538.88515",
+              "url": null,
+              "source_slug": "will-south-korea-reach-the-2026-fifa-world-cup-final"
+            },
+            {
+              "question": "Will Czechia reach the 2026 FIFA World Cup final?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0145",
+                "0.9855"
+              ],
+              "volume": "4094.7532800000004",
+              "liquidity": "63375.83265",
+              "url": null,
+              "source_slug": "will-czechia-reach-the-2026-fifa-world-cup-final"
+            },
+            {
+              "question": "Will Switzerland reach the 2026 FIFA World Cup final?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0365",
+                "0.9635"
+              ],
+              "volume": "18718.70289799999",
+              "liquidity": "98885.82738",
+              "url": null,
+              "source_slug": "will-switzerland-reach-the-2026-fifa-world-cup-final"
+            },
+            {
+              "question": "Will Bosnia and Herzegovina reach the 2026 FIFA World Cup final?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.016",
+                "0.984"
+              ],
+              "volume": "596.976681",
+              "liquidity": "57891.16513",
+              "url": null,
+              "source_slug": "will-bosnia-and-herzegovina-reach-the-2026-fifa-world-cup-final"
+            },
+            {
+              "question": "Will Morocco reach the 2026 FIFA World Cup final?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0935",
+                "0.9065"
+              ],
+              "volume": "35915.581539000006",
+              "liquidity": "83031.33524",
+              "url": null,
+              "source_slug": "will-morocco-reach-the-2026-fifa-world-cup-final"
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "saudi arabia vs uruguay",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      },
+      "score": {
+        "total": 0,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Salem Aldawsari (Saudi Arabia)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Darwin Nuñez (Uruguay)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Federico Valverde (Uruguay)",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
+    },
+    {
+      "created_at": "2026-06-14T12:31:33.332917Z",
+      "key": "iran vs new zealand::hermes/openai-codex/gpt-5.5",
+      "match_id": 38,
+      "match": "Iran vs New Zealand",
+      "choices": [
+        "Iran",
+        "New Zealand",
+        "Draw"
+      ],
+      "model_alias": "hermes-gpt-5.5-codex",
+      "model": "hermes/openai-codex/gpt-5.5",
+      "prediction": "New Zealand",
+      "scoreline": "Iran 0-3 New Zealand",
+      "goal_scorers": [
+        "Chris Wood (New Zealand)",
+        "Ben Waine (New Zealand)",
+        "Elijah Just (New Zealand)"
+      ],
+      "confidence": 0.46,
+      "rationale": "The supplied artifact provides no Iran squad details and no recent-record data for either side, while New Zealand has a complete squad with clear attacking production led by Chris Wood (90 caps, 45 goals), Ben Waine (31 caps, 9 goals), Elijah Just (44 caps, 9 goals), Kosta Barbarouses (76 caps, 10 goals), and midfield contributors such as Matthew Garbett and Callum McCowatt. With no usable Iran player data in the artifact and only limited market context indicating Iran are not strongly expected to go unbeaten in the group stage, the local fallback leans narrowly toward New Zealand despite low confidence.",
+      "news_summary": "- News search unavailable: EXA_API_KEY not set; news search skipped. - Recent records unavailable in the local dataset for both Iran and New Zealand. - Market artifact includes no direct match odds; only broad World Cup and group-stage markets were supplied.",
+      "polymarket_odds": [
+        {
+          "title": "World Cup Winner ",
+          "slug": "world-cup-winner",
+          "markets": [
+            {
+              "question": "Will Spain win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.1665",
+                "0.8335"
+              ],
+              "volume": "43972331.4889665",
+              "liquidity": "7354750.13133",
+              "url": null,
+              "source_slug": "will-spain-win-the-2026-fifa-world-cup-963"
+            },
+            {
+              "question": "Will New Zealand win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0005",
+                "0.9995"
+              ],
+              "volume": "46046031.53264519",
+              "liquidity": "20830469.2163",
+              "url": null,
+              "source_slug": "will-new-zealand-win-the-2026-fifa-world-cup-635"
+            },
+            {
+              "question": "Will Switzerland win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0095",
+                "0.9905"
+              ],
+              "volume": "47862637.630792126",
+              "liquidity": "2149242.1967",
+              "url": null,
+              "source_slug": "will-switzerland-win-the-2026-fifa-world-cup"
+            },
+            {
+              "question": "Will England win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0965",
+                "0.9035"
+              ],
+              "volume": "37410608.43092837",
+              "liquidity": "7815471.23413",
+              "url": null,
+              "source_slug": "will-england-win-the-2026-fifa-world-cup-937"
+            },
+            {
+              "question": "Will Team AM win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [],
+              "volume": "0",
+              "liquidity": "0",
+              "url": null,
+              "source_slug": "will-team-am-win-the-2026-fifa-world-cup"
+            }
+          ]
+        },
+        {
+          "title": "World Cup: Nation to Reach Final",
+          "slug": "world-cup-nation-to-reach-final",
+          "markets": [
+            {
+              "question": "Will South Korea reach the 2026 FIFA World Cup final?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0185",
+                "0.9815"
+              ],
+              "volume": "3485.9838550000004",
+              "liquidity": "73538.88515",
+              "url": null,
+              "source_slug": "will-south-korea-reach-the-2026-fifa-world-cup-final"
+            },
+            {
+              "question": "Will Czechia reach the 2026 FIFA World Cup final?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0145",
+                "0.9855"
+              ],
+              "volume": "4094.7532800000004",
+              "liquidity": "63375.83265",
+              "url": null,
+              "source_slug": "will-czechia-reach-the-2026-fifa-world-cup-final"
+            },
+            {
+              "question": "Will Switzerland reach the 2026 FIFA World Cup final?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0365",
+                "0.9635"
+              ],
+              "volume": "18718.70289799999",
+              "liquidity": "98885.82738",
+              "url": null,
+              "source_slug": "will-switzerland-reach-the-2026-fifa-world-cup-final"
+            },
+            {
+              "question": "Will Bosnia and Herzegovina reach the 2026 FIFA World Cup final?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.016",
+                "0.984"
+              ],
+              "volume": "596.976681",
+              "liquidity": "57891.16513",
+              "url": null,
+              "source_slug": "will-bosnia-and-herzegovina-reach-the-2026-fifa-world-cup-final"
+            },
+            {
+              "question": "Will Morocco reach the 2026 FIFA World Cup final?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0935",
+                "0.9065"
+              ],
+              "volume": "35915.581539000006",
+              "liquidity": "83031.33524",
+              "url": null,
+              "source_slug": "will-morocco-reach-the-2026-fifa-world-cup-final"
+            }
+          ]
+        },
+        {
+          "title": "World Cup: Team to Go Unbeaten (Group Stage)",
+          "slug": "world-cup-team-to-go-unbeaten-group-stage-20260612152746618",
+          "markets": [
+            {
+              "question": "Will Mexico go unbeaten in the 2026 FIFA World Cup Group Stage?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.63",
+                "0.37"
+              ],
+              "volume": "336.375",
+              "liquidity": "7077.473",
+              "url": null,
+              "source_slug": "will-mexico-go-unbeaten-in-the-2026-fifa-world-cup-group-stage-20260612152622418"
+            },
+            {
+              "question": "Will Canada go unbeaten in the 2026 FIFA World Cup Group Stage?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.5",
+                "0.5"
+              ],
+              "volume": "1476.2530749999999",
+              "liquidity": "539.4978",
+              "url": null,
+              "source_slug": "will-canada-go-unbeaten-in-the-2026-fifa-world-cup-group-stage-20260612152622419"
+            },
+            {
+              "question": "Will Iran go unbeaten in the 2026 FIFA World Cup Group Stage?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.1675",
+                "0.8325"
+              ],
+              "volume": "1129.97",
+              "liquidity": "610.76708",
+              "url": null,
+              "source_slug": "will-iran-go-unbeaten-in-the-2026-fifa-world-cup-group-stage-20260612152622421"
+            },
+            {
+              "question": "Will Qatar go unbeaten in the 2026 FIFA World Cup Group Stage?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.157",
+                "0.843"
+              ],
+              "volume": "858.302254",
+              "liquidity": "288.28851",
+              "url": null,
+              "source_slug": "will-qatar-go-unbeaten-in-the-2026-fifa-world-cup-group-stage-20260612152622425"
+            },
+            {
+              "question": "Will Jordan go unbeaten in the 2026 FIFA World Cup Group Stage?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0185",
+                "0.9815"
+              ],
+              "volume": "298.206583",
+              "liquidity": "3522.90657",
+              "url": null,
+              "source_slug": "will-jordan-go-unbeaten-in-the-2026-fifa-world-cup-group-stage-20260612152622427"
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "iran vs new zealand",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      },
+      "score": {
+        "total": 0,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Chris Wood (New Zealand)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Ben Waine (New Zealand)",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Elijah Just (New Zealand)",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
+    },
+    {
+      "created_at": "2026-06-14T12:31:54.249721Z",
+      "key": "france vs senegal::hermes/openai-codex/gpt-5.5",
+      "match_id": 49,
+      "match": "France vs Senegal",
+      "choices": [
+        "France",
+        "Senegal",
+        "Draw"
+      ],
+      "model_alias": "hermes-gpt-5.5-codex",
+      "model": "hermes/openai-codex/gpt-5.5",
+      "prediction": "France",
+      "scoreline": "France 2-1 Senegal",
+      "goal_scorers": [
+        "Kylian Mbappe (France)",
+        "Ousmane Dembele (France)",
+        "Sadio Mane (Senegal)"
+      ],
+      "confidence": 0.62,
+      "rationale": "France edge the matchup on squad depth and elite attacking output: Kylian Mbappe is listed with 56 goals in 98 caps, supported by high-level forwards such as Ousmane Dembele, Michael Olise, Bradley Barcola and Marcus Thuram, while the defensive pool includes Maignan, Saliba, Konate, Upamecano and Kounde. Senegal have credible match-winners, especially Sadio Mane with 54 goals in 130 caps plus Nicolas Jackson and Ismaila Sarr, and an experienced spine with Koulibaly and Idrissa Gueye, so a narrow France win is more likely than a comfortable result. Confidence is limited because recent records are unavailable and there is no direct usable market/news signal for this fixture in the artifact.",
+      "news_summary": "- News search unavailable: EXA_API_KEY not set, so news was skipped. - Recent records unavailable in local dataset for both teams. - Supplied Polymarket data contains no direct France vs Senegal match market and is mostly stale or broad World Cup context.",
+      "polymarket_odds": [
+        {
+          "title": "World Cup Matches",
+          "slug": "world-cup-matches",
+          "markets": [
+            {
+              "question": "World Cup: Tuesday - Will Argentina beat Saudi Arabia?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0000003745787832534296825390047545289117",
+                "0.9999996254212167465703174609952455"
+              ],
+              "volume": "5667.962447",
+              "liquidity": "25.020075",
+              "url": null,
+              "source_slug": "world-cup-2022-tuesday-will-argentina-beat-saudi-arabia"
+            },
+            {
+              "question": "World Cup: Tuesday - Will Denmark beat Tunisia?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0000008382046583264734388851051080998816",
+                "0.9999991617953416735265611148948919"
+              ],
+              "volume": "7519.843175",
+              "liquidity": "25.03562",
+              "url": null,
+              "source_slug": "world-cup-2022-tuesday-will-denmark-beat-tunisia"
+            },
+            {
+              "question": "World Cup: Tuesday - Will Mexico beat Poland?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0000008074096274619823323505215838597938",
+                "0.9999991925903725380176676494784161"
+              ],
+              "volume": "5404.996325",
+              "liquidity": "25.040061",
+              "url": null,
+              "source_slug": "world-cup-2022-tuesday-will-mexico-beat-poland"
+            },
+            {
+              "question": "World Cup: Tuesday - Will France beat Australia?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.9999997366664747420352704986513923",
+                "0.0000002633335252579647295013486076605947"
+              ],
+              "volume": "4868.067446",
+              "liquidity": "25.030604",
+              "url": null,
+              "source_slug": "world-cup-2022-tuesday-will-france-beat-australia"
+            },
+            {
+              "question": "World Cup: Wednesday - Will Croatia beat Morocco?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.000001097349921977270253042920633368001",
+                "0.9999989026500780227297469570793666"
+              ],
+              "volume": "4566.914594",
+              "liquidity": "25.030454",
+              "url": null,
+              "source_slug": "world-cup-2022-wednesday-will-croatia-beat-morocco"
+            }
+          ]
+        },
+        {
+          "title": "Which country will win the 2022 World Cup?",
+          "slug": "which-country-will-win-the-2022-world-cup",
+          "markets": [
+            {
+              "question": "Will Brazil win the 2022 World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0004260854510246076575693245883651686",
+                "0.9995739145489753923424306754116348"
+              ],
+              "volume": "10241.390327",
+              "liquidity": "589.706752",
+              "url": null,
+              "source_slug": "will-brazil-win-the-2022-world-cup"
+            },
+            {
+              "question": "Will Argentina win the 2022 World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.9992636849310142238421633303148847",
+                "0.0007363150689857761578366696851153297"
+              ],
+              "volume": "28469.031955",
+              "liquidity": "540.872544",
+              "url": null,
+              "source_slug": "will-argentina-win-the-2022-world-cup"
+            },
+            {
+              "question": "Will France win the 2022 World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.000432789644992665734910558840283108",
+                "0.9995672103550073342650894411597169"
+              ],
+              "volume": "55507.143286",
+              "liquidity": "492.642958",
+              "url": null,
+              "source_slug": "will-france-win-the-2022-world-cup"
+            },
+            {
+              "question": "Will England win the 2022 World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0",
+                "1"
+              ],
+              "volume": "7433.122293",
+              "liquidity": "440.742341",
+              "url": null,
+              "source_slug": "will-england-win-the-2022-world-cup"
+            },
+            {
+              "question": "Will Spain win the 2022 World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0004203871893808473520629730678032446",
+                "0.9995796128106191526479370269321968"
+              ],
+              "volume": "4348.802424",
+              "liquidity": "410.834795",
+              "url": null,
+              "source_slug": "will-spain-win-the-2022-world-cup"
+            }
+          ]
+        },
+        {
+          "title": "World Cup Winner ",
+          "slug": "world-cup-winner",
+          "markets": [
+            {
+              "question": "Will Spain win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.1665",
+                "0.8335"
+              ],
+              "volume": "43972331.4889665",
+              "liquidity": "7354750.13133",
+              "url": null,
+              "source_slug": "will-spain-win-the-2026-fifa-world-cup-963"
+            },
+            {
+              "question": "Will New Zealand win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0005",
+                "0.9995"
+              ],
+              "volume": "46046031.53264519",
+              "liquidity": "20830469.2163",
+              "url": null,
+              "source_slug": "will-new-zealand-win-the-2026-fifa-world-cup-635"
+            },
+            {
+              "question": "Will Switzerland win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0095",
+                "0.9905"
+              ],
+              "volume": "47862637.630792126",
+              "liquidity": "2149242.1967",
+              "url": null,
+              "source_slug": "will-switzerland-win-the-2026-fifa-world-cup"
+            },
+            {
+              "question": "Will England win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [
+                "0.0965",
+                "0.9035"
+              ],
+              "volume": "37410608.43092837",
+              "liquidity": "7815471.23413",
+              "url": null,
+              "source_slug": "will-england-win-the-2026-fifa-world-cup-937"
+            },
+            {
+              "question": "Will Team AM win the 2026 FIFA World Cup?",
+              "outcomes": [
+                "Yes",
+                "No"
+              ],
+              "outcome_prices": [],
+              "volume": "0",
+              "liquidity": "0",
+              "url": null,
+              "source_slug": "will-team-am-win-the-2026-fifa-world-cup"
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "path": "data/cache/match_retrieval_cache.json",
+        "key": "france vs senegal",
+        "news_from_cache": true,
+        "polymarket_from_cache": true
+      }
     }
   ],
   "leaderboard": {
-    "completed_matchdays": 3,
+    "completed_matchdays": 5,
     "available": true,
     "rows": [
       {
@@ -17220,9 +20574,23 @@
         "exact_scores": 1,
         "correct_goal_scorers": 2,
         "average_points": 30.62
+      },
+      {
+        "model_alias": "hermes-gpt-5.5-codex",
+        "matches_scored": 11,
+        "total_points": 190,
+        "total_cost": 0.0,
+        "result_points": 150,
+        "scoreline_points": 0,
+        "goal_difference_points": 10,
+        "goal_scorer_points": 30,
+        "correct_results": 3,
+        "exact_scores": 0,
+        "correct_goal_scorers": 6,
+        "average_points": 17.27
       }
     ],
-    "generated_at": "2026-06-14T06:18:30.663153Z"
+    "generated_at": "2026-06-16T15:38:36.125808Z"
   },
   "resolution_state": {
     "result_attempts": {}
@@ -17440,6 +20808,260 @@
           "team": "Australia",
           "scorer": "C. Metcalfe",
           "minute": 75
+        }
+      ]
+    },
+    "25": {
+      "match_id": 25,
+      "match": "Germany vs Curaçao",
+      "fixture_id": 2391733,
+      "provider": "TheSportsDB",
+      "status": "FT",
+      "fetched_at": "2026-06-16T15:33:34.807519Z",
+      "team1": "Germany",
+      "team2": "Curaçao",
+      "team1_score": 7,
+      "team2_score": 1,
+      "winner": "Germany",
+      "goals": [
+        {
+          "team": "Germany",
+          "scorer": "Felix Nmecha",
+          "minute": 7
+        },
+        {
+          "team": "Germany",
+          "scorer": "N. Schlotterbeck",
+          "minute": 38
+        },
+        {
+          "team": "Germany",
+          "scorer": "K. Havertz 45'+5'(p)",
+          "minute": null
+        },
+        {
+          "team": "Germany",
+          "scorer": "J. Musiala",
+          "minute": 47
+        },
+        {
+          "team": "Germany",
+          "scorer": "N. Brown",
+          "minute": 68
+        },
+        {
+          "team": "Germany",
+          "scorer": "D. Undav",
+          "minute": 78
+        },
+        {
+          "team": "Germany",
+          "scorer": "K. Havertz",
+          "minute": 88
+        },
+        {
+          "team": "Curaçao",
+          "scorer": "L. Comenencia",
+          "minute": 21
+        }
+      ]
+    },
+    "26": {
+      "match_id": 26,
+      "match": "Ivory Coast vs Ecuador",
+      "fixture_id": 2391734,
+      "provider": "TheSportsDB",
+      "status": "FT",
+      "fetched_at": "2026-06-16T15:33:46.219159Z",
+      "team1": "Ivory Coast",
+      "team2": "Ecuador",
+      "team1_score": 1,
+      "team2_score": 0,
+      "winner": "Ivory Coast",
+      "goals": [
+        {
+          "team": "Ivory Coast",
+          "scorer": "A. Diallo",
+          "minute": 90
+        }
+      ]
+    },
+    "31": {
+      "match_id": 31,
+      "match": "Netherlands vs Japan",
+      "fixture_id": 2391735,
+      "provider": "TheSportsDB",
+      "status": "FT",
+      "fetched_at": "2026-06-16T15:33:57.098348Z",
+      "team1": "Netherlands",
+      "team2": "Japan",
+      "team1_score": 2,
+      "team2_score": 2,
+      "winner": "Draw",
+      "goals": [
+        {
+          "team": "Netherlands",
+          "scorer": "Virgil van Dijk",
+          "minute": 51
+        },
+        {
+          "team": "Netherlands",
+          "scorer": "C. Summerville",
+          "minute": 64
+        },
+        {
+          "team": "Japan",
+          "scorer": "K. Nakamura",
+          "minute": 57
+        },
+        {
+          "team": "Japan",
+          "scorer": "K. Ogawa",
+          "minute": 89
+        }
+      ]
+    },
+    "32": {
+      "match_id": 32,
+      "match": "Sweden vs Tunisia",
+      "fixture_id": 2461106,
+      "provider": "TheSportsDB",
+      "status": "FT",
+      "fetched_at": "2026-06-16T15:34:07.638834Z",
+      "team1": "Sweden",
+      "team2": "Tunisia",
+      "team1_score": 5,
+      "team2_score": 1,
+      "winner": "Sweden",
+      "goals": [
+        {
+          "team": "Sweden",
+          "scorer": "Y.Ayari",
+          "minute": 7
+        },
+        {
+          "team": "Sweden",
+          "scorer": "A. Isak",
+          "minute": 30
+        },
+        {
+          "team": "Sweden",
+          "scorer": "V. Gyökeres",
+          "minute": 59
+        },
+        {
+          "team": "Sweden",
+          "scorer": "M. Svanberg",
+          "minute": 84
+        },
+        {
+          "team": "Sweden",
+          "scorer": "Y.Ayari 90'+6'",
+          "minute": null
+        },
+        {
+          "team": "Tunisia",
+          "scorer": "O. Rekik",
+          "minute": 43
+        }
+      ]
+    },
+    "37": {
+      "match_id": 37,
+      "match": "Belgium vs Egypt",
+      "fixture_id": 2391736,
+      "provider": "TheSportsDB",
+      "status": "FT",
+      "fetched_at": "2026-06-16T15:34:19.417566Z",
+      "team1": "Belgium",
+      "team2": "Egypt",
+      "team1_score": 1,
+      "team2_score": 1,
+      "winner": "Draw",
+      "goals": [
+        {
+          "team": "Belgium",
+          "scorer": "Mohamed Hany",
+          "minute": 66
+        },
+        {
+          "team": "Egypt",
+          "scorer": "Emam Ashour",
+          "minute": 20
+        }
+      ]
+    },
+    "43": {
+      "match_id": 43,
+      "match": "Spain vs Cape Verde",
+      "fixture_id": 2391739,
+      "provider": "TheSportsDB",
+      "status": "FT",
+      "fetched_at": "2026-06-16T15:34:30.168285Z",
+      "team1": "Spain",
+      "team2": "Cape Verde",
+      "team1_score": 0,
+      "team2_score": 0,
+      "winner": "Draw",
+      "goals": []
+    },
+    "44": {
+      "match_id": 44,
+      "match": "Saudi Arabia vs Uruguay",
+      "fixture_id": 2391738,
+      "provider": "TheSportsDB",
+      "status": "FT",
+      "fetched_at": "2026-06-16T15:34:40.342852Z",
+      "team1": "Saudi Arabia",
+      "team2": "Uruguay",
+      "team1_score": 1,
+      "team2_score": 1,
+      "winner": "Draw",
+      "goals": [
+        {
+          "team": "Saudi Arabia",
+          "scorer": "Abdallh Alamri",
+          "minute": 41
+        },
+        {
+          "team": "Uruguay",
+          "scorer": "Maksimilianv Araivkhv",
+          "minute": 80
+        }
+      ]
+    },
+    "38": {
+      "match_id": 38,
+      "match": "Iran vs New Zealand",
+      "fixture_id": 13,
+      "provider": "worldcup26.ir",
+      "status": "FT",
+      "fetched_at": "2026-06-16T15:38:36.122160Z",
+      "team1": "Iran",
+      "team2": "New Zealand",
+      "team1_score": 2,
+      "team2_score": 2,
+      "winner": "Draw",
+      "goals": [
+        {
+          "team": "Iran",
+          "scorer": "Ramin Rzaiian",
+          "minute": 32
+        },
+        {
+          "team": "Iran",
+          "scorer": "Mohamed Mhbi",
+          "minute": 64
+        },
+        {
+          "team": "New Zealand",
+          "scorer": "Ali Jast",
+          "minute": 7
+        },
+        {
+          "team": "New Zealand",
+          "scorer": "Ali Jast",
+          "minute": 54
         }
       ]
     }

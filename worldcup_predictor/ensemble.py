@@ -18,6 +18,7 @@ DEFAULT_CONFIG: dict[str, Any] = {
     "low_confidence_ceiling": 0.62,
     "unanimous_low_confidence_ceiling": 0.68,
     "risk_confidence_penalty": 0.12,
+    "min_models_for_action": 3,
 }
 
 
@@ -87,13 +88,23 @@ def build_model_weights(
             }
         )
 
-    min_matches = int(config.get("min_matches_for_weight", 3))
+    min_matches_floor = int(config.get("min_matches_for_weight", 3))
+    required_matches = min_matches_floor
     if completed_ids:
-        min_matches = max(min_matches, ceil(len(completed_ids) * float(config.get("min_coverage_ratio", 0.75))))
-    eligible = [row for row in stats if row["matches"] >= min_matches]
+        required_matches = max(
+            min_matches_floor,
+            ceil(len(completed_ids) * float(config.get("min_coverage_ratio", 0.75))),
+        )
+    eligible = [row for row in stats if row["matches"] >= required_matches]
+    if not eligible:
+        # If the result set has grown faster than model coverage, fall back to the
+        # absolute sample floor — not to every one-match wonder at the top of the
+        # leaderboard. Confetti is cute at parties, useless in model weighting.
+        eligible = [row for row in stats if row["matches"] >= min_matches_floor]
+        required_matches = min_matches_floor if eligible else required_matches
     if not eligible:
         eligible = [row for row in stats if row["matches"] > 0]
-        min_matches = 1 if eligible else min_matches
+        required_matches = 1 if eligible else required_matches
 
     eligible.sort(
         key=lambda row: (
@@ -115,7 +126,7 @@ def build_model_weights(
 
     return {
         "models": models,
-        "required_matches": min_matches,
+        "required_matches": required_matches,
         "completed_matches_used": len(completed_ids),
         "excluded_match_id": exclude_match_id,
     }
@@ -193,6 +204,8 @@ def forecast_match(
 
     calibrated_pick = weighted_consensus or raw_consensus
     flags: list[str] = []
+    if len(latest) < int(config.get("min_models_for_action", 3)):
+        flags.append("insufficient_model_coverage")
     calibration_source = "weighted"
     if calibrated_pick != "Draw" and draw_vote_count >= int(config["draw_vote_threshold"]):
         if draw_probability >= float(config["draw_probability_floor"]):

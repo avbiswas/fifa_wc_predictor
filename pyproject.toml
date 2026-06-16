@@ -1,7 +1,7 @@
 [project]
-name = "world-cup-predictor"
-version = "0.1.0"
-description = "LLM predictions for the 2026 FIFA World Cup"
+name = "kicktipp-exploit-engine"
+version = "0.2.0"
+description = "KickTipp private-league exploit engine: market odds, scoreline EV, friend-field leverage, and bonus-question optimization"
 requires-python = ">=3.10"
 dependencies = [
     "dspy==3.0.3",

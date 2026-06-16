@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Download and normalize starter data for the FIFA World Cup 2026 predictor."""
+"""Download and normalize starter data for the KickTipp exploit engine."""
 
 from __future__ import annotations
 
@@ -159,7 +159,7 @@ class DownloadedSource:
 
 def download(url: str, path: Path) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    request = urllib.request.Request(url, headers={"User-Agent": "world-cup-predictor-data/0.1"})
+    request = urllib.request.Request(url, headers={"User-Agent": "kicktipp-exploit-engine/0.2"})
     with urllib.request.urlopen(request, timeout=60) as response:
         path.write_bytes(response.read())
 

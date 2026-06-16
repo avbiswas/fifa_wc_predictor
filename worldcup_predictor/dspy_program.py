@@ -107,7 +107,7 @@ def make_lm(model: str) -> dspy.LM:
         cache=False,
         extra_headers={
             "HTTP-Referer": "http://localhost/world_cup",
-            "X-Title": "world-cup-predictor",
+            "X-Title": "kicktipp-exploit-engine",
         },
     )
 

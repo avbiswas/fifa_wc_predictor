@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "strategy_note": "Private KickTipp round context. Do not optimize generic football accuracy; optimize points, leverage, and rank against friends.",
+  "current_state": {
+    "niko_player": "TippKickN",
+    "niko_points": 8,
+    "leader_points": 14,
+    "deficit": 6,
+    "mode": "controlled_attack",
+    "spieltag_tiebreaker": "Spieltagsiege"
+  },
+  "leader_names": [
+    "Toegamorf",
+    "UnsPascha",
+    "Schirifötze"
+  ],
+  "players": [
+    {
+      "name": "TippKickN",
+      "role": "niko",
+      "notes": [
+        "Previous pattern was too correlated with favorite-ish LLM outputs.",
+        "Use controlled attack until deficit or remaining matches force desperation."
+      ]
+    },
+    {
+      "name": "Toegamorf",
+      "role": "tracked_leader",
+      "style": "sharp",
+      "notes": [
+        "Treat as the most dangerous opponent until real pick history says otherwise.",
+        "Model with stronger draw awareness than the public field."
+      ]
+    },
+    {
+      "name": "UnsPascha",
+      "role": "tracked_leader",
+      "style": "chaos",
+      "notes": [
+        "Known to use expressive high scores. Do not chase the chaos unless slate state demands it."
+      ]
+    },
+    {
+      "name": "Schirifötze",
+      "role": "tracked_leader",
+      "style": "contrarian",
+      "notes": [
+        "Willing to take non-obvious away/team outcomes. Avoid pure favorite chalk correlation."
+      ]
+    }
+  ],
+  "known_picks": [],
+  "round_history": [],
+  "fill_in_next": [
+    "Add friend screenshots as known_picks when visible: player, event_id or match, tip, is_leader.",
+    "Add completed tips to round_history: player, match, tip, actual, points, spieltag, favorite if known."
+  ]
+}

@@ -1,205 +1,171 @@
-# LLMs predict FIFA World Cup 2026!
+# KickTipp Exploit Engine
 
-LLMs predict matchday scores, and get points for correct predictions.
-This webapp is hosted [here](https://fifa-wc-predictor.sudavivi.workers.dev/)
+This repo is now built for one job: **beat Niko's friends in KickTipp**.
 
-https://github.com/user-attachments/assets/f19e6deb-2467-43e4-96d7-b831e6116b89
+That means the engine optimizes the private contest, not generic football accuracy. A plausible scoreline that everyone else also picks is not enough. The system ranks exact-result tips by KickTipp expected value, draw coverage, leverage against friend-field chalk, leader correlation, and current table state.
 
+The physical repo/package still uses some legacy `worldcup_predictor` names so older scripts keep working. Product direction is no longer “LLMs predict the World Cup.” The product is a **KickTipp exploit engine**.
 
+## Core idea
 
-## Support
+KickTipp scoring observed in this round:
 
-If you find this helpful, consider supporting on Patreon — it hosts all code, projects, slides, and write-ups from the YouTube channel.
+- exact result: 4
+- correct tendency: 2
+- winner + correct goal difference: 3
+- non-exact draw: 2
+- tips close 0 minutes before kickoff
+- tiebreaker: matchday wins (`Spieltagsiege`)
 
-[<img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Become a Patron!" width="200">](https://www.patreon.com/NeuralBreakdownwithAVB)
+The engine asks the right question:
 
-## Data
+> Which scoreline maximizes Niko's chance to win the private round?
 
-Run:
+Not:
+
+> What is the most tasteful, obvious football prediction?
+
+That second question is how you produce last-place sludge.
+
+## What the engine uses
+
+- ESPN public World Cup scoreboard and summary endpoints
+- DraftKings-style moneyline odds exposed in ESPN summaries
+- no-vig 1/X/2 probabilities
+- Poisson scoreline distribution fitted to market probabilities and over/under
+- KickTipp-specific expected-points scoring
+- draw-trap tuning from completed matches
+- friend/leader context from `data/kicktipp/rounds.json`
+- slate-level draw budgeting
+- bonus-question probability + ownership/leverage optimization
+- optional Elo, news, roster, venue, and weather enrichment
+
+## Main commands
 
 ```bash
-uv run python scripts/download_worldcup_data.py
+cd /Users/niko/Projects/fifa_wc_predictor
+
+# Install / verify environment
+/Users/niko/.local/bin/uv sync
+
+# The real entry sheet: EV + leverage + slate draw budget
+PYTHONPATH=. /Users/niko/.local/bin/uv run python scripts/generate_leverage_tip_sheet.py --days 3 --compact
+
+# Full evidence report
+PYTHONPATH=. /Users/niko/.local/bin/uv run python scripts/generate_leverage_tip_sheet.py --days 3
+
+# Baseline market/draw-trap sheet only; useful for debugging, not final entries
+PYTHONPATH=. /Users/niko/.local/bin/uv run python scripts/generate_tip_sheet.py --days 3 --compact
+
+# Tune draw-trap thresholds from completed matches
+PYTHONPATH=. /Users/niko/.local/bin/uv run python scripts/tune_kicktipp_optimizer.py --days-back 14
+
+# Backtest the source-backed KickTipp strategy
+PYTHONPATH=. /Users/niko/.local/bin/uv run python scripts/backtest_kicktipp_optimizer.py --days-back 14
+
+# Optimize bonus-question answer sets after filling data/kicktipp/bonus_questions.json
+PYTHONPATH=. /Users/niko/.local/bin/uv run python scripts/optimize_bonus_questions.py
+
+# Regression tests
+PYTHONPATH=. /Users/niko/.local/bin/uv run --with pytest pytest -q
 ```
 
-The script writes raw source files to `data/raw/` and normalized tables to `data/processed/`.
+## Output files
 
-Processed outputs:
+Generated reports are ignored by git and written under `reports/`:
 
-- `schedule_2026.csv` / `.json`: all 104 fixtures with UTC kickoff timestamps.
-- `teams_2026.csv` / `.json`: qualified teams, groups, roster sizes, and coaches.
-- `players_2026.csv` / `.json`: official squad players with position, DOB, club, height, caps, and goals.
-- `coaches_2026.csv`: coach rows extracted from the official FIFA squad list.
-- `grounds_2026.csv`: match counts by host ground/city label.
-- `sources.csv` / `.json`: source URLs, local paths, checksums, and file sizes.
+- `reports/leverage_tip_sheet.md` / `.json` — final private-league entry sheet
+- `reports/tip_sheet.md` / `.json` — baseline market EV/draw-trap sheet
+- `reports/kicktipp_optimizer_backtest.md` / `.json` — completed-match strategy backtest
+- `reports/bonus_question_optimizer.md` / `.json` — bonus answer-set optimizer output
+- `reports/tip_sheet_watchdog.md` / `.json` — cron/watchdog sheet
 
-Raw outputs include the official FIFA schedule PDF, official FIFA squad list PDF, openfootball's structured 2026 schedule, and historical World Cup match JSON files from 1930 through 2022.
+Tracked config/context:
 
-## Notes
+- `config/kicktipp_optimizer.json` — current tuned draw-trap thresholds
+- `data/kicktipp/rounds.json` — Niko state, leaders, known friend picks, and round history
+- `data/kicktipp/bonus_questions.json` — fill-in template for bonus pages
 
-The official FIFA squad PDF does not preserve every name column boundary during text extraction. `players_2026.csv` therefore keeps `name_block`, the raw extracted player-name columns before DOB, alongside the parsed fields that are reliable for modeling.
+## Friend-field context
 
-## Quick DSPy Prediction
+Fill `data/kicktipp/rounds.json` when screenshots or live friend picks are available:
 
-Set keys in `.env` or `.envrc`:
-
-```bash
-export EXA_API_KEY=...
-export OPENROUTER_API_KEY=...
+```json
+{
+  "known_picks": [
+    {
+      "event_id": "401772000",
+      "player": "Toegamorf",
+      "tip": "2:1",
+      "is_leader": true
+    }
+  ]
+}
 ```
 
-Run a one-match ChainOfThought prediction:
+If no friend picks are known, the engine estimates public chalk from market favorite strength. Real friend data is better. Screenshots beat vibes.
 
-```bash
-python3 scripts/predict_match_dspy.py "Mexico vs South Africa" --news-results 5
+## Bonus questions
+
+Fill `data/kicktipp/bonus_questions.json` with real options:
+
+```json
+{
+  "questions": [
+    {
+      "id": "group_winners",
+      "question": "Pick group winners",
+      "slots": 12,
+      "points": 4,
+      "contrarian_slots": 2,
+      "options": [
+        {
+          "label": "Brazil",
+          "probability": 0.62,
+          "ownership": 0.80,
+          "category": "Group C"
+        }
+      ]
+    }
+  ]
+}
 ```
 
-The prototype uses `openrouter/google/gemini-3.5-flash`, searches Exa for match news, summarizes the news with DSPy, tries Polymarket's public Gamma API for odds, and predicts exactly one of the two team names or `Draw`.
+The optimizer mostly takes the best probabilities, then reserves lower-owned upside slots when the tournament mode calls for catch-up leverage.
 
-News and Polymarket responses are cached by normalized match string in `data/cache/match_retrieval_cache.json`, so repeated runs for the same match do not call those APIs again. Use `--refresh-cache` to force a new retrieval.
+## Tournament modes
 
-Prediction code is split into modules under `worldcup_predictor/`:
-
-- `cli.py`: command orchestration.
-- `data.py`: schedule lookup and squad summaries.
-- `cache.py`: local news/Polymarket cache.
-- `news.py`: Exa retrieval and formatting.
-- `polymarket.py`: Polymarket market search.
-- `prepare.py`: artifact assembly for a single match.
-- `dspy_program.py`: DSPy signatures and model configuration.
-
-Polymarket lookup tries the global Gamma search endpoint first and then the Polymarket US public gateway (`/v1/search`) as a fallback.
-
-Prepare all non-DSPy artifacts for one match ID:
+`generate_leverage_tip_sheet.py` chooses from `data/kicktipp/rounds.json`, or you can override:
 
 ```bash
-./prepare_data 1
+PYTHONPATH=. /Users/niko/.local/bin/uv run python scripts/generate_leverage_tip_sheet.py --mode desperation --days 3
 ```
 
-This writes `data/prepared/match_1.json` with schedule context, squad summaries, formatted news, Polymarket odds, cache metadata, and the exact model input fields needed by the predictor.
+Modes:
 
-Pretty-print downloaded data with Rich:
+- `safe` — protect lead, avoid 2+ point losses
+- `balanced` — EV first, modest leverage
+- `controlled_attack` — current default while trailing but not panicking
+- `desperation` — late catch-up mode
+- `protect_spieltag_win` — preserve matchday-win tiebreaker chances
 
-```bash
-./show_data --match-id 1 --prepared --cache
-```
+## Legacy LLM prediction stack
 
-Use `--all-players` for full squads or `--squad-limit 12` to change the compact display.
+The old LLM/model-roster workflow still exists for experiments and historical reports:
 
-Run a prediction with an explicit model:
+- `scripts/run_hermes_predictions.py`
+- `scripts/run_model_roster.py`
+- `scripts/backtest_predictions.py`
+- `scripts/ensemble_forecast.py`
+- `data/predictions/predictions.json`
+- `cloudflare_app/public/data/predictions.json`
 
-```bash
-python3 scripts/predict_match_dspy.py --match-id 1 --model gemini-3.5-flash
-```
+Treat that as supporting infrastructure. The final KickTipp pick should come from `generate_leverage_tip_sheet.py`, not from a raw LLM scoreline.
 
-List configured competition aliases:
+## Docs
 
-```bash
-python3 scripts/predict_match_dspy.py --list-models
-```
+See:
 
-Validate configured aliases against OpenRouter's model list:
-
-```bash
-python3 scripts/predict_match_dspy.py --validate-models
-```
-
-Run every competition model for a match:
-
-```bash
-./run_competition --match-id 1
-```
-
-Run only models missing a saved prediction:
-
-```bash
-./run_missing_predictions --match-id 1
-```
-
-Each prediction is appended to `data/predictions/predictions.json` with the model name, winner prediction, scoreline, three predicted goal scorers, confidence, reasoning, and LM usage. Add `--no-save` to print without writing prediction history.
-
-## Results and scoring
-
-Fetch a completed match result and score all saved predictions for it:
-
-```bash
-./fetch_result --match-id 1
-```
-
-If automatic fixture matching is ambiguous, pass the TheSportsDB event ID:
-
-```bash
-./fetch_result --match-id 1 --fixture-id 123456
-```
-
-Results, available goal scorers, and prediction scores are written to `data/predictions/predictions.json`. Final scores come from TheSportsDB's free public API; no result API key or paid plan is required. Recompute scores from already saved results without making API calls:
-
-```bash
-./score_predictions
-```
-
-Each match is worth 100 points: 50 for the correct 90-minute result, 25 for the exact scoreline, 10 for the correct goal difference, and 15 for predicted goal scorers.
-
-Generate a local backtest report from saved predictions and fetched results:
-
-```bash
-PYTHONPATH=. uv run python scripts/backtest_predictions.py
-```
-
-This writes `reports/backtest_latest.json` and `reports/backtest_latest.md` with completed match scores, model summaries, per-prediction rows, and consensus results. Reports are generated artifacts and are ignored by git.
-
-Build a weighted + calibrated ensemble forecast:
-
-```bash
-PYTHONPATH=. uv run python scripts/ensemble_forecast.py
-```
-
-The ensemble uses `config/ensemble_models.json` to pick a top-performing model pool, weight models by recent scored performance, and add a draw-risk calibration layer. Its report compares raw consensus, weighted consensus, and calibrated picks on completed matches, then emits final forecasts for unscored matches.
-
-Run a configured Hermes roster before building the ensemble:
-
-```bash
-PYTHONPATH=. uv run python scripts/run_model_roster.py --dry-run
-PYTHONPATH=. uv run python scripts/run_model_roster.py --days 3 --future-only
-```
-
-## Optional Hermes backend
-
-If you use [Hermes Agent](https://github.com/NousResearch/hermes-agent), you can run prepared match artifacts through your locally configured Hermes model/provider without using the OpenRouter/DSPy path:
-
-```bash
-PYTHONPATH=. uv run python scripts/run_hermes_predictions.py --days 3
-```
-
-Run a mini-tournament across explicit Hermes providers/models:
-
-```bash
-PYTHONPATH=. uv run python scripts/run_hermes_predictions.py \
-  --days 3 \
-  --hermes-model gpt-5.5 --hermes-provider openai-codex \
-  --hermes-model claude-sonnet-4.7 --hermes-provider anthropic
-```
-
-The script stores outputs in the same `data/predictions/predictions.json` schema using model aliases like `hermes-default`, `hermes-gpt-5.5-codex`, or `hermes-anthropic-claude-sonnet-4.7`.
-
-Resolve the current day manually:
-
-```bash
-uv run ./resolve_day
-```
-
-The command first prints every match it intends to predict and every result it intends to fetch. It then asks once whether to fetch all pending past results, followed by a separate approval prompt for each future match prediction batch. Enter `y` or `Y` to approve an action.
-
-This command:
-
-- runs only missing model predictions for resolved fixtures kicking off within the next 24 hours;
-- fetches only missing results for matches whose kickoff time has passed;
-- recalculates scores and the model leaderboard;
-- records a one-hour retry window when a result is not final yet.
-
-It is idempotent: predictions and completed results already present in the JSON are not requested again. Use `uv run ./resolve_day --dry-run` to print the plan and exit without prompting.
-
-For an offline wiring check:
-
-```bash
-python3 scripts/predict_match_dspy.py --match-id 1 --skip-news --skip-polymarket
+```text
+docs/kicktipp_exploit_engine.md
 ```

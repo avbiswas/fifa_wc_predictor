@@ -11,6 +11,7 @@
   "low_confidence_ceiling": 0.62,
   "unanimous_low_confidence_ceiling": 0.68,
   "risk_confidence_penalty": 0.12,
+  "min_models_for_action": 3,
   "hermes_roster": [
     {
       "provider": null,

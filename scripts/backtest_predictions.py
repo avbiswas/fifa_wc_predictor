@@ -19,7 +19,7 @@ from worldcup_predictor.scoring import parse_scoreline, score_store, update_lead
 
 
 def build_parser() -> argparse.ArgumentParser:
-    p = argparse.ArgumentParser(description="Backtest saved World Cup predictions against fetched match results.")
+    p = argparse.ArgumentParser(description="Legacy: backtest saved model forecasts against fetched match results.")
     p.add_argument("--alias", action="append", help="Only include one model_alias. Repeatable.")
     p.add_argument("--latest-only", action="store_true", default=True, help="Use latest prediction per match/model alias.")
     p.add_argument("--all-predictions", action="store_false", dest="latest_only", help="Include duplicate historical predictions too.")

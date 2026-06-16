@@ -40,6 +40,32 @@ class EnsembleTests(unittest.TestCase):
         self.assertEqual(weights["models"][0]["weight"], 1.0)
         self.assertGreater(weights["models"][1]["weight"], 0.25)
 
+    def test_model_weights_fallback_keeps_absolute_sample_floor(self) -> None:
+        store = {
+            "results": {str(i): {"winner": "A"} for i in range(1, 11)},
+            "predictions": [
+                scored_prediction(1, "one-match-wonder", "A", 100),
+                scored_prediction(1, "covered-model", "A", 60),
+                scored_prediction(2, "covered-model", "A", 60),
+                scored_prediction(3, "covered-model", "A", 60),
+            ],
+        }
+        weights = build_model_weights(
+            store,
+            {"top_models": 5, "min_matches_for_weight": 3, "min_coverage_ratio": 0.9},
+        )
+        aliases = [row["model_alias"] for row in weights["models"]]
+        self.assertEqual(aliases, ["covered-model"])
+        self.assertEqual(weights["required_matches"], 3)
+
+    def test_low_coverage_forecast_is_flagged(self) -> None:
+        forecast = forecast_match(
+            [{"match_id": 20, "model_alias": "solo", "prediction": "A", "confidence": 0.8, "scoreline": "A 2-0 B"}],
+            {"models": [{"model_alias": "solo", "weight": 1.0}]},
+            {"min_models_for_action": 3},
+        )
+        self.assertIn("insufficient_model_coverage", forecast["risk_flags"])
+
     def test_draw_calibration_switches_when_enough_weighted_models_pick_draw(self) -> None:
         predictions = [
             {"match_id": 10, "model_alias": "model-a", "prediction": "Draw", "confidence": 0.57, "scoreline": "A 1-1 B"},

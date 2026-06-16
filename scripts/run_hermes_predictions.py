@@ -60,7 +60,7 @@ def _slug(value: str) -> str:
 
 
 def build_parser() -> argparse.ArgumentParser:
-    p = argparse.ArgumentParser(description="Run fifa_wc_predictor match artifacts through local Hermes models.")
+    p = argparse.ArgumentParser(description="Legacy: run match artifacts through local Hermes models for auxiliary forecasts.")
     p.add_argument("--days", type=int, default=3, help="Number of local calendar days starting today.")
     p.add_argument("--tz", default="Europe/Berlin", help="Timezone for today/tomorrow/day-after resolution.")
     p.add_argument("--news-results", type=int, default=5)
@@ -181,7 +181,7 @@ def prompt_for(prepared: dict, kickoff_human: str) -> str:
         "news_items": prepared["model_inputs"].get("news_items", ""),
         "polymarket_odds": prepared["model_inputs"].get("polymarket_odds", ""),
     }
-    return f"""You are the local Hermes prediction engine for avbiswas/fifa_wc_predictor.
+    return f"""You are the legacy local Hermes forecast runner for the KickTipp exploit engine.
 Use only the supplied match artifact. Return one strict JSON object and nothing else.
 
 JSON schema:

@@ -16,6 +16,22 @@ FINISHED_STATUSES = {"FT", "AET", "PEN"}
 
 def fetch_match_result(match_id: int, fixture_id: int | None = None) -> dict:
     match = get_match(match_id)
+    primary_error: BaseException | None = None
+    try:
+        return _fetch_sportsdb_result(match_id, match, fixture_id)
+    except (requests.RequestException, SystemExit, ValueError, KeyError, TypeError) as error:
+        primary_error = error
+
+    try:
+        return _fetch_worldcup_feed_result(match_id, match)
+    except (requests.RequestException, SystemExit, ValueError, KeyError, TypeError) as fallback_error:
+        raise SystemExit(
+            f"Could not fetch finished result for {match['team1']} vs {match['team2']}. "
+            f"TheSportsDB failed: {primary_error}. WorldCup feed failed: {fallback_error}."
+        ) from fallback_error
+
+
+def _fetch_sportsdb_result(match_id: int, match: dict, fixture_id: int | None = None) -> dict:
     events = _get_json(
         SPORTSDB_URL,
         params={"id": 4429, "s": 2026},
@@ -58,6 +74,44 @@ def fetch_match_result(match_id: int, fixture_id: int | None = None) -> dict:
     }
 
 
+def _fetch_worldcup_feed_result(match_id: int, match: dict) -> dict:
+    games = _get_json(WORLD_CUP_FEED_URL).get("games") or []
+    game = _find_match(
+        games,
+        match,
+        home_key="home_team_name_en",
+        away_key="away_team_name_en",
+        id_key="id",
+    )
+    if str(game.get("finished", "")).casefold() != "true" and str(game.get("time_elapsed", "")).casefold() != "finished":
+        raise SystemExit(
+            f"WorldCup feed game {game.get('id')} is not finished "
+            f"(status={game.get('time_elapsed') or game.get('finished') or 'unknown'})."
+        )
+    team1_score, team2_score = _ordered_scores(
+        match,
+        game["home_team_name_en"],
+        int(game["home_score"]),
+        int(game["away_score"]),
+    )
+    goals = _goals_from_worldcup_game(game)
+    winner = match["team1"] if team1_score > team2_score else match["team2"] if team2_score > team1_score else "Draw"
+    return {
+        "match_id": match_id,
+        "match": f"{match['team1']} vs {match['team2']}",
+        "fixture_id": int(game["id"]),
+        "provider": "worldcup26.ir",
+        "status": "FT",
+        "fetched_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+        "team1": match["team1"],
+        "team2": match["team2"],
+        "team1_score": team1_score,
+        "team2_score": team2_score,
+        "winner": winner,
+        "goals": goals,
+    }
+
+
 def _fetch_goal_scorers(match: dict) -> list[dict]:
     try:
         games = _get_json(WORLD_CUP_FEED_URL).get("games") or []
@@ -71,6 +125,10 @@ def _fetch_goal_scorers(match: dict) -> list[dict]:
     except (requests.RequestException, SystemExit, ValueError):
         return []
 
+    return _goals_from_worldcup_game(game)
+
+
+def _goals_from_worldcup_game(game: dict) -> list[dict]:
     goals = []
     for team_key, scorer_key in (
         ("home_team_name_en", "home_scorers"),

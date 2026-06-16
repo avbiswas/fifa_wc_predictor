@@ -1,0 +1,65 @@
+{
+  "strategy": "kicktipp_exploit_engine",
+  "draw_floor": 0.22,
+  "draw_favorite_ceiling": 0.65,
+  "tuned_at": "2026-06-16T18:02:28.602366Z",
+  "training_matches": 16,
+  "training_points": 24,
+  "training_average_points": 1.5,
+  "top_grid": [
+    {
+      "points": 24,
+      "draw_floor": 0.22,
+      "draw_favorite_ceiling": 0.65
+    },
+    {
+      "points": 24,
+      "draw_floor": 0.22,
+      "draw_favorite_ceiling": 0.66
+    },
+    {
+      "points": 24,
+      "draw_floor": 0.21,
+      "draw_favorite_ceiling": 0.65
+    },
+    {
+      "points": 24,
+      "draw_floor": 0.23,
+      "draw_favorite_ceiling": 0.65
+    },
+    {
+      "points": 24,
+      "draw_floor": 0.21,
+      "draw_favorite_ceiling": 0.66
+    },
+    {
+      "points": 24,
+      "draw_floor": 0.23,
+      "draw_favorite_ceiling": 0.66
+    },
+    {
+      "points": 24,
+      "draw_floor": 0.23,
+      "draw_favorite_ceiling": 0.67
+    },
+    {
+      "points": 24,
+      "draw_floor": 0.23,
+      "draw_favorite_ceiling": 0.68
+    },
+    {
+      "points": 24,
+      "draw_floor": 0.23,
+      "draw_favorite_ceiling": 0.69
+    },
+    {
+      "points": 24,
+      "draw_floor": 0.23,
+      "draw_favorite_ceiling": 0.7
+    }
+  ],
+  "guardrails": {
+    "note": "Thresholds are backtest-tuned on current tournament results. This is for KickTipp scoring, not betting.",
+    "min_training_matches_for_trust": 12
+  }
+}

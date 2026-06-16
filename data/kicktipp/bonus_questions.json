@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "default_points": 4,
+  "strategy_note": "Fill this with real bonus-question options before lock. Order does not matter, so selections are set-based: mostly probability with one or two lower-owned answers when catching up.",
+  "questions": [],
+  "example_question_shape": {
+    "id": "group_winners",
+    "question": "Pick group winners",
+    "slots": 12,
+    "points": 4,
+    "contrarian_slots": 2,
+    "options": [
+      {
+        "label": "Brazil",
+        "probability": 0.62,
+        "ownership": 0.80,
+        "category": "Group C",
+        "notes": "Use market/implied probability, not vibes."
+      }
+    ]
+  }
+}
