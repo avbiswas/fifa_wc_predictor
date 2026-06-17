@@ -39,8 +39,14 @@ struct RootView: View {
             IridescentGlow(intensity: tab == .today ? 1.0 : 0.35).ignoresSafeArea()
             TabView(selection: $tab) {
                 ForEach(Tab.allCases, id: \.self) { t in
-                    NavigationStack { PlaceholderTab(tab: t) }
-                        .tag(t)
+                    NavigationStack {
+                        if t == .table {
+                            TableView()
+                        } else {
+                            PlaceholderTab(tab: t)
+                        }
+                    }
+                    .tag(t)
                 }
             }
             .toolbar(.hidden, for: .tabBar)
