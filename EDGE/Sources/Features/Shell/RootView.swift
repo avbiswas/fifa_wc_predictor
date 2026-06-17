@@ -44,6 +44,37 @@ struct RootView: View {
                 }
             }
             .toolbar(.hidden, for: .tabBar)
+            .safeAreaInset(edge: .bottom) {
+                HStack(spacing: Theme.s4) {
+                    ForEach(Tab.allCases, id: \.self) { t in
+                        Button {
+                            guard tab != t else { return }
+                            UIImpactFeedbackGenerator(style: .light).impactOccurred()
+                            withAnimation(.spring(response: 0.4, dampingFraction: 0.75)) {
+                                tab = t
+                            }
+                        } label: {
+                            if tab == t {
+                                Label(t.title, systemImage: t.icon)
+                                    .font(.eyebrowX)
+                                    .foregroundStyle(Theme.ink)
+                            } else {
+                                Image(systemName: t.icon)
+                                    .foregroundStyle(Theme.textMute)
+                            }
+                        }
+                        .buttonStyle(.plain)
+                    }
+                }
+                .padding(.horizontal, Theme.s5)
+                .frame(height: 56)
+                .background(Capsule().fill(.ultraThinMaterial))
+                .background(Capsule().fill(Theme.card))
+                .overlay(Capsule().strokeBorder(Theme.hairline, lineWidth: 1))
+                .shadow(color: Theme.shadow.opacity(0.10), radius: 24, x: 0, y: 14)
+                .padding(.horizontal, Theme.s4)
+                .padding(.bottom, 12)
+            }
         }
     }
 }
