@@ -19,7 +19,7 @@ animations are the throughline and the highest-priority success criterion in eve
 - Decimal phases (2.1, 2.2): Urgent insertions (marked with INSERTED)
 
 - [x] **Phase 1: Foundation & Living Aesthetic** - Xcode app, light tokens, breathing gradient, generative-appear modifier (completed 2026-06-17)
-- [ ] **Phase 2: Offline Data Layer** - Codable models, AppStore, bundled SampleFeed.json, Format helpers
+- [x] **Phase 2: Offline Data Layer** - Codable models, AppStore, bundled SampleFeed.json, Format helpers (completed 2026-06-17)
 - [ ] **Phase 3: Component Library** - all frosted/ring/bar/pill/button/status components + preview gallery
 - [ ] **Phase 4: App Shell & League Table** - 4-tab frosted shell + the standings screen
 - [ ] **Phase 5: Today Briefing** - the self-assembling showcase home + pull-to-refresh replay
@@ -55,7 +55,7 @@ Plans:
 **Plans**: 1 plan
 
 Plans:
-- [ ] 02-01: Models + AppStore + SampleFeed.json (bundled) + Format helpers
+- [x] 02-01: Models + AppStore + SampleFeed.json (bundled) + Format helpers
 
 ### Phase 3: Component Library
 **Goal**: Every reusable visual component from the design system exists, animates per spec, and is provable in a preview gallery — the vocabulary every screen will compose.
@@ -151,7 +151,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation & Living Aesthetic | 2/2 | Complete   | 2026-06-17 |
-| 2. Offline Data Layer | 0/1 | Not started | - |
+| 2. Offline Data Layer | 1/1 | Complete   | 2026-06-17 |
 | 3. Component Library | 0/3 | Not started | - |
 | 4. App Shell & League Table | 0/2 | Not started | - |
 | 5. Today Briefing | 0/2 | Not started | - |
