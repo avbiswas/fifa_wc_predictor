@@ -99,10 +99,10 @@
 | TABLE-01 | Phase 4 | Complete |
 | TODAY-01 | Phase 5 | Complete |
 | TODAY-02 | Phase 5 | Complete |
-| MATCH-01 | Phase 6 | Pending |
-| MATCH-02 | Phase 6 | Pending |
+| MATCH-01 | Phase 6 | Complete |
+| MATCH-02 | Phase 6 | Complete |
 | INSIGHT-01 | Phase 7 | Complete |
-| MOTION-01 | Phase 8 | Pending |
+| MOTION-01 | Phase 8 | Complete |
 | LANG-01 | Phase 8 | Complete |
 | A11Y-01 | Phase 8 | Complete |
 | A11Y-02 | Phase 8 | Complete |
