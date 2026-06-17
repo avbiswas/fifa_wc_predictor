@@ -52,13 +52,13 @@
 
 ### Human Language (cross-cutting)
 
-- [ ] **LANG-01**: **No raw probability, "%", `composite_score`, or `expected_points`** appears as text anywhere; every number is a word, ring, bar, or soft-colored pill (spec §0, §6) — audited globally in Phase 8
+- [x] **LANG-01**: **No raw probability, "%", `composite_score`, or `expected_points`** appears as text anywhere; every number is a word, ring, bar, or soft-colored pill (spec §0, §6) — audited globally in Phase 8
 
 ### Motion & Accessibility
 
 - [ ] **MOTION-01**: Rings draw, bars/rails fill, cards stagger, and the match card → detail **ring morphs** (matchedGeometry); tab-switch and card-press haptics fire (spec §8)
-- [ ] **A11Y-01**: **Reduce Motion** snaps every animation to final state and pauses the gradient; VoiceOver reads worded labels for rings/bars/rows (spec §9)
-- [ ] **A11Y-02**: Loading / per-section empty / offline-fallback / hard-error states render gracefully and never block when any data exists (spec §10)
+- [x] **A11Y-01**: **Reduce Motion** snaps every animation to final state and pauses the gradient; VoiceOver reads worded labels for rings/bars/rows (spec §9)
+- [x] **A11Y-02**: Loading / per-section empty / offline-fallback / hard-error states render gracefully and never block when any data exists (spec §10)
 
 ## v2 Requirements
 
@@ -103,9 +103,9 @@
 | MATCH-02 | Phase 6 | Pending |
 | INSIGHT-01 | Phase 7 | Complete |
 | MOTION-01 | Phase 8 | Pending |
-| LANG-01 | Phase 8 | Pending |
-| A11Y-01 | Phase 8 | Pending |
-| A11Y-02 | Phase 8 | Pending |
+| LANG-01 | Phase 8 | Complete |
+| A11Y-01 | Phase 8 | Complete |
+| A11Y-02 | Phase 8 | Complete |
 
 **Coverage:**
 - v1 requirements: 21 total

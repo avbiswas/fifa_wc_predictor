@@ -2,16 +2,16 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: ready_to_plan
-stopped_at: Phase 07 complete (2/2) — ready to discuss Phase 08
-last_updated: 2026-06-17T17:38:16.038Z
+status: completed
+stopped_at: Phase 08 Plan 02 complete — EDGE v1 milestone done
+last_updated: "2026-06-17T20:21:28.274Z"
 last_activity: 2026-06-17
 progress:
   total_phases: 8
-  completed_phases: 7
+  completed_phases: 8
   total_plans: 16
-  completed_plans: 14
-  percent: 88
+  completed_plans: 16
+  percent: 100
 ---
 
 # Project State
@@ -21,24 +21,24 @@ progress:
 See: .planning/PROJECT.md (updated 2026-06-17)
 
 **Core value:** On open, in one glance, Niko knows what to tip tonight and why — in plain language — in a UI that needs no manual.
-**Current focus:** Phase 08 — motion a11y states
+**Current focus:** EDGE v1 milestone complete — all 8 phases delivered
 
 ## Current Position
 
 Phase: 08
-Plan: Not started
-Status: Ready to plan
+Plan: 02 (complete)
+Status: Phase 08 complete — EDGE v1 milestone done
 Last activity: 2026-06-17
 
-Progress: [██████████░] 94%
+Progress: [██████████] 100%
 
 ## Performance Metrics
 
 **Velocity:**
 
-- Total plans completed: 17
+- Total plans completed: 18
 - Average duration: ~3 min
-- Total execution time: ~32 min
+- Total execution time: ~35 min
 
 **By Phase:**
 
@@ -51,6 +51,7 @@ Progress: [██████████░] 94%
 | 05-today-briefing | 2 | 5 min | 2.5 min |
 | 06 | 2 | 5 min | 2.5 min |
 | 07 | 2 | - | - |
+| 08 | 2 | - | - |
 
 **Recent Trend:**
 
@@ -73,6 +74,9 @@ Decisions are logged in PROJECT.md Key Decisions table. Recent decisions affecti
 - 05-02: NavigationLink uses String values (match.id) rather than Match: Hashable
 - 05-02: MatchDetailView is a stub; Phase 06-02 replaces with full detail
 - 07-02: Tag pill color logic: "chaos" → warn, "contrarian"/"away" → accent, else neutral
+- 08-02: a11yLabel is optional String? on SoftRing/StrengthBar — nil means no override, backward compat
+- 08-02: RootView data-present-wins: if store.feed != nil, always show TabView regardless of phase
+- 08-02: ContentUnavailableView + InkButton Retry for error states (iOS 17+ native, on-brand)
 
 ### Pending Todos
 
@@ -92,6 +96,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-06-17
-Stopped at: Phase 07 Plan 02 complete — Insights + Scouting done
+Last session: 2026-06-17T20:21:28.269Z
+Stopped at: Phase 08 Plan 02 complete — EDGE v1 milestone done
 Resume file: None

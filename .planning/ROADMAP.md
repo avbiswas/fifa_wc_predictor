@@ -25,7 +25,7 @@ animations are the throughline and the highest-priority success criterion in eve
 - [x] **Phase 5: Today Briefing** - the self-assembling showcase home + pull-to-refresh replay (completed 2026-06-17)
 - [x] **Phase 6: Matches & Match Detail** - upcoming/results list + the deep match screen with ring morph (completed 2026-06-17)
 - [x] **Phase 7: Insights & Scouting** - engine-form metrics + per-friend scouting cards (completed 2026-06-17)
-- [ ] **Phase 8: Motion, Accessibility & States** - motion polish, a11y, empty/error states, no-jargon audit, acceptance
+- [x] **Phase 8: Motion, Accessibility & States** - motion polish, a11y, empty/error states, no-jargon audit, acceptance (completed 2026-06-17)
 
 ## Phase Details
 
@@ -141,7 +141,7 @@ Plans:
 
 Plans:
 - [x] 08-01: Motion polish — shared-element ring morph, haptics, word-build greeting, press-scale audit
-- [ ] 08-02: Accessibility (Reduce Motion + VoiceOver) + empty/loading/error states + no-jargon audit + acceptance pass
+- [x] 08-02: Accessibility (Reduce Motion + VoiceOver) + empty/loading/error states + no-jargon audit + acceptance pass
 
 ## Progress
 
@@ -157,4 +157,4 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8
 | 5. Today Briefing | 2/2 | Complete   | 2026-06-17 |
 | 6. Matches & Match Detail | 2/2 | Complete   | 2026-06-17 |
 | 7. Insights & Scouting | 2/2 | Complete   | 2026-06-17 |
-| 8. Motion, Accessibility & States | 1/2 | In Progress|  |
+| 8. Motion, Accessibility & States | 2/2 | Complete   | 2026-06-17 |
