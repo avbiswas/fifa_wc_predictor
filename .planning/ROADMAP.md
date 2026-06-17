@@ -18,7 +18,7 @@ animations are the throughline and the highest-priority success criterion in eve
 - Integer phases (1, 2, 3): Planned milestone work
 - Decimal phases (2.1, 2.2): Urgent insertions (marked with INSERTED)
 
-- [ ] **Phase 1: Foundation & Living Aesthetic** - Xcode app, light tokens, breathing gradient, generative-appear modifier
+- [x] **Phase 1: Foundation & Living Aesthetic** - Xcode app, light tokens, breathing gradient, generative-appear modifier (completed 2026-06-17)
 - [ ] **Phase 2: Offline Data Layer** - Codable models, AppStore, bundled SampleFeed.json, Format helpers
 - [ ] **Phase 3: Component Library** - all frosted/ring/bar/pill/button/status components + preview gallery
 - [ ] **Phase 4: App Shell & League Table** - 4-tab frosted shell + the standings screen
@@ -42,7 +42,7 @@ animations are the throughline and the highest-priority success criterion in eve
 
 Plans:
 - [x] 01-01: Create Xcode app + light-mode root + Color/Theme/Typography tokens
-- [ ] 01-02: IridescentGlow (breathing) + GenerativeAppear modifier + wire into root
+- [x] 01-02: IridescentGlow (breathing) + GenerativeAppear modifier + wire into root
 
 ### Phase 2: Offline Data Layer
 **Goal**: The app decodes the bundled sample feed into typed models with no network, exposes it via an observable store with a refresh-driven generation counter, and provides the human-language Format helpers.
@@ -150,7 +150,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation & Living Aesthetic | 1/2 | In Progress|  |
+| 1. Foundation & Living Aesthetic | 2/2 | Complete   | 2026-06-17 |
 | 2. Offline Data Layer | 0/1 | Not started | - |
 | 3. Component Library | 0/3 | Not started | - |
 | 4. App Shell & League Table | 0/2 | Not started | - |
