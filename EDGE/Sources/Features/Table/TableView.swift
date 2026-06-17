@@ -2,6 +2,7 @@ import SwiftUI
 
 struct TableView: View {
     @EnvironmentObject var store: AppStore
+    @State private var scouted: ScoutReport?
 
     var body: some View {
         Group {
@@ -27,7 +28,7 @@ struct TableView: View {
                             VStack(spacing: 0) {
                                 ForEach(Array(feed.table.enumerated()), id: \.element.id) { offset, row in
                                     if offset > 0 { Divider().background(Theme.hairline) }
-                                    tableRow(row)
+                                    tableRow(row, scouting: feed.scouting)
                                         .generativeAppear(offset)
                                 }
                             }
@@ -50,10 +51,16 @@ struct TableView: View {
         }
         .navigationTitle("Table")
         .navigationBarTitleDisplayMode(.inline)
+        .sheet(item: $scouted) { report in
+            ScoutCard(report: report)
+                .padding()
+                .presentationDetents([.medium])
+                .presentationBackground(Theme.bg)
+        }
     }
 
     @ViewBuilder
-    private func tableRow(_ row: TableRow) -> some View {
+    private func tableRow(_ row: TableRow, scouting: [ScoutReport]) -> some View {
         HStack(spacing: Theme.s3) {
             Text("#\(row.rank)")
                 .font(.headlineX)
@@ -99,6 +106,12 @@ struct TableView: View {
                                          startPoint: .top, endPoint: .bottom))
                     .frame(width: 3)
                     .padding(.vertical, 2)
+            }
+        }
+        .contentShape(Rectangle())
+        .onTapGesture {
+            if !row.isMe, let match = scouting.first(where: { $0.name == row.name }) {
+                scouted = match
             }
         }
     }
