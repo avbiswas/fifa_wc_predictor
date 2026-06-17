@@ -8,9 +8,9 @@ struct StrengthBar: View {
         VStack(alignment: .leading, spacing: Theme.s2) {
             GeometryReader { geo in
                 HStack(spacing: 3) {
-                    seg(home, Color(hex: "9DBBA9"), geo.size.width)   // soft sage (home)
-                    seg(draw, Theme.textMute,       geo.size.width)   // gray (draw)
-                    seg(away, Color(hex: "A9C2E6"), geo.size.width)   // soft blue (away)
+                    seg(home, Color(hex: "9DBBA9"), geo.size.width - 6)   // soft sage (home)
+                    seg(draw, Theme.textMute,       geo.size.width - 6)   // gray (draw)
+                    seg(away, Color(hex: "A9C2E6"), geo.size.width - 6)   // soft blue (away)
                 }
             }.frame(height: 8)
             HStack { Text(homeCode); Spacer(); Text("draw"); Spacer(); Text(awayCode) }

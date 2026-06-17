@@ -4,7 +4,7 @@ struct GapRail: View {
     let leaderName: String
     @State private var p: CGFloat = 0
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
-    private var frac: CGFloat { leader <= 0 ? 0 : CGFloat(mine)/CGFloat(leader) }
+    private var frac: CGFloat { leader <= 0 ? 0 : min(1, max(0, CGFloat(mine)/CGFloat(leader))) }
     var body: some View {
         VStack(alignment: .leading, spacing: 6) {
             GeometryReader { geo in
