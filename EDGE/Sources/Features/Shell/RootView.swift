@@ -47,8 +47,8 @@ struct RootView: View {
                             MatchesView()
                         case .table:
                             TableView()
-                        default:
-                            PlaceholderTab(tab: t)
+                        case .insights:
+                            InsightsView()
                         }
                     }
                     .tag(t)
