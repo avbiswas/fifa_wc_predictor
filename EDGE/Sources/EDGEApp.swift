@@ -2,6 +2,8 @@ import SwiftUI
 
 @main
 struct EDGEApp: App {
+    @StateObject private var store = AppStore()
+
     var body: some Scene {
         WindowGroup {
             ZStack {
@@ -13,7 +15,9 @@ struct EDGEApp: App {
                 }
                 .generativeAppear(0)
             }
+            .environmentObject(store)
             .preferredColorScheme(.light)
+            .task { await store.load() }
         }
     }
 }
