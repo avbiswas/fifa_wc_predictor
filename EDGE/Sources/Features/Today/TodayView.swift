@@ -2,6 +2,7 @@ import SwiftUI
 
 struct TodayView: View {
     @EnvironmentObject var store: AppStore
+    @State private var generating = false
 
     var body: some View {
         ZStack {
@@ -13,7 +14,7 @@ struct TodayView: View {
                     ScrollView {
                         VStack(alignment: .leading, spacing: Theme.s5) {
                             // 0. Generated status
-                            GeneratedStatus(updatedAt: feed.updatedAt, generating: false)
+                            GeneratedStatus(updatedAt: feed.updatedAt, generating: generating)
                                 .generativeAppear(0)
 
                             // 1. Date label
@@ -60,7 +61,11 @@ struct TodayView: View {
                     }
                     .scrollIndicators(.hidden)
                     .id(store.generation)
-                    .refreshable { await store.refresh() }
+                    .refreshable {
+                        generating = true
+                        await store.refresh()
+                        generating = false
+                    }
                     .navigationDestination(for: String.self) { id in
                         if let m = feed.matches.first(where: { $0.id == id }) {
                             MatchDetailView(match: m)
