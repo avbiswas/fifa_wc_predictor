@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: ready_to_plan
-stopped_at: Phase 05 complete (2/2) — ready to discuss Phase 06
-last_updated: 2026-06-17T15:08:46.414Z
+stopped_at: Phase 06 complete (2/2) — ready to discuss Phase 07
+last_updated: 2026-06-17T16:32:58.577Z
 last_activity: 2026-06-17 -- Phase 05 plan 02 completed
 progress:
   total_phases: 8
   completed_phases: 5
   total_plans: 16
-  completed_plans: 10
+  completed_plans: 12
   percent: 63
 ---
 
@@ -21,11 +21,11 @@ progress:
 See: .planning/PROJECT.md (updated 2026-06-17)
 
 **Core value:** On open, in one glance, Niko knows what to tip tonight and why — in plain language — in a UI that needs no manual.
-**Current focus:** Phase 06 — matches detail
+**Current focus:** Phase 07 — insights scouting
 
 ## Current Position
 
-Phase: 06
+Phase: 07
 Plan: Not started
 Status: Ready to plan
 Last activity: 2026-06-17
@@ -36,7 +36,7 @@ Progress: [██████░░░░] 63%
 
 **Velocity:**
 
-- Total plans completed: 12
+- Total plans completed: 14
 - Average duration: ~3 min
 - Total execution time: ~30 min
 
@@ -50,6 +50,7 @@ Progress: [██████░░░░] 63%
 | 04-shell-table | 2 | 5 min | 2.5 min |
 | 05-today-briefing | 2 | 5 min | 2.5 min |
 | 05 | 2 | - | - |
+| 06 | 2 | - | - |
 
 **Recent Trend:**
 
