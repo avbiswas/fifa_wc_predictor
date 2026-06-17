@@ -2,6 +2,7 @@ import SwiftUI
 
 struct MatchDetailView: View {
     let match: Match
+    var ns: Namespace.ID? = nil
     @EnvironmentObject var store: AppStore
 
     var body: some View {
@@ -47,6 +48,7 @@ struct MatchDetailView: View {
         }
         .navigationTitle("Matchday \(match.matchday)")
         .navigationBarTitleDisplayMode(.inline)
+        .applyZoomTransition(ns: ns, matchID: match.id)
     }
 
     // MARK: - 1. Hero
@@ -281,6 +283,19 @@ struct MatchDetailView: View {
                     }
                 }
             }
+        }
+    }
+}
+
+// MARK: - Zoom Transition Helper
+
+extension View {
+    @ViewBuilder
+    func applyZoomTransition(ns: Namespace.ID?, matchID: String) -> some View {
+        if let ns {
+            self.navigationTransition(.zoom(sourceID: matchID, in: ns))
+        } else {
+            self
         }
     }
 }

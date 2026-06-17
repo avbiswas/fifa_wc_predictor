@@ -3,6 +3,7 @@ import SwiftUI
 struct MatchesView: View {
     @EnvironmentObject var store: AppStore
     @State private var showResults = false
+    @Namespace private var ns
 
     private enum Seg: String, CaseIterable {
         case upcoming = "Upcoming"
@@ -47,6 +48,7 @@ struct MatchesView: View {
                                     NavigationLink(value: match.id) {
                                         MatchRowCard(match: match)
                                     }
+                                    .matchedTransitionSource(id: match.id, in: ns)
                                     .buttonStyle(PressScale())
                                     .generativeAppear(animIndex)
                                     animIndex += 1
@@ -65,7 +67,7 @@ struct MatchesView: View {
                 }
                 .navigationDestination(for: String.self) { id in
                     if let m = feed.matches.first(where: { $0.id == id }) {
-                        MatchDetailView(match: m)
+                        MatchDetailView(match: m, ns: ns)
                     }
                 }
             } else {

@@ -3,6 +3,7 @@ import SwiftUI
 struct TodayView: View {
     @EnvironmentObject var store: AppStore
     @State private var generating = false
+    @Namespace private var ns
 
     var body: some View {
         ZStack {
@@ -68,7 +69,7 @@ struct TodayView: View {
                     }
                     .navigationDestination(for: String.self) { id in
                         if let m = feed.matches.first(where: { $0.id == id }) {
-                            MatchDetailView(match: m)
+                            MatchDetailView(match: m, ns: ns)
                         }
                     }
                 }
@@ -291,6 +292,7 @@ struct TodayView: View {
                 }
             }
         }
+        .matchedTransitionSource(id: match.id, in: ns)
         .buttonStyle(PressScale())
     }
 
@@ -324,6 +326,7 @@ struct TodayView: View {
                     }
                     .padding(.vertical, Theme.s2)
                 }
+                .matchedTransitionSource(id: m.id, in: ns)
                 .buttonStyle(PressScale())
                 .generativeAppear(7 + index)
             }
