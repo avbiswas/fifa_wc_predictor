@@ -1,0 +1,160 @@
+{
+  "updatedAt": "2026-06-17T06:52:11Z",
+  "season": "World Cup 2026",
+  "me": {
+    "name": "Niko", "rank": 8, "points": 18, "playersCount": 9,
+    "leaderName": "Alex", "leaderPoints": 24, "deficit": 6, "tiebreaker": "matchday wins"
+  },
+  "strategy": {
+    "mode": "controlled_attack",
+    "headline": "Chasing the lead",
+    "subtitle": "Calculated risks to close a 6-point gap",
+    "drawPlan": { "planned": 3, "reason": "Nobody here backs draws — so a draw that lands gains on everyone" }
+  },
+  "form": {
+    "matches": 16, "points": 24, "avgPoints": 1.5, "exact": 4, "scored": 8, "blanked": 8,
+    "recentPoints": [2,0,4,2,0,3,2,0,4,2,2,0,3,0,0,0]
+  },
+  "table": [
+    { "rank":1, "name":"Alex",        "points":24, "move":3,  "isMe":false, "isLeader":true  },
+    { "rank":2, "name":"UnsPascha",   "points":23, "move":0,  "isMe":false, "isLeader":false },
+    { "rank":3, "name":"Toegamorf",   "points":22, "move":-2, "isMe":false, "isLeader":false },
+    { "rank":4, "name":"Schirifötze", "points":21, "move":-1, "isMe":false, "isLeader":false },
+    { "rank":5, "name":"Antinatio",   "points":21, "move":-1, "isMe":false, "isLeader":false },
+    { "rank":6, "name":"Klose4ev…",   "points":19, "move":0,  "isMe":false, "isLeader":false },
+    { "rank":6, "name":"mehu97",      "points":19, "move":1,  "isMe":false, "isLeader":false },
+    { "rank":8, "name":"Niko",        "points":18, "move":1,  "isMe":true,  "isLeader":false },
+    { "rank":9, "name":"Katha",       "points":16, "move":-1, "isMe":false, "isLeader":false }
+  ],
+  "matches": [
+    {
+      "id":"760435","kickoff":"2026-06-17T17:00:00Z","matchday":3,"status":"upcoming",
+      "home":{"name":"Portugal","code":"POR","rank":55},
+      "away":{"name":"Congo DR","code":"COD","rank":5},
+      "result":null,
+      "myPick":{
+        "score":"1:0","tier":"thin_edge","tierLabel":"Coin-flip","leverage":"contrarian",
+        "vsLeader":"different","exactChanceOneIn":7,"expectedPoints":1.87,
+        "reasons":[
+          "Portugal are clear favorites tonight",
+          "1:0 is the best-value exact score in this game",
+          "Most friends go 2:0 or 2:1 — this buys you separation"
+        ],
+        "result":null
+      },
+      "odds":{"home":0.74,"draw":0.20,"away":0.06},
+      "favorite":"Portugal","favoriteStrength":"heavy",
+      "upset":{"isUpset":false,"text":"Form favors Portugal"},
+      "fieldExposure":{"friendsTotal":8,"onSamePick":1,"leaderPick":"2:1"},
+      "alternates":[
+        {"score":"1:0","expectedPoints":1.87,"note":"Best value"},
+        {"score":"2:0","expectedPoints":1.87,"note":"Crowd pick"},
+        {"score":"1:1","expectedPoints":0.57,"note":"Draw swing"}
+      ],
+      "news":["Portugal expected to rotate two starters"]
+    },
+    {
+      "id":"760444","kickoff":"2026-06-17T20:00:00Z","matchday":3,"status":"upcoming",
+      "home":{"name":"Brazil","code":"BRA","rank":3},
+      "away":{"name":"Haiti","code":"HAI","rank":83},
+      "result":null,
+      "myPick":{
+        "score":"3:0","tier":"thin_edge","tierLabel":"Coin-flip","leverage":"crowd",
+        "vsLeader":"same","exactChanceOneIn":9,"expectedPoints":1.71,
+        "reasons":[
+          "Brazil are heavy favorites at home",
+          "3:0 balances a likely blowout with a realistic exact score",
+          "Most of the field lands near here — limited separation"
+        ],
+        "result":null
+      },
+      "odds":{"home":0.86,"draw":0.10,"away":0.04},
+      "favorite":"Brazil","favoriteStrength":"heavy",
+      "upset":{"isUpset":false,"text":"Form heavily favors Brazil"},
+      "fieldExposure":{"friendsTotal":8,"onSamePick":4,"leaderPick":"3:0"},
+      "alternates":[
+        {"score":"3:0","expectedPoints":1.71,"note":"Your pick"},
+        {"score":"2:0","expectedPoints":1.69,"note":"Safer margin"},
+        {"score":"4:0","expectedPoints":1.40,"note":"Blowout upside"}
+      ],
+      "news":[]
+    },
+    {
+      "id":"760436","kickoff":"2026-06-17T17:00:00Z","matchday":3,"status":"upcoming",
+      "home":{"name":"Ghana","code":"GHA","rank":68},
+      "away":{"name":"Panama","code":"PAN","rank":40},
+      "result":null,
+      "myPick":{
+        "score":"1:1","tier":"chaos","tierLabel":"Wild card","leverage":"contrarian",
+        "vsLeader":"different","exactChanceOneIn":8,"expectedPoints":0.94,
+        "reasons":[
+          "This one's close to a coin-flip on paper",
+          "A draw is live and almost nobody in your league backs draws",
+          "1:1 here is pure separation if it lands"
+        ],
+        "result":null
+      },
+      "odds":{"home":0.39,"draw":0.31,"away":0.30},
+      "favorite":"Draw","favoriteStrength":"even",
+      "upset":{"isUpset":false,"text":"Too close to call"},
+      "fieldExposure":{"friendsTotal":8,"onSamePick":0,"leaderPick":"2:1"},
+      "alternates":[
+        {"score":"1:1","expectedPoints":0.94,"note":"Draw separation"},
+        {"score":"1:0","expectedPoints":0.91,"note":"Lean Ghana"},
+        {"score":"0:1","expectedPoints":0.88,"note":"Lean Panama"}
+      ],
+      "news":[]
+    },
+    {
+      "id":"760430","kickoff":"2026-06-16T19:00:00Z","matchday":2,"status":"final",
+      "home":{"name":"France","code":"FRA","rank":2},
+      "away":{"name":"Senegal","code":"SEN","rank":17},
+      "result":{"home":2,"away":1},
+      "myPick":{
+        "score":"2:1","tier":"normal","tierLabel":"Solid pick","leverage":"crowd",
+        "vsLeader":"same","exactChanceOneIn":8,"expectedPoints":1.66,
+        "reasons":[
+          "France favored but Senegal score goals",
+          "2:1 was the best-value exact here"
+        ],
+        "result":{"points":4,"outcome":"exact"}
+      },
+      "odds":{"home":0.62,"draw":0.22,"away":0.16},
+      "favorite":"France","favoriteStrength":"clear",
+      "upset":{"isUpset":false,"text":"Form favored France"},
+      "fieldExposure":{"friendsTotal":8,"onSamePick":3,"leaderPick":"2:1"},
+      "alternates":[
+        {"score":"2:1","expectedPoints":1.66,"note":"Your pick"},
+        {"score":"2:0","expectedPoints":1.58,"note":"Clean sheet"},
+        {"score":"1:0","expectedPoints":1.41,"note":"Tight"}
+      ],
+      "news":[]
+    }
+  ],
+  "scouting": [
+    { "name":"Alex","rank":1,"points":24,"isLeader":true,"tag":"The leader",
+      "blurb":"Plays the obvious favorites and rarely slips. Beat him with separation, not by copying.",
+      "traits":[{"label":"Goals","value":"Medium","level":2},{"label":"Draws","value":"Rare","level":1},{"label":"Upsets","value":"Rare","level":1}] },
+    { "name":"UnsPascha","rank":2,"points":23,"isLeader":false,"tag":"Chaos merchant",
+      "blurb":"Loves big scorelines and wild results. Rarely picks the tidy draws you can copy.",
+      "traits":[{"label":"Goals","value":"High","level":3},{"label":"Draws","value":"Rare","level":1},{"label":"Upsets","value":"Often","level":3}] },
+    { "name":"Toegamorf","rank":3,"points":22,"isLeader":false,"tag":"Tidy & sharp",
+      "blurb":"Clean favorite wins, 2:0 and 2:1. Disciplined — you won't catch him with chalk.",
+      "traits":[{"label":"Goals","value":"Medium","level":2},{"label":"Draws","value":"Some","level":2},{"label":"Upsets","value":"Rare","level":1}] },
+    { "name":"Schirifötze","rank":4,"points":21,"isLeader":false,"tag":"Low-scorer",
+      "blurb":"Tight, low scores and the occasional underdog. Goes where the crowd doesn't.",
+      "traits":[{"label":"Goals","value":"Low","level":1},{"label":"Draws","value":"Some","level":2},{"label":"Upsets","value":"Some","level":2}] },
+    { "name":"Antinatio","rank":5,"points":21,"isLeader":false,"tag":"Away-backer",
+      "blurb":"Fades weak home favorites and leans to the away side more than anyone.",
+      "traits":[{"label":"Goals","value":"Medium","level":2},{"label":"Draws","value":"Rare","level":1},{"label":"Upsets","value":"Some","level":2}] },
+    { "name":"Klose4ev…","rank":6,"points":19,"isLeader":false,"tag":"Goal-happy",
+      "blurb":"Higher-scoring picks across the board. Overshoots tight games.",
+      "traits":[{"label":"Goals","value":"High","level":3},{"label":"Draws","value":"Some","level":2},{"label":"Upsets","value":"Some","level":2}] },
+    { "name":"mehu97","rank":6,"points":19,"isLeader":false,"tag":"Goal-happy",
+      "blurb":"Leans to more goals than the game warrants. Predictable on favorites.",
+      "traits":[{"label":"Goals","value":"High","level":3},{"label":"Draws","value":"Some","level":2},{"label":"Upsets","value":"Some","level":2}] },
+    { "name":"Katha","rank":9,"points":16,"isLeader":false,"tag":"Wildcard-lite",
+      "blurb":"A bit higher-scoring and streaky. Currently last — chasing.",
+      "traits":[{"label":"Goals","value":"High","level":3},{"label":"Draws","value":"Rare","level":1},{"label":"Upsets","value":"Some","level":2}] }
+  ]
+}
