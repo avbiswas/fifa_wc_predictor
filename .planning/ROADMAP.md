@@ -20,7 +20,7 @@ animations are the throughline and the highest-priority success criterion in eve
 
 - [x] **Phase 1: Foundation & Living Aesthetic** - Xcode app, light tokens, breathing gradient, generative-appear modifier (completed 2026-06-17)
 - [x] **Phase 2: Offline Data Layer** - Codable models, AppStore, bundled SampleFeed.json, Format helpers (completed 2026-06-17)
-- [ ] **Phase 3: Component Library** - all frosted/ring/bar/pill/button/status components + preview gallery
+- [x] **Phase 3: Component Library** - all frosted/ring/bar/pill/button/status components + preview gallery (completed 2026-06-17)
 - [ ] **Phase 4: App Shell & League Table** - 4-tab frosted shell + the standings screen
 - [ ] **Phase 5: Today Briefing** - the self-assembling showcase home + pull-to-refresh replay
 - [ ] **Phase 6: Matches & Match Detail** - upcoming/results list + the deep match screen with ring morph
@@ -68,9 +68,9 @@ Plans:
 **Plans**: 3 plans
 
 Plans:
-- [ ] 03-01: FrostCard + SoftRing + StrengthBar + GapRail
-- [ ] 03-02: SoftPill + InkButton/PressScale + MovementArrow + TeamBadge
-- [ ] 03-03: GeneratedStatus + Sparkline + Eyebrow + ComponentGallery preview
+- [x] 03-01: FrostCard + SoftRing + StrengthBar + GapRail
+- [x] 03-02: SoftPill + InkButton/PressScale + MovementArrow + TeamBadge
+- [x] 03-03: GeneratedStatus + Sparkline + Eyebrow + ComponentGallery preview
 
 ### Phase 4: App Shell & League Table
 **Goal**: A 4-tab app shell with the floating frosted tab bar, and the first complete real screen — the League Table — built from real components and data.
@@ -152,7 +152,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8
 |-------|----------------|--------|-----------|
 | 1. Foundation & Living Aesthetic | 2/2 | Complete   | 2026-06-17 |
 | 2. Offline Data Layer | 1/1 | Complete   | 2026-06-17 |
-| 3. Component Library | 0/3 | Not started | - |
+| 3. Component Library | 3/3 | Complete   | 2026-06-17 |
 | 4. App Shell & League Table | 0/2 | Not started | - |
 | 5. Today Briefing | 0/2 | Not started | - |
 | 6. Matches & Match Detail | 0/2 | Not started | - |
