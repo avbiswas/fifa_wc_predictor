@@ -49,6 +49,12 @@ struct MatchDetailView: View {
         .navigationTitle("Matchday \(match.matchday)")
         .navigationBarTitleDisplayMode(.inline)
         .applyZoomTransition(ns: ns, matchID: match.id)
+        .onAppear {
+            // Success haptic on "Spot on" result (fires once per appearance)
+            if match.myPick.result?.outcome == "exact" {
+                UINotificationFeedbackGenerator().notificationOccurred(.success)
+            }
+        }
     }
 
     // MARK: - 1. Hero
