@@ -26,15 +26,14 @@ struct TodayView: View {
 
                             // 2. Greeting — word-by-word build
                             greetingWords(feed.me.name)
-                                .generativeAppear(2)
 
                             // 3. Standing card
                             standingCard(feed.me)
-                                .generativeAppear(3)
+                                .generativeAppear(5)
 
                             // 4. Tonight's plan card
                             planCard(feed.strategy)
-                                .generativeAppear(4)
+                                .generativeAppear(6)
 
                             // 5. Next match spotlight
                             let upcoming = feed.matches
@@ -42,7 +41,7 @@ struct TodayView: View {
                                 .sorted { $0.kickoff < $1.kickoff }
                             if let next = upcoming.first {
                                 spotlightCard(next)
-                                    .generativeAppear(5)
+                                    .generativeAppear(7)
                             }
 
                             // 6+. Today's other picks
@@ -53,7 +52,7 @@ struct TodayView: View {
                             // Empty state
                             if upcoming.isEmpty {
                                 emptyStateCard
-                                    .generativeAppear(5)
+                                    .generativeAppear(7)
                             }
                         }
                         .padding(.horizontal, Theme.s4)
@@ -97,6 +96,7 @@ struct TodayView: View {
                 Text(word + (index < words.count - 1 ? " " : ""))
                     .font(index == words.count - 1 ? .greeting.weight(.medium) : .greeting)
                     .foregroundStyle(Theme.text)
+                    .generativeAppear(2 + index)
             }
         }
     }
@@ -302,7 +302,7 @@ struct TodayView: View {
     private func otherPicksSection(_ matches: [Match]) -> some View {
         VStack(alignment: .leading, spacing: Theme.s2) {
             Eyebrow(text: "TODAY'S PICKS")
-                .generativeAppear(6)
+                .generativeAppear(8)
 
             ForEach(Array(matches.enumerated()), id: \.element.id) { index, m in
                 NavigationLink(value: m.id) {
@@ -328,7 +328,7 @@ struct TodayView: View {
                 }
                 .matchedTransitionSource(id: m.id, in: ns)
                 .buttonStyle(PressScale())
-                .generativeAppear(7 + index)
+                .generativeAppear(9 + index)
             }
         }
     }
