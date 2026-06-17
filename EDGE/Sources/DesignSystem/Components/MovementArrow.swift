@@ -8,6 +8,9 @@ struct MovementArrow: View {
         return HStack(spacing: 2) {
             Image(systemName: icon).font(.system(size: 10, weight: .semibold))
             if move != 0 { Text("\(abs(move))").font(.eyebrowX).monospacedDigit() }
-        }.foregroundStyle(color)
+        }
+        .foregroundStyle(color)
+        .accessibilityElement(children: .ignore)
+        .accessibilityLabel(move > 0 ? "Up \(abs(move))" : move < 0 ? "Down \(abs(move))" : "No change")
     }
 }

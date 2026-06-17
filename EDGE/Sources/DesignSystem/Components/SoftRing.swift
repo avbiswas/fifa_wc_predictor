@@ -4,6 +4,7 @@ struct SoftRing<Center: View>: View {
     var color: Color
     var lineWidth: CGFloat = 8
     var size: CGFloat = 108
+    var a11yLabel: String? = nil
     @ViewBuilder var center: Center
     @State private var animated: Double = 0
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
@@ -17,10 +18,26 @@ struct SoftRing<Center: View>: View {
             center
         }
         .frame(width: size, height: size)
+        .modifier(A11yRingLabel(label: a11yLabel))
         .onAppear {
             let v = max(0, min(1, value))
             if reduceMotion { animated = v; return }
             withAnimation(.spring(response: 1.0, dampingFraction: 0.9).delay(0.25)) { animated = v }
+        }
+    }
+}
+
+// MARK: - Accessibility modifier
+
+private struct A11yRingLabel: ViewModifier {
+    let label: String?
+    func body(content: Content) -> some View {
+        if let label {
+            content
+                .accessibilityElement(children: .ignore)
+                .accessibilityLabel(label)
+        } else {
+            content
         }
     }
 }

@@ -25,6 +25,8 @@ struct GapRail: View {
                 Text("\(leader) \(leaderName)").font(.calloutX).foregroundStyle(Theme.textDim)
             }.monospacedDigit()
         }
+        .accessibilityElement(children: .ignore)
+        .accessibilityLabel("\(mine) points, \(leader - mine) behind \(leaderName).")
         .onAppear {
             if reduceMotion { p = frac; return }
             withAnimation(.spring(response: 1.0, dampingFraction: 0.9).delay(0.3)) { p = frac }

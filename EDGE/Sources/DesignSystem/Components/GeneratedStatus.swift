@@ -15,5 +15,8 @@ struct GeneratedStatus: View {
             Text(generating ? "Generating your briefing…" : "Generated \(Format.relativeUpdated(updatedAt))")
                 .font(.calloutX).foregroundStyle(Theme.textDim)
         }
+        .accessibilityElement(children: .ignore)
+        .accessibilityLabel("Generation status")
+        .accessibilityValue(generating ? "Generating" : "Generated \(Format.relativeUpdated(updatedAt))")
     }
 }

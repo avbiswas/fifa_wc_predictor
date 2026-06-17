@@ -11,6 +11,10 @@ struct Sparkline: View {
                         .frame(height: max(2, geo.size.height * CGFloat(values[i]) / CGFloat(maxV)))
                 }
             }
-        }.frame(height: 34)
+        }
+        .frame(height: 34)
+        .accessibilityElement(children: .ignore)
+        .accessibilityLabel("Points history")
+        .accessibilityValue("\(values.count) games")
     }
 }

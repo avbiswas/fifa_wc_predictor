@@ -15,6 +15,7 @@ struct IridescentGlow: View {
             .blur(radius: 44)
             .opacity(0.85 * intensity)
         }
+        .accessibilityHidden(true)
         .allowsHitTesting(false)
     }
     private func blob(_ c: Color, baseX: CGFloat, baseY: CGFloat, t: Double, sx: Double, sy: Double) -> some View {

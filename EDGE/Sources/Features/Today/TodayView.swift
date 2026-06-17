@@ -250,7 +250,8 @@ struct TodayView: View {
                         SoftRing(
                             value: Format.ringFill(oneIn: match.myPick.exactChanceOneIn),
                             color: Format.tierRingColor(match.myPick.tier),
-                            size: 88
+                            size: 88,
+                            a11yLabel: "Pick \(match.myPick.score), \(match.myPick.tierLabel), about \(Format.chanceText(oneIn: match.myPick.exactChanceOneIn))."
                         ) {
                             Text(match.myPick.score)
                                 .font(.displayX)

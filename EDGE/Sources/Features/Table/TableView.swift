@@ -109,6 +109,9 @@ struct TableView: View {
             }
         }
         .contentShape(Rectangle())
+        .accessibilityElement(children: .ignore)
+        .accessibilityLabel("#\(row.rank) \(row.name), \(row.points) points\(row.isMe ? ", you" : "")\(row.isLeader ? ", leader" : "").")
+        .accessibilityHint(row.isMe ? "" : "Double-tap for scouting report")
         .onTapGesture {
             if !row.isMe, let match = scouting.first(where: { $0.name == row.name }) {
                 scouted = match

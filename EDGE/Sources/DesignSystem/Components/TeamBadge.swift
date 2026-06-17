@@ -8,5 +8,7 @@ struct TeamBadge: View {
             .frame(width: size, height: size)
             .background(Circle().fill(.ultraThinMaterial))
             .overlay(Circle().fill(Theme.card)).overlay(Circle().strokeBorder(Theme.hairline, lineWidth: 1))
+            .accessibilityElement(children: .ignore)
+            .accessibilityLabel(code)
     }
 }

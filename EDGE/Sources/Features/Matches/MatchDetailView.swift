@@ -89,7 +89,8 @@ struct MatchDetailView: View {
             SoftRing(
                 value: Format.ringFill(oneIn: match.myPick.exactChanceOneIn),
                 color: Format.tierRingColor(match.myPick.tier),
-                size: 140
+                size: 140,
+                a11yLabel: "Pick \(match.myPick.score), \(match.myPick.tierLabel), lands about \(Format.chanceText(oneIn: match.myPick.exactChanceOneIn))."
             ) {
                 Text(match.myPick.score)
                     .font(.displayX)
@@ -154,7 +155,8 @@ struct MatchDetailView: View {
                     draw: match.odds.draw,
                     away: match.odds.away,
                     homeCode: match.home.code,
-                    awayCode: match.away.code
+                    awayCode: match.away.code,
+                    a11yLabel: "\(Format.strengthWords(match.favoriteStrength)): \(match.favorite)."
                 )
 
                 Text(Format.strengthWords(match.favoriteStrength))
