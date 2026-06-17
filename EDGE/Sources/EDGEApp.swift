@@ -6,7 +6,7 @@ struct EDGEApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ComponentGallery()
+            RootView()
                 .environmentObject(store)
                 .preferredColorScheme(.light)
                 .task { await store.load() }
