@@ -140,7 +140,7 @@ Plans:
 **Plans**: 2 plans
 
 Plans:
-- [ ] 08-01: Motion polish — shared-element ring morph, haptics, word-build greeting, press-scale audit
+- [x] 08-01: Motion polish — shared-element ring morph, haptics, word-build greeting, press-scale audit
 - [ ] 08-02: Accessibility (Reduce Motion + VoiceOver) + empty/loading/error states + no-jargon audit + acceptance pass
 
 ## Progress
@@ -157,4 +157,4 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8
 | 5. Today Briefing | 2/2 | Complete   | 2026-06-17 |
 | 6. Matches & Match Detail | 2/2 | Complete   | 2026-06-17 |
 | 7. Insights & Scouting | 2/2 | Complete   | 2026-06-17 |
-| 8. Motion, Accessibility & States | 0/2 | Not started | - |
+| 8. Motion, Accessibility & States | 1/2 | In Progress|  |
