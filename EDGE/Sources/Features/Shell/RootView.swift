@@ -43,6 +43,8 @@ struct RootView: View {
                         switch t {
                         case .today:
                             TodayView()
+                        case .matches:
+                            MatchesView()
                         case .table:
                             TableView()
                         default:
