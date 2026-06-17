@@ -48,7 +48,7 @@
 
 ### Insights & Scouting
 
-- [ ] **INSIGHT-01**: The Insights tab shows engine form metrics (24 / 1.5 / 4 / 8-of-16) + a sparkline, and a **scouting card per friend** (tag, blurb, 3 trait level bars) (spec §7.6, §7.7)
+- [x] **INSIGHT-01**: The Insights tab shows engine form metrics (24 / 1.5 / 4 / 8-of-16) + a sparkline, and a **scouting card per friend** (tag, blurb, 3 trait level bars) (spec §7.6, §7.7)
 
 ### Human Language (cross-cutting)
 
@@ -101,7 +101,7 @@
 | TODAY-02 | Phase 5 | Complete |
 | MATCH-01 | Phase 6 | Pending |
 | MATCH-02 | Phase 6 | Pending |
-| INSIGHT-01 | Phase 7 | Pending |
+| INSIGHT-01 | Phase 7 | Complete |
 | MOTION-01 | Phase 8 | Pending |
 | LANG-01 | Phase 8 | Pending |
 | A11Y-01 | Phase 8 | Pending |

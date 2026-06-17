@@ -24,7 +24,7 @@ animations are the throughline and the highest-priority success criterion in eve
 - [x] **Phase 4: App Shell & League Table** - 4-tab frosted shell + the standings screen (completed 2026-06-17)
 - [x] **Phase 5: Today Briefing** - the self-assembling showcase home + pull-to-refresh replay (completed 2026-06-17)
 - [x] **Phase 6: Matches & Match Detail** - upcoming/results list + the deep match screen with ring morph (completed 2026-06-17)
-- [ ] **Phase 7: Insights & Scouting** - engine-form metrics + per-friend scouting cards
+- [x] **Phase 7: Insights & Scouting** - engine-form metrics + per-friend scouting cards (completed 2026-06-17)
 - [ ] **Phase 8: Motion, Accessibility & States** - motion polish, a11y, empty/error states, no-jargon audit, acceptance
 
 ## Phase Details
@@ -125,8 +125,8 @@ Plans:
 **Plans**: 2 plans
 
 Plans:
-- [ ] 07-01: InsightsView — form metric tiles + sparkline + takeaway
-- [ ] 07-02: ScoutCard + scouting list (sorted by rank, tag-colored)
+- [x] 07-01: InsightsView — form metric tiles + sparkline + takeaway
+- [x] 07-02: ScoutCard + scouting list (sorted by rank, tag-colored)
 
 ### Phase 8: Motion, Accessibility & States
 **Goal**: Harden the experience — finish motion (shared-element morph, haptics, word-build greeting), wire accessibility (Reduce Motion, VoiceOver), add empty/loading/error states, audit the no-jargon rule globally, and verify the full acceptance checklist.
@@ -156,5 +156,5 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8
 | 4. App Shell & League Table | 2/2 | Complete   | 2026-06-17 |
 | 5. Today Briefing | 2/2 | Complete   | 2026-06-17 |
 | 6. Matches & Match Detail | 2/2 | Complete   | 2026-06-17 |
-| 7. Insights & Scouting | 0/2 | Not started | - |
+| 7. Insights & Scouting | 2/2 | Complete   | 2026-06-17 |
 | 8. Motion, Accessibility & States | 0/2 | Not started | - |
