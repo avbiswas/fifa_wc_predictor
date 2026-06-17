@@ -40,9 +40,12 @@ struct RootView: View {
             TabView(selection: $tab) {
                 ForEach(Tab.allCases, id: \.self) { t in
                     NavigationStack {
-                        if t == .table {
+                        switch t {
+                        case .today:
+                            TodayView()
+                        case .table:
                             TableView()
-                        } else {
+                        default:
                             PlaceholderTab(tab: t)
                         }
                     }
