@@ -27616,7 +27616,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 0,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Mehdi Taremi",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Chris Wood",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Alex Rufe",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-15T14:58:34.955401Z",
@@ -27743,7 +27767,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 0,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Mehdi Taremi",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Chris Wood",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Sardar Azmoun",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-15T14:58:35.634262Z",
@@ -27870,7 +27918,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 5,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Mehdi Taremi",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Chris Wood",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Mohammad Mohebi",
+            "matched_scorer": "Mohammad Mohebi",
+            "points": 5
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-15T14:58:40.026041Z",
@@ -27997,7 +28069,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 0,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Mehdi Taremi",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Sardar Azmoun",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Chris Wood",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-15T14:58:40.554545Z",
@@ -28124,7 +28220,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 0,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Mehdi Taremi",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Sardar Azmoun",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Chris Wood",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-15T14:58:43.095048Z",
@@ -28251,7 +28371,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 0,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Mehdi Taremi",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Chris Wood",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Sarpreet Singh",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-15T14:58:47.808436Z",
@@ -28378,7 +28522,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 0,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Mehdi Taremi",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Sardar Azmoun",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Chris Wood",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-15T14:58:56.822288Z",
@@ -28505,7 +28673,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 0,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Mehdi Taremi",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Sardar Azmoun",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Chris Wood",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-15T14:59:01.769748Z",
@@ -28632,7 +28824,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 0,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Mehdi Taremi",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Chris Wood",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Matthew Garbett",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-15T14:59:03.850336Z",
@@ -28759,7 +28975,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 0,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Mehdi Taremi",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Sardar Azmoun",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Chris Wood",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-15T14:59:10.099408Z",
@@ -28886,7 +29126,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 0,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Mehdi Taremi",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Sardar Azmoun",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Saman Ghoddos",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-15T14:59:28.700179Z",
@@ -29013,7 +29277,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 0,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Mehdi Taremi",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Sardar Azmoun",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Ali Gholizadeh",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-15T14:59:34.645818Z",
@@ -29140,7 +29428,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 0,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Mehdi Taremi",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Chris Wood",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Sardar Azmoun",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-15T15:00:08.039139Z",
@@ -29267,7 +29579,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 5,
+        "result": 0,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Mehdi Taremi",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Chris Wood",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Elijah Just",
+            "matched_scorer": "Elijah Just",
+            "points": 5
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-15T15:03:32.212721Z",
@@ -31659,7 +31995,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Kylian Mbappé",
+            "matched_scorer": "K. Mbappé",
+            "points": 5
+          },
+          {
+            "predicted": "Aurélien Tchouaméni",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Sadio Mané",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:52:44.621780Z",
@@ -31786,7 +32146,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Kylian Mbappé",
+            "matched_scorer": "K. Mbappé",
+            "points": 5
+          },
+          {
+            "predicted": "Michael Olise",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Sadio Mané",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:52:45.134164Z",
@@ -31913,7 +32297,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Kylian Mbappe",
+            "matched_scorer": "K. Mbappé",
+            "points": 5
+          },
+          {
+            "predicted": "Ousmane Dembele",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Sadio Mane",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:52:50.381942Z",
@@ -32040,7 +32448,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Kylian Mbappé",
+            "matched_scorer": "K. Mbappé",
+            "points": 5
+          },
+          {
+            "predicted": "Michael Olise",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Sadio Mané",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:52:52.680957Z",
@@ -32167,7 +32599,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Kylian Mbappe",
+            "matched_scorer": "K. Mbappé",
+            "points": 5
+          },
+          {
+            "predicted": "Ousmane Dembele",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Sadio Mane",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:52:53.169039Z",
@@ -32294,7 +32750,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 65,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 10,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Kylian Mbappé",
+            "matched_scorer": "K. Mbappé",
+            "points": 5
+          },
+          {
+            "predicted": "Marcus Thuram",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Ousmane Dembélé",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:52:56.638044Z",
@@ -32421,7 +32901,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Kylian Mbappe",
+            "matched_scorer": "K. Mbappé",
+            "points": 5
+          },
+          {
+            "predicted": "Marcus Thuram",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Sadio Mane",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:53:05.885533Z",
@@ -32548,7 +33052,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Kylian Mbappé",
+            "matched_scorer": "K. Mbappé",
+            "points": 5
+          },
+          {
+            "predicted": "Marcus Thuram",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Sadio Mané",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:53:10.500093Z",
@@ -32675,7 +33203,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Kylian Mbappé",
+            "matched_scorer": "K. Mbappé",
+            "points": 5
+          },
+          {
+            "predicted": "Ousmane Dembélé",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Sadio Mané",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:53:25.698799Z",
@@ -32802,7 +33354,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Kylian Mbappé",
+            "matched_scorer": "K. Mbappé",
+            "points": 5
+          },
+          {
+            "predicted": "Sadio Mané",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Ousmane Dembélé",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:53:28.301672Z",
@@ -32929,7 +33505,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Kylian Mbappe",
+            "matched_scorer": "K. Mbappé",
+            "points": 5
+          },
+          {
+            "predicted": "Ousmane Dembele",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Sadio Mane",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:53:34.617233Z",
@@ -33056,7 +33656,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Kylian Mbappé",
+            "matched_scorer": "K. Mbappé",
+            "points": 5
+          },
+          {
+            "predicted": "Sadio Mané",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Ousmane Dembélé",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:53:48.434003Z",
@@ -33193,7 +33817,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Kylian Mbappé",
+            "matched_scorer": "K. Mbappé",
+            "points": 5
+          },
+          {
+            "predicted": "Ousmane Dembélé",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Sadio Mané",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:53:50.386252Z",
@@ -33320,7 +33968,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Kylian Mbappé",
+            "matched_scorer": "K. Mbappé",
+            "points": 5
+          },
+          {
+            "predicted": "Sadio Mané",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Ousmane Dembélé",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:53:53.135341Z",
@@ -33447,7 +34119,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Kylian Mbappé",
+            "matched_scorer": "K. Mbappé",
+            "points": 5
+          },
+          {
+            "predicted": "Marcus Thuram",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Sadio Mané",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:54:10.606223Z",
@@ -33573,7 +34269,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 60,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 10,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Erling Haaland",
+            "matched_scorer": "Erling Haaland",
+            "points": 5
+          },
+          {
+            "predicted": "Martin Ødegaard",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Aymen Hussein",
+            "matched_scorer": "Aymen Hussein",
+            "points": 5
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:54:10.806315Z",
@@ -33699,7 +34419,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 65,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 10,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Erling Haaland",
+            "matched_scorer": "Erling Haaland",
+            "points": 5
+          },
+          {
+            "predicted": "Alexander Sørloth",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Martin Ødegaard",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:54:11.652822Z",
@@ -33825,7 +34569,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Erling Haaland",
+            "matched_scorer": "Erling Haaland",
+            "points": 5
+          },
+          {
+            "predicted": "Martin Ødegaard",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Alexander Sørloth",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:54:15.496612Z",
@@ -33951,7 +34719,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 65,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 10,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Erling Haaland",
+            "matched_scorer": "Erling Haaland",
+            "points": 5
+          },
+          {
+            "predicted": "Alexander Sørloth",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Martin Ødegaard",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:54:22.409002Z",
@@ -34077,7 +34869,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Erling Haaland",
+            "matched_scorer": "Erling Haaland",
+            "points": 5
+          },
+          {
+            "predicted": "Alexander Sørloth",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Martin Ødegaard",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:54:26.475646Z",
@@ -34203,7 +35019,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 65,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 10,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Erling Haaland",
+            "matched_scorer": "Erling Haaland",
+            "points": 5
+          },
+          {
+            "predicted": "Alexander Sørloth",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Martin Ødegaard",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:54:31.668236Z",
@@ -34329,7 +35169,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 60,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 10,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Erling Haaland",
+            "matched_scorer": "Erling Haaland",
+            "points": 5
+          },
+          {
+            "predicted": "Alexander Sørloth",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Aymen Hussein",
+            "matched_scorer": "Aymen Hussein",
+            "points": 5
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:54:32.390287Z",
@@ -34455,7 +35319,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 65,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 10,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Erling Haaland",
+            "matched_scorer": "Erling Haaland",
+            "points": 5
+          },
+          {
+            "predicted": "Alexander Sørloth",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Martin Ødegaard",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:54:35.883548Z",
@@ -34581,7 +35469,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Erling Haaland",
+            "matched_scorer": "Erling Haaland",
+            "points": 5
+          },
+          {
+            "predicted": "Alexander Sørloth",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Martin Ødegaard",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:54:40.825881Z",
@@ -34707,7 +35619,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Erling Haaland",
+            "matched_scorer": "Erling Haaland",
+            "points": 5
+          },
+          {
+            "predicted": "Alexander Sørloth",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Antonio Nusa",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:54:47.799328Z",
@@ -34833,7 +35769,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 60,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 10,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Erling Haaland",
+            "matched_scorer": "Erling Haaland",
+            "points": 5
+          },
+          {
+            "predicted": "Alexander Sørloth",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Aymen Hussein",
+            "matched_scorer": "Aymen Hussein",
+            "points": 5
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:54:47.906350Z",
@@ -34959,7 +35919,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 60,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 10,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Erling Haaland",
+            "matched_scorer": "Erling Haaland",
+            "points": 5
+          },
+          {
+            "predicted": "Aymen Hussein",
+            "matched_scorer": "Aymen Hussein",
+            "points": 5
+          },
+          {
+            "predicted": "Martin Ødegaard",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:55:07.642804Z",
@@ -35085,7 +36069,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Erling Haaland",
+            "matched_scorer": "Erling Haaland",
+            "points": 5
+          },
+          {
+            "predicted": "Alexander Sørloth",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Martin Ødegaard",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:55:09.085391Z",
@@ -35211,7 +36219,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Erling Haaland",
+            "matched_scorer": "Erling Haaland",
+            "points": 5
+          },
+          {
+            "predicted": "Alexander Sorloth",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Martin Odegaard",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:55:41.499069Z",
@@ -35337,7 +36369,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 60,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 10,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Erling Haaland",
+            "matched_scorer": "Erling Haaland",
+            "points": 5
+          },
+          {
+            "predicted": "Aymen Hussein",
+            "matched_scorer": "Aymen Hussein",
+            "points": 5
+          },
+          {
+            "predicted": "Alexander Sorloth",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:55:55.693433Z",
@@ -35463,7 +36519,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Lionel Messi",
+            "matched_scorer": "Lionel Messi",
+            "points": 5
+          },
+          {
+            "predicted": "Lautaro Martínez",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Julián Álvarez",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:55:56.530947Z",
@@ -35589,7 +36669,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Lionel Messi",
+            "matched_scorer": "Lionel Messi",
+            "points": 5
+          },
+          {
+            "predicted": "Julián Álvarez",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Lautaro Martínez",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:55:58.203314Z",
@@ -35715,7 +36819,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Lionel Messi",
+            "matched_scorer": "Lionel Messi",
+            "points": 5
+          },
+          {
+            "predicted": "Julián Álvarez",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Riyad Mahrez",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:56:03.580102Z",
@@ -35841,7 +36969,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Lionel Messi",
+            "matched_scorer": "Lionel Messi",
+            "points": 5
+          },
+          {
+            "predicted": "Julián Álvarez",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Riyad Mahrez",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:56:03.619023Z",
@@ -35967,7 +37119,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Lionel Messi",
+            "matched_scorer": "Lionel Messi",
+            "points": 5
+          },
+          {
+            "predicted": "Julián Álvarez",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Riyad Mahrez",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:56:07.068497Z",
@@ -36093,7 +37269,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Lionel Messi",
+            "matched_scorer": "Lionel Messi",
+            "points": 5
+          },
+          {
+            "predicted": "Lautaro Martínez",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Julián Álvarez",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:56:17.995677Z",
@@ -36219,7 +37419,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Lionel Messi",
+            "matched_scorer": "Lionel Messi",
+            "points": 5
+          },
+          {
+            "predicted": "Lautaro Martínez",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Riyad Mahrez",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:56:23.723726Z",
@@ -36345,7 +37569,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Lionel Messi",
+            "matched_scorer": "Lionel Messi",
+            "points": 5
+          },
+          {
+            "predicted": "Julián Álvarez",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Mohamed Amoura",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:56:26.757941Z",
@@ -36471,7 +37719,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 90,
+        "result": 50,
+        "scoreline": 25,
+        "goal_difference": 10,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Lionel Messi",
+            "matched_scorer": "Lionel Messi",
+            "points": 5
+          },
+          {
+            "predicted": "Julián Álvarez",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Lautaro Martínez",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:56:35.626183Z",
@@ -36597,7 +37869,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Lionel Messi",
+            "matched_scorer": "Lionel Messi",
+            "points": 5
+          },
+          {
+            "predicted": "Julián Álvarez",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Lautaro Martínez",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:56:47.553910Z",
@@ -36723,7 +38019,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Lionel Messi",
+            "matched_scorer": "Lionel Messi",
+            "points": 5
+          },
+          {
+            "predicted": "Julián Álvarez",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Mohamed Amoura",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:56:48.607086Z",
@@ -36859,7 +38179,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Lionel Messi",
+            "matched_scorer": "Lionel Messi",
+            "points": 5
+          },
+          {
+            "predicted": "Julián Álvarez",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Lautaro Martínez",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:56:51.598938Z",
@@ -36985,7 +38329,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Lionel Messi",
+            "matched_scorer": "Lionel Messi",
+            "points": 5
+          },
+          {
+            "predicted": "Lautaro Martínez",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Julián Álvarez",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:57:02.055371Z",
@@ -37111,7 +38479,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Lionel Messi",
+            "matched_scorer": "Lionel Messi",
+            "points": 5
+          },
+          {
+            "predicted": "Julián Álvarez",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Lautaro Martínez",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-16T17:58:07.363439Z",
@@ -39152,7 +40544,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 55,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 5,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Lionel Messi",
+            "matched_scorer": "Lionel Messi",
+            "points": 5
+          },
+          {
+            "predicted": "Lautaro Martínez",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Julián Álvarez",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-17T05:16:35.547769Z",
@@ -45816,248 +47232,228 @@
     }
   ],
   "leaderboard": {
-    "completed_matchdays": 5,
+    "completed_matchdays": 6,
     "available": true,
     "rows": [
       {
         "model_alias": "mimo-v2.5-pro",
-        "matches_scored": 15,
-        "total_points": 510,
+        "matches_scored": 19,
+        "total_points": 685,
         "total_cost": 0.11335021,
-        "result_points": 350,
+        "result_points": 500,
         "scoreline_points": 75,
         "goal_difference_points": 40,
-        "goal_scorer_points": 45,
-        "correct_results": 7,
+        "goal_scorer_points": 70,
+        "correct_results": 10,
         "exact_scores": 3,
-        "correct_goal_scorers": 9,
-        "average_points": 34.0
-      },
-      {
-        "model_alias": "qwen-3.7-max",
-        "matches_scored": 15,
-        "total_points": 490,
-        "total_cost": 0.27310875,
-        "result_points": 350,
-        "scoreline_points": 75,
-        "goal_difference_points": 30,
-        "goal_scorer_points": 35,
-        "correct_results": 7,
-        "exact_scores": 3,
-        "correct_goal_scorers": 7,
-        "average_points": 32.67
+        "correct_goal_scorers": 14,
+        "average_points": 36.05
       },
       {
         "model_alias": "claude-haiku-4.5",
-        "matches_scored": 15,
-        "total_points": 485,
+        "matches_scored": 19,
+        "total_points": 660,
         "total_cost": 0.213958,
-        "result_points": 350,
+        "result_points": 500,
+        "scoreline_points": 75,
+        "goal_difference_points": 40,
+        "goal_scorer_points": 45,
+        "correct_results": 10,
+        "exact_scores": 3,
+        "correct_goal_scorers": 9,
+        "average_points": 34.74
+      },
+      {
+        "model_alias": "qwen-3.7-max",
+        "matches_scored": 19,
+        "total_points": 655,
+        "total_cost": 0.27310875,
+        "result_points": 500,
         "scoreline_points": 75,
         "goal_difference_points": 30,
-        "goal_scorer_points": 30,
-        "correct_results": 7,
+        "goal_scorer_points": 50,
+        "correct_results": 10,
         "exact_scores": 3,
-        "correct_goal_scorers": 6,
-        "average_points": 32.33
+        "correct_goal_scorers": 10,
+        "average_points": 34.47
       },
       {
         "model_alias": "kimi-k2.6",
-        "matches_scored": 14,
-        "total_points": 480,
+        "matches_scored": 17,
+        "total_points": 650,
         "total_cost": 0.35767368,
-        "result_points": 350,
+        "result_points": 500,
         "scoreline_points": 50,
         "goal_difference_points": 30,
-        "goal_scorer_points": 50,
-        "correct_results": 7,
+        "goal_scorer_points": 70,
+        "correct_results": 10,
         "exact_scores": 2,
-        "correct_goal_scorers": 10,
-        "average_points": 34.29
+        "correct_goal_scorers": 14,
+        "average_points": 38.24
       },
       {
         "model_alias": "claude-sonnet-4.7",
-        "matches_scored": 15,
-        "total_points": 475,
+        "matches_scored": 19,
+        "total_points": 650,
         "total_cost": 0.736722,
-        "result_points": 350,
+        "result_points": 500,
         "scoreline_points": 50,
-        "goal_difference_points": 40,
-        "goal_scorer_points": 35,
-        "correct_results": 7,
+        "goal_difference_points": 50,
+        "goal_scorer_points": 50,
+        "correct_results": 10,
         "exact_scores": 2,
-        "correct_goal_scorers": 7,
-        "average_points": 31.67
+        "correct_goal_scorers": 10,
+        "average_points": 34.21
       },
       {
         "model_alias": "gemini-3.1-flash-lite",
-        "matches_scored": 15,
-        "total_points": 475,
+        "matches_scored": 19,
+        "total_points": 650,
         "total_cost": 0.03847875,
-        "result_points": 350,
+        "result_points": 500,
         "scoreline_points": 50,
-        "goal_difference_points": 20,
-        "goal_scorer_points": 55,
-        "correct_results": 7,
+        "goal_difference_points": 30,
+        "goal_scorer_points": 70,
+        "correct_results": 10,
         "exact_scores": 2,
-        "correct_goal_scorers": 11,
-        "average_points": 31.67
+        "correct_goal_scorers": 14,
+        "average_points": 34.21
       },
       {
         "model_alias": "gemini-3.5-flash",
-        "matches_scored": 15,
-        "total_points": 475,
+        "matches_scored": 19,
+        "total_points": 650,
         "total_cost": 0.392601,
-        "result_points": 350,
+        "result_points": 500,
         "scoreline_points": 50,
-        "goal_difference_points": 30,
-        "goal_scorer_points": 45,
-        "correct_results": 7,
+        "goal_difference_points": 40,
+        "goal_scorer_points": 60,
+        "correct_results": 10,
         "exact_scores": 2,
-        "correct_goal_scorers": 9,
-        "average_points": 31.67
+        "correct_goal_scorers": 12,
+        "average_points": 34.21
       },
       {
         "model_alias": "gpt-5.4-mini",
-        "matches_scored": 15,
-        "total_points": 475,
+        "matches_scored": 19,
+        "total_points": 645,
         "total_cost": 0.109392,
-        "result_points": 350,
+        "result_points": 500,
         "scoreline_points": 50,
         "goal_difference_points": 30,
-        "goal_scorer_points": 45,
-        "correct_results": 7,
+        "goal_scorer_points": 65,
+        "correct_results": 10,
         "exact_scores": 2,
-        "correct_goal_scorers": 9,
-        "average_points": 31.67
+        "correct_goal_scorers": 13,
+        "average_points": 33.95
       },
       {
         "model_alias": "gpt-5.4-nano",
-        "matches_scored": 15,
-        "total_points": 460,
+        "matches_scored": 19,
+        "total_points": 630,
         "total_cost": 0.03031875,
-        "result_points": 350,
+        "result_points": 500,
         "scoreline_points": 50,
         "goal_difference_points": 30,
-        "goal_scorer_points": 30,
-        "correct_results": 7,
-        "exact_scores": 2,
-        "correct_goal_scorers": 6,
-        "average_points": 30.67
-      },
-      {
-        "model_alias": "glm-5.1",
-        "matches_scored": 15,
-        "total_points": 430,
-        "total_cost": 0.288427,
-        "result_points": 350,
-        "scoreline_points": 25,
-        "goal_difference_points": 20,
-        "goal_scorer_points": 35,
-        "correct_results": 7,
-        "exact_scores": 1,
-        "correct_goal_scorers": 7,
-        "average_points": 28.67
-      },
-      {
-        "model_alias": "deepseek-v4-pro",
-        "matches_scored": 15,
-        "total_points": 420,
-        "total_cost": 0.28807103,
-        "result_points": 300,
-        "scoreline_points": 50,
-        "goal_difference_points": 20,
         "goal_scorer_points": 50,
-        "correct_results": 6,
+        "correct_results": 10,
         "exact_scores": 2,
         "correct_goal_scorers": 10,
-        "average_points": 28.0
-      },
-      {
-        "model_alias": "gemini-3.1-pro",
-        "matches_scored": 15,
-        "total_points": 420,
-        "total_cost": 0.727916,
-        "result_points": 300,
-        "scoreline_points": 50,
-        "goal_difference_points": 30,
-        "goal_scorer_points": 40,
-        "correct_results": 6,
-        "exact_scores": 2,
-        "correct_goal_scorers": 8,
-        "average_points": 28.0
-      },
-      {
-        "model_alias": "gpt-5.5",
-        "matches_scored": 15,
-        "total_points": 420,
-        "total_cost": 0.909985,
-        "result_points": 300,
-        "scoreline_points": 50,
-        "goal_difference_points": 30,
-        "goal_scorer_points": 40,
-        "correct_results": 6,
-        "exact_scores": 2,
-        "correct_goal_scorers": 8,
-        "average_points": 28.0
+        "average_points": 33.16
       },
       {
         "model_alias": "grok-4.3",
-        "matches_scored": 15,
-        "total_points": 420,
+        "matches_scored": 19,
+        "total_points": 620,
         "total_cost": 0.155301,
-        "result_points": 300,
+        "result_points": 450,
+        "scoreline_points": 75,
+        "goal_difference_points": 40,
+        "goal_scorer_points": 55,
+        "correct_results": 9,
+        "exact_scores": 3,
+        "correct_goal_scorers": 11,
+        "average_points": 32.63
+      },
+      {
+        "model_alias": "gemini-3.1-pro",
+        "matches_scored": 19,
+        "total_points": 595,
+        "total_cost": 0.727916,
+        "result_points": 450,
+        "scoreline_points": 50,
+        "goal_difference_points": 40,
+        "goal_scorer_points": 55,
+        "correct_results": 9,
+        "exact_scores": 2,
+        "correct_goal_scorers": 11,
+        "average_points": 31.32
+      },
+      {
+        "model_alias": "glm-5.1",
+        "matches_scored": 19,
+        "total_points": 595,
+        "total_cost": 0.288427,
+        "result_points": 500,
+        "scoreline_points": 25,
+        "goal_difference_points": 20,
+        "goal_scorer_points": 50,
+        "correct_results": 10,
+        "exact_scores": 1,
+        "correct_goal_scorers": 10,
+        "average_points": 31.32
+      },
+      {
+        "model_alias": "gpt-5.5",
+        "matches_scored": 19,
+        "total_points": 590,
+        "total_cost": 0.909985,
+        "result_points": 450,
         "scoreline_points": 50,
         "goal_difference_points": 30,
-        "goal_scorer_points": 40,
-        "correct_results": 6,
+        "goal_scorer_points": 60,
+        "correct_results": 9,
         "exact_scores": 2,
-        "correct_goal_scorers": 8,
-        "average_points": 28.0
+        "correct_goal_scorers": 12,
+        "average_points": 31.05
+      },
+      {
+        "model_alias": "deepseek-v4-pro",
+        "matches_scored": 19,
+        "total_points": 585,
+        "total_cost": 0.28807103,
+        "result_points": 450,
+        "scoreline_points": 50,
+        "goal_difference_points": 20,
+        "goal_scorer_points": 65,
+        "correct_results": 9,
+        "exact_scores": 2,
+        "correct_goal_scorers": 13,
+        "average_points": 30.79
       },
       {
         "model_alias": "minimax-m3",
-        "matches_scored": 15,
-        "total_points": 365,
+        "matches_scored": 19,
+        "total_points": 535,
         "total_cost": 0.0886299,
-        "result_points": 300,
+        "result_points": 450,
         "scoreline_points": 25,
         "goal_difference_points": 10,
-        "goal_scorer_points": 30,
-        "correct_results": 6,
+        "goal_scorer_points": 50,
+        "correct_results": 9,
         "exact_scores": 1,
-        "correct_goal_scorers": 6,
-        "average_points": 24.33
+        "correct_goal_scorers": 10,
+        "average_points": 28.16
       }
     ],
-    "generated_at": "2026-06-17T05:35:28.536698Z"
+    "generated_at": "2026-06-17T05:54:32.023200Z"
   },
   "resolution_state": {
     "result_attempts": {
-      "38": {
-        "checked_at": "2026-06-17T05:16:00.836348Z",
-        "retry_after": "2026-06-17T06:16:00.836348Z",
-        "error": "Expected one free result for Iran vs New Zealand; found 0."
-      },
-      "49": {
-        "checked_at": "2026-06-17T05:16:00.836348Z",
-        "retry_after": "2026-06-17T06:16:00.836348Z",
-        "error": "Expected one free result for France vs Senegal; found 0."
-      },
-      "50": {
-        "checked_at": "2026-06-17T05:16:00.836348Z",
-        "retry_after": "2026-06-17T06:16:00.836348Z",
-        "error": "Expected one free result for Iraq vs Norway; found 0."
-      },
-      "55": {
-        "checked_at": "2026-06-17T05:16:00.836348Z",
-        "retry_after": "2026-06-17T06:16:00.836348Z",
-        "error": "Expected one free result for Argentina vs Algeria; found 0."
-      },
       "56": {
-        "checked_at": "2026-06-17T05:16:00.836348Z",
-        "retry_after": "2026-06-17T06:16:00.836348Z",
-        "error": "Expected one free result for Austria vs Jordan; found 0."
+        "checked_at": "2026-06-17T05:53:32.395006Z",
+        "retry_after": "2026-06-17T06:53:32.395006Z",
+        "error": "TheSportsDB event 2391741 is not finished (status=2H)."
       }
     }
   },
@@ -46493,6 +47889,146 @@
           "team": "Uruguay",
           "scorer": "Maksimilianv Araivkhv",
           "minute": 80
+        }
+      ]
+    },
+    "38": {
+      "match_id": 38,
+      "match": "Iran vs New Zealand",
+      "fixture_id": 2391737,
+      "provider": "TheSportsDB",
+      "status": "FT",
+      "fetched_at": "2026-06-17T05:53:45.664379Z",
+      "team1": "Iran",
+      "team2": "New Zealand",
+      "team1_score": 2,
+      "team2_score": 2,
+      "winner": "Draw",
+      "goals": [
+        {
+          "team": "Iran",
+          "scorer": "Ramin Rezaiian",
+          "minute": 32
+        },
+        {
+          "team": "Iran",
+          "scorer": "Mohammad Mohebi",
+          "minute": 64
+        },
+        {
+          "team": "New Zealand",
+          "scorer": "Elijah Just",
+          "minute": 7
+        },
+        {
+          "team": "New Zealand",
+          "scorer": "Elijah Just",
+          "minute": 54
+        }
+      ]
+    },
+    "49": {
+      "match_id": 49,
+      "match": "France vs Senegal",
+      "fixture_id": 2391742,
+      "provider": "TheSportsDB",
+      "status": "FT",
+      "fetched_at": "2026-06-17T05:54:05.489036Z",
+      "team1": "France",
+      "team2": "Senegal",
+      "team1_score": 3,
+      "team2_score": 1,
+      "winner": "France",
+      "goals": [
+        {
+          "team": "France",
+          "scorer": "K. Mbappé",
+          "minute": 66
+        },
+        {
+          "team": "France",
+          "scorer": "B. Barcola",
+          "minute": 82
+        },
+        {
+          "team": "France",
+          "scorer": "K. Mbappé 90+6'",
+          "minute": null
+        },
+        {
+          "team": "Senegal",
+          "scorer": "I. Mbaye 90+5'",
+          "minute": null
+        }
+      ]
+    },
+    "50": {
+      "match_id": 50,
+      "match": "Iraq vs Norway",
+      "fixture_id": 2461107,
+      "provider": "TheSportsDB",
+      "status": "FT",
+      "fetched_at": "2026-06-17T05:54:19.110583Z",
+      "team1": "Iraq",
+      "team2": "Norway",
+      "team1_score": 1,
+      "team2_score": 4,
+      "winner": "Norway",
+      "goals": [
+        {
+          "team": "Iraq",
+          "scorer": "Aymen Hussein",
+          "minute": 39
+        },
+        {
+          "team": "Norway",
+          "scorer": "Erling Haaland",
+          "minute": 29
+        },
+        {
+          "team": "Norway",
+          "scorer": "Erling Haaland",
+          "minute": 43
+        },
+        {
+          "team": "Norway",
+          "scorer": "Leo Østigård",
+          "minute": 76
+        },
+        {
+          "team": "Norway",
+          "scorer": "Aymen Hussein 90+7'",
+          "minute": null
+        }
+      ]
+    },
+    "55": {
+      "match_id": 55,
+      "match": "Argentina vs Algeria",
+      "fixture_id": 2391740,
+      "provider": "TheSportsDB",
+      "status": "FT",
+      "fetched_at": "2026-06-17T05:54:30.514444Z",
+      "team1": "Argentina",
+      "team2": "Algeria",
+      "team1_score": 3,
+      "team2_score": 0,
+      "winner": "Argentina",
+      "goals": [
+        {
+          "team": "Argentina",
+          "scorer": "Lionel Messi",
+          "minute": 17
+        },
+        {
+          "team": "Argentina",
+          "scorer": "Lionel Messi",
+          "minute": 60
+        },
+        {
+          "team": "Argentina",
+          "scorer": "Lionel Messi",
+          "minute": 76
         }
       ]
     }

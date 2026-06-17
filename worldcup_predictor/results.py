@@ -2,24 +2,22 @@ from __future__ import annotations
 
 import re
 import unicodedata
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 import requests
 
 from .data import get_match
 
 
-SPORTSDB_URL = "https://www.thesportsdb.com/api/v1/json/123/eventsseason.php"
+SPORTSDB_DAY_URL = "https://www.thesportsdb.com/api/v1/json/123/eventsday.php"
+SPORTSDB_LEAGUE_ID = 4429
 WORLD_CUP_FEED_URL = "https://worldcup26.ir/get/games"
 FINISHED_STATUSES = {"FT", "AET", "PEN"}
 
 
 def fetch_match_result(match_id: int, fixture_id: int | None = None) -> dict:
     match = get_match(match_id)
-    events = _get_json(
-        SPORTSDB_URL,
-        params={"id": 4429, "s": 2026},
-    ).get("events") or []
+    events = _fetch_day_events(match["kickoff_utc"])
     event = _find_match(
         events,
         match,
@@ -56,6 +54,28 @@ def fetch_match_result(match_id: int, fixture_id: int | None = None) -> dict:
         "winner": winner,
         "goals": goals,
     }
+
+
+def _fetch_day_events(kickoff_utc: str) -> list[dict]:
+    """Collect TheSportsDB events around a fixture's kickoff date.
+
+    The free ``eventsseason`` feed lags badly (it stops updating after the
+    first matchday batch), so results for later fixtures never appear there.
+    The ``eventsday`` endpoint stays current, so we query the UTC kickoff date
+    plus the adjacent days to absorb any timezone boundary differences.
+    """
+    kickoff = datetime.fromisoformat(kickoff_utc.replace("Z", "+00:00")).astimezone(timezone.utc)
+    events: list[dict] = []
+    seen_ids: set[str] = set()
+    for offset in (-1, 0, 1):
+        day = (kickoff + timedelta(days=offset)).date().isoformat()
+        payload = _get_json(SPORTSDB_DAY_URL, params={"d": day, "l": SPORTSDB_LEAGUE_ID})
+        for event in payload.get("events") or []:
+            event_id = str(event.get("idEvent"))
+            if event_id not in seen_ids:
+                seen_ids.add(event_id)
+                events.append(event)
+    return events
 
 
 def _fetch_goal_scorers(match: dict) -> list[dict]:
