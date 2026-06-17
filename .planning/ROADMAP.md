@@ -22,7 +22,7 @@ animations are the throughline and the highest-priority success criterion in eve
 - [x] **Phase 2: Offline Data Layer** - Codable models, AppStore, bundled SampleFeed.json, Format helpers (completed 2026-06-17)
 - [x] **Phase 3: Component Library** - all frosted/ring/bar/pill/button/status components + preview gallery (completed 2026-06-17)
 - [x] **Phase 4: App Shell & League Table** - 4-tab frosted shell + the standings screen (completed 2026-06-17)
-- [ ] **Phase 5: Today Briefing** - the self-assembling showcase home + pull-to-refresh replay
+- [x] **Phase 5: Today Briefing** - the self-assembling showcase home + pull-to-refresh replay (completed 2026-06-17)
 - [ ] **Phase 6: Matches & Match Detail** - upcoming/results list + the deep match screen with ring morph
 - [ ] **Phase 7: Insights & Scouting** - engine-form metrics + per-friend scouting cards
 - [ ] **Phase 8: Motion, Accessibility & States** - motion polish, a11y, empty/error states, no-jargon audit, acceptance
@@ -98,8 +98,8 @@ Plans:
 **Plans**: 2 plans
 
 Plans:
-- [ ] 05-01: Today scaffold — GeneratedStatus, greeting, standing card + gap rail, tonight's plan card
-- [ ] 05-02: Next-match spotlight + today's-other-picks list + assembly/refresh wiring
+- [x] 05-01: Today scaffold — GeneratedStatus, greeting, standing card + gap rail, tonight's plan card
+- [x] 05-02: Next-match spotlight + today's-other-picks list + assembly/refresh wiring
 
 ### Phase 6: Matches & Match Detail
 **Goal**: The Matches tab (Upcoming/Results segmented) and the deep Match Detail screen, including the score-ring shared-element morph and the plain-English breakdown.
@@ -154,7 +154,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8
 | 2. Offline Data Layer | 1/1 | Complete   | 2026-06-17 |
 | 3. Component Library | 3/3 | Complete   | 2026-06-17 |
 | 4. App Shell & League Table | 2/2 | Complete   | 2026-06-17 |
-| 5. Today Briefing | 0/2 | Not started | - |
+| 5. Today Briefing | 2/2 | Complete   | 2026-06-17 |
 | 6. Matches & Match Detail | 0/2 | Not started | - |
 | 7. Insights & Scouting | 0/2 | Not started | - |
 | 8. Motion, Accessibility & States | 0/2 | Not started | - |
