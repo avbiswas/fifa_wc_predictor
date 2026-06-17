@@ -2,9 +2,9 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: executing
-stopped_at: All planning artifacts authored (PROJECT, REQUIREMENTS, ROADMAP, STATE, config, 8 phases' PLANs)
-last_updated: "2026-06-17T15:01:30.064Z"
+status: ready_to_plan
+stopped_at: Phase 05 complete (2/2) — ready to discuss Phase 06
+last_updated: 2026-06-17T15:08:46.414Z
 last_activity: 2026-06-17 -- Phase 05 plan 02 completed
 progress:
   total_phases: 8
@@ -21,14 +21,14 @@ progress:
 See: .planning/PROJECT.md (updated 2026-06-17)
 
 **Core value:** On open, in one glance, Niko knows what to tip tonight and why — in plain language — in a UI that needs no manual.
-**Current focus:** Phase 05 — today-briefing (complete); Phase 06 next
+**Current focus:** Phase 06 — matches detail
 
 ## Current Position
 
-Phase: 05 (today-briefing) — COMPLETE
-Plan: 2 of 2
-Status: Phase 05 complete. Ready for Phase 06.
-Last activity: 2026-06-17 -- Phase 05 plan 02 completed
+Phase: 06
+Plan: Not started
+Status: Ready to plan
+Last activity: 2026-06-17
 
 Progress: [██████░░░░] 63%
 
@@ -36,7 +36,7 @@ Progress: [██████░░░░] 63%
 
 **Velocity:**
 
-- Total plans completed: 10
+- Total plans completed: 12
 - Average duration: ~3 min
 - Total execution time: ~30 min
 
@@ -49,6 +49,7 @@ Progress: [██████░░░░] 63%
 | 03-components | 3 | 8 min | 2.7 min |
 | 04-shell-table | 2 | 5 min | 2.5 min |
 | 05-today-briefing | 2 | 5 min | 2.5 min |
+| 05 | 2 | - | - |
 
 **Recent Trend:**
 
