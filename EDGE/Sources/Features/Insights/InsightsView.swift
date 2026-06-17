@@ -57,6 +57,15 @@ struct InsightsView: View {
                                 .font(.bodyX)
                                 .foregroundStyle(Theme.text)
                                 .generativeAppear(3)
+
+                            // B) Scouting section
+                            Eyebrow(text: "Scouting the field")
+                                .generativeAppear(4)
+
+                            ForEach(Array(feed.scouting.sorted { $0.rank < $1.rank }.enumerated()), id: \.element.id) { index, report in
+                                ScoutCard(report: report)
+                                    .generativeAppear(5 + index)
+                            }
                         }
                         .padding(.horizontal, Theme.s4)
                         .padding(.top, Theme.s6)
