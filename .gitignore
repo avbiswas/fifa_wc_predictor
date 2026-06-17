@@ -20,6 +20,13 @@ node_modules/
 dist/
 build/
 
+# Xcode (regenerated from EDGE/project.yml via xcodegen)
+EDGE/*.xcodeproj/
+EDGE/DerivedData/
+EDGE/build/
+xcuserdata/
+*.xcuserstate
+
 # OS / editor noise
 .DS_Store
 *.swp
