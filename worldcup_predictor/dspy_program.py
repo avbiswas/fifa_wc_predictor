@@ -96,15 +96,7 @@ def make_lm(model: str) -> dspy.LM:
     if not os.environ.get("OPENROUTER_API_KEY"):
         raise SystemExit("OPENROUTER_API_KEY is not set. Add it to .env or .envrc.")
     temperature = 1.0 if model.startswith("openrouter/openai/gpt-5") else 0.2
-    if model.startswith("openrouter/openai/gpt-5"):
-        max_tokens = 16000
-    elif model in {
-        "openrouter/xiaomi/mimo-v2.5-pro",
-        "openrouter/moonshotai/kimi-k2.6",
-    }:
-        max_tokens = 4000
-    else:
-        max_tokens = 1600
+    max_tokens = 16000
     return dspy.LM(
         model,
         temperature=temperature,
