@@ -6,18 +6,22 @@ from datetime import datetime, timedelta, timezone
 
 import requests
 
-from .data import get_match
+from .data import get_match, read_csv
+from .paths import DATA_DIR
 
 
 SPORTSDB_DAY_URL = "https://www.thesportsdb.com/api/v1/json/123/eventsday.php"
+SPORTSDB_ROUND_URL = "https://www.thesportsdb.com/api/v1/json/123/eventsround.php"
 SPORTSDB_LEAGUE_ID = 4429
+SPORTSDB_SEASON = 2026
+GROUP_MATCHES_PER_ROUND = 2
 WORLD_CUP_FEED_URL = "https://worldcup26.ir/get/games"
 FINISHED_STATUSES = {"FT", "AET", "PEN"}
 
 
 def fetch_match_result(match_id: int, fixture_id: int | None = None) -> dict:
     match = get_match(match_id)
-    events = _fetch_day_events(match["kickoff_utc"])
+    events = _candidate_events(match)
     event = _find_match(
         events,
         match,
@@ -56,26 +60,60 @@ def fetch_match_result(match_id: int, fixture_id: int | None = None) -> dict:
     }
 
 
-def _fetch_day_events(kickoff_utc: str) -> list[dict]:
-    """Collect TheSportsDB events around a fixture's kickoff date.
+def _candidate_events(match: dict) -> list[dict]:
+    """Collect TheSportsDB events that could be the given fixture.
 
-    The free ``eventsseason`` feed lags badly (it stops updating after the
-    first matchday batch), so results for later fixtures never appear there.
-    The ``eventsday`` endpoint stays current, so we query the UTC kickoff date
-    plus the adjacent days to absorb any timezone boundary differences.
+    The free feeds are each independently unreliable: ``eventsseason`` lags
+    badly (it froze after the first matchday batch) and ``eventsday`` silently
+    drops events (it returned only 3 of the day's World Cup games). The
+    ``eventsround`` feed is the only one that returns a complete matchday, so
+    for group games we query the round the fixture belongs to and union it with
+    the surrounding ``eventsday`` results as a safety net.
     """
-    kickoff = datetime.fromisoformat(kickoff_utc.replace("Z", "+00:00")).astimezone(timezone.utc)
     events: list[dict] = []
     seen_ids: set[str] = set()
-    for offset in (-1, 0, 1):
-        day = (kickoff + timedelta(days=offset)).date().isoformat()
-        payload = _get_json(SPORTSDB_DAY_URL, params={"d": day, "l": SPORTSDB_LEAGUE_ID})
-        for event in payload.get("events") or []:
+
+    def add(rows: list[dict]) -> None:
+        for event in rows:
             event_id = str(event.get("idEvent"))
             if event_id not in seen_ids:
                 seen_ids.add(event_id)
                 events.append(event)
+
+    sportsdb_round = _group_round(match)
+    if sportsdb_round is not None:
+        payload = _get_json(
+            SPORTSDB_ROUND_URL,
+            params={"id": SPORTSDB_LEAGUE_ID, "r": sportsdb_round, "s": SPORTSDB_SEASON},
+        )
+        add(payload.get("events") or [])
+
+    kickoff = datetime.fromisoformat(match["kickoff_utc"].replace("Z", "+00:00")).astimezone(timezone.utc)
+    for offset in (-1, 0, 1):
+        day = (kickoff + timedelta(days=offset)).date().isoformat()
+        payload = _get_json(SPORTSDB_DAY_URL, params={"d": day, "l": SPORTSDB_LEAGUE_ID})
+        add(payload.get("events") or [])
     return events
+
+
+def _group_round(match: dict) -> int | None:
+    """TheSportsDB round number for a group-stage fixture, else ``None``.
+
+    TheSportsDB numbers group matchdays 1, 2, 3 across every group, which does
+    not match the schedule's "Matchday N" label. Within a four-team group there
+    are two games per matchday, so the chronological index inside the group maps
+    directly onto the round.
+    """
+    group = (match.get("group") or "").strip()
+    if not group:
+        return None
+    fixtures = [row for row in read_csv(DATA_DIR / "schedule_2026.csv") if (row.get("group") or "").strip() == group]
+    fixtures.sort(key=lambda row: (row["kickoff_utc"], int(row["match_id"])))
+    match_ids = [row["match_id"] for row in fixtures]
+    if str(match["match_id"]) not in match_ids:
+        return None
+    index = match_ids.index(str(match["match_id"]))
+    return index // GROUP_MATCHES_PER_ROUND + 1
 
 
 def _fetch_goal_scorers(match: dict) -> list[dict]:
