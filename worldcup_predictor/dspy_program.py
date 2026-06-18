@@ -33,7 +33,13 @@ class MatchPredictor(dspy.Module):
                 "prediction": (choices, dspy.OutputField(desc=f"Must be exactly one of: {team1}, {team2}, Draw.")),
                 "scoreline": (
                     str,
-                    dspy.OutputField(desc=f"Predicted scoreline, for example '{team1} 2-1 {team2}' or '{team1} 1-1 {team2}'."),
+                    dspy.OutputField(
+                        desc=(
+                            f"Predicted final scoreline in the format '{team1} X-Y {team2}', where X and Y are the "
+                            "goals you expect each side to score. Derive the goal counts from the evidence; do not "
+                            "default to a common scoreline unless the evidence specifically supports it."
+                        )
+                    ),
                 ),
                 "goal_scorers": (
                     str,
@@ -95,7 +101,7 @@ class MatchPredictor(dspy.Module):
 def make_lm(model: str) -> dspy.LM:
     if not os.environ.get("OPENROUTER_API_KEY"):
         raise SystemExit("OPENROUTER_API_KEY is not set. Add it to .env or .envrc.")
-    temperature = 1.0 if model.startswith("openrouter/openai/gpt-5") else 0.2
+    temperature = 1.0 if model.startswith("openrouter/openai/gpt-5") else 0.7
     max_tokens = 16000
     return dspy.LM(
         model,

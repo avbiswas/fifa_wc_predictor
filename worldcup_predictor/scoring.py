@@ -65,7 +65,7 @@ def update_leaderboard(store: dict, schedule: list[dict]) -> dict:
         if prediction.get("match_id") is None:
             continue
         alias = prediction.get("model_alias") or aliases_by_model.get(prediction.get("model"))
-        if not alias:
+        if not alias or alias not in registry.get("models", {}):
             continue
         key = (int(prediction["match_id"]), alias)
         latest_predictions[key] = prediction

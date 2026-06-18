@@ -163,6 +163,7 @@ function latestByAlias(rows) {
   const byAlias = new Map();
   for (const row of rows) {
     const alias = aliasForRow(row);
+    if (!modelMetadata.has(alias)) continue;
     byAlias.set(alias, row);
   }
   return Array.from(byAlias.values()).sort((a, b) => modelSortIndex(a) - modelSortIndex(b));
