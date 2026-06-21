@@ -64309,7 +64309,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 50,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Ayase Ueda",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Daichi Kamada",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Junya Ito",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-20T05:50:01.485838Z",
@@ -64434,7 +64458,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 50,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Ayase Ueda",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Ritsu Doan",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Elias Achouri",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-20T05:50:01.547465Z",
@@ -64559,7 +64607,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 50,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Ritsu Doan",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Daichi Kamada",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Ayase Ueda",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-20T05:50:08.500475Z",
@@ -64684,7 +64756,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 50,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Ayase Ueda",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Ritsu Doan",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Elias Achouri",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-20T05:50:10.077735Z",
@@ -64809,7 +64905,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 50,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Ayase Ueda",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Keito Nakamura",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Elias Achouri",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-20T05:50:14.203723Z",
@@ -64934,7 +65054,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 50,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Ayase Ueda",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Junya Ito",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Elias Achouri",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-20T05:50:18.925359Z",
@@ -65059,7 +65203,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 50,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Ayase Ueda",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Ritsu Doan",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Daizen Maeda",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-20T05:50:22.918607Z",
@@ -65184,7 +65352,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 50,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Ayase Ueda",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Ritsu Doan",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Keito Nakamura",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-20T05:50:22.982407Z",
@@ -65309,7 +65501,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 50,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Junya Ito",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Ayase Ueda",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Yuto Nagatomo",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-20T05:50:41.043690Z",
@@ -65434,7 +65650,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 50,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Ayase Ueda",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Ritsu Doan",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Firas Chaouat",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-20T05:50:41.640268Z",
@@ -65559,7 +65799,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 50,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Ayase Ueda",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Ritsu Doan",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Junya Ito",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-20T05:50:55.677359Z",
@@ -65684,7 +65948,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 50,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Ayase Ueda",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Ritsu Doan",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Elias Achouri",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-21T05:50:48.832548Z",
@@ -68858,7 +69146,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 50,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Nico Williams",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Lamine Yamal",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Rodrigo Rodri",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-21T05:54:48.286412Z",
@@ -68984,7 +69296,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 50,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Mikel Oyarzabal",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Ferran Torres",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Fabian Ruiz",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-21T05:54:48.354212Z",
@@ -69110,7 +69446,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 50,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Mikel Oyarzabal",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Nico Williams",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Dani Olmo",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-21T05:54:54.280976Z",
@@ -69236,7 +69596,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 50,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Mikel Oyarzabal",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Nico Williams",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Ferran Torres",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-21T05:54:54.444562Z",
@@ -69362,7 +69746,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 50,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Mikel Oyarzabal",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Nico Williams",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Dani Olmo",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-21T05:55:00.571204Z",
@@ -69488,7 +69896,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 50,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Lamine Yamal",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Nico Williams",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Mikel Oyarzabal",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-21T05:55:16.677219Z",
@@ -69614,7 +70046,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 50,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Mikel Oyarzabal",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Nico Williams",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Salem Al-Dawsari",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-21T05:55:21.363433Z",
@@ -69740,7 +70196,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 50,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Oyarzabal",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Williams",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Salem Al-Dawsari",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-21T05:55:32.819235Z",
@@ -69866,7 +70346,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 50,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Mikel Oyarzabal",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Ferran Torres",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Pedri",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-21T05:55:33.036125Z",
@@ -69992,7 +70496,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 50,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Ferran Torres",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Mikel Oyarzabal",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Salem Al-Dawsari",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-21T05:55:51.380126Z",
@@ -70118,7 +70646,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 50,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Mikel Oyarzabal",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Nico Williams",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Salem Al-Dawsari",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-21T05:56:04.656219Z",
@@ -70244,7 +70796,31 @@
             }
           ]
         }
-      ]
+      ],
+      "score": {
+        "total": 50,
+        "result": 50,
+        "scoreline": 0,
+        "goal_difference": 0,
+        "goal_scorers": 0,
+        "goal_scorer_breakdown": [
+          {
+            "predicted": "Mikel Oyarzabal",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Lamine Yamal",
+            "matched_scorer": null,
+            "points": 0
+          },
+          {
+            "predicted": "Salem Al-Dawsari",
+            "matched_scorer": null,
+            "points": 0
+          }
+        ]
+      }
     },
     {
       "created_at": "2026-06-21T05:56:25.707485Z",
@@ -70980,188 +71556,182 @@
     }
   ],
   "leaderboard": {
-    "completed_matchdays": 10,
+    "completed_matchdays": 11,
     "available": true,
     "rows": [
       {
         "model_alias": "kimi-k2.6",
-        "matches_scored": 33,
-        "total_points": 1350,
+        "matches_scored": 35,
+        "total_points": 1450,
         "total_cost": 0.66084048,
-        "result_points": 1100,
+        "result_points": 1200,
         "scoreline_points": 100,
         "goal_difference_points": 70,
         "goal_scorer_points": 80,
-        "correct_results": 22,
+        "correct_results": 24,
         "exact_scores": 4,
         "correct_goal_scorers": 16,
-        "average_points": 40.91
+        "average_points": 41.43
       },
       {
         "model_alias": "gpt-5.4-mini",
-        "matches_scored": 35,
-        "total_points": 1350,
+        "matches_scored": 37,
+        "total_points": 1450,
         "total_cost": 0.170271,
-        "result_points": 1100,
+        "result_points": 1200,
         "scoreline_points": 75,
         "goal_difference_points": 90,
         "goal_scorer_points": 85,
-        "correct_results": 22,
+        "correct_results": 24,
         "exact_scores": 3,
         "correct_goal_scorers": 17,
-        "average_points": 38.57
+        "average_points": 39.19
       },
       {
         "model_alias": "gemini-3.1-flash-lite",
-        "matches_scored": 35,
-        "total_points": 1265,
+        "matches_scored": 37,
+        "total_points": 1365,
         "total_cost": 0.06008175,
-        "result_points": 1000,
+        "result_points": 1100,
         "scoreline_points": 100,
         "goal_difference_points": 80,
         "goal_scorer_points": 85,
-        "correct_results": 20,
+        "correct_results": 22,
         "exact_scores": 4,
         "correct_goal_scorers": 17,
-        "average_points": 36.14
+        "average_points": 36.89
       },
       {
         "model_alias": "grok-4.3",
-        "matches_scored": 35,
-        "total_points": 1265,
+        "matches_scored": 37,
+        "total_points": 1365,
         "total_cost": 0.24985435,
-        "result_points": 1050,
+        "result_points": 1150,
         "scoreline_points": 75,
         "goal_difference_points": 70,
         "goal_scorer_points": 70,
-        "correct_results": 21,
+        "correct_results": 23,
         "exact_scores": 3,
         "correct_goal_scorers": 14,
-        "average_points": 36.14
+        "average_points": 36.89
       },
       {
         "model_alias": "minimax-m3",
-        "matches_scored": 35,
-        "total_points": 1265,
+        "matches_scored": 37,
+        "total_points": 1365,
         "total_cost": 0.1323714,
-        "result_points": 1050,
+        "result_points": 1150,
         "scoreline_points": 75,
         "goal_difference_points": 70,
         "goal_scorer_points": 70,
-        "correct_results": 21,
+        "correct_results": 23,
         "exact_scores": 3,
         "correct_goal_scorers": 14,
-        "average_points": 36.14
+        "average_points": 36.89
       },
       {
         "model_alias": "qwen-3.7-max",
-        "matches_scored": 35,
-        "total_points": 1260,
+        "matches_scored": 37,
+        "total_points": 1360,
         "total_cost": 0.43602,
-        "result_points": 1000,
+        "result_points": 1100,
         "scoreline_points": 125,
         "goal_difference_points": 70,
         "goal_scorer_points": 65,
-        "correct_results": 20,
+        "correct_results": 22,
         "exact_scores": 5,
         "correct_goal_scorers": 13,
-        "average_points": 36.0
+        "average_points": 36.76
       },
       {
         "model_alias": "gemini-3.5-flash",
-        "matches_scored": 35,
-        "total_points": 1230,
+        "matches_scored": 37,
+        "total_points": 1330,
         "total_cost": 0.695826,
-        "result_points": 1000,
+        "result_points": 1100,
         "scoreline_points": 75,
         "goal_difference_points": 80,
         "goal_scorer_points": 75,
-        "correct_results": 20,
+        "correct_results": 22,
         "exact_scores": 3,
         "correct_goal_scorers": 15,
-        "average_points": 35.14
+        "average_points": 35.95
       },
       {
         "model_alias": "mimo-v2.5-pro",
-        "matches_scored": 35,
-        "total_points": 1215,
+        "matches_scored": 37,
+        "total_points": 1315,
         "total_cost": 0.1699813,
-        "result_points": 1000,
+        "result_points": 1100,
         "scoreline_points": 75,
         "goal_difference_points": 60,
         "goal_scorer_points": 80,
-        "correct_results": 20,
+        "correct_results": 22,
         "exact_scores": 3,
         "correct_goal_scorers": 16,
-        "average_points": 34.71
+        "average_points": 35.54
       },
       {
         "model_alias": "deepseek-v4-pro",
-        "matches_scored": 35,
-        "total_points": 1210,
+        "matches_scored": 37,
+        "total_points": 1310,
         "total_cost": 0.45292164,
-        "result_points": 950,
+        "result_points": 1050,
         "scoreline_points": 125,
         "goal_difference_points": 60,
         "goal_scorer_points": 75,
-        "correct_results": 19,
+        "correct_results": 21,
         "exact_scores": 5,
         "correct_goal_scorers": 15,
-        "average_points": 34.57
+        "average_points": 35.41
       },
       {
         "model_alias": "glm-5.1",
-        "matches_scored": 35,
-        "total_points": 1205,
+        "matches_scored": 37,
+        "total_points": 1305,
         "total_cost": 0.44935178,
-        "result_points": 1000,
+        "result_points": 1100,
         "scoreline_points": 75,
         "goal_difference_points": 70,
         "goal_scorer_points": 60,
-        "correct_results": 20,
+        "correct_results": 22,
         "exact_scores": 3,
         "correct_goal_scorers": 12,
-        "average_points": 34.43
+        "average_points": 35.27
       },
       {
         "model_alias": "claude-haiku-4.5",
-        "matches_scored": 35,
-        "total_points": 1155,
+        "matches_scored": 37,
+        "total_points": 1255,
         "total_cost": 0.339749,
-        "result_points": 950,
+        "result_points": 1050,
         "scoreline_points": 75,
         "goal_difference_points": 70,
         "goal_scorer_points": 60,
-        "correct_results": 19,
+        "correct_results": 21,
         "exact_scores": 3,
         "correct_goal_scorers": 12,
-        "average_points": 33.0
+        "average_points": 33.92
       },
       {
         "model_alias": "gpt-5.4-nano",
-        "matches_scored": 35,
-        "total_points": 1135,
+        "matches_scored": 37,
+        "total_points": 1235,
         "total_cost": 0.04696065,
-        "result_points": 950,
+        "result_points": 1050,
         "scoreline_points": 50,
         "goal_difference_points": 70,
         "goal_scorer_points": 65,
-        "correct_results": 19,
+        "correct_results": 21,
         "exact_scores": 2,
         "correct_goal_scorers": 13,
-        "average_points": 32.43
+        "average_points": 33.38
       }
     ],
-    "generated_at": "2026-06-21T05:58:07.460117Z"
+    "generated_at": "2026-06-21T18:09:36.069891Z"
   },
   "resolution_state": {
-    "result_attempts": {
-      "34": {
-        "checked_at": "2026-06-21T05:50:04.959546Z",
-        "retry_after": "2026-06-21T06:50:04.959546Z",
-        "error": "TheSportsDB event 2391753 is not finished (status=2H)."
-      }
-    }
+    "result_attempts": {}
   },
   "results": {
     "1": {
@@ -72122,6 +72692,34 @@
       "team1_score": 5,
       "team2_score": 1,
       "winner": "Netherlands",
+      "goals": []
+    },
+    "34": {
+      "match_id": 34,
+      "match": "Tunisia vs Japan",
+      "fixture_id": 2391753,
+      "provider": "TheSportsDB",
+      "status": "FT",
+      "fetched_at": "2026-06-21T18:09:33.840337Z",
+      "team1": "Tunisia",
+      "team2": "Japan",
+      "team1_score": 0,
+      "team2_score": 4,
+      "winner": "Japan",
+      "goals": []
+    },
+    "45": {
+      "match_id": 45,
+      "match": "Spain vs Saudi Arabia",
+      "fixture_id": 2391756,
+      "provider": "TheSportsDB",
+      "status": "FT",
+      "fetched_at": "2026-06-21T18:09:35.983818Z",
+      "team1": "Spain",
+      "team2": "Saudi Arabia",
+      "team1_score": 4,
+      "team2_score": 0,
+      "winner": "Spain",
       "goals": []
     }
   }
