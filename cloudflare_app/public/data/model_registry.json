@@ -57,13 +57,6 @@
       "group": "Xiaomi",
       "icon": "/icons/xiaomi.svg"
     },
-    "kimi-k2.6": {
-      "model": "openrouter/moonshotai/kimi-k2.6",
-      "provider": "moonshotai",
-      "provider_label": "Moonshot AI",
-      "group": "Moonshot AI",
-      "icon": "/icons/moonshotai.svg"
-    },
     "grok-4.3": {
       "model": "openrouter/x-ai/grok-4.3",
       "provider": "x-ai",
