@@ -71,22 +71,22 @@ match_id,round,date,time,kickoff_utc,group,team1,team2,team1_code,team2_code,gro
 70,Matchday 13,2026-06-23,19:00 UTC-4,2026-06-23T23:00:00Z,Group L,Panama,Croatia,PAN,CRO,Toronto,openfootball_2026_json
 71,Matchday 17,2026-06-27,17:00 UTC-4,2026-06-27T21:00:00Z,Group L,Panama,England,PAN,ENG,New York/New Jersey (East Rutherford),openfootball_2026_json
 72,Matchday 17,2026-06-27,17:00 UTC-4,2026-06-27T21:00:00Z,Group L,Croatia,Ghana,CRO,GHA,Philadelphia,openfootball_2026_json
-73,Round of 32,2026-06-28,12:00 UTC-7,2026-06-28T19:00:00Z,,2A,2B,,,Los Angeles (Inglewood),openfootball_2026_json
-74,Round of 32,2026-06-29,16:30 UTC-4,2026-06-29T20:30:00Z,,1E,3A/B/C/D/F,,,Boston (Foxborough),openfootball_2026_json
-75,Round of 32,2026-06-29,19:00 UTC-6,2026-06-30T01:00:00Z,,1F,2C,,,Monterrey (Guadalupe),openfootball_2026_json
-76,Round of 32,2026-06-29,12:00 UTC-5,2026-06-29T17:00:00Z,,1C,2F,,,Houston,openfootball_2026_json
-77,Round of 32,2026-06-30,17:00 UTC-4,2026-06-30T21:00:00Z,,1I,3C/D/F/G/H,,,New York/New Jersey (East Rutherford),openfootball_2026_json
-78,Round of 32,2026-06-30,12:00 UTC-5,2026-06-30T17:00:00Z,,2E,2I,,,Dallas (Arlington),openfootball_2026_json
-79,Round of 32,2026-06-30,19:00 UTC-6,2026-07-01T01:00:00Z,,1A,3C/E/F/H/I,,,Mexico City,openfootball_2026_json
-80,Round of 32,2026-07-01,12:00 UTC-4,2026-07-01T16:00:00Z,,1L,3E/H/I/J/K,,,Atlanta,openfootball_2026_json
-81,Round of 32,2026-07-01,17:00 UTC-7,2026-07-02T00:00:00Z,,1D,3B/E/F/I/J,,,San Francisco Bay Area (Santa Clara),openfootball_2026_json
-82,Round of 32,2026-07-01,13:00 UTC-7,2026-07-01T20:00:00Z,,1G,3A/E/H/I/J,,,Seattle,openfootball_2026_json
-83,Round of 32,2026-07-02,19:00 UTC-4,2026-07-02T23:00:00Z,,2K,2L,,,Toronto,openfootball_2026_json
-84,Round of 32,2026-07-02,12:00 UTC-7,2026-07-02T19:00:00Z,,1H,2J,,,Los Angeles (Inglewood),openfootball_2026_json
-85,Round of 32,2026-07-02,20:00 UTC-7,2026-07-03T03:00:00Z,,1B,3E/F/G/I/J,,,Vancouver,openfootball_2026_json
-86,Round of 32,2026-07-03,18:00 UTC-4,2026-07-03T22:00:00Z,,1J,2H,,,Miami (Miami Gardens),openfootball_2026_json
-87,Round of 32,2026-07-03,20:30 UTC-5,2026-07-04T01:30:00Z,,1K,3D/E/I/J/L,,,Kansas City,openfootball_2026_json
-88,Round of 32,2026-07-03,13:00 UTC-5,2026-07-03T18:00:00Z,,2D,2G,,,Dallas (Arlington),openfootball_2026_json
+73,Round of 32,2026-06-28,12:00 UTC-7,2026-06-28T19:00:00Z,,South Africa,Canada,RSA,CAN,Los Angeles (Inglewood),openfootball_2026_json
+74,Round of 32,2026-06-29,16:30 UTC-4,2026-06-29T20:30:00Z,,Germany,Paraguay,GER,PAR,Boston (Foxborough),openfootball_2026_json
+75,Round of 32,2026-06-29,19:00 UTC-6,2026-06-30T01:00:00Z,,Netherlands,Morocco,NED,MAR,Monterrey (Guadalupe),openfootball_2026_json
+76,Round of 32,2026-06-29,12:00 UTC-5,2026-06-29T17:00:00Z,,Brazil,Japan,BRA,JPN,Houston,openfootball_2026_json
+77,Round of 32,2026-06-30,17:00 UTC-4,2026-06-30T21:00:00Z,,France,Sweden,FRA,SWE,New York/New Jersey (East Rutherford),openfootball_2026_json
+78,Round of 32,2026-06-30,12:00 UTC-5,2026-06-30T17:00:00Z,,Ivory Coast,Norway,CIV,NOR,Dallas (Arlington),openfootball_2026_json
+79,Round of 32,2026-06-30,19:00 UTC-6,2026-07-01T01:00:00Z,,Mexico,Ecuador,MEX,ECU,Mexico City,openfootball_2026_json
+80,Round of 32,2026-07-01,12:00 UTC-4,2026-07-01T16:00:00Z,,England,DR Congo,ENG,COD,Atlanta,openfootball_2026_json
+81,Round of 32,2026-07-01,17:00 UTC-7,2026-07-02T00:00:00Z,,United States,Bosnia & Herzegovina,USA,BIH,San Francisco Bay Area (Santa Clara),openfootball_2026_json
+82,Round of 32,2026-07-01,13:00 UTC-7,2026-07-01T20:00:00Z,,Belgium,Senegal,BEL,SEN,Seattle,openfootball_2026_json
+83,Round of 32,2026-07-02,19:00 UTC-4,2026-07-02T23:00:00Z,,Portugal,Croatia,POR,CRO,Toronto,openfootball_2026_json
+84,Round of 32,2026-07-02,12:00 UTC-7,2026-07-02T19:00:00Z,,Spain,Austria,ESP,AUT,Los Angeles (Inglewood),openfootball_2026_json
+85,Round of 32,2026-07-02,20:00 UTC-7,2026-07-03T03:00:00Z,,Switzerland,Algeria,SUI,ALG,Vancouver,openfootball_2026_json
+86,Round of 32,2026-07-03,18:00 UTC-4,2026-07-03T22:00:00Z,,Argentina,Cape Verde,ARG,CPV,Miami (Miami Gardens),openfootball_2026_json
+87,Round of 32,2026-07-03,20:30 UTC-5,2026-07-04T01:30:00Z,,Colombia,Ghana,COL,GHA,Kansas City,openfootball_2026_json
+88,Round of 32,2026-07-03,13:00 UTC-5,2026-07-03T18:00:00Z,,Australia,Egypt,AUS,EGY,Dallas (Arlington),openfootball_2026_json
 89,Round of 16,2026-07-04,17:00 UTC-4,2026-07-04T21:00:00Z,,W74,W77,,,Philadelphia,openfootball_2026_json
 90,Round of 16,2026-07-04,12:00 UTC-5,2026-07-04T17:00:00Z,,W73,W75,,,Houston,openfootball_2026_json
 91,Round of 16,2026-07-05,16:00 UTC-4,2026-07-05T20:00:00Z,,W76,W78,,,New York/New Jersey (East Rutherford),openfootball_2026_json

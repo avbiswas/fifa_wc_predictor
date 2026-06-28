@@ -6,11 +6,13 @@ from unittest.mock import patch
 
 from worldcup_predictor.models import competition_aliases
 from worldcup_predictor.resolve_day import (
+    assign_third_place_groups,
     chronological_match_numbers,
     main,
     matches_in_prediction_window,
     missing_prediction_aliases,
     resolve_day,
+    resolve_knockout_fixtures,
     result_retry_pending,
     unresolved_past_matches,
 )
@@ -25,6 +27,18 @@ def match(match_id: int, kickoff: str) -> dict:
         "team1_code": "AAA",
         "team2_code": "BBB",
         "round": "Matchday 1",
+    }
+
+
+def result(match_id: int, team1: str, team2: str, team1_score: int, team2_score: int) -> dict:
+    return {
+        "match_id": match_id,
+        "team1": team1,
+        "team2": team2,
+        "team1_score": team1_score,
+        "team2_score": team2_score,
+        "winner": team1 if team1_score > team2_score else team2 if team2_score > team1_score else "Draw",
+        "goals": [],
     }
 
 
@@ -62,6 +76,90 @@ class ResolveDayTests(unittest.TestCase):
         self.assertEqual(
             [int(row["match_id"]) for row in unresolved_past_matches(store, schedule, self.now)],
             [2],
+        )
+
+    def test_unresolved_knockout_placeholders_are_not_selected(self) -> None:
+        schedule = [
+            {
+                **match(73, "2026-06-12T01:00:00Z"),
+                "round": "Round of 32",
+                "team1": "2A",
+                "team2": "2B",
+                "team1_code": "",
+                "team2_code": "",
+                "group": "",
+            }
+        ]
+        self.assertEqual(matches_in_prediction_window(schedule, self.now), [])
+        self.assertEqual(unresolved_past_matches({}, schedule, self.now), [])
+
+    def test_completed_group_resolves_knockout_placeholder(self) -> None:
+        schedule = [
+            {
+                **match(1, "2026-06-11T19:00:00Z"),
+                "group": "Group A",
+                "team1": "Alpha",
+                "team2": "Beta",
+                "team1_code": "ALP",
+                "team2_code": "BET",
+            },
+            {
+                **match(2, "2026-06-11T21:00:00Z"),
+                "group": "Group A",
+                "team1": "Gamma",
+                "team2": "Delta",
+                "team1_code": "GAM",
+                "team2_code": "DEL",
+            },
+            {
+                **match(73, "2026-06-12T01:00:00Z"),
+                "round": "Round of 32",
+                "team1": "1A",
+                "team2": "2A",
+                "team1_code": "",
+                "team2_code": "",
+                "group": "",
+            },
+        ]
+        store = {
+            "results": {
+                "1": result(1, "Alpha", "Beta", 2, 0),
+                "2": result(2, "Gamma", "Delta", 1, 0),
+            }
+        }
+
+        resolved, updates = resolve_knockout_fixtures(store, schedule)
+
+        self.assertEqual(resolved[2]["team1"], "Alpha")
+        self.assertEqual(resolved[2]["team2"], "Gamma")
+        self.assertEqual(resolved[2]["team1_code"], "ALP")
+        self.assertEqual(resolved[2]["team2_code"], "GAM")
+        self.assertEqual(updates[0]["to"], "Alpha vs Gamma")
+
+    def test_current_third_place_combination_uses_annex_c_routing(self) -> None:
+        slots = [
+            {"match_id": "74", "team1": "1E", "team2": "3A/B/C/D/F"},
+            {"match_id": "77", "team1": "1I", "team2": "3C/D/F/G/H"},
+            {"match_id": "79", "team1": "1A", "team2": "3C/E/F/H/I"},
+            {"match_id": "80", "team1": "1L", "team2": "3E/H/I/J/K"},
+            {"match_id": "81", "team1": "1D", "team2": "3B/E/F/I/J"},
+            {"match_id": "82", "team1": "1G", "team2": "3A/E/H/I/J"},
+            {"match_id": "85", "team1": "1B", "team2": "3E/F/G/I/J"},
+            {"match_id": "87", "team1": "1K", "team2": "3D/E/I/J/L"},
+        ]
+
+        self.assertEqual(
+            assign_third_place_groups(["K", "F", "E", "L", "B", "J", "D", "I"], slots),
+            {
+                "3A/B/C/D/F": "D",
+                "3C/D/F/G/H": "F",
+                "3C/E/F/H/I": "E",
+                "3E/H/I/J/K": "K",
+                "3B/E/F/I/J": "B",
+                "3A/E/H/I/J": "I",
+                "3E/F/G/I/J": "J",
+                "3D/E/I/J/L": "L",
+            },
         )
 
     def test_completed_predictions_have_no_missing_aliases(self) -> None:
