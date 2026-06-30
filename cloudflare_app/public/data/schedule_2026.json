@@ -1252,9 +1252,9 @@
     "time": "12:00 UTC-5",
     "kickoff_utc": "2026-07-04T17:00:00Z",
     "group": "",
-    "team1": "W73",
+    "team1": "Canada",
     "team2": "W75",
-    "team1_code": "",
+    "team1_code": "CAN",
     "team2_code": "",
     "ground": "Houston",
     "source": "openfootball_2026_json"
@@ -1266,9 +1266,9 @@
     "time": "16:00 UTC-4",
     "kickoff_utc": "2026-07-05T20:00:00Z",
     "group": "",
-    "team1": "W76",
+    "team1": "Brazil",
     "team2": "W78",
-    "team1_code": "",
+    "team1_code": "BRA",
     "team2_code": "",
     "ground": "New York/New Jersey (East Rutherford)",
     "source": "openfootball_2026_json"

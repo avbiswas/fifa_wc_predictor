@@ -17,9 +17,23 @@ class NewsSummary(dspy.Signature):
 
 
 class MatchPredictor(dspy.Module):
-    def __init__(self, team1: str, team2: str):
+    def __init__(self, team1: str, team2: str, allow_draw: bool = True):
         super().__init__()
-        choices = Literal.__getitem__((team1, team2, "Draw"))
+        choice_values = (team1, team2, "Draw") if allow_draw else (team1, team2)
+        choices = Literal.__getitem__(choice_values)
+        choice_text = ", ".join(choice_values)
+        scoreline_desc = (
+            f"Predicted final scoreline in the format '{team1} X-Y {team2}', where X and Y are the "
+            "goals you expect each side to score after 90 minutes. Derive the goal counts from the evidence; do not "
+            "default to a common scoreline unless the evidence specifically supports it."
+        )
+        if not allow_draw:
+            scoreline_desc = (
+                f"Predicted knockout scoreline in the format '{team1} X-Y {team2}', where X and Y are the "
+                "goals you expect each side to score after 90 or 120 minutes. You must also pick a winner. "
+                "If you keep the scoreline tied and pick a winner, that means you predict the winner advances on penalties. "
+                "Derive the goal counts from the evidence; do not default to a common scoreline unless the evidence specifically supports it."
+            )
         predict_match = dspy.Signature(
             {
                 "match": (str, dspy.InputField()),
@@ -30,16 +44,10 @@ class MatchPredictor(dspy.Module):
                 "recent_record": (str, dspy.InputField()),
                 "performance_history": (str, dspy.InputField(desc="The model's own last five scored match predictions and points.")),
                 "polymarket_odds": (str, dspy.InputField()),
-                "prediction": (choices, dspy.OutputField(desc=f"Must be exactly one of: {team1}, {team2}, Draw.")),
+                "prediction": (choices, dspy.OutputField(desc=f"Must be exactly one of: {choice_text}.")),
                 "scoreline": (
                     str,
-                    dspy.OutputField(
-                        desc=(
-                            f"Predicted final scoreline in the format '{team1} X-Y {team2}', where X and Y are the "
-                            "goals you expect each side to score. Derive the goal counts from the evidence; do not "
-                            "default to a common scoreline unless the evidence specifically supports it."
-                        )
-                    ),
+                    dspy.OutputField(desc=scoreline_desc),
                 ),
                 "goal_scorers": (
                     str,

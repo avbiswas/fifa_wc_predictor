@@ -43,7 +43,8 @@ async def _predict_one(
         t0 = time.monotonic()
         model_alias, resolved_model = resolve_model(alias)
         lm = make_lm(resolved_model)
-        team1, team2, _ = prepared["choices"]
+        team1 = prepared["match_row"]["team1"]
+        team2 = prepared["match_row"]["team2"]
         model_inputs = prepared["model_inputs"]
         performance_history = model_performance_context(
             performance_store,
@@ -52,7 +53,8 @@ async def _predict_one(
             current_match_id=match_id,
         )
 
-        predictor = MatchPredictor(team1, team2)
+        choices = prepared["choices"]
+        predictor = MatchPredictor(team1, team2, allow_draw="Draw" in choices)
         print(f"  [{alias}] started", flush=True)
         with dspy.settings.context(lm=lm):
             result = await predictor.acall(
@@ -70,7 +72,7 @@ async def _predict_one(
         output = {
             "match_id": match_id,
             "match": prepared["match"],
-            "choices": [team1, team2, "Draw"],
+            "choices": choices,
             "model_alias": model_alias,
             "model": resolved_model,
             "prediction": result.prediction,

@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 
 from .cache import get_cached_or_fetch, load_retrieval_cache
-from .data import get_match, normalize_match_key, squad_summary
+from .data import get_match, normalize_match_key, prediction_choices, squad_summary
 from .env import load_env
 from .news import format_news_items, search_news
 from .paths import CACHE_PATH, DATA_DIR, ROOT
@@ -68,7 +68,7 @@ def prepare_match_data(
     return {
         "match_id": match_id,
         "match": match_name,
-        "choices": [team1, team2, "Draw"],
+        "choices": prediction_choices(match_row),
         "match_row": match_row,
         "artifacts": {
             "news_items": news_items,

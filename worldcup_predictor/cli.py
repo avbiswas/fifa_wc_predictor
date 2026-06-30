@@ -55,7 +55,8 @@ def main() -> int:
         skip_news=args.skip_news,
         skip_polymarket=args.skip_polymarket,
     )
-    team1, team2, _ = prepared["choices"]
+    team1 = prepared["match_row"]["team1"]
+    team2 = prepared["match_row"]["team2"]
     match_name = prepared["match"]
     model_inputs = prepared["model_inputs"]
     artifacts = prepared["artifacts"]
@@ -66,7 +67,8 @@ def main() -> int:
         model=resolved_model,
         current_match_id=match_id,
     )
-    predictor = MatchPredictor(team1, team2)
+    choices = prepared["choices"]
+    predictor = MatchPredictor(team1, team2, allow_draw="Draw" in choices)
     result = predictor(
         match=model_inputs["match"],
         match_context=model_inputs["match_context"],
@@ -81,7 +83,7 @@ def main() -> int:
     output = {
         "match_id": match_id,
         "match": match_name,
-        "choices": [team1, team2, "Draw"],
+        "choices": choices,
         "model_alias": model_alias,
         "model": resolved_model,
         "prediction": result.prediction,

@@ -19,6 +19,17 @@ def get_match(match_id: int) -> dict[str, str]:
     raise SystemExit(f"No match found for match_id={match_id}")
 
 
+def is_knockout_match(match: dict[str, str]) -> bool:
+    return not (match.get("round") or "").startswith("Matchday")
+
+
+def prediction_choices(match: dict[str, str]) -> list[str]:
+    choices = [match["team1"], match["team2"]]
+    if not is_knockout_match(match):
+        choices.append("Draw")
+    return choices
+
+
 def normalize_match_key(match: str) -> str:
     return re.sub(r"\s+", " ", match.strip()).lower()
 
