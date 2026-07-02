@@ -1,10 +1,11 @@
 from __future__ import annotations
 
 import unittest
+from unittest.mock import patch
 
 from worldcup_predictor.goal_scorers import normalize_goal_scorers
 from worldcup_predictor.predictions import model_performance_context
-from worldcup_predictor.results import _team_key
+from worldcup_predictor.results import _team_key, fetch_match_result
 from worldcup_predictor.scoring import (
     score_goal_scorers,
     score_goal_difference,
@@ -179,6 +180,41 @@ class ResultNormalizationTests(unittest.TestCase):
         self.assertEqual(_team_key("Czechia"), _team_key("Czech Republic"))
         self.assertEqual(_team_key("Côte d'Ivoire"), _team_key("Ivory Coast"))
         self.assertEqual(_team_key("Congo DR"), _team_key("DR Congo"))
+
+    @patch("worldcup_predictor.results._fetch_goal_scorers", return_value=[])
+    @patch("worldcup_predictor.results._candidate_events")
+    @patch("worldcup_predictor.results.get_match")
+    def test_penalty_shootout_uses_extra_score_to_set_winner(
+        self,
+        get_match_mock,
+        candidate_events_mock,
+        goal_scorers_mock,
+    ) -> None:
+        get_match_mock.return_value = {
+            "match_id": "74",
+            "team1": "Germany",
+            "team2": "Paraguay",
+            "kickoff_utc": "2026-06-29T20:30:00Z",
+        }
+        candidate_events_mock.return_value = [
+            {
+                "idEvent": "2502846",
+                "strStatus": "AP",
+                "strHomeTeam": "Germany",
+                "strAwayTeam": "Paraguay",
+                "intHomeScore": "1",
+                "intAwayScore": "1",
+                "intHomeScoreExtra": "3",
+                "intAwayScoreExtra": "4",
+            }
+        ]
+
+        result = fetch_match_result(74)
+
+        self.assertEqual(result["status"], "AP")
+        self.assertEqual(result["team1_score"], 1)
+        self.assertEqual(result["team2_score"], 1)
+        self.assertEqual(result["winner"], "Paraguay")
 
 
 if __name__ == "__main__":

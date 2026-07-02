@@ -16,7 +16,7 @@ SPORTSDB_LEAGUE_ID = 4429
 SPORTSDB_SEASON = 2026
 GROUP_MATCHES_PER_ROUND = 2
 WORLD_CUP_FEED_URL = "https://worldcup26.ir/get/games"
-FINISHED_STATUSES = {"FT", "AET", "PEN"}
+FINISHED_STATUSES = {"FT", "AET", "PEN", "AP"}
 
 
 def fetch_match_result(match_id: int, fixture_id: int | None = None) -> dict:
@@ -43,7 +43,7 @@ def fetch_match_result(match_id: int, fixture_id: int | None = None) -> dict:
         int(event["intAwayScore"]),
     )
     goals = _fetch_goal_scorers(match)
-    winner = match["team1"] if team1_score > team2_score else match["team2"] if team2_score > team1_score else "Draw"
+    winner = _winner(match, event, team1_score, team2_score)
     return {
         "match_id": match_id,
         "match": f"{match['team1']} vs {match['team2']}",
@@ -184,6 +184,29 @@ def _ordered_scores(match: dict, home_name: str, home_score: int, away_score: in
     if _team_key(home_name) == _team_key(match["team1"]):
         return home_score, away_score
     return away_score, home_score
+
+
+def _winner(match: dict, event: dict, team1_score: int, team2_score: int) -> str:
+    if team1_score > team2_score:
+        return match["team1"]
+    if team2_score > team1_score:
+        return match["team2"]
+
+    home_extra = event.get("intHomeScoreExtra")
+    away_extra = event.get("intAwayScoreExtra")
+    if home_extra not in {None, ""} and away_extra not in {None, ""}:
+        team1_extra, team2_extra = _ordered_scores(
+            match,
+            event["strHomeTeam"],
+            int(home_extra),
+            int(away_extra),
+        )
+        if team1_extra > team2_extra:
+            return match["team1"]
+        if team2_extra > team1_extra:
+            return match["team2"]
+
+    return "Draw"
 
 
 def _get_json(url: str, params: dict | None = None) -> dict:
