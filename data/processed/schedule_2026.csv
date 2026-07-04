@@ -91,10 +91,10 @@ match_id,round,date,time,kickoff_utc,group,team1,team2,team1_code,team2_code,gro
 90,Round of 16,2026-07-04,12:00 UTC-5,2026-07-04T17:00:00Z,,Canada,Morocco,CAN,MAR,Houston,openfootball_2026_json
 91,Round of 16,2026-07-05,16:00 UTC-4,2026-07-05T20:00:00Z,,Brazil,Norway,BRA,NOR,New York/New Jersey (East Rutherford),openfootball_2026_json
 92,Round of 16,2026-07-05,18:00 UTC-6,2026-07-06T00:00:00Z,,Mexico,England,MEX,ENG,Mexico City,openfootball_2026_json
-93,Round of 16,2026-07-06,14:00 UTC-5,2026-07-06T19:00:00Z,,W83,W84,,,Dallas (Arlington),openfootball_2026_json
+93,Round of 16,2026-07-06,14:00 UTC-5,2026-07-06T19:00:00Z,,Portugal,Spain,POR,ESP,Dallas (Arlington),openfootball_2026_json
 94,Round of 16,2026-07-06,17:00 UTC-7,2026-07-07T00:00:00Z,,United States,Belgium,USA,BEL,Seattle,openfootball_2026_json
 95,Round of 16,2026-07-07,12:00 UTC-4,2026-07-07T16:00:00Z,,W86,W88,,,Atlanta,openfootball_2026_json
-96,Round of 16,2026-07-07,13:00 UTC-7,2026-07-07T20:00:00Z,,W85,W87,,,Vancouver,openfootball_2026_json
+96,Round of 16,2026-07-07,13:00 UTC-7,2026-07-07T20:00:00Z,,Switzerland,W87,SUI,,Vancouver,openfootball_2026_json
 97,Quarter-final,2026-07-09,16:00 UTC-4,2026-07-09T20:00:00Z,,W89,W90,,,Boston (Foxborough),openfootball_2026_json
 98,Quarter-final,2026-07-10,12:00 UTC-7,2026-07-10T19:00:00Z,,W93,W94,,,Los Angeles (Inglewood),openfootball_2026_json
 99,Quarter-final,2026-07-11,17:00 UTC-4,2026-07-11T21:00:00Z,,W91,W92,,,Miami (Miami Gardens),openfootball_2026_json
