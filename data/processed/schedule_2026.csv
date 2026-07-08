@@ -96,7 +96,7 @@ match_id,round,date,time,kickoff_utc,group,team1,team2,team1_code,team2_code,gro
 95,Round of 16,2026-07-07,12:00 UTC-4,2026-07-07T16:00:00Z,,Argentina,Egypt,ARG,EGY,Atlanta,openfootball_2026_json
 96,Round of 16,2026-07-07,13:00 UTC-7,2026-07-07T20:00:00Z,,Switzerland,Colombia,SUI,COL,Vancouver,openfootball_2026_json
 97,Quarter-final,2026-07-09,16:00 UTC-4,2026-07-09T20:00:00Z,,France,Morocco,FRA,MAR,Boston (Foxborough),openfootball_2026_json
-98,Quarter-final,2026-07-10,12:00 UTC-7,2026-07-10T19:00:00Z,,W93,W94,,,Los Angeles (Inglewood),openfootball_2026_json
+98,Quarter-final,2026-07-10,12:00 UTC-7,2026-07-10T19:00:00Z,,Spain,Belgium,ESP,BEL,Los Angeles (Inglewood),openfootball_2026_json
 99,Quarter-final,2026-07-11,17:00 UTC-4,2026-07-11T21:00:00Z,,Norway,England,NOR,ENG,Miami (Miami Gardens),openfootball_2026_json
 100,Quarter-final,2026-07-11,20:00 UTC-5,2026-07-12T01:00:00Z,,W95,W96,,,Kansas City,openfootball_2026_json
 101,Semi-final,2026-07-14,14:00 UTC-5,2026-07-14T19:00:00Z,,W97,W98,,,Dallas (Arlington),openfootball_2026_json
