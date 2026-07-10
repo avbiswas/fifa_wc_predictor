@@ -132,6 +132,7 @@ def resolve_day(
                 {
                     "match_id": match_id,
                     "match_number": match_numbers[match_id],
+                    "match": f"{match['team1']} vs {match['team2']}",
                     "reason": "complete",
                 }
             )

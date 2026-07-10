@@ -8,6 +8,7 @@ from worldcup_predictor.models import competition_aliases
 from worldcup_predictor.resolve_day import (
     assign_third_place_groups,
     chronological_match_numbers,
+    format_plan,
     main,
     matches_in_prediction_window,
     missing_prediction_aliases,
@@ -171,6 +172,22 @@ class ResolveDayTests(unittest.TestCase):
             ]
         }
         self.assertEqual(missing_prediction_aliases(store, 1, fixture), [])
+
+    def test_completed_prediction_plan_keeps_match_label(self) -> None:
+        fixture = match(1, "2026-06-12T01:00:00Z")
+        store = {
+            "predictions": [
+                {"match_id": 1, "model_alias": alias}
+                for alias in competition_aliases()
+            ]
+        }
+
+        plan = resolve_day(store, [fixture], self.now, news_results=5, dry_run=True)
+
+        self.assertEqual(
+            format_plan(plan)["predictions_already_complete"],
+            [{"match_number": 1, "match": "Team 1A vs Team 1B", "reason": "complete"}],
+        )
 
     def test_result_retry_blocks_immediate_repeat(self) -> None:
         store = {
