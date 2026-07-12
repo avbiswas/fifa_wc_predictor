@@ -1406,9 +1406,9 @@
     "time": "14:00 UTC-5",
     "kickoff_utc": "2026-07-14T19:00:00Z",
     "group": "",
-    "team1": "W97",
+    "team1": "France",
     "team2": "W98",
-    "team1_code": "",
+    "team1_code": "FRA",
     "team2_code": "",
     "ground": "Dallas (Arlington)",
     "source": "openfootball_2026_json"
