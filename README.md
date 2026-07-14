@@ -43,7 +43,7 @@ That second question is how you produce last-place sludge.
 ## Main commands
 
 ```bash
-cd /Users/niko/Projects/fifa_wc_predictor
+cd /Users/niko/Developer/Projects/fifa_wc_predictor
 
 # Install / verify environment
 /Users/niko/.local/bin/uv sync
