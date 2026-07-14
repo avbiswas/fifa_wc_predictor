@@ -18,6 +18,7 @@ from worldcup_predictor.tip_sources import (  # noqa: E402
     date_range,
     fetch_espn_scoreboard,
     fetch_espn_summary,
+    kicktipp_actual_score,
     parse_espn_odds,
     team_name,
 )
@@ -38,13 +39,7 @@ def build_parser() -> argparse.ArgumentParser:
 
 
 def actual_score(event: dict[str, Any]) -> tuple[int, int] | None:
-    competitors = competitor_map(event)
-    if "home" not in competitors or "away" not in competitors:
-        return None
-    try:
-        return int(competitors["home"].get("score", 0)), int(competitors["away"].get("score", 0))
-    except (TypeError, ValueError):
-        return None
+    return kicktipp_actual_score(event)
 
 
 def completed(event: dict[str, Any]) -> bool:

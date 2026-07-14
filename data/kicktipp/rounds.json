@@ -7,7 +7,8 @@
     "leader_points": 14,
     "deficit": 6,
     "mode": "controlled_attack",
-    "spieltag_tiebreaker": "Spieltagsiege"
+    "spieltag_tiebreaker": "Spieltagsiege",
+    "tournament_phase": "knockout"
   },
   "leader_names": [
     "Toegamorf",

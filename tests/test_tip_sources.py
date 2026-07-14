@@ -3,7 +3,7 @@ from __future__ import annotations
 from datetime import datetime, timezone
 import unittest
 
-from worldcup_predictor.tip_sources import date_range, form_points, normalize_team_name, parse_espn_odds
+from worldcup_predictor.tip_sources import date_range, form_points, kicktipp_actual_score, normalize_team_name, parse_espn_odds
 
 
 class TipSourcesTests(unittest.TestCase):
@@ -38,6 +38,34 @@ class TipSourcesTests(unittest.TestCase):
 
     def test_form_points(self) -> None:
         self.assertEqual(form_points(["2026-01-01 Foo 1-0 W", "2026-01-02 Bar 1-1 D", "2026-01-03 Baz 0-2 L"]), 4)
+
+    def test_kicktipp_actual_score_adds_penalty_shootout_goals(self) -> None:
+        event = {
+            "competitions": [
+                {
+                    "status": {"type": {"name": "STATUS_FINAL_PEN", "description": "Final Score - After Penalties"}},
+                    "competitors": [
+                        {"homeAway": "home", "score": "0", "shootoutScore": 4.0, "winner": True},
+                        {"homeAway": "away", "score": "0", "shootoutScore": 3.0, "winner": False},
+                    ],
+                }
+            ]
+        }
+        self.assertEqual(kicktipp_actual_score(event), (4, 3))
+
+    def test_kicktipp_actual_score_preserves_penalty_winner_without_shootout_detail(self) -> None:
+        event = {
+            "competitions": [
+                {
+                    "status": {"type": {"name": "STATUS_FINAL_PEN"}},
+                    "competitors": [
+                        {"homeAway": "home", "score": "1", "winner": False},
+                        {"homeAway": "away", "score": "1", "winner": True},
+                    ],
+                }
+            ]
+        }
+        self.assertEqual(kicktipp_actual_score(event), (1, 2))
 
 
 if __name__ == "__main__":

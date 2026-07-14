@@ -100,6 +100,49 @@ def team_name(competitor: dict[str, Any]) -> str:
     return team.get("displayName") or team.get("shortDisplayName") or team.get("name") or "unknown"
 
 
+def _as_int(value: Any) -> int | None:
+    try:
+        return int(float(value))
+    except (TypeError, ValueError):
+        return None
+
+
+def kicktipp_actual_score(event: dict[str, Any]) -> tuple[int, int] | None:
+    """Return the effective KickTipp score for the configured rules.
+
+    Niko's knockout round is scored as result after penalties. ESPN's main ``score`` stays
+    at the post-extra-time score (e.g. 0:0) and stores the shootout separately, so a naive
+    read turns a Switzerland penalty win into a draw. Add shootout goals when ESPN marks
+    the match final after penalties; if shootout goals are absent, at least nudge the
+    winner side so the tendency is not scored as a draw.
+    """
+    competitors = competitor_map(event)
+    if "home" not in competitors or "away" not in competitors:
+        return None
+    home_score = _as_int(competitors["home"].get("score"))
+    away_score = _as_int(competitors["away"].get("score"))
+    if home_score is None or away_score is None:
+        return None
+
+    competitions = event.get("competitions") or []
+    status = (((competitions[0].get("status") or {}).get("type") or {}) if competitions else {})
+    status_text = " ".join(str(status.get(key, "")) for key in ["id", "name", "description", "detail", "shortDetail"]).lower()
+    home_shootout = _as_int(competitors["home"].get("shootoutScore"))
+    away_shootout = _as_int(competitors["away"].get("shootoutScore"))
+    has_shootout = (home_shootout or 0) > 0 or (away_shootout or 0) > 0
+    final_after_penalties = "pen" in status_text or has_shootout
+
+    if final_after_penalties:
+        if has_shootout:
+            return home_score + (home_shootout or 0), away_score + (away_shootout or 0)
+        if home_score == away_score:
+            if competitors["home"].get("winner"):
+                return home_score + 1, away_score
+            if competitors["away"].get("winner"):
+                return home_score, away_score + 1
+    return home_score, away_score
+
+
 def parse_espn_odds(summary: dict[str, Any]) -> MarketOdds | None:
     odds_rows = summary.get("odds") or summary.get("pickcenter") or []
     if not odds_rows:

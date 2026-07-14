@@ -1,61 +1,61 @@
 {
   "strategy": "kicktipp_exploit_engine",
-  "draw_floor": 0.22,
+  "draw_floor": 0.3,
   "draw_favorite_ceiling": 0.65,
-  "tuned_at": "2026-06-17T06:39:23.268897Z",
-  "training_matches": 20,
-  "training_points": 30,
-  "training_average_points": 1.5,
+  "tuned_at": "2026-07-14T06:30:48.988781Z",
+  "training_matches": 24,
+  "training_points": 47,
+  "training_average_points": 1.958,
   "top_grid": [
     {
-      "points": 30,
-      "draw_floor": 0.22,
+      "points": 47,
+      "draw_floor": 0.3,
       "draw_favorite_ceiling": 0.65
     },
     {
-      "points": 30,
-      "draw_floor": 0.22,
+      "points": 47,
+      "draw_floor": 0.3,
+      "draw_favorite_ceiling": 0.64
+    },
+    {
+      "points": 47,
+      "draw_floor": 0.3,
       "draw_favorite_ceiling": 0.66
     },
     {
-      "points": 30,
-      "draw_floor": 0.23,
-      "draw_favorite_ceiling": 0.65
+      "points": 47,
+      "draw_floor": 0.3,
+      "draw_favorite_ceiling": 0.63
     },
     {
-      "points": 30,
-      "draw_floor": 0.23,
-      "draw_favorite_ceiling": 0.66
-    },
-    {
-      "points": 30,
-      "draw_floor": 0.23,
+      "points": 47,
+      "draw_floor": 0.3,
       "draw_favorite_ceiling": 0.67
     },
     {
-      "points": 30,
-      "draw_floor": 0.23,
+      "points": 47,
+      "draw_floor": 0.3,
+      "draw_favorite_ceiling": 0.62
+    },
+    {
+      "points": 47,
+      "draw_floor": 0.3,
       "draw_favorite_ceiling": 0.68
     },
     {
-      "points": 30,
-      "draw_floor": 0.23,
+      "points": 47,
+      "draw_floor": 0.3,
       "draw_favorite_ceiling": 0.69
     },
     {
-      "points": 30,
-      "draw_floor": 0.23,
+      "points": 47,
+      "draw_floor": 0.3,
+      "draw_favorite_ceiling": 0.61
+    },
+    {
+      "points": 47,
+      "draw_floor": 0.3,
       "draw_favorite_ceiling": 0.7
-    },
-    {
-      "points": 30,
-      "draw_floor": 0.23,
-      "draw_favorite_ceiling": 0.71
-    },
-    {
-      "points": 30,
-      "draw_floor": 0.23,
-      "draw_favorite_ceiling": 0.72
     }
   ],
   "guardrails": {

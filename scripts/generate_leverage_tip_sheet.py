@@ -15,8 +15,12 @@ from scripts.generate_tip_sheet import build_tip_sheet  # noqa: E402
 from worldcup_predictor.leverage_optimizer import (  # noqa: E402
     MODE_WEIGHTS,
     Odds,
+    apply_exact_score_chase,
+    apply_market_ev_backtest_guard,
+    apply_selective_miracle_policy,
     apply_slate_draw_budget,
     choose_mode_from_state,
+    comeback_draw_target,
     estimate_opponents_from_history,
     known_predictions_for_match,
     load_kicktipp_context,
@@ -91,6 +95,7 @@ def build_leverage_sheet(
     context = load_kicktipp_context(context_path)
     state = context.get("current_state") or {}
     mode = mode_override or choose_mode_from_state(state)
+    tournament_phase = str(state.get("tournament_phase") or "group_stage")
     source = build_tip_sheet(days, date, include_started, hours, weather)
     rows: list[dict[str, Any]] = []
     for row in source.get("rows", []):
@@ -130,6 +135,7 @@ def build_leverage_sheet(
             field_predictions=field_predictions,
             leader_predictions=leader_predictions,
             mode=mode,
+            tournament_phase=tournament_phase,
         )
         optimized.update(
             {
@@ -155,7 +161,14 @@ def build_leverage_sheet(
 
     ok_rows = [row for row in rows if row.get("status") == "ok"]
     auto_target = slate_draw_target([float(row.get("fair_probabilities", {}).get("draw", 0.0)) for row in ok_rows])
-    adjusted_ok = apply_slate_draw_budget(ok_rows, target_draws=target_draws if target_draws is not None else auto_target)
+    if tournament_phase == "knockout":
+        effective_target = 0
+    else:
+        effective_target = target_draws if target_draws is not None else comeback_draw_target(auto_target, state, mode=mode)
+    adjusted_ok = apply_slate_draw_budget(ok_rows, target_draws=effective_target, tournament_phase=tournament_phase)
+    adjusted_ok = apply_selective_miracle_policy(adjusted_ok, state=state, mode=mode)
+    adjusted_ok = apply_exact_score_chase(adjusted_ok, state=state, mode=mode, tournament_phase=tournament_phase)
+    adjusted_ok = apply_market_ev_backtest_guard(adjusted_ok, state=state, mode=mode)
     adjusted_by_id = {row.get("event_id"): row for row in adjusted_ok}
     final_rows = [adjusted_by_id.get(row.get("event_id"), row) if row.get("status") == "ok" else row for row in rows]
     final_draws = sum(1 for row in final_rows if (row.get("final_pick") or {}).get("pick") == "draw")
@@ -163,14 +176,25 @@ def build_leverage_sheet(
     return {
         "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "mode": mode,
+        "tournament_phase": tournament_phase,
         "context_path": str(context_path) if context_path else None,
         "current_state": state,
         "rules": source.get("rules"),
         "draw_budget": {
-            "target": target_draws if target_draws is not None else auto_target,
+            "target": effective_target,
             "auto_target": auto_target,
             "final_draws": final_draws,
             "expected_draws": round(sum(float(row.get("fair_probabilities", {}).get("draw", 0.0)) for row in ok_rows), 3),
+        },
+        "strategy_adjustments": {
+            "draw_target_capped_for_comeback": effective_target < auto_target and target_draws is None,
+            "selective_miracle_policy": any(
+                row.get("selective_miracle_adjusted") or row.get("selective_miracle_allowed")
+                for row in final_rows
+                if row.get("status") == "ok"
+            ),
+            "exact_score_chase": any(row.get("exact_chase_adjusted") for row in final_rows if row.get("status") == "ok"),
+            "market_ev_backtest_guard": any(row.get("market_ev_guard_adjusted") for row in final_rows if row.get("status") == "ok"),
         },
         "source_status": source.get("source_status"),
         "rows": final_rows,
@@ -182,7 +206,7 @@ def render_markdown(report: dict[str, Any]) -> str:
         "# KickTipp leverage tip sheet",
         "",
         f"Generated: `{report['generated_at']}`",
-        f"Mode: **{report['mode']}**. Draw budget: **{report['draw_budget']['final_draws']}/{report['draw_budget']['target']}** selected; market expected draws `{report['draw_budget']['expected_draws']}`.",
+        f"Mode: **{report['mode']}**. Phase: **{report.get('tournament_phase', 'group_stage')}**. Draw budget: **{report['draw_budget']['final_draws']}/{report['draw_budget']['target']}** selected; market expected draws `{report['draw_budget']['expected_draws']}`.",
         "",
         "This sheet optimizes the private league: EV first, then leverage against expected friend chalk and leader correlation. Not betting advice, not LLM scoreline cosplay.",
         "",
@@ -218,9 +242,21 @@ def render_markdown(report: dict[str, Any]) -> str:
         lines.append(
             f"- Fair 1/X/2: {fair['home']:.1%}/{fair['draw']:.1%}/{fair['away']:.1%}; field ({row.get('field_source', 'generic_template')}): {', '.join(row.get('estimated_field_predictions') or [])}; leaders: {', '.join(row.get('estimated_leader_predictions') or [])}."
         )
-        lines.append(f"- Baseline EV/draw-trap pick: {row.get('baseline_tip')} — {row.get('baseline_reason')}.")
+        lines.append(f"- Baseline EV pick: {row.get('baseline_tip')} — {row.get('baseline_reason')}.")
         if row.get("draw_budget_adjusted"):
             lines.append(f"- Slate adjustment: pre-budget pick was {row.get('pre_budget_pick', {}).get('scoreline')}.")
+        if row.get("selective_miracle_adjusted"):
+            lines.append(
+                f"- Selective miracle policy: rejected {row.get('pre_selective_miracle_pick', {}).get('scoreline')} and kept the play on {final['scoreline']}."
+            )
+        elif row.get("selective_miracle_allowed"):
+            lines.append("- Selective miracle policy: contrarian side allowed because the market is genuinely balanced.")
+        if row.get("exact_chase_adjusted"):
+            lines.append(f"- Exact-score chase: pre-chase pick was {row.get('pre_exact_chase_pick', {}).get('scoreline')}.")
+        if row.get("market_ev_guard_adjusted"):
+            lines.append(
+                f"- Backtest guard: rejected {row.get('pre_market_ev_guard_pick', {}).get('scoreline')} and kept market-EV {final['scoreline']}."
+            )
         alternatives = ", ".join(f"{c['scoreline']} EV {c['expected_points']:.2f} edge {c['edge_vs_field']:.2f}" for c in row.get("top_candidates", [])[:5])
         lines.append(f"- Top composite candidates: {alternatives}.")
         if row.get("source_risk_flags"):

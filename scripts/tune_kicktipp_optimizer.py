@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
 from worldcup_predictor.tip_optimizer import fair_probabilities, market_optimal_tip, score_tip  # noqa: E402
-from worldcup_predictor.tip_sources import competitor_map, date_range, fetch_espn_scoreboard, fetch_espn_summary, parse_espn_odds  # noqa: E402
+from worldcup_predictor.tip_sources import competitor_map, date_range, fetch_espn_scoreboard, fetch_espn_summary, kicktipp_actual_score, parse_espn_odds  # noqa: E402
 
 CONFIG_PATH = ROOT / "config" / "kicktipp_optimizer.json"
 
@@ -34,10 +34,10 @@ def collect_rows(days_back: int) -> list[dict]:
         competitors = competitor_map(event)
         if "home" not in competitors or "away" not in competitors:
             continue
-        try:
-            actual = (int(competitors["home"].get("score", 0)), int(competitors["away"].get("score", 0)))
-        except (TypeError, ValueError):
+        score = kicktipp_actual_score(event)
+        if score is None:
             continue
+        actual = score
         market = parse_espn_odds(fetch_espn_summary(str(event["id"])))
         if not market:
             continue

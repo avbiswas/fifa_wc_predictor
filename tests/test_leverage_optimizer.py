@@ -4,8 +4,12 @@ import unittest
 
 from worldcup_predictor.leverage_optimizer import (
     Odds,
+    apply_exact_score_chase,
+    apply_market_ev_backtest_guard,
+    apply_selective_miracle_policy,
     apply_slate_draw_budget,
     choose_mode_from_state,
+    comeback_draw_target,
     estimate_opponents_from_history,
     estimate_player_tendencies,
     known_predictions_for_match,
@@ -40,6 +44,20 @@ class LeverageOptimizerTests(unittest.TestCase):
         self.assertEqual(row["final_pick"]["scoreline"], "1:0")
         self.assertEqual(row["best_draw_pick"]["scoreline"], "1:1")
 
+    def test_group_stage_blocks_cute_draw_when_side_pick_is_better(self) -> None:
+        row = optimize_match(
+            match="Mexico vs Ecuador",
+            odds=Odds(home=2.25, draw=3.0, away=3.8),
+            over_under=1.5,
+            field_predictions=[(2, 1), (3, 0), (3, 1), (2, 0)],
+            leader_predictions=[(2, 1), (3, 0)],
+            mode="controlled_attack",
+            tournament_phase="group_stage",
+        )
+        self.assertEqual(row["ev_pick"]["scoreline"], "1:0")
+        self.assertEqual(row["best_draw_pick"]["scoreline"], "0:0")
+        self.assertEqual(row["final_pick"]["scoreline"], "1:0")
+
     def test_slate_draw_target_tracks_expected_draw_count_without_forcing_lunacy(self) -> None:
         self.assertEqual(slate_draw_target([0.25] * 8), 2)
         self.assertEqual(slate_draw_target([0.05] * 8), 0)
@@ -50,9 +68,9 @@ class LeverageOptimizerTests(unittest.TestCase):
             {
                 "match": "A-B",
                 "fair_probabilities": {"draw": 0.30},
-                "final_pick": {"scoreline": "2:1", "pick": "home", "expected_points": 1.4, "composite_score": 1.3},
-                "best_draw_pick": {"scoreline": "1:1", "pick": "draw", "expected_points": 1.2, "edge_vs_field": 0.5, "p_gain_2plus": 0.3, "composite_score": 1.25},
-                "best_non_draw_pick": {"scoreline": "2:1", "pick": "home", "expected_points": 1.4, "composite_score": 1.3},
+                "final_pick": {"scoreline": "2:1", "pick": "home", "expected_points": 1.25, "edge_vs_field": 0.2, "composite_score": 1.3},
+                "best_draw_pick": {"scoreline": "1:1", "pick": "draw", "expected_points": 1.2, "edge_vs_field": 0.5, "p_gain_2plus": 0.3, "p_loss_2plus": 0.2, "composite_score": 1.25},
+                "best_non_draw_pick": {"scoreline": "2:1", "pick": "home", "expected_points": 1.25, "composite_score": 1.3},
             },
             {
                 "match": "C-D",
@@ -62,9 +80,213 @@ class LeverageOptimizerTests(unittest.TestCase):
                 "best_non_draw_pick": {"scoreline": "1:0", "pick": "home", "expected_points": 1.7, "composite_score": 1.6},
             },
         ]
-        adjusted = apply_slate_draw_budget(rows, target_draws=1)
+        adjusted = apply_slate_draw_budget(rows, target_draws=1, tournament_phase="group_stage")
         self.assertEqual(sum(1 for row in adjusted if row["final_pick"]["pick"] == "draw"), 1)
         self.assertTrue(adjusted[0]["draw_budget_adjusted"])
+
+    def test_group_stage_draw_budget_does_not_promote_downside_draw_quota(self) -> None:
+        rows = [
+            {
+                "match": "Mexico-Ecuador",
+                "fair_probabilities": {"draw": 0.32},
+                "final_pick": {"scoreline": "1:0", "pick": "home", "expected_points": 1.24, "edge_vs_field": 0.24, "composite_score": 1.2},
+                "best_draw_pick": {
+                    "scoreline": "0:0",
+                    "pick": "draw",
+                    "expected_points": 1.10,
+                    "edge_vs_field": 0.10,
+                    "p_gain_2plus": 0.36,
+                    "p_loss_2plus": 0.42,
+                    "composite_score": 1.36,
+                },
+                "best_non_draw_pick": {"scoreline": "1:0", "pick": "home", "expected_points": 1.24, "composite_score": 1.2},
+            }
+        ]
+        adjusted = apply_slate_draw_budget(rows, target_draws=1, tournament_phase="group_stage")
+        self.assertEqual(adjusted[0]["final_pick"]["scoreline"], "1:0")
+        self.assertFalse(adjusted[0].get("draw_budget_adjusted", False))
+
+    def test_knockout_mode_hard_blocks_draw_final_picks(self) -> None:
+        row = optimize_match(
+            match="A vs B",
+            odds=Odds(home=2.6, draw=2.8, away=2.6),
+            over_under=1.5,
+            field_predictions=[(1, 0), (2, 1), (0, 1), (1, 2)],
+            leader_predictions=[(1, 0), (0, 1)],
+            mode="desperation",
+            tournament_phase="knockout",
+        )
+        self.assertNotEqual(row["final_pick"]["pick"], "draw")
+        adjusted = apply_slate_draw_budget([row], target_draws=1, tournament_phase="knockout")
+        self.assertEqual(adjusted[0]["final_pick"]["pick"], row["best_non_draw_pick"]["pick"])
+        self.assertNotEqual(adjusted[0]["final_pick"]["pick"], "draw")
+
+    def test_comeback_draw_target_caps_draw_traps_when_far_behind(self) -> None:
+        auto_target = slate_draw_target([0.29] * 8)
+        self.assertEqual(auto_target, 2)
+        self.assertEqual(comeback_draw_target(auto_target, {"deficit": 10}, mode="controlled_attack"), 1)
+        self.assertEqual(comeback_draw_target(auto_target, {"deficit": 3}, mode="controlled_attack"), 2)
+
+    def test_selective_miracle_blocks_blind_upset_against_strong_favorite(self) -> None:
+        row = {
+            "status": "ok",
+            "fair_probabilities": {"home": 0.74, "draw": 0.16, "away": 0.10},
+            "final_pick": {
+                "scoreline": "1:2",
+                "pick": "away",
+                "expected_points": 0.45,
+                "p_gain_2plus": 0.10,
+                "p_loss_2plus": 0.72,
+                "leader_correlation": -0.4,
+            },
+            "ev_pick": {
+                "scoreline": "2:0",
+                "pick": "home",
+                "expected_points": 1.90,
+                "exact_probability": 0.18,
+                "p_gain_2plus": 0.0,
+                "p_loss_2plus": 0.0,
+                "leader_correlation": 0.5,
+            },
+            "top_candidates": [
+                {"scoreline": "1:2", "pick": "away", "expected_points": 0.45, "p_gain_2plus": 0.10, "p_loss_2plus": 0.72},
+                {"scoreline": "2:0", "pick": "home", "expected_points": 1.90, "exact_probability": 0.18, "p_gain_2plus": 0.0, "p_loss_2plus": 0.0},
+                {"scoreline": "3:1", "pick": "home", "expected_points": 1.82, "exact_probability": 0.12, "p_gain_2plus": 0.0, "p_loss_2plus": 0.0},
+            ],
+        }
+        adjusted = apply_selective_miracle_policy([row], state={"deficit": 44}, mode="desperation")
+        self.assertEqual(adjusted[0]["final_pick"]["pick"], "home")
+        self.assertTrue(adjusted[0]["selective_miracle_adjusted"])
+        self.assertIn("strong favorite protected", adjusted[0]["selection_reason"])
+
+    def test_selective_miracle_allows_credible_balanced_market_swing(self) -> None:
+        row = {
+            "status": "ok",
+            "fair_probabilities": {"home": 0.28, "draw": 0.29, "away": 0.43},
+            "final_pick": {
+                "scoreline": "2:1",
+                "pick": "home",
+                "expected_points": 0.76,
+                "p_gain_2plus": 0.28,
+                "p_loss_2plus": 0.43,
+                "leader_correlation": -0.5,
+            },
+            "ev_pick": {"scoreline": "0:1", "pick": "away", "expected_points": 1.20, "p_gain_2plus": 0.0, "p_loss_2plus": 0.0},
+            "top_candidates": [
+                {"scoreline": "2:1", "pick": "home", "expected_points": 0.76, "p_gain_2plus": 0.28, "p_loss_2plus": 0.43},
+                {"scoreline": "0:1", "pick": "away", "expected_points": 1.20, "p_gain_2plus": 0.0, "p_loss_2plus": 0.0},
+            ],
+        }
+        adjusted = apply_selective_miracle_policy([row], state={"deficit": 44}, mode="desperation")
+        self.assertEqual(adjusted[0]["final_pick"]["scoreline"], "2:1")
+        self.assertTrue(adjusted[0]["selective_miracle_allowed"])
+        self.assertEqual(adjusted[0]["tactical_posture"], "selective_swing")
+
+    def test_exact_score_chase_upgrades_low_upside_same_side_pick(self) -> None:
+        row = {
+            "status": "ok",
+            "match": "Favorite vs Dog",
+            "fair_probabilities": {"home": 0.66, "draw": 0.20, "away": 0.14},
+            "final_pick": {
+                "scoreline": "1:0",
+                "pick": "home",
+                "expected_points": 1.55,
+                "p_gain_2plus": 0.0,
+                "p_loss_2plus": 0.0,
+                "leader_correlation": 0.8,
+            },
+            "ev_pick": {
+                "scoreline": "2:0",
+                "pick": "home",
+                "expected_points": 1.50,
+                "p_gain_2plus": 0.08,
+                "p_loss_2plus": 0.0,
+                "leader_correlation": 0.7,
+            },
+            "top_candidates": [
+                {
+                    "scoreline": "1:0",
+                    "pick": "home",
+                    "expected_points": 1.55,
+                    "p_gain_2plus": 0.0,
+                    "p_loss_2plus": 0.0,
+                    "leader_correlation": 0.8,
+                },
+                {
+                    "scoreline": "2:0",
+                    "pick": "home",
+                    "expected_points": 1.50,
+                    "p_gain_2plus": 0.08,
+                    "p_loss_2plus": 0.0,
+                    "leader_correlation": 0.7,
+                },
+            ],
+        }
+        adjusted = apply_exact_score_chase([row], state={"deficit": 10}, mode="controlled_attack")
+        self.assertEqual(adjusted[0]["final_pick"]["scoreline"], "2:0")
+        self.assertTrue(adjusted[0]["exact_chase_adjusted"])
+
+    def test_exact_score_chase_stays_off_when_deficit_is_small(self) -> None:
+        row = {
+            "status": "ok",
+            "fair_probabilities": {"home": 0.66, "draw": 0.20, "away": 0.14},
+            "final_pick": {"scoreline": "1:0", "pick": "home", "expected_points": 1.55},
+            "top_candidates": [{"scoreline": "2:0", "pick": "home", "expected_points": 1.50}],
+        }
+        adjusted = apply_exact_score_chase([row], state={"deficit": 2}, mode="controlled_attack")
+        self.assertEqual(adjusted[0]["final_pick"]["scoreline"], "1:0")
+
+    def test_market_ev_guard_reverts_costly_comeback_leverage(self) -> None:
+        row = {
+            "status": "ok",
+            "final_pick": {"scoreline": "3:1", "pick": "home", "expected_points": 1.42},
+            "ev_pick": {"scoreline": "1:0", "pick": "home", "expected_points": 1.55},
+        }
+        adjusted = apply_market_ev_backtest_guard([row], state={"deficit": 44}, mode="desperation")
+        self.assertEqual(adjusted[0]["final_pick"]["scoreline"], "1:0")
+        self.assertTrue(adjusted[0]["market_ev_guard_adjusted"])
+        self.assertIn("backtest guard", adjusted[0]["selection_reason"])
+
+    def test_market_ev_guard_keeps_near_free_leverage(self) -> None:
+        row = {
+            "status": "ok",
+            "final_pick": {"scoreline": "2:1", "pick": "home", "expected_points": 1.52},
+            "ev_pick": {"scoreline": "1:0", "pick": "home", "expected_points": 1.55},
+        }
+        adjusted = apply_market_ev_backtest_guard([row], state={"deficit": 44}, mode="desperation")
+        self.assertEqual(adjusted[0]["final_pick"]["scoreline"], "2:1")
+        self.assertFalse(adjusted[0].get("market_ev_guard_adjusted", False))
+
+    def test_market_ev_guard_keeps_credible_balanced_knockout_swing(self) -> None:
+        row = {
+            "status": "ok",
+            "fair_probabilities": {"home": 0.275, "draw": 0.312, "away": 0.413},
+            "final_pick": {
+                "scoreline": "2:1",
+                "pick": "home",
+                "expected_points": 0.78,
+                "p_gain_2plus": 0.274,
+                "p_loss_2plus": 0.419,
+            },
+            "ev_pick": {"scoreline": "0:1", "pick": "away", "expected_points": 1.16},
+        }
+        adjusted = apply_market_ev_backtest_guard([row], state={"deficit": 44}, mode="desperation")
+        self.assertEqual(adjusted[0]["final_pick"]["scoreline"], "2:1")
+        self.assertEqual(adjusted[0]["market_ev_guard_skipped"], "credible balanced-market swing")
+
+    def test_group_stage_exact_chase_does_not_inflate_balanced_low_total_games(self) -> None:
+        row = {
+            "status": "ok",
+            "fair_probabilities": {"home": 0.43, "draw": 0.32, "away": 0.25},
+            "over_under": 1.5,
+            "final_pick": {"scoreline": "1:0", "pick": "home", "expected_points": 1.24, "p_gain_2plus": 0.0, "p_loss_2plus": 0.0},
+            "top_candidates": [
+                {"scoreline": "1:0", "pick": "home", "expected_points": 1.24, "p_gain_2plus": 0.0, "p_loss_2plus": 0.0},
+                {"scoreline": "2:1", "pick": "home", "expected_points": 1.14, "p_gain_2plus": 0.0, "p_loss_2plus": 0.0},
+            ],
+        }
+        adjusted = apply_exact_score_chase([row], state={"deficit": 28}, mode="controlled_attack", tournament_phase="group_stage")
+        self.assertEqual(adjusted[0]["final_pick"]["scoreline"], "1:0")
 
     def test_mode_from_state(self) -> None:
         self.assertEqual(choose_mode_from_state({"deficit": 6, "remaining_matches": 20}), "controlled_attack")

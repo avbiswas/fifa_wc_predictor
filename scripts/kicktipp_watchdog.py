@@ -75,8 +75,8 @@ def human_badges(row: dict[str, Any]) -> str:
     flags = set(row.get("source_risk_flags") or [])
     gain = float(final.get("p_gain_2plus", 0) or 0)
     badges = []
-    if "draw_trap" in flags:
-        badges.append("🪤 draw trap")
+    if "draw_signal" in flags:
+        badges.append("⚖️ balanced market")
     if "wet_weather" in flags:
         badges.append("🌧️ weather chaos")
     if any(flag.startswith("big_") for flag in flags):
@@ -141,16 +141,16 @@ def slate_rows(rows: list[dict[str, Any]], first_kickoff: datetime, *, slate_hou
 
 def render_first_game_brief(rows: list[dict[str, Any]], first_kickoff: datetime) -> str:
     local_first = first_kickoff.astimezone(LOCAL_TZ)
-    draw_traps = sum(1 for row in rows if "draw_trap" in set(row.get("source_risk_flags") or []))
+    balanced_markets = sum(1 for row in rows if "draw_signal" in set(row.get("source_risk_flags") or []))
     lines = [
         "🏆 KickTipp slate incoming",
-        f"First kickoff: **{local_first:%H:%M}**. We’re in controlled attack: press smart, don’t go full casino.",
+        f"First kickoff: **{local_first:%H:%M}**. Selective miracle mode: strong favorites clean, swings only where the market is actually wobbly.",
         "",
     ]
     lines.extend(format_tip_line(row) for row in rows)
-    if draw_traps:
-        noun = "trap" if draw_traps == 1 else "traps"
-        lines.extend(["", f"🧠 {draw_traps} draw {noun} on the card. That’s where we can steal points if the room stays favorite-happy."])
+    if balanced_markets:
+        noun = "market" if balanced_markets == 1 else "markets"
+        lines.extend(["", f"🧠 {balanced_markets} balanced {noun} on the card. Use the scoreline sheet; do not blindly spam draws."])
     return "\n".join(lines)
 
 

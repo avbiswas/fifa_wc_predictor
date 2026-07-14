@@ -105,7 +105,7 @@ def risk_flags(row: dict[str, Any]) -> list[str]:
     fair = row.get("fair_probabilities") or {}
     top = max(fair.get("home", 0), fair.get("away", 0))
     if fair.get("draw", 0) >= 0.24 and top < 0.62:
-        flags.append("draw_trap")
+        flags.append("draw_signal")
     if row.get("risk_tier") in {"thin_edge", "chaos"}:
         flags.append("low_edge")
     weather = row.get("weather") or {}
