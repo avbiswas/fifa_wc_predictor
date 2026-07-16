@@ -101,5 +101,5 @@ match_id,round,date,time,kickoff_utc,group,team1,team2,team1_code,team2_code,gro
 100,Quarter-final,2026-07-11,20:00 UTC-5,2026-07-12T01:00:00Z,,Argentina,Switzerland,ARG,SUI,Kansas City,openfootball_2026_json
 101,Semi-final,2026-07-14,14:00 UTC-5,2026-07-14T19:00:00Z,,France,Spain,FRA,ESP,Dallas (Arlington),openfootball_2026_json
 102,Semi-final,2026-07-15,15:00 UTC-4,2026-07-15T19:00:00Z,,England,Argentina,ENG,ARG,Atlanta,openfootball_2026_json
-103,Match for third place,2026-07-18,17:00 UTC-4,2026-07-18T21:00:00Z,,L101,L102,,,Miami (Miami Gardens),openfootball_2026_json
-104,Final,2026-07-19,15:00 UTC-4,2026-07-19T19:00:00Z,,W101,W102,,,New York/New Jersey (East Rutherford),openfootball_2026_json
+103,Match for third place,2026-07-18,17:00 UTC-4,2026-07-18T21:00:00Z,,France,L102,FRA,,Miami (Miami Gardens),openfootball_2026_json
+104,Final,2026-07-19,15:00 UTC-4,2026-07-19T19:00:00Z,,Spain,W102,ESP,,New York/New Jersey (East Rutherford),openfootball_2026_json
