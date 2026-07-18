@@ -1435,9 +1435,9 @@
     "kickoff_utc": "2026-07-18T21:00:00Z",
     "group": "",
     "team1": "France",
-    "team2": "L102",
+    "team2": "England",
     "team1_code": "FRA",
-    "team2_code": "",
+    "team2_code": "ENG",
     "ground": "Miami (Miami Gardens)",
     "source": "openfootball_2026_json"
   },
@@ -1449,9 +1449,9 @@
     "kickoff_utc": "2026-07-19T19:00:00Z",
     "group": "",
     "team1": "Spain",
-    "team2": "W102",
+    "team2": "Argentina",
     "team1_code": "ESP",
-    "team2_code": "",
+    "team2_code": "ARG",
     "ground": "New York/New Jersey (East Rutherford)",
     "source": "openfootball_2026_json"
   }
