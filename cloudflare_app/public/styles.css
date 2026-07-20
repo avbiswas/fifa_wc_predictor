@@ -70,9 +70,22 @@ table {
 }
 
 .download-btn {
-  grid-template-columns: auto;
+  white-space: nowrap;
   letter-spacing: 0.06em;
+  border-color: var(--ink);
+  background: var(--ink);
+  color: var(--paper);
   cursor: pointer;
+}
+
+.download-btn:hover {
+  background: var(--gold);
+  border-color: var(--gold);
+  color: var(--ink);
+}
+
+.download-btn:hover img {
+  filter: invert(1);
 }
 
 .download-btn:disabled {
