@@ -78,14 +78,15 @@ table {
   cursor: pointer;
 }
 
+.download-btn svg {
+  width: 18px;
+  height: 18px;
+}
+
 .download-btn:hover {
   background: var(--gold);
   border-color: var(--gold);
   color: var(--ink);
-}
-
-.download-btn:hover img {
-  filter: invert(1);
 }
 
 .download-btn:disabled {
