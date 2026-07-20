@@ -69,29 +69,10 @@ table {
   border-bottom: 2px solid var(--line);
 }
 
-.panel-head-split {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-}
-
 .download-btn {
-  flex-shrink: 0;
-  padding: 8px 12px;
-  border: 2px solid var(--line);
-  background: rgba(255, 250, 240, 0.78);
-  color: var(--ink);
-  font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
-  font-size: 12px;
-  font-weight: 900;
-  text-transform: uppercase;
+  grid-template-columns: auto;
   letter-spacing: 0.06em;
   cursor: pointer;
-}
-
-.download-btn:hover {
-  background: var(--gold);
 }
 
 .download-btn:disabled {
