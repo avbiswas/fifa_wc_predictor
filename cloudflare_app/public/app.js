@@ -75,6 +75,7 @@ renderSchedule();
 renderLeaderboard();
 selectMatch(selectableMatchId(matchIdFromHash()) || defaultMatchId());
 wireTabs();
+wireDownload();
 
 window.addEventListener("hashchange", () => {
   selectMatch(selectableMatchId(matchIdFromHash()) || defaultMatchId());
@@ -564,6 +565,47 @@ function wireTabs() {
       }
     });
   }
+}
+
+function wireDownload() {
+  const button = document.getElementById("downloadDataBtn");
+  if (!button) return;
+  button.addEventListener("click", async () => {
+    const originalLabel = button.textContent;
+    button.disabled = true;
+    button.textContent = "Preparing…";
+    try {
+      const matchIds = [...new Set(allPredictions.map((p) => Number(p.match_id)))]
+        .filter((id) => Number.isFinite(id))
+        .sort((a, b) => a - b);
+
+      const contextFiles = {};
+      await Promise.all(
+        matchIds.map(async (id) => {
+          try {
+            const response = await fetch(`/data/match_${id}.json`, { cache: "no-store" });
+            if (response.ok) contextFiles[id] = await response.json();
+          } catch {
+            /* skip missing context files */
+          }
+        }),
+      );
+
+      const bundle = { ...predictionStore, context_files: contextFiles };
+      const blob = new Blob([JSON.stringify(bundle, null, 2)], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = "fifa_wc_2026_predictions_full.json";
+      document.body.append(link);
+      link.click();
+      link.remove();
+      URL.revokeObjectURL(url);
+    } finally {
+      button.disabled = false;
+      button.textContent = originalLabel;
+    }
+  });
 }
 
 function matchIdFromHash() {
